@@ -1,0 +1,21 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="InstantTrackerController">
+			<method name="OnBackButtonClicked"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnEnterFieldOfVision"/>
+			<method name="OnExitFieldOfVision"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnBeginDrag"/>
+			<method name="OnStateChanged"/>
+			<method name="OnInitializeButtonClicked"/>
+			<method name="OnHeightValueChanged"/>
+			<method name="OnBeginDrag"/>
+		</type>
+		<type fullname="SampleController">
+			<method name="OnTargetsLoaded"/>
+			<method name="OnErrorLoadingTargets"/>
+		</type>
+	</assembly>
+</linker>

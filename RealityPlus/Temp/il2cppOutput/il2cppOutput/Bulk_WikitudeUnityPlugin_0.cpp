@@ -1,0 +1,14708 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array3829468939.h"
+#include "WikitudeUnityPlugin_U3CModuleU3E3783534214.h"
+#include "WikitudeUnityPlugin_Wikitude_AndroidBridge3043076716.h"
+#include "mscorlib_System_Void1841601450.h"
+#include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_Object2689449295.h"
+#include "mscorlib_System_Reflection_BindingFlags1082350898.h"
+#include "mscorlib_System_Type1303803226.h"
+#include "mscorlib_System_RuntimeTypeHandle2330101084.h"
+#include "mscorlib_System_Exception1927440687.h"
+#include "mscorlib_System_Reflection_MethodInfo3330546337.h"
+#include "mscorlib_System_Int322071877448.h"
+#include "mscorlib_System_Boolean3825574718.h"
+#include "mscorlib_System_Reflection_MethodBase904190842.h"
+#include "mscorlib_System_Reflection_MemberInfo4043097260.h"
+#include "mscorlib_System_Reflection_ParameterInfo2249040075.h"
+#include "mscorlib_System_Single2076509932.h"
+#include "mscorlib_System_Int64909078037.h"
+#include "UnityEngine_UnityEngine_Resolution3693662728.h"
+#include "UnityEngine_UnityEngine_WWW2919945039.h"
+#include "mscorlib_System_IO_DirectoryInfo1934446453.h"
+#include "mscorlib_System_Byte3683104436.h"
+#include "WikitudeUnityPlugin_Wikitude_CameraInfo3735365223.h"
+#include "mscorlib_System_StringSplitOptions2996162939.h"
+#include "mscorlib_System_Double4078015681.h"
+#include "mscorlib_System_IntPtr2504060609.h"
+#include "WikitudeUnityPlugin_Wikitude_Frame1875945745.h"
+#include "WikitudeUnityPlugin_Wikitude_FrameColorSpace1238203676.h"
+#include "WikitudeUnityPlugin_Wikitude_CaptureAutoFocusRestr2382848555.h"
+#include "WikitudeUnityPlugin_Wikitude_CaptureDeviceFramerat2233906395.h"
+#include "WikitudeUnityPlugin_Wikitude_CaptureDevicePosition1315565701.h"
+#include "WikitudeUnityPlugin_Wikitude_CaptureDeviceResolutio572570384.h"
+#include "WikitudeUnityPlugin_Wikitude_CaptureFlashMode3782377483.h"
+#include "WikitudeUnityPlugin_Wikitude_CaptureFocusMode2427875963.h"
+#include "WikitudeUnityPlugin_Wikitude_ClientTracker40625541.h"
+#include "WikitudeUnityPlugin_Wikitude_ClientTracker_OnTrack3128440919.h"
+#include "WikitudeUnityPlugin_Wikitude_ClientTracker_OnTrack1753622137.h"
+#include "WikitudeUnityPlugin_Wikitude_ClientTracker_OnExtend838064302.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackerBehaviour3845512381.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction4025899511.h"
+#include "WikitudeUnityPlugin_Wikitude_TargetCollectionResou3980041541.h"
+#include "WikitudeUnityPlugin_Wikitude_TargetCollectionResour706169873.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_2_gen2540441727.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_2_gen127672349.h"
+#include "WikitudeUnityPlugin_Wikitude_TargetCollectionResou1372070578.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent408735097.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackerManager130000407.h"
+#include "WikitudeUnityPlugin_Wikitude_TargetSource1091527250.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen2067570248.h"
+#include "WikitudeUnityPlugin_Wikitude_ExtendedTrackingQuali3309924393.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_2_gen20362840.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionServi1970555431.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionServic830202925.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionServi2097344561.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionServic330592769.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionService96168148.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionServi1387741428.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackerManager_CloudRe139324267.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen4116365696.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen1959800261.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudRecognitionServi1921450246.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTargetInfo1651937310.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker4240178021.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker_OnTracke2073899635.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker_OnTracke4048345185.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker_OnExtende185594368.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker_OnRecogni597905196.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker_OnRecogn2475925451.h"
+#include "WikitudeUnityPlugin_Wikitude_CloudTracker_OnRecogn4169328967.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen3288035997.h"
+#include "UnityEngine_UnityEngine_Events_UnityAction_1_gen1149634136.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_2_gen288024100.h"
+#include "WikitudeUnityPlugin_Wikitude_FrameStrides204969663.h"
+#include "WikitudeUnityPlugin_Wikitude_ImageTracker1984565635.h"
+#include "WikitudeUnityPlugin_Wikitude_ImageTracker_OnExtend1461804644.h"
+#include "WikitudeUnityPlugin_Wikitude_TargetSourceType625349866.h"
+#include "UnityEngine_UnityEngine_Behaviour955675639.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackerBehaviour_OnTa3080540202.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackerBehaviour_OnEr3800749431.h"
+#include "WikitudeUnityPlugin_Wikitude_InstantTracker2685404523.h"
+#include "WikitudeUnityPlugin_Wikitude_InstantTracker_OnStat3227093256.h"
+#include "WikitudeUnityPlugin_Wikitude_InstantTrackingState4068257203.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen4106607218.h"
+#include "WikitudeUnityPlugin_Wikitude_iOSBridge3713850486.h"
+#include "UnityEngine_UnityEngine_ScreenOrientation4019489636.h"
+#include "WikitudeUnityPlugin_Wikitude_Log570465252.h"
+#include "WikitudeUnityPlugin_Wikitude_ObjectTracker2437699105.h"
+#include "WikitudeUnityPlugin_Wikitude_PluginManager3083232152.h"
+#include "WikitudeUnityPlugin_Wikitude_PluginManager_OnCamer2791441841.h"
+#include "WikitudeUnityPlugin_Wikitude_PluginManager_OnPlugi2397520937.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
+#include "UnityEngine_UnityEngine_Object1021602117.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen1914295760.h"
+#include "WikitudeUnityPlugin_Wikitude_RecordingQuality2630694582.h"
+#include "WikitudeUnityPlugin_Wikitude_SDKBuildInformation1997552748.h"
+#include "UnityEngine_UnityEngine_RuntimePlatform1869584967.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackableBehaviour3643631172.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackableBehaviour_On3362888889.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackableBehaviour_On2513344377.h"
+#include "UnityEngine_UnityEngine_GameObject1756533147.h"
+#include "UnityEngine_UnityEngine_Component3819376471.h"
+#include "System_System_Text_RegularExpressions_Regex1803876613.h"
+#include "System_System_Text_RegularExpressions_Match3164245899.h"
+#include "System_System_Text_RegularExpressions_Group3761430853.h"
+#include "UnityEngine_UnityEngine_Vector32243707580.h"
+#include "UnityEngine_UnityEngine_Transform3275118058.h"
+#include "UnityEngine_UnityEngine_Texture2D3542995729.h"
+#include "UnityEngine_UnityEngine_Material193706927.h"
+#include "UnityEngine_UnityEngine_Shader2430389951.h"
+#include "UnityEngine_UnityEngine_Texture2243626319.h"
+#include "UnityEngine_UnityEngine_Mesh1356156583.h"
+#include "UnityEngine_UnityEngine_PrimitiveType2454390065.h"
+#include "UnityEngine_UnityEngine_MeshFilter3026937449.h"
+#include "UnityEngine_UnityEngine_Quaternion4030073918.h"
+#include "UnityEngine_UnityEngine_Matrix4x42933234003.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_g1977092026.h"
+#include "WikitudeUnityPlugin_Wikitude_WikitudeCamera2517845841.h"
+#include "UnityEngine_UnityEngine_Camera189460977.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_En465407868.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_E3806193287.h"
+#include "mscorlib_System_Text_StringBuilder1221177846.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_E3145964225.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_ge362681087.h"
+#include "UnityEngine_UnityEngine_Plane3727654732.h"
+#include "UnityEngine_UnityEngine_Ray2469606224.h"
+#include "UnityEngine_UnityEngine_Vector42243707581.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ge674592647.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2960073833.h"
+#include "System_Core_System_Collections_Generic_HashSet_1_g2178973235.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3943999495.h"
+#include "mscorlib_System_Char3454481338.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackingMapRecorder746125273.h"
+#include "WikitudeUnityPlugin_Wikitude_WikitudeCamera_OnCame1753808034.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackerManager_Bridge1312656103.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackingMapRecorder_OnR89808920.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackingMapRecorder_O3085246221.h"
+#include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen2669044597.h"
+#include "WikitudeUnityPlugin_Wikitude_TrackingMapRecorder_O3200701272.h"
+#include "WikitudeUnityPlugin_Wikitude_WikitudeCamera_OnInpu1715928524.h"
+#include "WikitudeUnityPlugin_Wikitude_UnityBridge209696710.h"
+#include "WikitudeUnityPlugin_Wikitude_WikitudeBridge1522526835.h"
+#include "mscorlib_System_Nullable_1_gen3873599312.h"
+#include "UnityEngine_UnityEngine_TextureFormat1386130234.h"
+#include "UnityEngine_UnityEngine_Color2020392075.h"
+#include "UnityEngine_UnityEngine_Color32874517518.h"
+#include "UnityEngine_UnityEngine_CameraClearFlags452084705.h"
+#include "UnityEngine_UnityEngine_Rect3681755626.h"
+#include "WikitudeUnityPlugin_Wikitude_WikitudeSDK4145097758.h"
+
+// Wikitude.AndroidBridge
+struct AndroidBridge_t3043076716;
+// System.Object
+struct Il2CppObject;
+// System.Type
+struct Type_t;
+// System.String
+struct String_t;
+// System.Reflection.MethodInfo
+struct MethodInfo_t;
+// System.Reflection.MethodBase
+struct MethodBase_t904190842;
+// System.Object[]
+struct ObjectU5BU5D_t3614634134;
+// System.Type[]
+struct TypeU5BU5D_t1664964607;
+// System.Reflection.MethodInfo[]
+struct MethodInfoU5BU5D_t152480188;
+// System.Reflection.ParameterInfo
+struct ParameterInfo_t2249040075;
+// System.IO.DirectoryInfo
+struct DirectoryInfo_t1934446453;
+// UnityEngine.WWW
+struct WWW_t2919945039;
+// System.Byte[]
+struct ByteU5BU5D_t3397334013;
+// System.String[]
+struct StringU5BU5D_t1642385972;
+// System.Single[]
+struct SingleU5BU5D_t577127397;
+// Wikitude.ClientTracker
+struct ClientTracker_t40625541;
+// Wikitude.ClientTracker/OnTrackerFinishedLoadingEvent
+struct OnTrackerFinishedLoadingEvent_t3128440919;
+// Wikitude.ClientTracker/OnTrackerLoadingErrorEvent
+struct OnTrackerLoadingErrorEvent_t1753622137;
+// Wikitude.ClientTracker/OnExtendedTrackingQualityChangedEvent
+struct OnExtendedTrackingQualityChangedEvent_t838064302;
+// Wikitude.TrackerBehaviour
+struct TrackerBehaviour_t3845512381;
+// Wikitude.TargetCollectionResource
+struct TargetCollectionResource_t3980041541;
+// UnityEngine.Events.UnityAction`2<System.Int32,System.String>
+struct UnityAction_2_t2540441727;
+// UnityEngine.Events.UnityAction`2<System.Int32,System.Object>
+struct UnityAction_2_t3200670789;
+// UnityEngine.Events.UnityEvent`2<System.Int32,System.String>
+struct UnityEvent_2_t127672349;
+// UnityEngine.Events.UnityEvent`2<System.Int32,System.Object>
+struct UnityEvent_2_t787901411;
+// UnityEngine.Events.UnityAction
+struct UnityAction_t4025899511;
+// UnityEngine.Events.UnityEvent
+struct UnityEvent_t408735097;
+// Wikitude.TrackerManager
+struct TrackerManager_t130000407;
+// Wikitude.TargetSource
+struct TargetSource_t1091527250;
+// Wikitude.IPlatformBridge
+struct IPlatformBridge_t864295325;
+// UnityEngine.Events.UnityEvent`1<System.String>
+struct UnityEvent_1_t2067570248;
+// UnityEngine.Events.UnityEvent`1<System.Object>
+struct UnityEvent_1_t2727799310;
+// UnityEngine.Events.UnityEvent`2<System.String,Wikitude.ExtendedTrackingQuality>
+struct UnityEvent_2_t20362840;
+// UnityEngine.Events.UnityEvent`2<System.Object,Wikitude.ExtendedTrackingQuality>
+struct UnityEvent_2_t1992611002;
+// Wikitude.CloudRecognitionService
+struct CloudRecognitionService_t1970555431;
+// Wikitude.CloudRecognitionService/OnInitializedEvent
+struct OnInitializedEvent_t830202925;
+// Wikitude.CloudRecognitionService/OnInitializationErrorEvent
+struct OnInitializationErrorEvent_t2097344561;
+// Wikitude.CloudRecognitionService/OnRecognitionResponseEvent
+struct OnRecognitionResponseEvent_t330592769;
+// Wikitude.CloudRecognitionService/OnRecognitionErrorEvent
+struct OnRecognitionErrorEvent_t96168148;
+// Wikitude.CloudRecognitionService/OnInterruptionEvent
+struct OnInterruptionEvent_t1387741428;
+// UnityEngine.Events.UnityEvent`1<System.Double>
+struct UnityEvent_1_t4116365696;
+// UnityEngine.Events.UnityEvent`1<Wikitude.CloudRecognitionServiceResponse>
+struct UnityEvent_1_t1959800261;
+// Wikitude.CloudRecognitionServiceResponse
+struct CloudRecognitionServiceResponse_t1921450246;
+// System.Collections.Generic.IDictionary`2<System.String,System.String>
+struct IDictionary_2_t1943082916;
+// Wikitude.CloudTargetInfo
+struct CloudTargetInfo_t1651937310;
+// Wikitude.CloudTracker
+struct CloudTracker_t4240178021;
+// Wikitude.CloudTracker/OnTrackerFinishedLoadingEvent
+struct OnTrackerFinishedLoadingEvent_t2073899635;
+// Wikitude.CloudTracker/OnTrackerLoadingErrorEvent
+struct OnTrackerLoadingErrorEvent_t4048345185;
+// Wikitude.CloudTracker/OnExtendedTrackingQualityChangedEvent
+struct OnExtendedTrackingQualityChangedEvent_t185594368;
+// Wikitude.CloudTracker/OnRecognitionSuccessfulEvent
+struct OnRecognitionSuccessfulEvent_t597905196;
+// Wikitude.CloudTracker/OnRecognitionFailedEvent
+struct OnRecognitionFailedEvent_t2475925451;
+// Wikitude.CloudTracker/OnRecognitionInterruptionEvent
+struct OnRecognitionInterruptionEvent_t4169328967;
+// UnityEngine.Events.UnityAction`1<Wikitude.CloudRecognitionServiceResponse>
+struct UnityAction_1_t3288035997;
+// UnityEngine.Events.UnityAction`1<System.Object>
+struct UnityAction_1_t4056035046;
+// UnityEngine.Events.UnityAction`1<System.Double>
+struct UnityAction_1_t1149634136;
+// UnityEngine.Events.UnityEvent`2<System.Boolean,Wikitude.CloudTargetInfo>
+struct UnityEvent_2_t288024100;
+// UnityEngine.Events.UnityEvent`2<System.Boolean,System.Object>
+struct UnityEvent_2_t1325536085;
+// Wikitude.ImageTracker
+struct ImageTracker_t1984565635;
+// Wikitude.ImageTracker/OnExtendedTrackingQualityChangedEvent
+struct OnExtendedTrackingQualityChangedEvent_t1461804644;
+// UnityEngine.Behaviour
+struct Behaviour_t955675639;
+// Wikitude.InstantTracker
+struct InstantTracker_t2685404523;
+// Wikitude.InstantTracker/OnStateChangedEvent
+struct OnStateChangedEvent_t3227093256;
+// UnityEngine.Events.UnityEvent`1<Wikitude.InstantTrackingState>
+struct UnityEvent_1_t4106607218;
+// Wikitude.iOSBridge
+struct iOSBridge_t3713850486;
+// Wikitude.ObjectTracker
+struct ObjectTracker_t2437699105;
+// Wikitude.PluginManager
+struct PluginManager_t3083232152;
+// Wikitude.PluginManager/OnCameraFrameAvailableEvent
+struct OnCameraFrameAvailableEvent_t2791441841;
+// Wikitude.PluginManager/OnPluginFailureEvent
+struct OnPluginFailureEvent_t2397520937;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t1158329972;
+// UnityEngine.Object
+struct Object_t1021602117;
+// UnityEngine.Events.UnityEvent`1<Wikitude.Frame>
+struct UnityEvent_1_t1914295760;
+// Wikitude.SDKBuildInformation
+struct SDKBuildInformation_t1997552748;
+// Wikitude.TargetCollectionResource/OnFinishLoadingEvent
+struct OnFinishLoadingEvent_t1372070578;
+// Wikitude.TargetCollectionResource/OnErrorLoadingEvent
+struct OnErrorLoadingEvent_t706169873;
+// Wikitude.TrackableBehaviour
+struct TrackableBehaviour_t3643631172;
+// Wikitude.TrackableBehaviour/OnEnterFieldOfVisionEvent
+struct OnEnterFieldOfVisionEvent_t3362888889;
+// Wikitude.TrackableBehaviour/OnExitFieldOfVisionEvent
+struct OnExitFieldOfVisionEvent_t2513344377;
+// UnityEngine.Component
+struct Component_t3819376471;
+// UnityEngine.GameObject
+struct GameObject_t1756533147;
+// System.Text.RegularExpressions.Regex
+struct Regex_t1803876613;
+// System.Text.RegularExpressions.Match
+struct Match_t3164245899;
+// System.Text.RegularExpressions.Group
+struct Group_t3761430853;
+// UnityEngine.Transform
+struct Transform_t3275118058;
+// UnityEngine.Texture2D
+struct Texture2D_t3542995729;
+// UnityEngine.Material
+struct Material_t193706927;
+// UnityEngine.Shader
+struct Shader_t2430389951;
+// UnityEngine.Texture
+struct Texture_t2243626319;
+// UnityEngine.Mesh
+struct Mesh_t1356156583;
+// UnityEngine.MeshFilter
+struct MeshFilter_t3026937449;
+// System.Collections.Generic.HashSet`1<Wikitude.TrackableBehaviour>
+struct HashSet_1_t1977092026;
+// System.Collections.Generic.HashSet`1<System.Object>
+struct HashSet_1_t1022910149;
+// Wikitude.TrackerBehaviour/OnTargetsLoadedEvent
+struct OnTargetsLoadedEvent_t3080540202;
+// Wikitude.TrackerBehaviour/OnErrorLoadingTargetsEvent
+struct OnErrorLoadingTargetsEvent_t3800749431;
+// Wikitude.WikitudeCamera
+struct WikitudeCamera_t2517845841;
+// UnityEngine.Camera
+struct Camera_t189460977;
+// System.Text.StringBuilder
+struct StringBuilder_t1221177846;
+// System.Collections.Generic.HashSet`1<System.String>
+struct HashSet_1_t362681087;
+// System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.TargetCollectionResource>
+struct Dictionary_2_t674592647;
+// System.Collections.Generic.Dictionary`2<System.Int64,System.Object>
+struct Dictionary_2_t3678967697;
+// System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.CloudRecognitionService>
+struct Dictionary_2_t2960073833;
+// System.Collections.Generic.HashSet`1<Wikitude.TrackerBehaviour>
+struct HashSet_1_t2178973235;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t3943999495;
+// System.Collections.Generic.Dictionary`2<System.Object,System.Object>
+struct Dictionary_2_t2281509423;
+// System.Char[]
+struct CharU5BU5D_t1328083999;
+// Wikitude.TrackingMapRecorder
+struct TrackingMapRecorder_t746125273;
+// Wikitude.TrackerManager/BridgeError
+struct BridgeError_t1312656103;
+// UnityEngine.Events.UnityEvent`1<Wikitude.RecordingQuality>
+struct UnityEvent_1_t2669044597;
+// Wikitude.TrackingMapRecorder/OnRecordingFinishedEvent
+struct OnRecordingFinishedEvent_t3200701272;
+// Wikitude.TrackingMapRecorder/OnRecordingErrorEvent
+struct OnRecordingErrorEvent_t89808920;
+// Wikitude.TrackingMapRecorder/OnRecordingQualityChangedEvent
+struct OnRecordingQualityChangedEvent_t3085246221;
+// Wikitude.UnityBridge
+struct UnityBridge_t209696710;
+// Wikitude.WikitudeBridge
+struct WikitudeBridge_t1522526835;
+// Wikitude.WikitudeCamera/OnInputPluginFailureEvent
+struct OnInputPluginFailureEvent_t1715928524;
+// Wikitude.WikitudeCamera/OnCameraFailureEvent
+struct OnCameraFailureEvent_t1753808034;
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t30278651;
+extern const Il2CppType* String_t_0_0_0_var;
+extern const Il2CppType* ObjectU5BU5D_t3614634134_0_0_0_var;
+extern const Il2CppType* SingleU5BU5D_t577127397_0_0_0_var;
+extern const Il2CppType* Int32_t2071877448_0_0_0_var;
+extern const Il2CppType* Single_t2076509932_0_0_0_var;
+extern const Il2CppType* Boolean_t3825574718_0_0_0_var;
+extern const Il2CppType* Int64_t909078037_0_0_0_var;
+extern Il2CppClass* Type_t_il2cpp_TypeInfo_var;
+extern Il2CppClass* Exception_t1927440687_il2cpp_TypeInfo_var;
+extern Il2CppClass* Debug_t1368543263_il2cpp_TypeInfo_var;
+extern Il2CppClass* ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var;
+extern Il2CppClass* TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2993693774;
+extern Il2CppCodeGenString* _stringLiteral2471841416;
+extern Il2CppCodeGenString* _stringLiteral1892676797;
+extern Il2CppCodeGenString* _stringLiteral3018540521;
+extern Il2CppCodeGenString* _stringLiteral1284713660;
+extern Il2CppCodeGenString* _stringLiteral70787234;
+extern Il2CppCodeGenString* _stringLiteral3875251571;
+extern Il2CppCodeGenString* _stringLiteral405905554;
+extern Il2CppCodeGenString* _stringLiteral1691141280;
+extern Il2CppCodeGenString* _stringLiteral3658162725;
+extern const uint32_t AndroidBridge__ctor_m1953618875_MetadataUsageId;
+extern const uint32_t AndroidBridge_CallAndroid_m3392184170_MetadataUsageId;
+extern Il2CppClass* Int32_t2071877448_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidBridge_CallIntAndroid_m3163538433_MetadataUsageId;
+extern Il2CppClass* Single_t2076509932_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidBridge_CallFloatAndroid_m2453542722_MetadataUsageId;
+extern Il2CppClass* Int64_t909078037_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidBridge_CallLongAndroid_m3117353359_MetadataUsageId;
+extern Il2CppClass* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidBridge_CallStringAndroid_m1848719730_MetadataUsageId;
+extern Il2CppClass* Boolean_t3825574718_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidBridge_CallBoolAndroid_m3955521056_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2079959915;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateWikitudeNativeSDK_m1342658609_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral412401039;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DestroyWikitudeNativeSDK_m1778577057_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1207518579;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetRenderTargetTextureId_m2576549630_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral537225857;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StartWikitudeNativeSDK_m1065003207_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1471604034;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_UpdateWikitudeNativeSDK_m697805178_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2013019705;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StopWikitudeNativeSDK_m3571657959_MetadataUsageId;
+extern Il2CppClass* Path_t41728875_il2cpp_TypeInfo_var;
+extern Il2CppClass* WWW_t2919945039_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029315;
+extern Il2CppCodeGenString* _stringLiteral2494949592;
+extern Il2CppCodeGenString* _stringLiteral1908360147;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m1937616657_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral601022061;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m2241426173_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral425942208;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m867848478_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2203250260;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m1289429572_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3355766074;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m3879091414_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3824689801;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_InstantiateInstantTracker_m1465618763_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3582047554;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StopExtendedTracking_m3030050434_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3226697895;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DestroyTargetCollectionResource_m516735239_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2769093421;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DestroyCloudRecognitionService_m2768757933_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3723603849;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DestroyImageTracker_m4183873811_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral917133779;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DestroyObjectTracker_m708275329_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2153451297;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DestroyInstantTracker_m619072639_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral255506742;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StartTrackingMapRecording_m1233337160_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1761644110;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StopTrackingMapRecording_m1582578656_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1280856559;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureDevicePosition_m2685655423_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3917594979;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDevicePosition_m655664540_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral139319741;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureFocusMode_m3356776761_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3784554313;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCaptureFocusMode_m3318210128_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2327510303;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetManualFocusDistance_m2093039648_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2171890757;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_IsManualFocusAvailable_m241138643_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2742024368;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_EnableCamera2_m2337252359_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3350453091;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureAutoFocusRestriction_m3206874381_MetadataUsageId;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCaptureAutoFocusRestriction_m3603490704_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3911727735;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureZoomLevel_m2350604887_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3309116651;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCaptureZoomLevel_m2062758986_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral535338763;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureMaxZoomLevel_m3532998295_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2375609117;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureFlashMode_m2351598601_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1725841545;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCaptureFlashMode_m2865573886_MetadataUsageId;
+extern Il2CppClass* StringU5BU5D_t1642385972_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2284425873;
+extern Il2CppCodeGenString* _stringLiteral3513337718;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCameraInfo_m1834877706_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral274969148;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDeviceResolution_m2853204651_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral57815625;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetTrackingData_m2667227480_MetadataUsageId;
+extern Il2CppClass* SingleU5BU5D_t577127397_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral239480438;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m816635962_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3503951298;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m1978684934_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1803045606;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_Recognize_m620494552_MetadataUsageId;
+extern Il2CppClass* Double_t4078015681_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1055288560;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StartContinuousRecognition_m2795884516_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3632061432;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_StopContinuousRecognition_m97024706_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1195217557;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetState_m4155239302_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2436666655;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetDeviceHeightAboveGround_m3349030108_MetadataUsageId;
+extern Il2CppClass* Frame_t1875945745_il2cpp_TypeInfo_var;
+extern Il2CppClass* Marshal_t785896760_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3198112764;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_RegisterPlugin_m4022969054_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2792373529;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m4175961855_MetadataUsageId;
+extern const Il2CppType* Frame_t1875945745_0_0_0_var;
+extern Il2CppCodeGenString* _stringLiteral418683842;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetCameraFrame_m730296289_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1781305734;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_RegisterInputPlugin_m1982806884_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2921809051;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_DeregisterInputPlugin_m1056445109_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral751618972;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_NewCameraFrame_m4490820_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2891382762;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_EnableMirroring_m909721877_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1823149944;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetInvertedFrame_m3290855841_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3165034499;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetMirroredFrame_m1076981864_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2764360444;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetFrameColorSpace_m3270750912_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2603824634;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetFrameSize_m3267867590_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral396265005;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetHorizontalAngle_m1665123062_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3144534559;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetInputFrameRendering_m940586524_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral404892813;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_SetCloudRecognitionServerRegion_m2174130746_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3450636200;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetPresentableInputFrameIndex_m3212292309_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1718811532;
+extern const uint32_t AndroidBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m233858103_MetadataUsageId;
+extern Il2CppClass* OnTrackerFinishedLoadingEvent_t3128440919_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnTrackerLoadingErrorEvent_t1753622137_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnExtendedTrackingQualityChangedEvent_t838064302_il2cpp_TypeInfo_var;
+extern const uint32_t ClientTracker__ctor_m3375867348_MetadataUsageId;
+extern Il2CppClass* TargetCollectionResource_t3980041541_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_2_t2540441727_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_t4025899511_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityAction_2__ctor_m2776373289_MethodInfo_var;
+extern const MethodInfo* UnityEvent_2_AddListener_m4113397192_MethodInfo_var;
+extern const uint32_t ClientTracker_OnInitialize_m240305351_MetadataUsageId;
+extern Il2CppClass* WikitudeSDK_t4145097758_il2cpp_TypeInfo_var;
+extern Il2CppClass* IPlatformBridge_t864295325_il2cpp_TypeInfo_var;
+extern const uint32_t ClientTracker_OnEnable_m987464704_MetadataUsageId;
+extern const uint32_t ClientTracker_OnDisable_m3903735883_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1_Invoke_m2698909_MethodInfo_var;
+extern const uint32_t ClientTracker_OnTargetsLoadedInternal_m660210357_MetadataUsageId;
+extern const uint32_t ClientTracker_OnErrorLoadingTargetsInternal_m2964925431_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2_Invoke_m2005053380_MethodInfo_var;
+extern const uint32_t ClientTracker_OnExtendedTrackingQualityChangedInternal_m3450342372_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2__ctor_m2413126385_MethodInfo_var;
+extern const uint32_t OnExtendedTrackingQualityChangedEvent__ctor_m2626213551_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1__ctor_m2575388844_MethodInfo_var;
+extern const uint32_t OnTrackerFinishedLoadingEvent__ctor_m3326355774_MetadataUsageId;
+extern const uint32_t OnTrackerLoadingErrorEvent__ctor_m3165227144_MetadataUsageId;
+extern Il2CppClass* OnInitializedEvent_t830202925_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnInitializationErrorEvent_t2097344561_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecognitionResponseEvent_t330592769_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecognitionErrorEvent_t96168148_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnInterruptionEvent_t1387741428_il2cpp_TypeInfo_var;
+extern const uint32_t CloudRecognitionService__ctor_m2791349106_MetadataUsageId;
+extern const uint32_t CloudRecognitionService_OnInitializeInternal_m204062854_MetadataUsageId;
+extern const uint32_t CloudRecognitionService_OnEnableInternal_m3580042231_MetadataUsageId;
+extern const uint32_t CloudRecognitionService_OnDestroyInternal_m2447288542_MetadataUsageId;
+extern const uint32_t CloudRecognitionService_StartContinuousRecognition_m1998770732_MetadataUsageId;
+extern const uint32_t CloudRecognitionService_StopContinuousRecognition_m1151006936_MetadataUsageId;
+extern const uint32_t CloudRecognitionService_Recognize_m1425334814_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2__ctor_m2270493475_MethodInfo_var;
+extern const uint32_t OnInitializationErrorEvent__ctor_m564127662_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1__ctor_m4179878785_MethodInfo_var;
+extern const uint32_t OnInterruptionEvent__ctor_m3013665001_MetadataUsageId;
+extern const uint32_t OnRecognitionErrorEvent__ctor_m3048400801_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1__ctor_m2351411737_MethodInfo_var;
+extern const uint32_t OnRecognitionResponseEvent__ctor_m4103594816_MetadataUsageId;
+extern Il2CppClass* OnTrackerFinishedLoadingEvent_t2073899635_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnTrackerLoadingErrorEvent_t4048345185_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnExtendedTrackingQualityChangedEvent_t185594368_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecognitionSuccessfulEvent_t597905196_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecognitionFailedEvent_t2475925451_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecognitionInterruptionEvent_t4169328967_il2cpp_TypeInfo_var;
+extern const uint32_t CloudTracker__ctor_m3265388822_MetadataUsageId;
+extern Il2CppClass* CloudRecognitionService_t1970555431_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_1_t3288035997_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityAction_1_t1149634136_il2cpp_TypeInfo_var;
+extern const MethodInfo* CloudTracker_OnCloudRecognitionServiceInitialized_m2508425714_MethodInfo_var;
+extern const MethodInfo* CloudTracker_OnRecognitionErrorInternal_m1210096614_MethodInfo_var;
+extern const MethodInfo* CloudTracker_OnRecognitionSuccessfulInternal_m802918977_MethodInfo_var;
+extern const MethodInfo* UnityAction_1__ctor_m2130783191_MethodInfo_var;
+extern const MethodInfo* UnityEvent_1_AddListener_m2898327403_MethodInfo_var;
+extern const MethodInfo* CloudTracker_OnInterruptionInternal_m1530148797_MethodInfo_var;
+extern const MethodInfo* UnityAction_1__ctor_m3451684435_MethodInfo_var;
+extern const MethodInfo* UnityEvent_1_AddListener_m3679898207_MethodInfo_var;
+extern const uint32_t CloudTracker_OnInitialize_m3176311623_MetadataUsageId;
+extern const uint32_t CloudTracker_OnEnable_m374409274_MetadataUsageId;
+extern const uint32_t CloudTracker_OnDisable_m2844186291_MetadataUsageId;
+extern const uint32_t CloudTracker_OnErrorLoadingTargetsInternal_m57145831_MetadataUsageId;
+extern const uint32_t CloudTracker_OnExtendedTrackingQualityChangedInternal_m947142006_MetadataUsageId;
+extern Il2CppClass* CloudTargetInfo_t1651937310_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityEvent_2_Invoke_m2162392966_MethodInfo_var;
+extern const uint32_t CloudTracker_OnRecognitionSuccessfulInternal_m802918977_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2_Invoke_m3710222440_MethodInfo_var;
+extern const uint32_t CloudTracker_OnRecognitionErrorInternal_m1210096614_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1_Invoke_m1530575732_MethodInfo_var;
+extern const uint32_t CloudTracker_OnInterruptionInternal_m1530148797_MetadataUsageId;
+extern const uint32_t OnExtendedTrackingQualityChangedEvent__ctor_m1501135999_MetadataUsageId;
+extern const uint32_t OnRecognitionFailedEvent__ctor_m1618038666_MetadataUsageId;
+extern const uint32_t OnRecognitionInterruptionEvent__ctor_m2973607588_MetadataUsageId;
+extern const MethodInfo* UnityEvent_2__ctor_m2773463103_MethodInfo_var;
+extern const uint32_t OnRecognitionSuccessfulEvent__ctor_m2396553567_MetadataUsageId;
+extern const uint32_t OnTrackerLoadingErrorEvent__ctor_m2418683378_MetadataUsageId;
+extern Il2CppClass* OnExtendedTrackingQualityChangedEvent_t1461804644_il2cpp_TypeInfo_var;
+extern const uint32_t ImageTracker__ctor_m43111834_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1122610468;
+extern const uint32_t ImageTracker_StopExtendedTracking_m4215550636_MetadataUsageId;
+extern const uint32_t ImageTracker_OnEnable_m1566401538_MetadataUsageId;
+extern const uint32_t ImageTracker_OnDisable_m2400567953_MetadataUsageId;
+extern const uint32_t ImageTracker_OnErrorLoadingTargetsInternal_m3374303293_MetadataUsageId;
+extern const uint32_t ImageTracker_OnExtendedTrackingQualityChangedInternal_m2574770426_MetadataUsageId;
+extern const uint32_t OnExtendedTrackingQualityChangedEvent__ctor_m2261393213_MetadataUsageId;
+extern Il2CppClass* OnStateChangedEvent_t3227093256_il2cpp_TypeInfo_var;
+extern const uint32_t InstantTracker__ctor_m1289707002_MetadataUsageId;
+extern const uint32_t InstantTracker_set_DeviceHeightAboveGround_m3197192489_MetadataUsageId;
+extern const uint32_t InstantTracker_SetState_m132213744_MetadataUsageId;
+extern const uint32_t InstantTracker_OnEnable_m1531411722_MetadataUsageId;
+extern const uint32_t InstantTracker_OnDisable_m122764161_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1__ctor_m2647432136_MethodInfo_var;
+extern const uint32_t OnStateChangedEvent__ctor_m2487375927_MetadataUsageId;
+extern const uint32_t iOSBridge_Wikitude_IPlatformBridge_GetCameraInfo_m3569433628_MetadataUsageId;
+extern Il2CppClass* IntPtr_t_il2cpp_TypeInfo_var;
+extern const uint32_t iOSBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m1399479408_MetadataUsageId;
+extern const uint32_t iOSBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m3570464092_MetadataUsageId;
+extern const uint32_t iOSBridge_Wikitude_IPlatformBridge_RegisterPlugin_m2350823872_MetadataUsageId;
+extern const uint32_t iOSBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m3832371473_MetadataUsageId;
+extern const uint32_t iOSBridge_Wikitude_IPlatformBridge_GetCameraFrame_m1574154207_MetadataUsageId;
+extern Il2CppClass* Log_t570465252_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral811305496;
+extern const uint32_t Log_v_m427379831_MetadataUsageId;
+extern const uint32_t Log_e_m354218312_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1085172494;
+extern const uint32_t Log__cctor_m4244038552_MetadataUsageId;
+extern const uint32_t ObjectTracker_OnEnable_m2754160796_MetadataUsageId;
+extern const uint32_t ObjectTracker_OnDisable_m3553760439_MetadataUsageId;
+extern const uint32_t ObjectTracker_OnErrorLoadingTargetsInternal_m3474853275_MetadataUsageId;
+extern Il2CppClass* OnCameraFrameAvailableEvent_t2791441841_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnPluginFailureEvent_t2397520937_il2cpp_TypeInfo_var;
+extern const uint32_t PluginManager__ctor_m1876601441_MetadataUsageId;
+extern Il2CppClass* Object_t1021602117_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926_MethodInfo_var;
+extern const uint32_t PluginManager_Start_m3240259761_MetadataUsageId;
+extern const uint32_t PluginManager_OnDestroy_m2121812240_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1_Invoke_m3773679785_MethodInfo_var;
+extern const uint32_t PluginManager_Update_m2881677520_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1__ctor_m2485796384_MethodInfo_var;
+extern const uint32_t OnCameraFrameAvailableEvent__ctor_m3324503546_MetadataUsageId;
+extern const uint32_t OnPluginFailureEvent__ctor_m346361142_MetadataUsageId;
+extern Il2CppClass* OnFinishLoadingEvent_t1372070578_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnErrorLoadingEvent_t706169873_il2cpp_TypeInfo_var;
+extern const uint32_t TargetCollectionResource__ctor_m2384751328_MetadataUsageId;
+extern const uint32_t TargetCollectionResource_OnEnableInternal_m622668481_MetadataUsageId;
+extern const uint32_t TargetCollectionResource_OnDestroyInternal_m603135928_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4163116868;
+extern Il2CppCodeGenString* _stringLiteral2090119891;
+extern Il2CppCodeGenString* _stringLiteral1794938840;
+extern Il2CppCodeGenString* _stringLiteral4293091031;
+extern Il2CppCodeGenString* _stringLiteral1421372889;
+extern const uint32_t TargetCollectionResource_GetFullPathFromStreamingAssetsPath_m1606554941_MetadataUsageId;
+extern const uint32_t OnErrorLoadingEvent__ctor_m386438742_MetadataUsageId;
+extern Il2CppClass* OnEnterFieldOfVisionEvent_t3362888889_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnExitFieldOfVisionEvent_t2513344377_il2cpp_TypeInfo_var;
+extern const uint32_t TrackableBehaviour__ctor_m2635975511_MetadataUsageId;
+extern Il2CppClass* Mathf_t2336485820_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral149330462;
+extern const uint32_t TrackableBehaviour_Awake_m46521102_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral356367017;
+extern const uint32_t TrackableBehaviour_Start_m448720995_MetadataUsageId;
+extern const MethodInfo* Component_GetComponentInParent_TisTrackerBehaviour_t3845512381_m1037918205_MethodInfo_var;
+extern const uint32_t TrackableBehaviour_RegisterToTracker_m996911205_MetadataUsageId;
+extern Il2CppClass* Regex_t1803876613_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029320;
+extern Il2CppCodeGenString* _stringLiteral2065319825;
+extern Il2CppCodeGenString* _stringLiteral372029331;
+extern Il2CppCodeGenString* _stringLiteral2065319836;
+extern Il2CppCodeGenString* _stringLiteral372029428;
+extern Il2CppCodeGenString* _stringLiteral2896918186;
+extern const uint32_t TrackableBehaviour_GetRegexFromTargetPattern_m2346248314_MetadataUsageId;
+extern Il2CppClass* Material_t193706927_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2628594138;
+extern const uint32_t TrackableBehaviour_get_PreviewMaterial_m3813596926_MetadataUsageId;
+extern const MethodInfo* GameObject_GetComponent_TisMeshFilter_t3026937449_m73955417_MethodInfo_var;
+extern const uint32_t TrackableBehaviour_get_PreviewMesh_m3153081854_MetadataUsageId;
+extern Il2CppClass* Graphics_t2412809155_il2cpp_TypeInfo_var;
+extern const uint32_t TrackableBehaviour_OnDrawGizmos_m1073679667_MetadataUsageId;
+extern const uint32_t OnEnterFieldOfVisionEvent__ctor_m2360711846_MetadataUsageId;
+extern const uint32_t OnExitFieldOfVisionEvent__ctor_m1744751172_MetadataUsageId;
+extern Il2CppClass* HashSet_1_t1977092026_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnTargetsLoadedEvent_t3080540202_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnErrorLoadingTargetsEvent_t3800749431_il2cpp_TypeInfo_var;
+extern const MethodInfo* HashSet_1__ctor_m3001600831_MethodInfo_var;
+extern const uint32_t TrackerBehaviour__ctor_m2201672446_MetadataUsageId;
+extern const MethodInfo* HashSet_1_Add_m1418204619_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral975102581;
+extern const uint32_t TrackerBehaviour_NewTrackableAvailable_m2356705656_MetadataUsageId;
+extern const MethodInfo* Object_FindObjectOfType_TisWikitudeCamera_t2517845841_m4292550126_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2589785236;
+extern Il2CppCodeGenString* _stringLiteral478335208;
+extern const uint32_t TrackerBehaviour_Start_m4158945682_MetadataUsageId;
+extern const MethodInfo* HashSet_1_GetEnumerator_m3576409150_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m3502568190_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2889518444_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m124679713_MethodInfo_var;
+extern const uint32_t TrackerBehaviour_OnDisable_m292473883_MetadataUsageId;
+extern Il2CppClass* StringBuilder_t1221177846_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2428198909;
+extern Il2CppCodeGenString* _stringLiteral372029310;
+extern Il2CppCodeGenString* _stringLiteral1947253693;
+extern const uint32_t TrackerBehaviour_PrintMatrix_m1600953553_MetadataUsageId;
+extern const uint32_t TrackerBehaviour_TrackablesChanged_m2170920796_MetadataUsageId;
+extern Il2CppClass* HashSet_1_t362681087_il2cpp_TypeInfo_var;
+extern const MethodInfo* HashSet_1__ctor_m3939180071_MethodInfo_var;
+extern const MethodInfo* HashSet_1_Add_m35300443_MethodInfo_var;
+extern const MethodInfo* HashSet_1_GetEnumerator_m3458377458_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m1312363686_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2906651588_MethodInfo_var;
+extern const MethodInfo* Enumerator_Dispose_m3599713869_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral372029394;
+extern const uint32_t TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642_MetadataUsageId;
+extern Il2CppClass* Vector3_t2243707580_il2cpp_TypeInfo_var;
+extern Il2CppClass* Quaternion_t4030073918_il2cpp_TypeInfo_var;
+extern const uint32_t TrackerBehaviour_UpdateTrackingForTrackable_m2387308168_MetadataUsageId;
+extern Il2CppClass* Matrix4x4_t2933234003_il2cpp_TypeInfo_var;
+extern const uint32_t TrackerBehaviour_CreateTransposeMatrix_m1567886776_MetadataUsageId;
+extern const uint32_t TrackerBehaviour_QuaternionFromMatrix_m947607251_MetadataUsageId;
+extern const uint32_t OnErrorLoadingTargetsEvent__ctor_m2029488116_MetadataUsageId;
+extern Il2CppClass* Dictionary_2_t674592647_il2cpp_TypeInfo_var;
+extern Il2CppClass* Dictionary_2_t2960073833_il2cpp_TypeInfo_var;
+extern Il2CppClass* HashSet_1_t2178973235_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m814659607_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4244851005_MethodInfo_var;
+extern const MethodInfo* HashSet_1__ctor_m4023455954_MethodInfo_var;
+extern const uint32_t TrackerManager__ctor_m45784718_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral760186735;
+extern const uint32_t TrackerManager_Init_m2330225541_MetadataUsageId;
+extern const MethodInfo* HashSet_1_Contains_m2536947452_MethodInfo_var;
+extern const MethodInfo* HashSet_1_Add_m974438612_MethodInfo_var;
+extern const uint32_t TrackerManager_RegisterTrackerBehaviour_m1277354475_MetadataUsageId;
+extern const MethodInfo* HashSet_1_Remove_m1591137205_MethodInfo_var;
+extern const uint32_t TrackerManager_RemoveTrackerBehaviour_m2015865182_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_Add_m956410223_MethodInfo_var;
+extern const uint32_t TrackerManager_RegisterTargetCollectionResource_m2791948291_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_Add_m3048792485_MethodInfo_var;
+extern const uint32_t TrackerManager_RegisterCloudRecognitionService_m4066900711_MetadataUsageId;
+extern const uint32_t TrackerManager_ActivateTracker_m3608901866_MetadataUsageId;
+extern const uint32_t TrackerManager_DeactivateTracker_m2599315795_MetadataUsageId;
+extern const uint32_t TrackerManager_SetCloudRecognitionServerRegion_m1806494286_MetadataUsageId;
+extern const uint32_t TrackerManager_UpdateRegisteredTrackableBehaviours_m2845489404_MetadataUsageId;
+extern Il2CppClass* Dictionary_2_t3943999495_il2cpp_TypeInfo_var;
+extern Il2CppClass* CharU5BU5D_t1328083999_il2cpp_TypeInfo_var;
+extern Il2CppClass* IDictionary_2_t1943082916_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m1473783684_MethodInfo_var;
+extern const uint32_t TrackerManager_SplitRecognizedTargetString_m2979317081_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral738948561;
+extern const uint32_t TrackerManager_StartTrackingMapRecording_m3690073485_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1813137141;
+extern const uint32_t TrackerManager_StopTrackingMapRecording_m2588063534_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_TryGetValue_m361276108_MethodInfo_var;
+extern const uint32_t TrackerManager_TargetCollectionResourceInitialized_m3182494155_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1344086035;
+extern const uint32_t TrackerManager_TargetCollectionResourceFailed_m307773594_MetadataUsageId;
+extern const MethodInfo* Dictionary_2_TryGetValue_m315289040_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral80457469;
+extern const uint32_t TrackerManager_CloudRecognitionServiceInitialized_m1804423365_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3056555829;
+extern const uint32_t TrackerManager_CloudRecognitionServiceFailed_m2202830734_MetadataUsageId;
+extern Il2CppClass* CloudRecognitionServiceResponse_t1921450246_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityEvent_1_Invoke_m3321447418_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3519021602;
+extern Il2CppCodeGenString* _stringLiteral4219837118;
+extern const uint32_t TrackerManager_CloudRecognitionServiceResponseSuccessful_m432718722_MetadataUsageId;
+extern const uint32_t TrackerManager_CloudRecognitionServiceResponseFailed_m3711306153_MetadataUsageId;
+extern const uint32_t TrackerManager_CloudRecognitionServiceResponseInterruption_m3829293781_MetadataUsageId;
+extern const uint32_t TrackerManager_StartRecordingSuccessful_m3604801675_MetadataUsageId;
+extern const uint32_t TrackerManager_StartRecordingFailed_m131745576_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1_Invoke_m554854286_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral223307227;
+extern const uint32_t TrackerManager_RecordingQualityChanged_m48580624_MetadataUsageId;
+extern const uint32_t TrackerManager_StopRecordingSuccessful_m525681059_MetadataUsageId;
+extern const uint32_t TrackerManager_StopRecordingFailed_m1816995314_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1740594959;
+extern const uint32_t TrackerManager_ErrorLoadingImageTracker_m615195003_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral839630409;
+extern const uint32_t TrackerManager_UpdateExtendedTrackingQualityForTarget_m1455735842_MetadataUsageId;
+extern const uint32_t TrackerManager_ErrorLoadingObjectTracker_m723286057_MetadataUsageId;
+extern Il2CppClass* InstantTracker_t2685404523_il2cpp_TypeInfo_var;
+extern const MethodInfo* UnityEvent_1_Invoke_m2518340491_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2860509083;
+extern const uint32_t TrackerManager_InstantTrackerChangedState_m1773756660_MetadataUsageId;
+extern const MethodInfo* Object_FindObjectOfType_TisPluginManager_t3083232152_m711241675_MethodInfo_var;
+extern const uint32_t TrackerManager_ErrorRegisteringPlugin_m1983810180_MetadataUsageId;
+extern const uint32_t TrackerManager_ErrorRegisteringInputPlugin_m2325235220_MetadataUsageId;
+extern Il2CppClass* BridgeError_t1312656103_il2cpp_TypeInfo_var;
+extern const uint32_t BridgeError_TryParse_m142924107_MetadataUsageId;
+extern Il2CppClass* OnRecordingFinishedEvent_t3200701272_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecordingErrorEvent_t89808920_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnRecordingQualityChangedEvent_t3085246221_il2cpp_TypeInfo_var;
+extern const uint32_t TrackingMapRecorder__ctor_m2468606422_MetadataUsageId;
+extern const uint32_t TrackingMapRecorder_Start_m1468400146_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2500751317;
+extern Il2CppCodeGenString* _stringLiteral3632383787;
+extern Il2CppCodeGenString* _stringLiteral670696646;
+extern const uint32_t TrackingMapRecorder_StartRecording_m3338417311_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2463111458;
+extern const uint32_t TrackingMapRecorder_StopRecording_m3475558591_MetadataUsageId;
+extern const uint32_t OnRecordingErrorEvent__ctor_m940947205_MetadataUsageId;
+extern const uint32_t OnRecordingFinishedEvent__ctor_m808671855_MetadataUsageId;
+extern const MethodInfo* UnityEvent_1__ctor_m1516039913_MethodInfo_var;
+extern const uint32_t OnRecordingQualityChangedEvent__ctor_m3180518964_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1521482973;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m2093652893_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3548251443;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m509790641_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral4146290931;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m3233206856_MetadataUsageId;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m3032348354_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3462175073;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m3950864728_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral536911948;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_SetState_m1437698184_MetadataUsageId;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_GetTrackingData_m3765581070_MetadataUsageId;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m1785660180_MetadataUsageId;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m374687784_MetadataUsageId;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_GetCameraFrame_m2721193277_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3685028136;
+extern const uint32_t UnityBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m2761004719_MetadataUsageId;
+extern const uint32_t WikitudeBridge_get_Platform_m385314570_MetadataUsageId;
+extern Il2CppClass* GameObject_t1756533147_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisTrackerManager_t130000407_m1784357911_MethodInfo_var;
+extern const uint32_t WikitudeBridge_Setup_m1700158283_MetadataUsageId;
+extern const uint32_t WikitudeBridge_InternalUpdate_m3497281110_MetadataUsageId;
+extern const uint32_t WikitudeBridge_OnDestroy_m2854918775_MetadataUsageId;
+extern Il2CppClass* UnityEvent_t408735097_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnInputPluginFailureEvent_t1715928524_il2cpp_TypeInfo_var;
+extern Il2CppClass* OnCameraFailureEvent_t1753808034_il2cpp_TypeInfo_var;
+extern Il2CppClass* WikitudeBridge_t1522526835_il2cpp_TypeInfo_var;
+extern const uint32_t WikitudeCamera__ctor_m836345706_MetadataUsageId;
+extern const uint32_t WikitudeCamera_get_DevicePosition_m930077284_MetadataUsageId;
+extern const MethodInfo* Nullable_1_GetValueOrDefault_m1020844738_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m44130379_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m1745192376_MethodInfo_var;
+extern const uint32_t WikitudeCamera_set_DevicePosition_m3373942233_MetadataUsageId;
+extern const MethodInfo* Nullable_1_get_Value_m457291595_MethodInfo_var;
+extern const uint32_t WikitudeCamera_get_CachedDevicePosition_m3884201334_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_FocusMode_m985629665_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3276062292;
+extern Il2CppCodeGenString* _stringLiteral939939015;
+extern Il2CppCodeGenString* _stringLiteral2673314446;
+extern const uint32_t WikitudeCamera_set_ManualFocusDistance_m10953543_MetadataUsageId;
+extern const uint32_t WikitudeCamera_get_IsManualFocusAvailable_m3399272114_MetadataUsageId;
+extern const uint32_t WikitudeCamera_get_AutoFocusRestriction_m1469238724_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_AutoFocusRestriction_m2479214973_MetadataUsageId;
+extern const uint32_t WikitudeCamera_get_ZoomLevel_m1564440440_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_ZoomLevel_m1352816351_MetadataUsageId;
+extern const uint32_t WikitudeCamera_get_MaxZoomLevel_m284070810_MetadataUsageId;
+extern const uint32_t WikitudeCamera_get_FlashMode_m1836990366_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_FlashMode_m1791354977_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_DesiredCameraResolution_m4196676054_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_DesiredCameraFramerate_m889056006_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral753168602;
+extern const uint32_t WikitudeCamera_set_EnableInputPlugin_m1872447026_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_EnableMirroring_m1257037032_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral302677859;
+extern const uint32_t WikitudeCamera_set_InvertedFrame_m998062922_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3339677132;
+extern const uint32_t WikitudeCamera_set_MirroredFrame_m3747338049_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_HorizontalAngle_m1451255845_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_InputFrameWidth_m4044485959_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_InputFrameHeight_m3071440070_MetadataUsageId;
+extern const uint32_t WikitudeCamera_set_RequestInputFrameRendering_m2184383300_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral2020507699;
+extern const uint32_t WikitudeCamera_RegisterInputPlugin_m2831757750_MetadataUsageId;
+extern const uint32_t WikitudeCamera_DeregisterInputPlugin_m2119062189_MetadataUsageId;
+extern Il2CppClass* Texture2D_t3542995729_il2cpp_TypeInfo_var;
+extern Il2CppClass* Color32U5BU5D_t30278651_il2cpp_TypeInfo_var;
+extern const uint32_t WikitudeCamera_UpdateRenderTexture_m742998639_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3710486317;
+extern Il2CppCodeGenString* _stringLiteral2577203076;
+extern Il2CppCodeGenString* _stringLiteral1393014881;
+extern const uint32_t WikitudeCamera_Awake_m535637355_MetadataUsageId;
+extern const uint32_t WikitudeCamera_Start_m3704862374_MetadataUsageId;
+extern const uint32_t WikitudeCamera_OnDestroy_m114330201_MetadataUsageId;
+extern const uint32_t WikitudeCamera_OnPreRender_m1115766376_MetadataUsageId;
+extern const uint32_t WikitudeCamera_Update_m1544717759_MetadataUsageId;
+extern const uint32_t WikitudeCamera_OnApplicationPause_m980991572_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral3251169132;
+extern const uint32_t WikitudeCamera_NewCameraFrame_m123423550_MetadataUsageId;
+extern const uint32_t WikitudeCamera_GetPresentableInputFrameIndex_m2009792981_MetadataUsageId;
+extern const uint32_t OnInputPluginFailureEvent__ctor_m534235899_MetadataUsageId;
+extern Il2CppClass* iOSBridge_t3713850486_il2cpp_TypeInfo_var;
+extern Il2CppClass* AndroidBridge_t3043076716_il2cpp_TypeInfo_var;
+extern Il2CppClass* UnityBridge_t209696710_il2cpp_TypeInfo_var;
+extern Il2CppClass* RuntimePlatform_t1869584967_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3317638083;
+extern Il2CppCodeGenString* _stringLiteral2684428050;
+extern const uint32_t WikitudeSDK__cctor_m563570278_MetadataUsageId;
+extern Il2CppCodeGenString* _stringLiteral1472310751;
+extern const uint32_t WikitudeSDK_get_Platform_m3685884713_MetadataUsageId;
+extern Il2CppClass* SDKBuildInformation_t1997552748_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3136918102;
+extern const uint32_t WikitudeSDK_get_BuildInformation_m172693527_MetadataUsageId;
+
+// System.Reflection.MethodInfo[]
+struct MethodInfoU5BU5D_t152480188  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) MethodInfo_t * m_Items[1];
+
+public:
+	inline MethodInfo_t * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline MethodInfo_t ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, MethodInfo_t * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline MethodInfo_t * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline MethodInfo_t ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, MethodInfo_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Object[]
+struct ObjectU5BU5D_t3614634134  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppObject * m_Items[1];
+
+public:
+	inline Il2CppObject * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Il2CppObject * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppObject ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppObject * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Type[]
+struct TypeU5BU5D_t1664964607  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Type_t * m_Items[1];
+
+public:
+	inline Type_t * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Type_t ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Type_t * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline Type_t * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Type_t ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Type_t * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Reflection.ParameterInfo[]
+struct ParameterInfoU5BU5D_t2275869610  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) ParameterInfo_t2249040075 * m_Items[1];
+
+public:
+	inline ParameterInfo_t2249040075 * GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ParameterInfo_t2249040075 ** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ParameterInfo_t2249040075 * value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline ParameterInfo_t2249040075 * GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ParameterInfo_t2249040075 ** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ParameterInfo_t2249040075 * value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Byte[]
+struct ByteU5BU5D_t3397334013  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+public:
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.String[]
+struct StringU5BU5D_t1642385972  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier(m_Items + index, value);
+	}
+};
+// System.Single[]
+struct SingleU5BU5D_t577127397  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) float m_Items[1];
+
+public:
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+// System.Char[]
+struct CharU5BU5D_t1328083999  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Il2CppChar m_Items[1];
+
+public:
+	inline Il2CppChar GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Il2CppChar GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Il2CppChar* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Il2CppChar value)
+	{
+		m_Items[index] = value;
+	}
+};
+// UnityEngine.Color32[]
+struct Color32U5BU5D_t30278651  : public Il2CppArray
+{
+public:
+	ALIGN_FIELD (8) Color32_t874517518  m_Items[1];
+
+public:
+	inline Color32_t874517518  GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Color32_t874517518 * GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Color32_t874517518  value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Color32_t874517518  GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Color32_t874517518 * GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Color32_t874517518  value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+// System.Void UnityEngine.Events.UnityAction`2<System.Int32,System.Object>::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction_2__ctor_m3094684596_gshared (UnityAction_2_t3200670789 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Int32,System.Object>::AddListener(UnityEngine.Events.UnityAction`2<!0,!1>)
+extern "C"  void UnityEvent_2_AddListener_m4184546921_gshared (UnityEvent_2_t787901411 * __this, UnityAction_2_t3200670789 * p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::Invoke(!0)
+extern "C"  void UnityEvent_1_Invoke_m838874366_gshared (UnityEvent_1_t2727799310 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Object,Wikitude.ExtendedTrackingQuality>::Invoke(!0,!1)
+extern "C"  void UnityEvent_2_Invoke_m2298484035_gshared (UnityEvent_2_t1992611002 * __this, Il2CppObject * p0, int32_t p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Object,Wikitude.ExtendedTrackingQuality>::.ctor()
+extern "C"  void UnityEvent_2__ctor_m2998963270_gshared (UnityEvent_2_t1992611002 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::.ctor()
+extern "C"  void UnityEvent_1__ctor_m2073978020_gshared (UnityEvent_1_t2727799310 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Int32,System.Object>::.ctor()
+extern "C"  void UnityEvent_2__ctor_m3335257954_gshared (UnityEvent_2_t787901411 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<System.Double>::.ctor()
+extern "C"  void UnityEvent_1__ctor_m4179878785_gshared (UnityEvent_1_t4116365696 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityAction`1<System.Object>::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction_1__ctor_m2836997866_gshared (UnityAction_1_t4056035046 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<System.Object>::AddListener(UnityEngine.Events.UnityAction`1<!0>)
+extern "C"  void UnityEvent_1_AddListener_m1977283804_gshared (UnityEvent_1_t2727799310 * __this, UnityAction_1_t4056035046 * p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityAction`1<System.Double>::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction_1__ctor_m3451684435_gshared (UnityAction_1_t1149634136 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<System.Double>::AddListener(UnityEngine.Events.UnityAction`1<!0>)
+extern "C"  void UnityEvent_1_AddListener_m3679898207_gshared (UnityEvent_1_t4116365696 * __this, UnityAction_1_t1149634136 * p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Boolean,System.Object>::Invoke(!0,!1)
+extern "C"  void UnityEvent_2_Invoke_m480022211_gshared (UnityEvent_2_t1325536085 * __this, bool p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Int32,System.Object>::Invoke(!0,!1)
+extern "C"  void UnityEvent_2_Invoke_m3824123261_gshared (UnityEvent_2_t787901411 * __this, int32_t p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<System.Double>::Invoke(!0)
+extern "C"  void UnityEvent_1_Invoke_m1530575732_gshared (UnityEvent_1_t4116365696 * __this, double p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`2<System.Boolean,System.Object>::.ctor()
+extern "C"  void UnityEvent_2__ctor_m1882042566_gshared (UnityEvent_2_t1325536085 * __this, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.InstantTrackingState>::.ctor()
+extern "C"  void UnityEvent_1__ctor_m2647432136_gshared (UnityEvent_1_t4106607218 * __this, const MethodInfo* method);
+// !!0 UnityEngine.Object::FindObjectOfType<System.Object>()
+extern "C"  Il2CppObject * Object_FindObjectOfType_TisIl2CppObject_m318039589_gshared (Il2CppObject * __this /* static, unused */, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.Frame>::Invoke(!0)
+extern "C"  void UnityEvent_1_Invoke_m3773679785_gshared (UnityEvent_1_t1914295760 * __this, Frame_t1875945745  p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.Frame>::.ctor()
+extern "C"  void UnityEvent_1__ctor_m2485796384_gshared (UnityEvent_1_t1914295760 * __this, const MethodInfo* method);
+// !!0 UnityEngine.Component::GetComponentInParent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.HashSet`1<System.Object>::.ctor()
+extern "C"  void HashSet_1__ctor_m2858247305_gshared (HashSet_1_t1022910149 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Add(!0)
+extern "C"  bool HashSet_1_Add_m199171953_gshared (HashSet_1_t1022910149 * __this, Il2CppObject * p0, const MethodInfo* method);
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Il2CppObject * Component_GetComponent_TisIl2CppObject_m4109961936_gshared (Component_t3819376471 * __this, const MethodInfo* method);
+// System.Collections.Generic.HashSet`1/Enumerator<!0> System.Collections.Generic.HashSet`1<System.Object>::GetEnumerator()
+extern "C"  Enumerator_t3806193287  HashSet_1_GetEnumerator_m2393522520_gshared (HashSet_1_t1022910149 * __this, const MethodInfo* method);
+// !0 System.Collections.Generic.HashSet`1/Enumerator<System.Object>::get_Current()
+extern "C"  Il2CppObject * Enumerator_get_Current_m1303936404_gshared (Enumerator_t3806193287 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.HashSet`1/Enumerator<System.Object>::MoveNext()
+extern "C"  bool Enumerator_MoveNext_m2097560514_gshared (Enumerator_t3806193287 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.HashSet`1/Enumerator<System.Object>::Dispose()
+extern "C"  void Enumerator_Dispose_m2585752265_gshared (Enumerator_t3806193287 * __this, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Int64,System.Object>::.ctor()
+extern "C"  void Dictionary_2__ctor_m124580243_gshared (Dictionary_2_t3678967697 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Contains(!0)
+extern "C"  bool HashSet_1_Contains_m3626542335_gshared (HashSet_1_t1022910149 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.HashSet`1<System.Object>::Remove(!0)
+extern "C"  bool HashSet_1_Remove_m3273285564_gshared (HashSet_1_t1022910149 * __this, Il2CppObject * p0, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Int64,System.Object>::Add(!0,!1)
+extern "C"  void Dictionary_2_Add_m2121235755_gshared (Dictionary_2_t3678967697 * __this, int64_t p0, Il2CppObject * p1, const MethodInfo* method);
+// System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
+extern "C"  void Dictionary_2__ctor_m584589095_gshared (Dictionary_2_t2281509423 * __this, const MethodInfo* method);
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int64,System.Object>::TryGetValue(!0,!1&)
+extern "C"  bool Dictionary_2_TryGetValue_m648333080_gshared (Dictionary_2_t3678967697 * __this, int64_t p0, Il2CppObject ** p1, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.RecordingQuality>::Invoke(!0)
+extern "C"  void UnityEvent_1_Invoke_m554854286_gshared (UnityEvent_1_t2669044597 * __this, int32_t p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.InstantTrackingState>::Invoke(!0)
+extern "C"  void UnityEvent_1_Invoke_m2518340491_gshared (UnityEvent_1_t4106607218 * __this, int32_t p0, const MethodInfo* method);
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.RecordingQuality>::.ctor()
+extern "C"  void UnityEvent_1__ctor_m1516039913_gshared (UnityEvent_1_t2669044597 * __this, const MethodInfo* method);
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Il2CppObject * GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared (GameObject_t1756533147 * __this, const MethodInfo* method);
+// !0 System.Nullable`1<Wikitude.CaptureDevicePosition>::GetValueOrDefault()
+extern "C"  int32_t Nullable_1_GetValueOrDefault_m1020844738_gshared (Nullable_1_t3873599312 * __this, const MethodInfo* method);
+// System.Boolean System.Nullable`1<Wikitude.CaptureDevicePosition>::get_HasValue()
+extern "C"  bool Nullable_1_get_HasValue_m44130379_gshared (Nullable_1_t3873599312 * __this, const MethodInfo* method);
+// System.Void System.Nullable`1<Wikitude.CaptureDevicePosition>::.ctor(!0)
+extern "C"  void Nullable_1__ctor_m1745192376_gshared (Nullable_1_t3873599312 * __this, int32_t p0, const MethodInfo* method);
+// !0 System.Nullable`1<Wikitude.CaptureDevicePosition>::get_Value()
+extern "C"  int32_t Nullable_1_get_Value_m457291595_gshared (Nullable_1_t3873599312 * __this, const MethodInfo* method);
+
+// System.Void System.Object::.ctor()
+extern "C"  void Object__ctor_m2551263788 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetType(System.String,System.Boolean)
+extern "C"  Type_t * Type_GetType_m402049910 (Il2CppObject * __this /* static, unused */, String_t* p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::Log(System.Object)
+extern "C"  void Debug_Log_m920475918 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags)
+extern "C"  MethodInfo_t * Type_GetMethod_m475234662 (Type_t * __this, String_t* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Reflection.MethodBase::Invoke(System.Object,System.Object[])
+extern "C"  Il2CppObject * MethodBase_Invoke_m1075809207 (MethodBase_t904190842 * __this, Il2CppObject * p0, ObjectU5BU5D_t3614634134* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetType(System.String)
+extern "C"  Type_t * Type_GetType_m773255995 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Activator::CreateInstance(System.Type,System.Object[])
+extern "C"  Il2CppObject * Activator_CreateInstance_m1465989661 (Il2CppObject * __this /* static, unused */, Type_t * p0, ObjectU5BU5D_t3614634134* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodInfo System.Type::GetMethod(System.String)
+extern "C"  MethodInfo_t * Type_GetMethod_m1197504218 (Type_t * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Object::GetType()
+extern "C"  Type_t * Object_GetType_m191970594 (Il2CppObject * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+extern "C"  Type_t * Type_GetTypeFromHandle_m432505302 (Il2CppObject * __this /* static, unused */, RuntimeTypeHandle_t2330101084  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Type[])
+extern "C"  MethodInfo_t * Type_GetMethod_m2079823229 (Type_t * __this, String_t* p0, TypeU5BU5D_t1664964607* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodInfo[] System.Type::GetMethods()
+extern "C"  MethodInfoU5BU5D_t152480188* Type_GetMethods_m2648147339 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::Equals(System.String)
+extern "C"  bool String_Equals_m2633592423 (String_t* __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::LogError(System.Object)
+extern "C"  void Debug_LogError_m3715728798 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.AndroidBridge::CallAndroid(System.String,System.Object[])
+extern "C"  void AndroidBridge_CallAndroid_m3392184170 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Resolution UnityEngine.Screen::get_currentResolution()
+extern "C"  Resolution_t3693662728  Screen_get_currentResolution_m2361090437 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Resolution::get_width()
+extern "C"  int32_t Resolution_get_width_m1438273472 (Resolution_t3693662728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Resolution::get_height()
+extern "C"  int32_t Resolution_get_height_m882683003 (Resolution_t3693662728 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::InvalidateState()
+extern "C"  void GL_InvalidateState_m3232431926 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Application::get_streamingAssetsPath()
+extern "C"  String_t* Application_get_streamingAssetsPath_m8890645 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.String::StartsWith(System.String)
+extern "C"  bool String_StartsWith_m1841920685 (String_t* __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.String::get_Length()
+extern "C"  int32_t String_get_Length_m1606060069 (String_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Substring(System.Int32)
+extern "C"  String_t* String_Substring_m2032624251 (String_t* __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Application::get_persistentDataPath()
+extern "C"  String_t* Application_get_persistentDataPath_m3129298355 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String,System.String)
+extern "C"  String_t* String_Concat_m612901809 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.IO.Path::GetDirectoryName(System.String)
+extern "C"  String_t* Path_GetDirectoryName_m260633861 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IO.DirectoryInfo System.IO.Directory::CreateDirectory(System.String)
+extern "C"  DirectoryInfo_t1934446453 * Directory_CreateDirectory_m3561886598 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.WWW::.ctor(System.String)
+extern "C"  void WWW__ctor_m2024029190 (WWW_t2919945039 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.WWW::get_isDone()
+extern "C"  bool WWW_get_isDone_m3240254121 (WWW_t2919945039 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Byte[] UnityEngine.WWW::get_bytes()
+extern "C"  ByteU5BU5D_t3397334013* WWW_get_bytes_m420718112 (WWW_t2919945039 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.IO.File::WriteAllBytes(System.String,System.Byte[])
+extern "C"  void File_WriteAllBytes_m677793349 (Il2CppObject * __this /* static, unused */, String_t* p0, ByteU5BU5D_t3397334013* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String)
+extern "C"  String_t* String_Concat_m2596409543 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.AndroidBridge::CallIntAndroid(System.String,System.Object[])
+extern "C"  int32_t AndroidBridge_CallIntAndroid_m3163538433 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.AndroidBridge::CallBoolAndroid(System.String,System.Object[])
+extern "C"  bool AndroidBridge_CallBoolAndroid_m3955521056 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single Wikitude.AndroidBridge::CallFloatAndroid(System.String,System.Object[])
+extern "C"  float AndroidBridge_CallFloatAndroid_m2453542722 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.AndroidBridge::CallStringAndroid(System.String,System.Object[])
+extern "C"  String_t* AndroidBridge_CallStringAndroid_m1848719730 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String[] System.String::Split(System.String[],System.StringSplitOptions)
+extern "C"  StringU5BU5D_t1642385972* String_Split_m3927740091 (String_t* __this, StringU5BU5D_t1642385972* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Int32::TryParse(System.String,System.Int32&)
+extern "C"  bool Int32_TryParse_m656840904 (Il2CppObject * __this /* static, unused */, String_t* p0, int32_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CameraInfo::.ctor(System.Int32,System.Int32,System.Int32)
+extern "C"  void CameraInfo__ctor_m3269950821 (CameraInfo_t3735365223 * __this, int32_t ___width0, int32_t ___height1, int32_t ___framerate2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.Runtime.InteropServices.Marshal::SizeOf(System.Object)
+extern "C"  int32_t Marshal_SizeOf_m2032740146 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr System.Runtime.InteropServices.Marshal::AllocCoTaskMem(System.Int32)
+extern "C"  IntPtr_t Marshal_AllocCoTaskMem_m3256967199 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.InteropServices.Marshal::FreeCoTaskMem(System.IntPtr)
+extern "C"  void Marshal_FreeCoTaskMem_m2672578456 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 System.IntPtr::ToInt64()
+extern "C"  int64_t IntPtr_ToInt64_m39971741 (IntPtr_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Object System.Runtime.InteropServices.Marshal::PtrToStructure(System.IntPtr,System.Type)
+extern "C"  Il2CppObject * Marshal_PtrToStructure_m673412918 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, Type_t * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 Wikitude.AndroidBridge::CallLongAndroid(System.String,System.Object[])
+extern "C"  int64_t AndroidBridge_CallLongAndroid_m3117353359 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ClientTracker/OnTrackerFinishedLoadingEvent::.ctor()
+extern "C"  void OnTrackerFinishedLoadingEvent__ctor_m3326355774 (OnTrackerFinishedLoadingEvent_t3128440919 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ClientTracker/OnTrackerLoadingErrorEvent::.ctor()
+extern "C"  void OnTrackerLoadingErrorEvent__ctor_m3165227144 (OnTrackerLoadingErrorEvent_t1753622137 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ClientTracker/OnExtendedTrackingQualityChangedEvent::.ctor()
+extern "C"  void OnExtendedTrackingQualityChangedEvent__ctor_m2626213551 (OnExtendedTrackingQualityChangedEvent_t838064302 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::.ctor()
+extern "C"  void TrackerBehaviour__ctor_m2201672446 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::OnInitialize()
+extern "C"  void TrackerBehaviour_OnInitialize_m26638623 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetCollectionResource::.ctor()
+extern "C"  void TargetCollectionResource__ctor_m2384751328 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetCollectionResource::set_TargetPath(System.String)
+extern "C"  void TargetCollectionResource_set_TargetPath_m1911079585 (TargetCollectionResource_t3980041541 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetCollectionResource::set_UseCustomURL(System.Boolean)
+extern "C"  void TargetCollectionResource_set_UseCustomURL_m3251278923 (TargetCollectionResource_t3980041541 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction`2<System.Int32,System.String>::.ctor(System.Object,System.IntPtr)
+#define UnityAction_2__ctor_m2776373289(__this, p0, p1, method) ((  void (*) (UnityAction_2_t2540441727 *, Il2CppObject *, IntPtr_t, const MethodInfo*))UnityAction_2__ctor_m3094684596_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.Events.UnityEvent`2<System.Int32,System.String>::AddListener(UnityEngine.Events.UnityAction`2<!0,!1>)
+#define UnityEvent_2_AddListener_m4113397192(__this, p0, method) ((  void (*) (UnityEvent_2_t127672349 *, UnityAction_2_t2540441727 *, const MethodInfo*))UnityEvent_2_AddListener_m4184546921_gshared)(__this, p0, method)
+// System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)
+extern "C"  void UnityAction__ctor_m2649891629 (UnityAction_t4025899511 * __this, Il2CppObject * p0, IntPtr_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)
+extern "C"  void UnityEvent_AddListener_m1596810379 (UnityEvent_t408735097 * __this, UnityAction_t4025899511 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TrackerManager Wikitude.TrackerBehaviour::get_Manager()
+extern "C"  TrackerManager_t130000407 * TrackerBehaviour_get_Manager_m1738699492 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::OnEnable()
+extern "C"  void TrackerBehaviour_OnEnable_m2484164626 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TrackerBehaviour::get_Initialized()
+extern "C"  bool TrackerBehaviour_get_Initialized_m3775083335 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetSource::OnEnable()
+extern "C"  void TargetSource_OnEnable_m400085671 (TargetSource_t1091527250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.IPlatformBridge Wikitude.WikitudeSDK::get_Platform()
+extern "C"  Il2CppObject * WikitudeSDK_get_Platform_m3685884713 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 Wikitude.TargetSource::get_Identifier()
+extern "C"  int64_t TargetSource_get_Identifier_m2617797188 (TargetSource_t1091527250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.TrackerBehaviour::GetTargetsForExtendedTracking()
+extern "C"  String_t* TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ClientTracker::set_IsRegistered(System.Boolean)
+extern "C"  void ClientTracker_set_IsRegistered_m1557735082 (ClientTracker_t40625541 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::OnDisable()
+extern "C"  void TrackerBehaviour_OnDisable_m292473883 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetSource::OnDisable()
+extern "C"  void TargetSource_OnDisable_m954771448 (TargetSource_t1091527250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetSource::OnDestroy()
+extern "C"  void TargetSource_OnDestroy_m4100557054 (TargetSource_t1091527250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<System.String>::Invoke(!0)
+#define UnityEvent_1_Invoke_m2698909(__this, p0, method) ((  void (*) (UnityEvent_1_t2067570248 *, String_t*, const MethodInfo*))UnityEvent_1_Invoke_m838874366_gshared)(__this, p0, method)
+// System.Void UnityEngine.Events.UnityEvent`2<System.String,Wikitude.ExtendedTrackingQuality>::Invoke(!0,!1)
+#define UnityEvent_2_Invoke_m2005053380(__this, p0, p1, method) ((  void (*) (UnityEvent_2_t20362840 *, String_t*, int32_t, const MethodInfo*))UnityEvent_2_Invoke_m2298484035_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.Events.UnityEvent`2<System.String,Wikitude.ExtendedTrackingQuality>::.ctor()
+#define UnityEvent_2__ctor_m2413126385(__this, method) ((  void (*) (UnityEvent_2_t20362840 *, const MethodInfo*))UnityEvent_2__ctor_m2998963270_gshared)(__this, method)
+// System.Void UnityEngine.Events.UnityEvent`1<System.String>::.ctor()
+#define UnityEvent_1__ctor_m2575388844(__this, method) ((  void (*) (UnityEvent_1_t2067570248 *, const MethodInfo*))UnityEvent_1__ctor_m2073978020_gshared)(__this, method)
+// System.Void Wikitude.CloudRecognitionService/OnInitializedEvent::.ctor()
+extern "C"  void OnInitializedEvent__ctor_m2558310522 (OnInitializedEvent_t830202925 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService/OnInitializationErrorEvent::.ctor()
+extern "C"  void OnInitializationErrorEvent__ctor_m564127662 (OnInitializationErrorEvent_t2097344561 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService/OnRecognitionResponseEvent::.ctor()
+extern "C"  void OnRecognitionResponseEvent__ctor_m4103594816 (OnRecognitionResponseEvent_t330592769 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService/OnRecognitionErrorEvent::.ctor()
+extern "C"  void OnRecognitionErrorEvent__ctor_m3048400801 (OnRecognitionErrorEvent_t96168148 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService/OnInterruptionEvent::.ctor()
+extern "C"  void OnInterruptionEvent__ctor_m3013665001 (OnInterruptionEvent_t1387741428 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetSource::.ctor()
+extern "C"  void TargetSource__ctor_m642474803 (TargetSource_t1091527250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::RegisterCloudRecognitionService(Wikitude.CloudRecognitionService)
+extern "C"  void TrackerManager_RegisterCloudRecognitionService_m4066900711 (TrackerManager_t130000407 * __this, CloudRecognitionService_t1970555431 * ___cloudRecognitionService0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TrackerManager/CloudRecognitionServerRegion Wikitude.CloudRecognitionService::get_ServerRegion()
+extern "C"  int32_t CloudRecognitionService_get_ServerRegion_m3544210694 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.CloudRecognitionService::get_ClientToken()
+extern "C"  String_t* CloudRecognitionService_get_ClientToken_m3222672778 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.CloudRecognitionService::get_TargetCollectionId()
+extern "C"  String_t* CloudRecognitionService_get_TargetCollectionId_m1962469608 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::StopContinuousRecognition()
+extern "C"  void CloudRecognitionService_StopContinuousRecognition_m1151006936 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.CloudRecognitionService::get_IsContinuousRecognitionRunning()
+extern "C"  bool CloudRecognitionService_get_IsContinuousRecognitionRunning_m284005422 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::set_IsContinuousRecognitionRunning(System.Boolean)
+extern "C"  void CloudRecognitionService_set_IsContinuousRecognitionRunning_m3451688493 (CloudRecognitionService_t1970555431 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`2<System.Int32,System.String>::.ctor()
+#define UnityEvent_2__ctor_m2270493475(__this, method) ((  void (*) (UnityEvent_2_t127672349 *, const MethodInfo*))UnityEvent_2__ctor_m3335257954_gshared)(__this, method)
+// System.Void UnityEngine.Events.UnityEvent::.ctor()
+extern "C"  void UnityEvent__ctor_m588741179 (UnityEvent_t408735097 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<System.Double>::.ctor()
+#define UnityEvent_1__ctor_m4179878785(__this, method) ((  void (*) (UnityEvent_1_t4116365696 *, const MethodInfo*))UnityEvent_1__ctor_m4179878785_gshared)(__this, method)
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.CloudRecognitionServiceResponse>::.ctor()
+#define UnityEvent_1__ctor_m2351411737(__this, method) ((  void (*) (UnityEvent_1_t1959800261 *, const MethodInfo*))UnityEvent_1__ctor_m2073978020_gshared)(__this, method)
+// System.Void Wikitude.CloudTracker/OnTrackerFinishedLoadingEvent::.ctor()
+extern "C"  void OnTrackerFinishedLoadingEvent__ctor_m261005300 (OnTrackerFinishedLoadingEvent_t2073899635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTracker/OnTrackerLoadingErrorEvent::.ctor()
+extern "C"  void OnTrackerLoadingErrorEvent__ctor_m2418683378 (OnTrackerLoadingErrorEvent_t4048345185 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTracker/OnExtendedTrackingQualityChangedEvent::.ctor()
+extern "C"  void OnExtendedTrackingQualityChangedEvent__ctor_m1501135999 (OnExtendedTrackingQualityChangedEvent_t185594368 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTracker/OnRecognitionSuccessfulEvent::.ctor()
+extern "C"  void OnRecognitionSuccessfulEvent__ctor_m2396553567 (OnRecognitionSuccessfulEvent_t597905196 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTracker/OnRecognitionFailedEvent::.ctor()
+extern "C"  void OnRecognitionFailedEvent__ctor_m1618038666 (OnRecognitionFailedEvent_t2475925451 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTracker/OnRecognitionInterruptionEvent::.ctor()
+extern "C"  void OnRecognitionInterruptionEvent__ctor_m2973607588 (OnRecognitionInterruptionEvent_t4169328967 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::StartContinuousRecognition(System.Double)
+extern "C"  void CloudRecognitionService_StartContinuousRecognition_m1998770732 (CloudRecognitionService_t1970555431 * __this, double ___interval0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::Recognize()
+extern "C"  void CloudRecognitionService_Recognize_m1425334814 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::.ctor()
+extern "C"  void CloudRecognitionService__ctor_m2791349106 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::set_ClientToken(System.String)
+extern "C"  void CloudRecognitionService_set_ClientToken_m1619508869 (CloudRecognitionService_t1970555431 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::set_TargetCollectionId(System.String)
+extern "C"  void CloudRecognitionService_set_TargetCollectionId_m296642481 (CloudRecognitionService_t1970555431 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionService::set_ServerRegion(Wikitude.TrackerManager/CloudRecognitionServerRegion)
+extern "C"  void CloudRecognitionService_set_ServerRegion_m2525608085 (CloudRecognitionService_t1970555431 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityAction`1<Wikitude.CloudRecognitionServiceResponse>::.ctor(System.Object,System.IntPtr)
+#define UnityAction_1__ctor_m2130783191(__this, p0, p1, method) ((  void (*) (UnityAction_1_t3288035997 *, Il2CppObject *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m2836997866_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.CloudRecognitionServiceResponse>::AddListener(UnityEngine.Events.UnityAction`1<!0>)
+#define UnityEvent_1_AddListener_m2898327403(__this, p0, method) ((  void (*) (UnityEvent_1_t1959800261 *, UnityAction_1_t3288035997 *, const MethodInfo*))UnityEvent_1_AddListener_m1977283804_gshared)(__this, p0, method)
+// System.Void UnityEngine.Events.UnityAction`1<System.Double>::.ctor(System.Object,System.IntPtr)
+#define UnityAction_1__ctor_m3451684435(__this, p0, p1, method) ((  void (*) (UnityAction_1_t1149634136 *, Il2CppObject *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m3451684435_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.Events.UnityEvent`1<System.Double>::AddListener(UnityEngine.Events.UnityAction`1<!0>)
+#define UnityEvent_1_AddListener_m3679898207(__this, p0, method) ((  void (*) (UnityEvent_1_t4116365696 *, UnityAction_1_t1149634136 *, const MethodInfo*))UnityEvent_1_AddListener_m3679898207_gshared)(__this, p0, method)
+// System.Void Wikitude.CloudTracker::set_IsRegistered(System.Boolean)
+extern "C"  void CloudTracker_set_IsRegistered_m310514496 (CloudTracker_t4240178021 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTracker::StopContinuousRecognition()
+extern "C"  void CloudTracker_StopContinuousRecognition_m3539776236 (CloudTracker_t4240178021 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent::Invoke()
+extern "C"  void UnityEvent_Invoke_m4163344491 (UnityEvent_t408735097 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTargetInfo::.ctor()
+extern "C"  void CloudTargetInfo__ctor_m2145320817 (CloudTargetInfo_t1651937310 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.CloudRecognitionServiceResponse::get_Info()
+extern "C"  Il2CppObject* CloudRecognitionServiceResponse_get_Info_m2864325029 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTargetInfo::set_Info(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudTargetInfo_set_Info_m1595045480 (CloudTargetInfo_t1651937310 * __this, Il2CppObject* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.CloudRecognitionServiceResponse::get_Metadata()
+extern "C"  Il2CppObject* CloudRecognitionServiceResponse_get_Metadata_m2006681210 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudTargetInfo::set_Metadata(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudTargetInfo_set_Metadata_m3446268923 (CloudTargetInfo_t1651937310 * __this, Il2CppObject* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.CloudRecognitionServiceResponse::get_Recognized()
+extern "C"  bool CloudRecognitionServiceResponse_get_Recognized_m1235224272 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`2<System.Boolean,Wikitude.CloudTargetInfo>::Invoke(!0,!1)
+#define UnityEvent_2_Invoke_m2162392966(__this, p0, p1, method) ((  void (*) (UnityEvent_2_t288024100 *, bool, CloudTargetInfo_t1651937310 *, const MethodInfo*))UnityEvent_2_Invoke_m480022211_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.Events.UnityEvent`2<System.Int32,System.String>::Invoke(!0,!1)
+#define UnityEvent_2_Invoke_m3710222440(__this, p0, p1, method) ((  void (*) (UnityEvent_2_t127672349 *, int32_t, String_t*, const MethodInfo*))UnityEvent_2_Invoke_m3824123261_gshared)(__this, p0, p1, method)
+// System.Void UnityEngine.Events.UnityEvent`1<System.Double>::Invoke(!0)
+#define UnityEvent_1_Invoke_m1530575732(__this, p0, method) ((  void (*) (UnityEvent_1_t4116365696 *, double, const MethodInfo*))UnityEvent_1_Invoke_m1530575732_gshared)(__this, p0, method)
+// System.Void UnityEngine.Events.UnityEvent`2<System.Boolean,Wikitude.CloudTargetInfo>::.ctor()
+#define UnityEvent_2__ctor_m2773463103(__this, method) ((  void (*) (UnityEvent_2_t288024100 *, const MethodInfo*))UnityEvent_2__ctor_m1882042566_gshared)(__this, method)
+// System.Void Wikitude.Frame::.ctor(System.IntPtr,System.Int32,System.Int32,System.Int32,Wikitude.FrameColorSpace,System.Boolean,Wikitude.FrameStrides)
+extern "C"  void Frame__ctor_m741861989 (Frame_t1875945745 * __this, IntPtr_t ___data0, int32_t ___dataSize1, int32_t ___width2, int32_t ___height3, int32_t ___colorSpace4, bool ___hasStrides5, FrameStrides_t204969663  ___strides6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ImageTracker/OnExtendedTrackingQualityChangedEvent::.ctor()
+extern "C"  void OnExtendedTrackingQualityChangedEvent__ctor_m2261393213 (OnExtendedTrackingQualityChangedEvent_t1461804644 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TargetSourceType Wikitude.ImageTracker::get_TargetSourceType()
+extern "C"  int32_t ImageTracker_get_TargetSourceType_m2277370188 (ImageTracker_t1984565635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TargetCollectionResource Wikitude.ImageTracker::get_TargetCollectionResource()
+extern "C"  TargetCollectionResource_t3980041541 * ImageTracker_get_TargetCollectionResource_m2548518796 (ImageTracker_t1984565635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.CloudRecognitionService Wikitude.ImageTracker::get_CloudRecognitionService()
+extern "C"  CloudRecognitionService_t1970555431 * ImageTracker_get_CloudRecognitionService_m2673884942 (ImageTracker_t1984565635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Behaviour::get_enabled()
+extern "C"  bool Behaviour_get_enabled_m4079055610 (Behaviour_t955675639 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::RegisterTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_RegisterTracker_m2020059202 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TargetSource Wikitude.ImageTracker::get_TargetSource()
+extern "C"  TargetSource_t1091527250 * ImageTracker_get_TargetSource_m1015604748 (ImageTracker_t1984565635 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ImageTracker::set_IsRegistered(System.Boolean)
+extern "C"  void ImageTracker_set_IsRegistered_m965589244 (ImageTracker_t1984565635 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.InstantTracker/OnStateChangedEvent::.ctor()
+extern "C"  void OnStateChangedEvent__ctor_m2487375927 (OnStateChangedEvent_t3227093256 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.InstantTrackingState>::.ctor()
+#define UnityEvent_1__ctor_m2647432136(__this, method) ((  void (*) (UnityEvent_1_t4106607218 *, const MethodInfo*))UnityEvent_1__ctor_m2647432136_gshared)(__this, method)
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateWikitudeNativeSDK(System.String,System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateWikitudeNativeSDK_m2397249553 (Il2CppObject * __this /* static, unused */, String_t* ___licenseKey0, String_t* ___trackerManagerName1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyWikitudeNativeSDK()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyWikitudeNativeSDK_m1653914265 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetRenderTargetTextureId(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetRenderTargetTextureId_m2661468978 (Il2CppObject * __this /* static, unused */, int32_t ___offscreenRenderingTextureId0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StartWikitudeNativeSDK()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StartWikitudeNativeSDK_m536805819 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_Update()
+extern "C"  void iOSBridge_UnityWikitudeBridge_Update_m1419574291 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopWikitudeNativeSDK()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopWikitudeNativeSDK_m254589771 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.ScreenOrientation UnityEngine.Screen::get_orientation()
+extern "C"  int32_t Screen_get_orientation_m879255848 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetOrientation()
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetOrientation_m171203588 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateTargetCollectionResource(System.String,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateTargetCollectionResource_m896238017 (Il2CppObject * __this /* static, unused */, String_t* ___path0, int64_t ___identifier1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateCloudRecognitionService(System.String,System.String,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateCloudRecognitionService_m3150622509 (Il2CppObject * __this /* static, unused */, String_t* ___clientToken0, String_t* ___targetCollectionId1, int64_t ___identifier2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource_m1569779506 (Il2CppObject * __this /* static, unused */, String_t* ___extendedTargets0, int64_t ___targetCollectionResourceIdentifier1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService(System.Int64,System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService_m2997067396 (Il2CppObject * __this /* static, unused */, int64_t ___cloudRecognitionServiceIdentifier0, String_t* ___extendedTargets1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource_m1856250154 (Il2CppObject * __this /* static, unused */, int64_t ___targetCollectionResourceIdentifier0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateInstantTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateInstantTracker_m766649783 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopExtendedTracking()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopExtendedTracking_m3921159882 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyTargetCollectionResource(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyTargetCollectionResource_m1211578467 (Il2CppObject * __this /* static, unused */, int64_t ___identifier0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyCloudRecognitionService(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyCloudRecognitionService_m3360624429 (Il2CppObject * __this /* static, unused */, int64_t ___identifier0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyImageTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyImageTracker_m2078517847 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyObjectTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyObjectTracker_m2170236049 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyInstantTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyInstantTracker_m1039377987 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_Recognize(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_Recognize_m70916884 (Il2CppObject * __this /* static, unused */, int64_t ___id0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StartContinuousRecognition(System.Double,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_StartContinuousRecognition_m1407849936 (Il2CppObject * __this /* static, unused */, double ___interval0, int64_t ___id1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopContinuousRecognition(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopContinuousRecognition_m33518378 (Il2CppObject * __this /* static, unused */, int64_t ___id0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCloudRecognitionServerRegion(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCloudRecognitionServerRegion_m3641536258 (Il2CppObject * __this /* static, unused */, int32_t ___region0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetState(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetState_m113129038 (Il2CppObject * __this /* static, unused */, int32_t ___state0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetDeviceHeightAboveGround(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetDeviceHeightAboveGround_m2223752448 (Il2CppObject * __this /* static, unused */, float ___height0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StartTrackingMapRecording()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StartTrackingMapRecording_m821848692 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopTrackingMapRecording(System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopTrackingMapRecording_m1976239816 (Il2CppObject * __this /* static, unused */, String_t* ___trackingMapName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureDevicePosition()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureDevicePosition_m1456125235 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureDevicePosition(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureDevicePosition_m25059136 (Il2CppObject * __this /* static, unused */, int32_t ___newDevicePosition0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureFocusMode()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureFocusMode_m957742221 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureFocusMode(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureFocusMode_m787961096 (Il2CppObject * __this /* static, unused */, int32_t ___newFocusMode0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetManualFocusDistance(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetManualFocusDistance_m1483009596 (Il2CppObject * __this /* static, unused */, float ___newFocusDistance0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureAutoFocusRestriction()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureAutoFocusRestriction_m3957483673 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureAutoFocusRestriction(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureAutoFocusRestriction_m880063592 (Il2CppObject * __this /* static, unused */, int32_t ___newAutoFocusRestriction0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureZoomLevel()
+extern "C"  float iOSBridge_UnityWikitudeBridge_GetCaptureZoomLevel_m425130043 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureZoomLevel(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureZoomLevel_m2312366718 (Il2CppObject * __this /* static, unused */, float ___newZoomLevel0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureMaxZoomLevel()
+extern "C"  float iOSBridge_UnityWikitudeBridge_GetCaptureMaxZoomLevel_m2694167851 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureFlashMode()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureFlashMode_m1818447533 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureFlashMode(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureFlashMode_m3137902870 (Il2CppObject * __this /* static, unused */, int32_t ___newFlashMode0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.iOSBridge::UnityWikitudeBridge_GetCameraInfo(System.Int32,System.Int32,System.Int32)
+extern "C"  String_t* iOSBridge_UnityWikitudeBridge_GetCameraInfo_m1635814863 (Il2CppObject * __this /* static, unused */, int32_t ___devicePosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureDeviceResolution(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureDeviceResolution_m239589031 (Il2CppObject * __this /* static, unused */, int32_t ___resolutionMode0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureDeviceFramerate(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureDeviceFramerate_m13371330 (Il2CppObject * __this /* static, unused */, int32_t ___framerateMode0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.iOSBridge::UnityWikitudeBridge_GetTrackingData()
+extern "C"  String_t* iOSBridge_UnityWikitudeBridge_GetTrackingData_m2591530794 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetProjectionMatrix(System.IntPtr,System.Int32,System.Int32&)
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetProjectionMatrix_m2516495030 (Il2CppObject * __this /* static, unused */, IntPtr_t ___buffer0, int32_t ___length1, int32_t* ___written2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr System.Runtime.InteropServices.Marshal::AllocHGlobal(System.Int32)
+extern "C"  IntPtr_t Marshal_AllocHGlobal_m4258042074 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.InteropServices.Marshal::Copy(System.IntPtr,System.Single[],System.Int32,System.Int32)
+extern "C"  void Marshal_Copy_m2353359830 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, SingleU5BU5D_t577127397* p1, int32_t p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Runtime.InteropServices.Marshal::FreeHGlobal(System.IntPtr)
+extern "C"  void Marshal_FreeHGlobal_m2238467479 (Il2CppObject * __this /* static, unused */, IntPtr_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetTrackingMatrix(System.IntPtr,System.Int32,System.Int32&)
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetTrackingMatrix_m1005168534 (Il2CppObject * __this /* static, unused */, IntPtr_t ___buffer0, int32_t ___length1, int32_t* ___written2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_RegisterPlugin(System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_RegisterPlugin_m548082010 (Il2CppObject * __this /* static, unused */, String_t* ___pluginManagerName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DeregisterPlugin()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DeregisterPlugin_m3451764947 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.iOSBridge::UnityWikitudeBridge_GetCameraFrame(System.IntPtr)
+extern "C"  bool iOSBridge_UnityWikitudeBridge_GetCameraFrame_m3390664070 (Il2CppObject * __this /* static, unused */, IntPtr_t ___frame0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_RegisterInputPlugin()
+extern "C"  void iOSBridge_UnityWikitudeBridge_RegisterInputPlugin_m2500086488 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DeregisterInputPlugin()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DeregisterInputPlugin_m1813219309 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_NewCameraFrame(System.Int32,System.Int32,System.IntPtr)
+extern "C"  void iOSBridge_UnityWikitudeBridge_NewCameraFrame_m1951282856 (Il2CppObject * __this /* static, unused */, int32_t ___frameIndex0, int32_t ___frameDataSize1, IntPtr_t ___frameData2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_EnableMirroring(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_EnableMirroring_m1118752557 (Il2CppObject * __this /* static, unused */, bool ___mirroring0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetInvertedFrame(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetInvertedFrame_m1604625433 (Il2CppObject * __this /* static, unused */, bool ___invertedFrame0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetMirroredFrame(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetMirroredFrame_m1617266128 (Il2CppObject * __this /* static, unused */, bool ___mirroredFrame0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetFrameColorSpace(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetFrameColorSpace_m2655946837 (Il2CppObject * __this /* static, unused */, int32_t ___colorSpace0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetFrameSize(System.Int32,System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetFrameSize_m4016496082 (Il2CppObject * __this /* static, unused */, int32_t ___frameWidth0, int32_t ___frameHeight1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetHorizontalAngle(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetHorizontalAngle_m1848099742 (Il2CppObject * __this /* static, unused */, float ___horizontalAngle0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetInputFrameRendering(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetInputFrameRendering_m909331956 (Il2CppObject * __this /* static, unused */, bool ___frameRendering0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 Wikitude.iOSBridge::UnityWikitudeBridge_GetPresentableInputFrameIndex()
+extern "C"  int64_t iOSBridge_UnityWikitudeBridge_GetPresentableInputFrameIndex_m1385079921 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.iOSBridge::UnityWikitudeBridge_GetSDKBuildInformation()
+extern "C"  String_t* iOSBridge_UnityWikitudeBridge_GetSDKBuildInformation_m231168495 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TargetCollectionResource Wikitude.ObjectTracker::get_TargetCollectionResource()
+extern "C"  TargetCollectionResource_t3980041541 * ObjectTracker_get_TargetCollectionResource_m2256738650 (ObjectTracker_t2437699105 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.ObjectTracker::set_IsRegistered(System.Boolean)
+extern "C"  void ObjectTracker_set_IsRegistered_m3748167190 (ObjectTracker_t2437699105 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.PluginManager/OnCameraFrameAvailableEvent::.ctor()
+extern "C"  void OnCameraFrameAvailableEvent__ctor_m3324503546 (OnCameraFrameAvailableEvent_t2791441841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.PluginManager/OnPluginFailureEvent::.ctor()
+extern "C"  void OnPluginFailureEvent__ctor_m346361142 (OnPluginFailureEvent_t2397520937 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+extern "C"  void MonoBehaviour__ctor_m2464341955 (MonoBehaviour_t1158329972 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Object::FindObjectOfType<Wikitude.TrackerManager>()
+#define Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926(__this /* static, unused */, method) ((  TrackerManager_t130000407 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m318039589_gshared)(__this /* static, unused */, method)
+// Wikitude.IPlatformBridge Wikitude.TrackerManager::get_Bridge()
+extern "C"  Il2CppObject * TrackerManager_get_Bridge_m2366636098 (TrackerManager_t130000407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Object::get_name()
+extern "C"  String_t* Object_get_name_m2079638459 (Object_t1021602117 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.Frame>::Invoke(!0)
+#define UnityEvent_1_Invoke_m3773679785(__this, p0, method) ((  void (*) (UnityEvent_1_t1914295760 *, Frame_t1875945745 , const MethodInfo*))UnityEvent_1_Invoke_m3773679785_gshared)(__this, p0, method)
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.Frame>::.ctor()
+#define UnityEvent_1__ctor_m2485796384(__this, method) ((  void (*) (UnityEvent_1_t1914295760 *, const MethodInfo*))UnityEvent_1__ctor_m2485796384_gshared)(__this, method)
+// System.Void Wikitude.TargetCollectionResource/OnFinishLoadingEvent::.ctor()
+extern "C"  void OnFinishLoadingEvent__ctor_m3149851737 (OnFinishLoadingEvent_t1372070578 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetCollectionResource/OnErrorLoadingEvent::.ctor()
+extern "C"  void OnErrorLoadingEvent__ctor_m386438742 (OnErrorLoadingEvent_t706169873 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::RegisterTargetCollectionResource(Wikitude.TargetCollectionResource)
+extern "C"  void TrackerManager_RegisterTargetCollectionResource_m2791948291 (TrackerManager_t130000407 * __this, TargetCollectionResource_t3980041541 * ___targetCollectionResource0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TargetCollectionResource::get_UseCustomURL()
+extern "C"  bool TargetCollectionResource_get_UseCustomURL_m2921373144 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.TargetCollectionResource::get_TargetPath()
+extern "C"  String_t* TargetCollectionResource_get_TargetPath_m1881874034 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.TargetCollectionResource::GetFullPathFromStreamingAssetsPath(System.String)
+extern "C"  String_t* TargetCollectionResource_GetFullPathFromStreamingAssetsPath_m1606554941 (Il2CppObject * __this /* static, unused */, String_t* ___filePath0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
+extern "C"  int32_t Application_get_platform_m3989224144 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String UnityEngine.Application::get_dataPath()
+extern "C"  String_t* Application_get_dataPath_m371940330 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.String,System.String,System.String,System.String)
+extern "C"  String_t* String_Concat_m1561703559 (Il2CppObject * __this /* static, unused */, String_t* p0, String_t* p1, String_t* p2, String_t* p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetSource::set_Identifier(System.Int64)
+extern "C"  void TargetSource_set_Identifier_m1008862427 (TargetSource_t1091527250 * __this, int64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TargetSource::get_IsRegistered()
+extern "C"  bool TargetSource_get_IsRegistered_m3126008996 (TargetSource_t1091527250 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TargetSource::set_IsRegistered(System.Boolean)
+extern "C"  void TargetSource_set_IsRegistered_m3950123339 (TargetSource_t1091527250 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackableBehaviour/OnEnterFieldOfVisionEvent::.ctor()
+extern "C"  void OnEnterFieldOfVisionEvent__ctor_m2360711846 (OnEnterFieldOfVisionEvent_t3362888889 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackableBehaviour/OnExitFieldOfVisionEvent::.ctor()
+extern "C"  void OnExitFieldOfVisionEvent__ctor_m1744751172 (OnExitFieldOfVisionEvent_t2513344377 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+extern "C"  GameObject_t1756533147 * Component_get_gameObject_m3105766835 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+extern "C"  void GameObject_SetActive_m2887581199 (GameObject_t1756533147 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.RegularExpressions.Match System.Text.RegularExpressions.Regex::Match(System.String)
+extern "C"  Match_t3164245899 * Regex_Match_m3287354872 (Regex_t1803876613 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Text.RegularExpressions.Group::get_Success()
+extern "C"  bool Group_get_Success_m2001463544 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.RegularExpressions.Regex Wikitude.TrackableBehaviour::GetRegexFromTargetPattern(System.String)
+extern "C"  Regex_t1803876613 * TrackableBehaviour_GetRegexFromTargetPattern_m2346248314 (Il2CppObject * __this /* static, unused */, String_t* ___pattern0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Transform UnityEngine.Component::get_transform()
+extern "C"  Transform_t3275118058 * Component_get_transform_m2697483695 (Component_t3819376471 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_localScale()
+extern "C"  Vector3_t2243707580  Transform_get_localScale_m3074381503 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Mathf::Approximately(System.Single,System.Single)
+extern "C"  bool Mathf_Approximately_m1064446634 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Debug::LogWarning(System.Object)
+extern "C"  void Debug_LogWarning_m2503577968 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TrackableBehaviour::RegisterToTracker()
+extern "C"  bool TrackableBehaviour_RegisterToTracker_m996911205 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponentInParent<Wikitude.TrackerBehaviour>()
+#define Component_GetComponentInParent_TisTrackerBehaviour_t3845512381_m1037918205(__this, method) ((  TrackerBehaviour_t3845512381 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponentInParent_TisIl2CppObject_m2509612665_gshared)(__this, method)
+// System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Inequality_m2402264703 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::NewTrackableAvailable(Wikitude.TrackableBehaviour)
+extern "C"  void TrackerBehaviour_NewTrackableAvailable_m2356705656 (TrackerBehaviour_t3845512381 * __this, TrackableBehaviour_t3643631172 * ___trackable0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Replace(System.String,System.String)
+extern "C"  String_t* String_Replace_m1941156251 (String_t* __this, String_t* p0, String_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Text.RegularExpressions.Regex::.ctor(System.String)
+extern "C"  void Regex__ctor_m2794328522 (Regex_t1803876613 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
+extern "C"  bool Object_op_Equality_m3764089466 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, Object_t1021602117 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Shader UnityEngine.Shader::Find(System.String)
+extern "C"  Shader_t2430389951 * Shader_Find_m4179408078 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::.ctor(UnityEngine.Shader)
+extern "C"  void Material__ctor_m1897560860 (Material_t193706927 * __this, Shader_t2430389951 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Material::set_mainTexture(UnityEngine.Texture)
+extern "C"  void Material_set_mainTexture_m3584203343 (Material_t193706927 * __this, Texture_t2243626319 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.GameObject UnityEngine.GameObject::CreatePrimitive(UnityEngine.PrimitiveType)
+extern "C"  GameObject_t1756533147 * GameObject_CreatePrimitive_m973880764 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.MeshFilter>()
+#define GameObject_GetComponent_TisMeshFilter_t3026937449_m73955417(__this, method) ((  MeshFilter_t3026937449 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_GetComponent_TisIl2CppObject_m2812611596_gshared)(__this, method)
+// UnityEngine.Mesh UnityEngine.MeshFilter::get_sharedMesh()
+extern "C"  Mesh_t1356156583 * MeshFilter_get_sharedMesh_m1310789932 (MeshFilter_t3026937449 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Object::DestroyImmediate(UnityEngine.Object)
+extern "C"  void Object_DestroyImmediate_m95027445 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Material Wikitude.TrackableBehaviour::get_PreviewMaterial()
+extern "C"  Material_t193706927 * TrackableBehaviour_get_PreviewMaterial_m3813596926 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Material::SetPass(System.Int32)
+extern "C"  bool Material_SetPass_m2448940266 (Material_t193706927 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_lossyScale()
+extern "C"  Vector3_t2243707580  Transform_get_lossyScale_m1638545862 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Mesh Wikitude.TrackableBehaviour::get_PreviewMesh()
+extern "C"  Mesh_t1356156583 * TrackableBehaviour_get_PreviewMesh_m3153081854 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+extern "C"  Vector3_t2243707580  Transform_get_position_m1104419803 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Transform::get_rotation()
+extern "C"  Quaternion_t4030073918  Transform_get_rotation_m1033555130 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::TRS(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_TRS_m1913765359 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Quaternion_t4030073918  p1, Vector3_t2243707580  p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Graphics::DrawMeshNow(UnityEngine.Mesh,UnityEngine.Matrix4x4)
+extern "C"  void Graphics_DrawMeshNow_m150453421 (Il2CppObject * __this /* static, unused */, Mesh_t1356156583 * p0, Matrix4x4_t2933234003  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.HashSet`1<Wikitude.TrackableBehaviour>::.ctor()
+#define HashSet_1__ctor_m3001600831(__this, method) ((  void (*) (HashSet_1_t1977092026 *, const MethodInfo*))HashSet_1__ctor_m2858247305_gshared)(__this, method)
+// System.Void Wikitude.TrackerBehaviour/OnTargetsLoadedEvent::.ctor()
+extern "C"  void OnTargetsLoadedEvent__ctor_m4153023689 (OnTargetsLoadedEvent_t3080540202 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour/OnErrorLoadingTargetsEvent::.ctor()
+extern "C"  void OnErrorLoadingTargetsEvent__ctor_m2029488116 (OnErrorLoadingTargetsEvent_t3800749431 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Transform::IsChildOf(UnityEngine.Transform)
+extern "C"  bool Transform_IsChildOf_m10844547 (Transform_t3275118058 * __this, Transform_t3275118058 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.HashSet`1<Wikitude.TrackableBehaviour>::Add(!0)
+#define HashSet_1_Add_m1418204619(__this, p0, method) ((  bool (*) (HashSet_1_t1977092026 *, TrackableBehaviour_t3643631172 *, const MethodInfo*))HashSet_1_Add_m199171953_gshared)(__this, p0, method)
+// System.Void Wikitude.TrackableBehaviour::set_IsKnown(System.Boolean)
+extern "C"  void TrackableBehaviour_set_IsKnown_m1885135104 (TrackableBehaviour_t3643631172 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Object::FindObjectOfType<Wikitude.WikitudeCamera>()
+#define Object_FindObjectOfType_TisWikitudeCamera_t2517845841_m4292550126(__this /* static, unused */, method) ((  WikitudeCamera_t2517845841 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m318039589_gshared)(__this /* static, unused */, method)
+// System.Boolean UnityEngine.Object::op_Implicit(UnityEngine.Object)
+extern "C"  bool Object_op_Implicit_m2856731593 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Camera>()
+#define Component_GetComponent_TisCamera_t189460977_m3276577584(__this, method) ((  Camera_t189460977 * (*) (Component_t3819376471 *, const MethodInfo*))Component_GetComponent_TisIl2CppObject_m4109961936_gshared)(__this, method)
+// System.Void Wikitude.TrackerBehaviour::set_Initialized(System.Boolean)
+extern "C"  void TrackerBehaviour_set_Initialized_m2844942718 (TrackerBehaviour_t3845512381 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::ActivateTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_ActivateTracker_m3608901866 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::DeactivateTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_DeactivateTracker_m2599315795 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.HashSet`1/Enumerator<!0> System.Collections.Generic.HashSet`1<Wikitude.TrackableBehaviour>::GetEnumerator()
+#define HashSet_1_GetEnumerator_m3576409150(__this, method) ((  Enumerator_t465407868  (*) (HashSet_1_t1977092026 *, const MethodInfo*))HashSet_1_GetEnumerator_m2393522520_gshared)(__this, method)
+// !0 System.Collections.Generic.HashSet`1/Enumerator<Wikitude.TrackableBehaviour>::get_Current()
+#define Enumerator_get_Current_m3502568190(__this, method) ((  TrackableBehaviour_t3643631172 * (*) (Enumerator_t465407868 *, const MethodInfo*))Enumerator_get_Current_m1303936404_gshared)(__this, method)
+// System.Boolean Wikitude.TrackableBehaviour::get_IsKnown()
+extern "C"  bool TrackableBehaviour_get_IsKnown_m2115746579 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.HashSet`1/Enumerator<Wikitude.TrackableBehaviour>::MoveNext()
+#define Enumerator_MoveNext_m2889518444(__this, method) ((  bool (*) (Enumerator_t465407868 *, const MethodInfo*))Enumerator_MoveNext_m2097560514_gshared)(__this, method)
+// System.Void System.Collections.Generic.HashSet`1/Enumerator<Wikitude.TrackableBehaviour>::Dispose()
+#define Enumerator_Dispose_m124679713(__this, method) ((  void (*) (Enumerator_t465407868 *, const MethodInfo*))Enumerator_Dispose_m2585752265_gshared)(__this, method)
+// System.Void System.Text.StringBuilder::.ctor()
+extern "C"  void StringBuilder__ctor_m3946851802 (StringBuilder_t1221177846 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+extern "C"  StringBuilder_t1221177846 * StringBuilder_Append_m3636508479 (StringBuilder_t1221177846 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Single::ToString()
+extern "C"  String_t* Single_ToString_m1813392066 (float* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TrackableBehaviour::IncludesTargetName(System.String)
+extern "C"  bool TrackableBehaviour_IncludesTargetName_m1559597026 (TrackableBehaviour_t3643631172 * __this, String_t* ___targetName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::UpdateTrackingForTrackable(Wikitude.TrackableBehaviour,System.Single[],System.Single[])
+extern "C"  void TrackerBehaviour_UpdateTrackingForTrackable_m2387308168 (TrackerBehaviour_t3845512381 * __this, TrackableBehaviour_t3643631172 * ___trackable0, SingleU5BU5D_t577127397* ___targetModelViewMatrix1, SingleU5BU5D_t577127397* ___projectionMatrix2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.HashSet`1<System.String>::.ctor()
+#define HashSet_1__ctor_m3939180071(__this, method) ((  void (*) (HashSet_1_t362681087 *, const MethodInfo*))HashSet_1__ctor_m2858247305_gshared)(__this, method)
+// System.Boolean Wikitude.TrackableBehaviour::get_ExtendedTracking()
+extern "C"  bool TrackableBehaviour_get_ExtendedTracking_m2116566286 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String[] Wikitude.TrackableBehaviour::get_TargetsForExtendedTracking()
+extern "C"  StringU5BU5D_t1642385972* TrackableBehaviour_get_TargetsForExtendedTracking_m4004032682 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.HashSet`1<System.String>::Add(!0)
+#define HashSet_1_Add_m35300443(__this, p0, method) ((  bool (*) (HashSet_1_t362681087 *, String_t*, const MethodInfo*))HashSet_1_Add_m199171953_gshared)(__this, p0, method)
+// System.Collections.Generic.HashSet`1/Enumerator<!0> System.Collections.Generic.HashSet`1<System.String>::GetEnumerator()
+#define HashSet_1_GetEnumerator_m3458377458(__this, method) ((  Enumerator_t3145964225  (*) (HashSet_1_t362681087 *, const MethodInfo*))HashSet_1_GetEnumerator_m2393522520_gshared)(__this, method)
+// !0 System.Collections.Generic.HashSet`1/Enumerator<System.String>::get_Current()
+#define Enumerator_get_Current_m1312363686(__this, method) ((  String_t* (*) (Enumerator_t3145964225 *, const MethodInfo*))Enumerator_get_Current_m1303936404_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.HashSet`1/Enumerator<System.String>::MoveNext()
+#define Enumerator_MoveNext_m2906651588(__this, method) ((  bool (*) (Enumerator_t3145964225 *, const MethodInfo*))Enumerator_MoveNext_m2097560514_gshared)(__this, method)
+// System.Void System.Collections.Generic.HashSet`1/Enumerator<System.String>::Dispose()
+#define Enumerator_Dispose_m3599713869(__this, method) ((  void (*) (Enumerator_t3145964225 *, const MethodInfo*))Enumerator_Dispose_m2585752265_gshared)(__this, method)
+// System.Boolean System.Single::IsNaN(System.Single)
+extern "C"  bool Single_IsNaN_m2349591895 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Single::IsInfinity(System.Single)
+extern "C"  bool Single_IsInfinity_m3331110346 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector3::get_Item(System.Int32)
+extern "C"  float Vector3_get_Item_m3616014016 (Vector3_t2243707580 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::ResetProjectionMatrix()
+extern "C"  void Camera_ResetProjectionMatrix_m1590089547 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TrackerBehaviour::CheckMatrix(System.Single[])
+extern "C"  bool TrackerBehaviour_CheckMatrix_m3778587046 (TrackerBehaviour_t3845512381 * __this, SingleU5BU5D_t577127397* ___m0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TrackerBehaviour::CheckVector(UnityEngine.Vector3)
+extern "C"  bool TrackerBehaviour_CheckVector_m129001964 (TrackerBehaviour_t3845512381 * __this, Vector3_t2243707580  ___v0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
+extern "C"  void Transform_set_position_m2469242620 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
+extern "C"  void Transform_set_rotation_m3411284563 (Transform_t3275118058 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 Wikitude.TrackerBehaviour::CreateTransposeMatrix(System.Single[])
+extern "C"  Matrix4x4_t2933234003  TrackerBehaviour_CreateTransposeMatrix_m1567886776 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___matrixElements0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Inverse(UnityEngine.Matrix4x4)
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_Inverse_m146029241 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
+extern "C"  void Vector3__ctor_m2638739322 (Vector3_t2243707580 * __this, float p0, float p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Matrix4x4::MultiplyPoint(UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Matrix4x4_MultiplyPoint_m2903385193 (Matrix4x4_t2933234003 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Subtraction(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Vector3_t2243707580  Vector3_op_Subtraction_m2407545601 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
+extern "C"  Vector3_t2243707580  Vector3_get_normalized_m936072361 (Vector3_t2243707580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Plane::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  void Plane__ctor_m3187718367 (Plane_t3727654732 * __this, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Ray::.ctor(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  void Ray__ctor_m3379034047 (Ray_t2469606224 * __this, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Plane::Raycast(UnityEngine.Ray,System.Single&)
+extern "C"  bool Plane_Raycast_m2870142810 (Plane_t3727654732 * __this, Ray_t2469606224  p0, float* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Ray::GetPoint(System.Single)
+extern "C"  Vector3_t2243707580  Ray_GetPoint_m1353702366 (Ray_t2469606224 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector3::Angle(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  float Vector3_Angle_m2552334978 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_fieldOfView(System.Single)
+extern "C"  void Camera_set_fieldOfView_m3974156396 (Camera_t189460977 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::LookRotation(UnityEngine.Vector3,UnityEngine.Vector3)
+extern "C"  Quaternion_t4030073918  Quaternion_LookRotation_m700700634 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, Vector3_t2243707580  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::DecomposeMatrix(UnityEngine.Matrix4x4&,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
+extern "C"  void TrackerBehaviour_DecomposeMatrix_m2787587183 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, Vector3_t2243707580 * ___localPosition1, Quaternion_t4030073918 * ___localRotation2, Vector3_t2243707580 * ___localScale3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Transform::get_localToWorldMatrix()
+extern "C"  Matrix4x4_t2933234003  Transform_get_localToWorldMatrix_m2868579006 (Transform_t3275118058 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::get_identity()
+extern "C"  Quaternion_t4030073918  Quaternion_get_identity_m1561886418 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
+extern "C"  Vector3_t2243707580  Vector3_get_zero_m1527993324 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::Euler(UnityEngine.Vector3)
+extern "C"  Quaternion_t4030073918  Quaternion_Euler_m3586339259 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::get_one()
+extern "C"  Vector3_t2243707580  Vector3_get_one_m627547232 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::op_Multiply(UnityEngine.Matrix4x4,UnityEngine.Matrix4x4)
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_op_Multiply_m2352863493 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  p0, Matrix4x4_t2933234003  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector3::get_magnitude()
+extern "C"  float Vector3_get_magnitude_m860342598 (Vector3_t2243707580 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
+extern "C"  Vector3_t2243707580  Vector3_op_Multiply_m1351554733 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::Inverse(UnityEngine.Quaternion)
+extern "C"  Quaternion_t4030073918  Quaternion_Inverse_m3931399088 (Il2CppObject * __this /* static, unused */, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion UnityEngine.Quaternion::op_Multiply(UnityEngine.Quaternion,UnityEngine.Quaternion)
+extern "C"  Quaternion_t4030073918  Quaternion_op_Multiply_m2426727589 (Il2CppObject * __this /* static, unused */, Quaternion_t4030073918  p0, Quaternion_t4030073918  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Quaternion::ToAngleAxis(System.Single&,UnityEngine.Vector3&)
+extern "C"  void Quaternion_ToAngleAxis_m2980929840 (Quaternion_t4030073918 * __this, float* p0, Vector3_t2243707580 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern "C"  void Transform_RotateAround_m3410686872 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, Vector3_t2243707580  p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.CaptureDevicePosition Wikitude.WikitudeCamera::get_CachedDevicePosition()
+extern "C"  int32_t WikitudeCamera_get_CachedDevicePosition_m3884201334 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.WikitudeCamera::get_EnableInputPlugin()
+extern "C"  bool WikitudeCamera_get_EnableInputPlugin_m406055397 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.WikitudeCamera::get_EnableMirroring()
+extern "C"  bool WikitudeCamera_get_EnableMirroring_m1667990379 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Camera::get_projectionMatrix()
+extern "C"  Matrix4x4_t2933234003  Camera_get_projectionMatrix_m2365994324 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Matrix4x4 UnityEngine.Matrix4x4::Scale(UnityEngine.Vector3)
+extern "C"  Matrix4x4_t2933234003  Matrix4x4_Scale_m3010328774 (Il2CppObject * __this /* static, unused */, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_projectionMatrix(UnityEngine.Matrix4x4)
+extern "C"  void Camera_set_projectionMatrix_m2059836755 (Camera_t189460977 * __this, Matrix4x4_t2933234003  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Matrix4x4::get_Item(System.Int32,System.Int32)
+extern "C"  float Matrix4x4_get_Item_m312280350 (Matrix4x4_t2933234003 * __this, int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Max(System.Single,System.Single)
+extern "C"  float Mathf_Max_m2564622569 (Il2CppObject * __this /* static, unused */, float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Mathf::Sign(System.Single)
+extern "C"  float Mathf_Sign_m2039143327 (Il2CppObject * __this /* static, unused */, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Vector4::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Vector4__ctor_m1222289168 (Vector4_t2243707581 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Single UnityEngine.Vector4::get_magnitude()
+extern "C"  float Vector4_get_magnitude_m4049434951 (Vector4_t2243707581 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 Wikitude.TrackerBehaviour::ExtractTranslationFromMatrix(UnityEngine.Matrix4x4&)
+extern "C"  Vector3_t2243707580  TrackerBehaviour_ExtractTranslationFromMatrix_m33075913 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Quaternion Wikitude.TrackerBehaviour::ExtractRotationFromMatrix(UnityEngine.Matrix4x4&)
+extern "C"  Quaternion_t4030073918  TrackerBehaviour_ExtractRotationFromMatrix_m2108707198 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Vector3 Wikitude.TrackerBehaviour::ExtractScaleFromMatrix(UnityEngine.Matrix4x4&)
+extern "C"  Vector3_t2243707580  TrackerBehaviour_ExtractScaleFromMatrix_m3339411538 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localPosition(UnityEngine.Vector3)
+extern "C"  void Transform_set_localPosition_m1026930133 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localRotation(UnityEngine.Quaternion)
+extern "C"  void Transform_set_localRotation_m2055111962 (Transform_t3275118058 * __this, Quaternion_t4030073918  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Transform::set_localScale(UnityEngine.Vector3)
+extern "C"  void Transform_set_localScale_m2325460848 (Transform_t3275118058 * __this, Vector3_t2243707580  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.TargetCollectionResource>::.ctor()
+#define Dictionary_2__ctor_m814659607(__this, method) ((  void (*) (Dictionary_2_t674592647 *, const MethodInfo*))Dictionary_2__ctor_m124580243_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.CloudRecognitionService>::.ctor()
+#define Dictionary_2__ctor_m4244851005(__this, method) ((  void (*) (Dictionary_2_t2960073833 *, const MethodInfo*))Dictionary_2__ctor_m124580243_gshared)(__this, method)
+// System.Void System.Collections.Generic.HashSet`1<Wikitude.TrackerBehaviour>::.ctor()
+#define HashSet_1__ctor_m4023455954(__this, method) ((  void (*) (HashSet_1_t2178973235 *, const MethodInfo*))HashSet_1__ctor_m2858247305_gshared)(__this, method)
+// System.Void UnityEngine.Object::set_name(System.String)
+extern "C"  void Object_set_name_m4157836998 (Object_t1021602117 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.HashSet`1<Wikitude.TrackerBehaviour>::Contains(!0)
+#define HashSet_1_Contains_m2536947452(__this, p0, method) ((  bool (*) (HashSet_1_t2178973235 *, TrackerBehaviour_t3845512381 *, const MethodInfo*))HashSet_1_Contains_m3626542335_gshared)(__this, p0, method)
+// System.Boolean System.Collections.Generic.HashSet`1<Wikitude.TrackerBehaviour>::Add(!0)
+#define HashSet_1_Add_m974438612(__this, p0, method) ((  bool (*) (HashSet_1_t2178973235 *, TrackerBehaviour_t3845512381 *, const MethodInfo*))HashSet_1_Add_m199171953_gshared)(__this, p0, method)
+// System.Boolean System.Collections.Generic.HashSet`1<Wikitude.TrackerBehaviour>::Remove(!0)
+#define HashSet_1_Remove_m1591137205(__this, p0, method) ((  bool (*) (HashSet_1_t2178973235 *, TrackerBehaviour_t3845512381 *, const MethodInfo*))HashSet_1_Remove_m3273285564_gshared)(__this, p0, method)
+// System.Void System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.TargetCollectionResource>::Add(!0,!1)
+#define Dictionary_2_Add_m956410223(__this, p0, p1, method) ((  void (*) (Dictionary_2_t674592647 *, int64_t, TargetCollectionResource_t3980041541 *, const MethodInfo*))Dictionary_2_Add_m2121235755_gshared)(__this, p0, p1, method)
+// System.Void Wikitude.TargetSource::OnInitialize(System.Int64)
+extern "C"  void TargetSource_OnInitialize_m1296212476 (TargetSource_t1091527250 * __this, int64_t ___identifier0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.CloudRecognitionService>::Add(!0,!1)
+#define Dictionary_2_Add_m3048792485(__this, p0, p1, method) ((  void (*) (Dictionary_2_t2960073833 *, int64_t, CloudRecognitionService_t1970555431 *, const MethodInfo*))Dictionary_2_Add_m2121235755_gshared)(__this, p0, p1, method)
+// Wikitude.TrackerBehaviour Wikitude.TrackerManager::get_ActiveTracker()
+extern "C"  TrackerBehaviour_t3845512381 * TrackerManager_get_ActiveTracker_m1187374465 (TrackerManager_t130000407 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Behaviour::set_enabled(System.Boolean)
+extern "C"  void Behaviour_set_enabled_m1796096907 (Behaviour_t955675639 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::set_ActiveTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_set_ActiveTracker_m672017744 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerBehaviour::TrackablesChanged(System.String,System.Single[],System.Single[])
+extern "C"  void TrackerBehaviour_TrackablesChanged_m2170920796 (TrackerBehaviour_t3845512381 * __this, String_t* ___targetName0, SingleU5BU5D_t577127397* ___targetModelViewMatrix1, SingleU5BU5D_t577127397* ___projectionMatrix2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::.ctor()
+#define Dictionary_2__ctor_m1473783684(__this, method) ((  void (*) (Dictionary_2_t3943999495 *, const MethodInfo*))Dictionary_2__ctor_m584589095_gshared)(__this, method)
+// System.String[] System.String::Split(System.Char[])
+extern "C"  StringU5BU5D_t1642385972* String_Split_m3326265864 (String_t* __this, CharU5BU5D_t1328083999* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::OnCameraOpen()
+extern "C"  void WikitudeCamera_OnCameraOpen_m2856637538 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::OnCameraReleased()
+extern "C"  void WikitudeCamera_OnCameraReleased_m1340763611 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Int64::TryParse(System.String,System.Int64&)
+extern "C"  bool Int64_TryParse_m948922810 (Il2CppObject * __this /* static, unused */, String_t* p0, int64_t* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.TargetCollectionResource>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m361276108(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t674592647 *, int64_t, TargetCollectionResource_t3980041541 **, const MethodInfo*))Dictionary_2_TryGetValue_m648333080_gshared)(__this, p0, p1, method)
+// System.Boolean Wikitude.TrackerManager/BridgeError::TryParse(System.String,Wikitude.TrackerManager/BridgeError&)
+extern "C"  bool BridgeError_TryParse_m142924107 (Il2CppObject * __this /* static, unused */, String_t* ___errorString0, BridgeError_t1312656103 ** ___error1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int64 Wikitude.TrackerManager/BridgeError::get_Identifier()
+extern "C"  int64_t BridgeError_get_Identifier_m3931369371 (BridgeError_t1312656103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 Wikitude.TrackerManager/BridgeError::get_Code()
+extern "C"  int32_t BridgeError_get_Code_m746748016 (BridgeError_t1312656103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.TrackerManager/BridgeError::get_Message()
+extern "C"  String_t* BridgeError_get_Message_m2219730143 (BridgeError_t1312656103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int64,Wikitude.CloudRecognitionService>::TryGetValue(!0,!1&)
+#define Dictionary_2_TryGetValue_m315289040(__this, p0, p1, method) ((  bool (*) (Dictionary_2_t2960073833 *, int64_t, CloudRecognitionService_t1970555431 **, const MethodInfo*))Dictionary_2_TryGetValue_m648333080_gshared)(__this, p0, p1, method)
+// System.Boolean System.Boolean::TryParse(System.String,System.Boolean&)
+extern "C"  bool Boolean_TryParse_m3918169608 (Il2CppObject * __this /* static, unused */, String_t* p0, bool* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.TrackerManager::SplitRecognizedTargetString(System.String)
+extern "C"  Il2CppObject* TrackerManager_SplitRecognizedTargetString_m2979317081 (TrackerManager_t130000407 * __this, String_t* ___messagePart0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionServiceResponse::.ctor()
+extern "C"  void CloudRecognitionServiceResponse__ctor_m3723954059 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionServiceResponse::set_Recognized(System.Boolean)
+extern "C"  void CloudRecognitionServiceResponse_set_Recognized_m1571720721 (CloudRecognitionServiceResponse_t1921450246 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionServiceResponse::set_Info(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudRecognitionServiceResponse_set_Info_m3522348696 (CloudRecognitionServiceResponse_t1921450246 * __this, Il2CppObject* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.CloudRecognitionServiceResponse::set_Metadata(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudRecognitionServiceResponse_set_Metadata_m2578804857 (CloudRecognitionServiceResponse_t1921450246 * __this, Il2CppObject* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.CloudRecognitionServiceResponse>::Invoke(!0)
+#define UnityEvent_1_Invoke_m3321447418(__this, p0, method) ((  void (*) (UnityEvent_1_t1959800261 *, CloudRecognitionServiceResponse_t1921450246 *, const MethodInfo*))UnityEvent_1_Invoke_m838874366_gshared)(__this, p0, method)
+// System.Boolean System.Double::TryParse(System.String,System.Double&)
+extern "C"  bool Double_TryParse_m3252018994 (Il2CppObject * __this /* static, unused */, String_t* p0, double* p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.RecordingQuality>::Invoke(!0)
+#define UnityEvent_1_Invoke_m554854286(__this, p0, method) ((  void (*) (UnityEvent_1_t2669044597 *, int32_t, const MethodInfo*))UnityEvent_1_Invoke_m554854286_gshared)(__this, p0, method)
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.InstantTrackingState>::Invoke(!0)
+#define UnityEvent_1_Invoke_m2518340491(__this, p0, method) ((  void (*) (UnityEvent_1_t4106607218 *, int32_t, const MethodInfo*))UnityEvent_1_Invoke_m2518340491_gshared)(__this, p0, method)
+// !!0 UnityEngine.Object::FindObjectOfType<Wikitude.PluginManager>()
+#define Object_FindObjectOfType_TisPluginManager_t3083232152_m711241675(__this /* static, unused */, method) ((  PluginManager_t3083232152 * (*) (Il2CppObject * /* static, unused */, const MethodInfo*))Object_FindObjectOfType_TisIl2CppObject_m318039589_gshared)(__this /* static, unused */, method)
+// System.Void Wikitude.TrackerManager/BridgeError::.ctor()
+extern "C"  void BridgeError__ctor_m1743601856 (BridgeError_t1312656103 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager/BridgeError::set_Code(System.Int32)
+extern "C"  void BridgeError_set_Code_m3705552305 (BridgeError_t1312656103 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager/BridgeError::set_Message(System.String)
+extern "C"  void BridgeError_set_Message_m2746795362 (BridgeError_t1312656103 * __this, String_t* ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager/BridgeError::set_Identifier(System.Int64)
+extern "C"  void BridgeError_set_Identifier_m2790866432 (BridgeError_t1312656103 * __this, int64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackingMapRecorder/OnRecordingFinishedEvent::.ctor()
+extern "C"  void OnRecordingFinishedEvent__ctor_m808671855 (OnRecordingFinishedEvent_t3200701272 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackingMapRecorder/OnRecordingErrorEvent::.ctor()
+extern "C"  void OnRecordingErrorEvent__ctor_m940947205 (OnRecordingErrorEvent_t89808920 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackingMapRecorder/OnRecordingQualityChangedEvent::.ctor()
+extern "C"  void OnRecordingQualityChangedEvent__ctor_m3180518964 (OnRecordingQualityChangedEvent_t3085246221 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Wikitude.TrackingMapRecorder::get_IsRecording()
+extern "C"  bool TrackingMapRecorder_get_IsRecording_m2758333232 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String Wikitude.TrackingMapRecorder::get_TrackingMapName()
+extern "C"  String_t* TrackingMapRecorder_get_TrackingMapName_m2963376828 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::StartTrackingMapRecording(Wikitude.TrackingMapRecorder)
+extern "C"  void TrackerManager_StartTrackingMapRecording_m3690073485 (TrackerManager_t130000407 * __this, TrackingMapRecorder_t746125273 * ___recorder0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackingMapRecorder::set_IsRecording(System.Boolean)
+extern "C"  void TrackingMapRecorder_set_IsRecording_m1396083731 (TrackingMapRecorder_t746125273 * __this, bool ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::StopTrackingMapRecording(System.String)
+extern "C"  void TrackerManager_StopTrackingMapRecording_m2588063534 (TrackerManager_t130000407 * __this, String_t* ___mapName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Events.UnityEvent`1<Wikitude.RecordingQuality>::.ctor()
+#define UnityEvent_1__ctor_m1516039913(__this, method) ((  void (*) (UnityEvent_1_t2669044597 *, const MethodInfo*))UnityEvent_1__ctor_m1516039913_gshared)(__this, method)
+// UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+extern "C"  GameObject_t1756533147 * GameObject_Find_m836511350 (Il2CppObject * __this /* static, unused */, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::SendMessage(System.String,System.Object)
+extern "C"  void GameObject_SendMessage_m2115020133 (GameObject_t1756533147 * __this, String_t* p0, Il2CppObject * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.Int32::ToString()
+extern "C"  String_t* Int32_ToString_m2960866144 (int32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GameObject::.ctor(System.String)
+extern "C"  void GameObject__ctor_m962601984 (GameObject_t1756533147 * __this, String_t* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !!0 UnityEngine.GameObject::AddComponent<Wikitude.TrackerManager>()
+#define GameObject_AddComponent_TisTrackerManager_t130000407_m1784357911(__this, method) ((  TrackerManager_t130000407 * (*) (GameObject_t1756533147 *, const MethodInfo*))GameObject_AddComponent_TisIl2CppObject_m3813873105_gshared)(__this, method)
+// System.Void Wikitude.TrackerManager::Init(Wikitude.IPlatformBridge)
+extern "C"  void TrackerManager_Init_m2330225541 (TrackerManager_t130000407 * __this, Il2CppObject * ___bridge0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.TrackerManager::UpdateRegisteredTrackableBehaviours(System.String,System.Single[],System.Single[])
+extern "C"  void TrackerManager_UpdateRegisteredTrackableBehaviours_m2845489404 (TrackerManager_t130000407 * __this, String_t* ___recognizedTarget0, SingleU5BU5D_t577127397* ___recognizedTargetModelViewMatrix1, SingleU5BU5D_t577127397* ___projectionMatrix2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Object::Destroy(UnityEngine.Object)
+extern "C"  void Object_Destroy_m4145850038 (Il2CppObject * __this /* static, unused */, Object_t1021602117 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera/OnInputPluginFailureEvent::.ctor()
+extern "C"  void OnInputPluginFailureEvent__ctor_m534235899 (OnInputPluginFailureEvent_t1715928524 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera/OnCameraFailureEvent::.ctor()
+extern "C"  void OnCameraFailureEvent__ctor_m3420298793 (OnCameraFailureEvent_t1753808034 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeBridge::.ctor()
+extern "C"  void WikitudeBridge__ctor_m188836880 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.IntPtr UnityEngine.Texture::GetNativeTexturePtr()
+extern "C"  IntPtr_t Texture_GetNativeTexturePtr_m292373493 (Texture_t2243626319 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 System.IntPtr::ToInt32()
+extern "C"  int32_t IntPtr_ToInt32_m4084182445 (IntPtr_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.IPlatformBridge Wikitude.WikitudeBridge::get_Platform()
+extern "C"  Il2CppObject * WikitudeBridge_get_Platform_m385314570 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// !0 System.Nullable`1<Wikitude.CaptureDevicePosition>::GetValueOrDefault()
+#define Nullable_1_GetValueOrDefault_m1020844738(__this, method) ((  int32_t (*) (Nullable_1_t3873599312 *, const MethodInfo*))Nullable_1_GetValueOrDefault_m1020844738_gshared)(__this, method)
+// System.Boolean System.Nullable`1<Wikitude.CaptureDevicePosition>::get_HasValue()
+#define Nullable_1_get_HasValue_m44130379(__this, method) ((  bool (*) (Nullable_1_t3873599312 *, const MethodInfo*))Nullable_1_get_HasValue_m44130379_gshared)(__this, method)
+// System.Void Wikitude.WikitudeCamera::UpdateRenderTexture(System.Int32,System.Int32,System.Int32)
+extern "C"  void WikitudeCamera_UpdateRenderTexture_m742998639 (WikitudeCamera_t2517845841 * __this, int32_t ___cameraPosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void System.Nullable`1<Wikitude.CaptureDevicePosition>::.ctor(!0)
+#define Nullable_1__ctor_m1745192376(__this, p0, method) ((  void (*) (Nullable_1_t3873599312 *, int32_t, const MethodInfo*))Nullable_1__ctor_m1745192376_gshared)(__this, p0, method)
+// !0 System.Nullable`1<Wikitude.CaptureDevicePosition>::get_Value()
+#define Nullable_1_get_Value_m457291595(__this, method) ((  int32_t (*) (Nullable_1_t3873599312 *, const MethodInfo*))Nullable_1_get_Value_m457291595_gshared)(__this, method)
+// System.Int32 Wikitude.WikitudeCamera::get_CameraTexturePointer()
+extern "C"  int32_t WikitudeCamera_get_CameraTexturePointer_m3968288832 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Application::get_targetFrameRate()
+extern "C"  int32_t Application_get_targetFrameRate_m4238966828 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
+extern "C"  void Application_set_targetFrameRate_m2941880625 (Il2CppObject * __this /* static, unused */, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Texture2D::.ctor(System.Int32,System.Int32,UnityEngine.TextureFormat,System.Boolean)
+extern "C"  void Texture2D__ctor_m1873923924 (Texture2D_t3542995729 * __this, int32_t p0, int32_t p1, int32_t p2, bool p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_white()
+extern "C"  Color_t2020392075  Color_get_white_m3987539815 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color32 UnityEngine.Color32::op_Implicit(UnityEngine.Color)
+extern "C"  Color32_t874517518  Color32_op_Implicit_m624191464 (Il2CppObject * __this /* static, unused */, Color_t2020392075  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.Color UnityEngine.Color::get_black()
+extern "C"  Color_t2020392075  Color_get_black_m2650940523 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Texture2D::SetPixels32(UnityEngine.Color32[])
+extern "C"  void Texture2D_SetPixels32_m2480505405 (Texture2D_t3542995729 * __this, Color32U5BU5D_t30278651* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Texture2D::Apply()
+extern "C"  void Texture2D_Apply_m3543341930 (Texture2D_t3542995729 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeBridge::Setup()
+extern "C"  void WikitudeBridge_Setup_m1700158283 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_DesiredCameraResolution(Wikitude.CaptureDeviceResolution)
+extern "C"  void WikitudeCamera_set_DesiredCameraResolution_m4196676054 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_DesiredCameraFramerate(Wikitude.CaptureDeviceFramerate)
+extern "C"  void WikitudeCamera_set_DesiredCameraFramerate_m889056006 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// Wikitude.TrackerManager Wikitude.WikitudeBridge::getTrackerManager()
+extern "C"  TrackerManager_t130000407 * WikitudeBridge_getTrackerManager_m2427654375 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_DevicePosition(Wikitude.CaptureDevicePosition)
+extern "C"  void WikitudeCamera_set_DevicePosition_m3373942233 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// UnityEngine.CameraClearFlags UnityEngine.Camera::get_clearFlags()
+extern "C"  int32_t Camera_get_clearFlags_m1743144302 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_clearFlags(UnityEngine.CameraClearFlags)
+extern "C"  void Camera_set_clearFlags_m4142614199 (Camera_t189460977 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean UnityEngine.Camera::get_orthographic()
+extern "C"  bool Camera_get_orthographic_m4205491841 (Camera_t189460977 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Camera::set_orthographic(System.Boolean)
+extern "C"  void Camera_set_orthographic_m2132888580 (Camera_t189460977 * __this, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::RegisterInputPlugin()
+extern "C"  void WikitudeCamera_RegisterInputPlugin_m2831757750 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeBridge::OnDestroy()
+extern "C"  void WikitudeBridge_OnDestroy_m2854918775 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_width()
+extern "C"  int32_t Screen_get_width_m41137238 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Int32 UnityEngine.Screen::get_height()
+extern "C"  int32_t Screen_get_height_m1051800773 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void Rect__ctor_m1220545469 (Rect_t3681755626 * __this, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::Viewport(UnityEngine.Rect)
+extern "C"  void GL_Viewport_m283713209 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::PushMatrix()
+extern "C"  void GL_PushMatrix_m1979053131 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::LoadPixelMatrix(System.Single,System.Single,System.Single,System.Single)
+extern "C"  void GL_LoadPixelMatrix_m3215450731 (Il2CppObject * __this /* static, unused */, float p0, float p1, float p2, float p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.Graphics::DrawTexture(UnityEngine.Rect,UnityEngine.Texture)
+extern "C"  void Graphics_DrawTexture_m1454364894 (Il2CppObject * __this /* static, unused */, Rect_t3681755626  p0, Texture_t2243626319 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::PopMatrix()
+extern "C"  void GL_PopMatrix_m856033754 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.GL::set_invertCulling(System.Boolean)
+extern "C"  void GL_set_invertCulling_m153705642 (Il2CppObject * __this /* static, unused */, bool p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeBridge::InternalUpdate()
+extern "C"  void WikitudeBridge_InternalUpdate_m3497281110 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_FocusMode(Wikitude.CaptureFocusMode)
+extern "C"  void WikitudeCamera_set_FocusMode_m985629665 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_AutoFocusRestriction(Wikitude.CaptureAutoFocusRestriction)
+extern "C"  void WikitudeCamera_set_AutoFocusRestriction_m2479214973 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_ZoomLevel(System.Single)
+extern "C"  void WikitudeCamera_set_ZoomLevel_m1352816351 (WikitudeCamera_t2517845841 * __this, float ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.WikitudeCamera::set_FlashMode(Wikitude.CaptureFlashMode)
+extern "C"  void WikitudeCamera_set_FlashMode_m1791354977 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.iOSBridge::.ctor()
+extern "C"  void iOSBridge__ctor_m2353575257 (iOSBridge_t3713850486 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.AndroidBridge::.ctor()
+extern "C"  void AndroidBridge__ctor_m1953618875 (AndroidBridge_t3043076716 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.UnityBridge::.ctor()
+extern "C"  void UnityBridge__ctor_m3290169035 (UnityBridge_t209696710 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.String System.String::Concat(System.Object,System.Object,System.Object)
+extern "C"  String_t* String_Concat_m2000667605 (Il2CppObject * __this /* static, unused */, Il2CppObject * p0, Il2CppObject * p1, Il2CppObject * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void Wikitude.SDKBuildInformation::.ctor(System.String,System.String,System.String,System.String)
+extern "C"  void SDKBuildInformation__ctor_m1229722333 (SDKBuildInformation_t1997552748 * __this, String_t* ___buildConfiguration0, String_t* ___buildDate1, String_t* ___buildNumber2, String_t* ___sdkVersion3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Wikitude.AndroidBridge::.ctor()
+extern "C"  void AndroidBridge__ctor_m1953618875 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge__ctor_m1953618875_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t1927440687 * V_0 = NULL;
+	MethodInfo_t * V_1 = NULL;
+	Type_t * V_2 = NULL;
+	MethodInfo_t * V_3 = NULL;
+	MethodInfo_t * V_4 = NULL;
+	Type_t * V_5 = NULL;
+	MethodInfoU5BU5D_t152480188* V_6 = NULL;
+	MethodInfo_t * V_7 = NULL;
+	MethodInfoU5BU5D_t152480188* V_8 = NULL;
+	int32_t V_9 = 0;
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+	}
+
+IL_0006:
+	try
+	{ // begin try (depth: 1)
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_0 = il2cpp_codegen_get_type((Il2CppMethodPointer)&Type_GetType_m402049910, _stringLiteral2993693774, (bool)1, "WikitudeUnityPlugin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null");
+		__this->set_androidJNIType_1(L_0);
+		goto IL_002d;
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__exception_local = (Exception_t1927440687 *)e.ex;
+		if(il2cpp_codegen_class_is_assignable_from (Exception_t1927440687_il2cpp_TypeInfo_var, e.ex->klass))
+			goto CATCH_001c;
+		throw e;
+	}
+
+CATCH_001c:
+	{ // begin catch(System.Exception)
+		V_0 = ((Exception_t1927440687 *)__exception_local);
+		Exception_t1927440687 * L_1 = V_0;
+		NullCheck(L_1);
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Exception::get_Message() */, L_1);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		goto IL_002d;
+	} // end catch (depth: 1)
+
+IL_002d:
+	{
+		Type_t * L_3 = __this->get_androidJNIType_1();
+		NullCheck(L_3);
+		MethodInfo_t * L_4 = Type_GetMethod_m475234662(L_3, _stringLiteral2471841416, ((int32_t)24), /*hidden argument*/NULL);
+		V_1 = L_4;
+		MethodInfo_t * L_5 = V_1;
+		NullCheck(L_5);
+		MethodBase_Invoke_m1075809207(L_5, NULL, (ObjectU5BU5D_t3614634134*)(ObjectU5BU5D_t3614634134*)NULL, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_6 = il2cpp_codegen_get_type((Il2CppMethodPointer)&Type_GetType_m773255995, _stringLiteral1892676797, "WikitudeUnityPlugin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null");
+		V_2 = L_6;
+		Type_t * L_7 = V_2;
+		ObjectU5BU5D_t3614634134* L_8 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, _stringLiteral3018540521);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3018540521);
+		Il2CppObject * L_9 = Activator_CreateInstance_m1465989661(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		__this->set_androidClass_0(L_9);
+		Type_t * L_10 = V_2;
+		NullCheck(L_10);
+		MethodInfo_t * L_11 = Type_GetMethod_m1197504218(L_10, _stringLiteral1284713660, /*hidden argument*/NULL);
+		V_3 = L_11;
+		MethodInfo_t * L_12 = V_3;
+		if (!L_12)
+		{
+			goto IL_0236;
+		}
+	}
+	{
+		MethodInfo_t * L_13 = V_3;
+		TypeU5BU5D_t1664964607* L_14 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_15 = il2cpp_codegen_get_type((Il2CppMethodPointer)&Type_GetType_m773255995, _stringLiteral70787234, "WikitudeUnityPlugin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=null");
+		NullCheck(L_14);
+		ArrayElementTypeCheck (L_14, L_15);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_15);
+		NullCheck(L_13);
+		MethodInfo_t * L_16 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_13, L_14);
+		V_4 = L_16;
+		MethodInfo_t * L_17 = V_4;
+		Il2CppObject * L_18 = __this->get_androidClass_0();
+		ObjectU5BU5D_t3614634134* L_19 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_19);
+		ArrayElementTypeCheck (L_19, _stringLiteral3875251571);
+		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3875251571);
+		NullCheck(L_17);
+		Il2CppObject * L_20 = MethodBase_Invoke_m1075809207(L_17, L_18, L_19, /*hidden argument*/NULL);
+		__this->set_androidActivity_2(L_20);
+		Il2CppObject * L_21 = __this->get_androidActivity_2();
+		NullCheck(L_21);
+		Type_t * L_22 = Object_GetType_m191970594(L_21, /*hidden argument*/NULL);
+		V_5 = L_22;
+		Type_t * L_23 = V_5;
+		TypeU5BU5D_t1664964607* L_24 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)2));
+		Type_t * L_25 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_24);
+		ArrayElementTypeCheck (L_24, L_25);
+		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_25);
+		TypeU5BU5D_t1664964607* L_26 = L_24;
+		Type_t * L_27 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(ObjectU5BU5D_t3614634134_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_26);
+		ArrayElementTypeCheck (L_26, L_27);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(1), (Type_t *)L_27);
+		NullCheck(L_23);
+		MethodInfo_t * L_28 = Type_GetMethod_m2079823229(L_23, _stringLiteral405905554, L_26, /*hidden argument*/NULL);
+		__this->set__callMethod_3(L_28);
+		Type_t * L_29 = V_5;
+		NullCheck(L_29);
+		MethodInfoU5BU5D_t152480188* L_30 = Type_GetMethods_m2648147339(L_29, /*hidden argument*/NULL);
+		V_6 = L_30;
+		MethodInfoU5BU5D_t152480188* L_31 = V_6;
+		V_8 = L_31;
+		V_9 = 0;
+		goto IL_0211;
+	}
+
+IL_0110:
+	{
+		MethodInfoU5BU5D_t152480188* L_32 = V_8;
+		int32_t L_33 = V_9;
+		NullCheck(L_32);
+		int32_t L_34 = L_33;
+		MethodInfo_t * L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		V_7 = L_35;
+		MethodInfo_t * L_36 = V_7;
+		NullCheck(L_36);
+		String_t* L_37 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_36);
+		NullCheck(L_37);
+		bool L_38 = String_Equals_m2633592423(L_37, _stringLiteral405905554, /*hidden argument*/NULL);
+		if (!L_38)
+		{
+			goto IL_020b;
+		}
+	}
+	{
+		MethodInfo_t * L_39 = V_7;
+		NullCheck(L_39);
+		TypeU5BU5D_t1664964607* L_40 = VirtFuncInvoker0< TypeU5BU5D_t1664964607* >::Invoke(26 /* System.Type[] System.Reflection.MethodBase::GetGenericArguments() */, L_39);
+		NullCheck(L_40);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_40)->max_length))))) == ((uint32_t)1))))
+		{
+			goto IL_020b;
+		}
+	}
+	{
+		MethodInfo_t * L_41 = V_7;
+		NullCheck(L_41);
+		ParameterInfoU5BU5D_t2275869610* L_42 = VirtFuncInvoker0< ParameterInfoU5BU5D_t2275869610* >::Invoke(14 /* System.Reflection.ParameterInfo[] System.Reflection.MethodBase::GetParameters() */, L_41);
+		NullCheck(L_42);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_42)->max_length))))) == ((uint32_t)2))))
+		{
+			goto IL_020b;
+		}
+	}
+	{
+		MethodInfo_t * L_43 = V_7;
+		TypeU5BU5D_t1664964607* L_44 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_45 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(String_t_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_44);
+		ArrayElementTypeCheck (L_44, L_45);
+		(L_44)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_45);
+		NullCheck(L_43);
+		MethodInfo_t * L_46 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_43, L_44);
+		__this->set__callStringMethod_4(L_46);
+		MethodInfo_t * L_47 = V_7;
+		TypeU5BU5D_t1664964607* L_48 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_49 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(SingleU5BU5D_t577127397_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_48);
+		ArrayElementTypeCheck (L_48, L_49);
+		(L_48)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_49);
+		NullCheck(L_47);
+		MethodInfo_t * L_50 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_47, L_48);
+		__this->set__callFloatArrayMethod_5(L_50);
+		MethodInfo_t * L_51 = V_7;
+		TypeU5BU5D_t1664964607* L_52 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_53 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int32_t2071877448_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_52);
+		ArrayElementTypeCheck (L_52, L_53);
+		(L_52)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_53);
+		NullCheck(L_51);
+		MethodInfo_t * L_54 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_51, L_52);
+		__this->set__callIntMethod_6(L_54);
+		MethodInfo_t * L_55 = V_7;
+		TypeU5BU5D_t1664964607* L_56 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_57 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Single_t2076509932_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_56);
+		ArrayElementTypeCheck (L_56, L_57);
+		(L_56)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_57);
+		NullCheck(L_55);
+		MethodInfo_t * L_58 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_55, L_56);
+		__this->set__callFloatMethod_7(L_58);
+		MethodInfo_t * L_59 = V_7;
+		TypeU5BU5D_t1664964607* L_60 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_61 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Boolean_t3825574718_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_60);
+		ArrayElementTypeCheck (L_60, L_61);
+		(L_60)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_61);
+		NullCheck(L_59);
+		MethodInfo_t * L_62 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_59, L_60);
+		__this->set__callBoolMethod_8(L_62);
+		MethodInfo_t * L_63 = V_7;
+		TypeU5BU5D_t1664964607* L_64 = ((TypeU5BU5D_t1664964607*)SZArrayNew(TypeU5BU5D_t1664964607_il2cpp_TypeInfo_var, (uint32_t)1));
+		Type_t * L_65 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Int64_t909078037_0_0_0_var), /*hidden argument*/NULL);
+		NullCheck(L_64);
+		ArrayElementTypeCheck (L_64, L_65);
+		(L_64)->SetAt(static_cast<il2cpp_array_size_t>(0), (Type_t *)L_65);
+		NullCheck(L_63);
+		MethodInfo_t * L_66 = VirtFuncInvoker1< MethodInfo_t *, TypeU5BU5D_t1664964607* >::Invoke(32 /* System.Reflection.MethodInfo System.Reflection.MethodInfo::MakeGenericMethod(System.Type[]) */, L_63, L_64);
+		__this->set__callLongMethod_9(L_66);
+	}
+
+IL_020b:
+	{
+		int32_t L_67 = V_9;
+		V_9 = ((int32_t)((int32_t)L_67+(int32_t)1));
+	}
+
+IL_0211:
+	{
+		int32_t L_68 = V_9;
+		MethodInfoU5BU5D_t152480188* L_69 = V_8;
+		NullCheck(L_69);
+		if ((((int32_t)L_68) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_69)->max_length)))))))
+		{
+			goto IL_0110;
+		}
+	}
+	{
+		Il2CppObject * L_70 = __this->get_androidActivity_2();
+		if (L_70)
+		{
+			goto IL_0231;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1691141280, /*hidden argument*/NULL);
+	}
+
+IL_0231:
+	{
+		goto IL_0240;
+	}
+
+IL_0236:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3658162725, /*hidden argument*/NULL);
+	}
+
+IL_0240:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::CallAndroid(System.String,System.Object[])
+extern "C"  void AndroidBridge_CallAndroid_m3392184170 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_CallAndroid_m3392184170_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callMethod_3();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_3 = ___methodName0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		ObjectU5BU5D_t3614634134* L_5 = ___parameters1;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		NullCheck(L_0);
+		MethodBase_Invoke_m1075809207(L_0, L_1, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.AndroidBridge::CallIntAndroid(System.String,System.Object[])
+extern "C"  int32_t AndroidBridge_CallIntAndroid_m3163538433 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_CallIntAndroid_m3163538433_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callIntMethod_6();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_3 = ___methodName0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		ObjectU5BU5D_t3614634134* L_5 = ___parameters1;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		NullCheck(L_0);
+		Il2CppObject * L_6 = MethodBase_Invoke_m1075809207(L_0, L_1, L_4, /*hidden argument*/NULL);
+		return ((*(int32_t*)((int32_t*)UnBox(L_6, Int32_t2071877448_il2cpp_TypeInfo_var))));
+	}
+}
+// System.Single Wikitude.AndroidBridge::CallFloatAndroid(System.String,System.Object[])
+extern "C"  float AndroidBridge_CallFloatAndroid_m2453542722 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_CallFloatAndroid_m2453542722_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callFloatMethod_7();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_3 = ___methodName0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		ObjectU5BU5D_t3614634134* L_5 = ___parameters1;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		NullCheck(L_0);
+		Il2CppObject * L_6 = MethodBase_Invoke_m1075809207(L_0, L_1, L_4, /*hidden argument*/NULL);
+		return ((*(float*)((float*)UnBox(L_6, Single_t2076509932_il2cpp_TypeInfo_var))));
+	}
+}
+// System.Int64 Wikitude.AndroidBridge::CallLongAndroid(System.String,System.Object[])
+extern "C"  int64_t AndroidBridge_CallLongAndroid_m3117353359 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_CallLongAndroid_m3117353359_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callLongMethod_9();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_3 = ___methodName0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		ObjectU5BU5D_t3614634134* L_5 = ___parameters1;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		NullCheck(L_0);
+		Il2CppObject * L_6 = MethodBase_Invoke_m1075809207(L_0, L_1, L_4, /*hidden argument*/NULL);
+		return ((*(int64_t*)((int64_t*)UnBox(L_6, Int64_t909078037_il2cpp_TypeInfo_var))));
+	}
+}
+// System.String Wikitude.AndroidBridge::CallStringAndroid(System.String,System.Object[])
+extern "C"  String_t* AndroidBridge_CallStringAndroid_m1848719730 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_CallStringAndroid_m1848719730_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callStringMethod_4();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_3 = ___methodName0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		ObjectU5BU5D_t3614634134* L_5 = ___parameters1;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		NullCheck(L_0);
+		Il2CppObject * L_6 = MethodBase_Invoke_m1075809207(L_0, L_1, L_4, /*hidden argument*/NULL);
+		return ((String_t*)CastclassSealed(L_6, String_t_il2cpp_TypeInfo_var));
+	}
+}
+// System.Boolean Wikitude.AndroidBridge::CallBoolAndroid(System.String,System.Object[])
+extern "C"  bool AndroidBridge_CallBoolAndroid_m3955521056 (AndroidBridge_t3043076716 * __this, String_t* ___methodName0, ObjectU5BU5D_t3614634134* ___parameters1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_CallBoolAndroid_m3955521056_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callBoolMethod_8();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_3 = ___methodName0;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		ObjectU5BU5D_t3614634134* L_5 = ___parameters1;
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_5);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		NullCheck(L_0);
+		Il2CppObject * L_6 = MethodBase_Invoke_m1075809207(L_0, L_1, L_4, /*hidden argument*/NULL);
+		return ((*(bool*)((bool*)UnBox(L_6, Boolean_t3825574718_il2cpp_TypeInfo_var))));
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateWikitudeNativeSDK(System.String,System.String)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateWikitudeNativeSDK_m1342658609 (AndroidBridge_t3043076716 * __this, String_t* ___licenseKey0, String_t* ___trackerManagerName1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateWikitudeNativeSDK_m1342658609_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_1 = ___licenseKey0;
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_1);
+		ObjectU5BU5D_t3614634134* L_2 = L_0;
+		String_t* L_3 = ___trackerManagerName1;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2079959915, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DestroyWikitudeNativeSDK()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DestroyWikitudeNativeSDK_m1778577057 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DestroyWikitudeNativeSDK_m1778577057_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral412401039, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetRenderTargetTextureId(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetRenderTargetTextureId_m2576549630 (AndroidBridge_t3043076716 * __this, int32_t ___offscreenRenderingTextureId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetRenderTargetTextureId_m2576549630_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___offscreenRenderingTextureId0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1207518579, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StartWikitudeNativeSDK()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StartWikitudeNativeSDK_m1065003207 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StartWikitudeNativeSDK_m1065003207_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Resolution_t3693662728  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Resolution_t3693662728  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		Resolution_t3693662728  L_1 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = Resolution_get_width_m1438273472((&V_0), /*hidden argument*/NULL);
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_4);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
+		ObjectU5BU5D_t3614634134* L_5 = L_0;
+		Resolution_t3693662728  L_6 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_6;
+		int32_t L_7 = Resolution_get_height_m882683003((&V_1), /*hidden argument*/NULL);
+		int32_t L_8 = L_7;
+		Il2CppObject * L_9 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_9);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_9);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral537225857, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.UpdateWikitudeNativeSDK()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_UpdateWikitudeNativeSDK_m697805178 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_UpdateWikitudeNativeSDK_m697805178_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Resolution_t3693662728  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Resolution_t3693662728  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		Resolution_t3693662728  L_1 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = Resolution_get_width_m1438273472((&V_0), /*hidden argument*/NULL);
+		int32_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_4);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
+		ObjectU5BU5D_t3614634134* L_5 = L_0;
+		Resolution_t3693662728  L_6 = Screen_get_currentResolution_m2361090437(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_6;
+		int32_t L_7 = Resolution_get_height_m882683003((&V_1), /*hidden argument*/NULL);
+		int32_t L_8 = L_7;
+		Il2CppObject * L_9 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, L_9);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_9);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1471604034, L_5, /*hidden argument*/NULL);
+		GL_InvalidateState_m3232431926(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StopWikitudeNativeSDK()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StopWikitudeNativeSDK_m3571657959 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StopWikitudeNativeSDK_m3571657959_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2013019705, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.UpdateScreenRotation(System.Boolean)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_UpdateScreenRotation_m2669825940 (AndroidBridge_t3043076716 * __this, bool ___forceResize0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateTargetCollectionResource(System.String,System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m1937616657 (AndroidBridge_t3043076716 * __this, String_t* ___path0, int64_t ___id1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m1937616657_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	WWW_t2919945039 * V_2 = NULL;
+	{
+		String_t* L_0 = ___path0;
+		String_t* L_1 = Application_get_streamingAssetsPath_m8890645(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_2 = String_StartsWith_m1841920685(L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		String_t* L_3 = ___path0;
+		String_t* L_4 = Application_get_streamingAssetsPath_m8890645(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		int32_t L_5 = String_get_Length_m1606060069(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		String_t* L_6 = String_Substring_m2032624251(L_3, ((int32_t)((int32_t)L_5+(int32_t)1)), /*hidden argument*/NULL);
+		V_0 = L_6;
+		String_t* L_7 = Application_get_persistentDataPath_m3129298355(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_8 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m612901809(NULL /*static, unused*/, L_7, _stringLiteral372029315, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		String_t* L_10 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Path_t41728875_il2cpp_TypeInfo_var);
+		String_t* L_11 = Path_GetDirectoryName_m260633861(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		Directory_CreateDirectory_m3561886598(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		String_t* L_12 = ___path0;
+		WWW_t2919945039 * L_13 = (WWW_t2919945039 *)il2cpp_codegen_object_new(WWW_t2919945039_il2cpp_TypeInfo_var);
+		WWW__ctor_m2024029190(L_13, L_12, /*hidden argument*/NULL);
+		V_2 = L_13;
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		WWW_t2919945039 * L_14 = V_2;
+		NullCheck(L_14);
+		bool L_15 = WWW_get_isDone_m3240254121(L_14, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		String_t* L_16 = V_1;
+		WWW_t2919945039 * L_17 = V_2;
+		NullCheck(L_17);
+		ByteU5BU5D_t3397334013* L_18 = WWW_get_bytes_m420718112(L_17, /*hidden argument*/NULL);
+		File_WriteAllBytes_m677793349(NULL /*static, unused*/, L_16, L_18, /*hidden argument*/NULL);
+		String_t* L_19 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_20 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral2494949592, L_19, /*hidden argument*/NULL);
+		___path0 = L_20;
+	}
+
+IL_0070:
+	{
+		ObjectU5BU5D_t3614634134* L_21 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_22 = ___path0;
+		NullCheck(L_21);
+		ArrayElementTypeCheck (L_21, L_22);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_22);
+		ObjectU5BU5D_t3614634134* L_23 = L_21;
+		int64_t L_24 = ___id1;
+		int64_t L_25 = L_24;
+		Il2CppObject * L_26 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_25);
+		NullCheck(L_23);
+		ArrayElementTypeCheck (L_23, L_26);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_26);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1908360147, L_23, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateCloudRecognitionService(System.String,System.String,System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m2241426173 (AndroidBridge_t3043076716 * __this, String_t* ___clientToken0, String_t* ___targetCollectionId1, int64_t ___id2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m2241426173_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)3));
+		String_t* L_1 = ___clientToken0;
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_1);
+		ObjectU5BU5D_t3614634134* L_2 = L_0;
+		String_t* L_3 = ___targetCollectionId1;
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_3);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_2;
+		int64_t L_5 = ___id2;
+		int64_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_7);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral601022061, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m867848478 (AndroidBridge_t3043076716 * __this, String_t* ___targetsForExtendedTracking0, int64_t ___targetCollectionResourceId1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m867848478_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_1 = ___targetsForExtendedTracking0;
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_1);
+		ObjectU5BU5D_t3614634134* L_2 = L_0;
+		int64_t L_3 = ___targetCollectionResourceId1;
+		int64_t L_4 = L_3;
+		Il2CppObject * L_5 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_4);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_5);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral425942208, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateImageTrackerWithCloudRecognitionService(System.String,System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m1289429572 (AndroidBridge_t3043076716 * __this, String_t* ___targetsForExtendedTracking0, int64_t ___cloudRecognitionServiceId1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m1289429572_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_1 = ___targetsForExtendedTracking0;
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_1);
+		ObjectU5BU5D_t3614634134* L_2 = L_0;
+		int64_t L_3 = ___cloudRecognitionServiceId1;
+		int64_t L_4 = L_3;
+		Il2CppObject * L_5 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_4);
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, L_5);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_5);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2203250260, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateObjectTrackerWithTargetCollectionResource(System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m3879091414 (AndroidBridge_t3043076716 * __this, int64_t ___targetCollectionResourceId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m3879091414_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int64_t L_1 = ___targetCollectionResourceId0;
+		int64_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3355766074, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.InstantiateInstantTracker()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_InstantiateInstantTracker_m1465618763 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_InstantiateInstantTracker_m1465618763_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3824689801, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StopExtendedTracking()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StopExtendedTracking_m3030050434 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StopExtendedTracking_m3030050434_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3582047554, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DestroyTargetCollectionResource(System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DestroyTargetCollectionResource_m516735239 (AndroidBridge_t3043076716 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DestroyTargetCollectionResource_m516735239_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int64_t L_1 = ___id0;
+		int64_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3226697895, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DestroyCloudRecognitionService(System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DestroyCloudRecognitionService_m2768757933 (AndroidBridge_t3043076716 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DestroyCloudRecognitionService_m2768757933_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int64_t L_1 = ___id0;
+		int64_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2769093421, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DestroyImageTracker()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DestroyImageTracker_m4183873811 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DestroyImageTracker_m4183873811_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3723603849, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DestroyObjectTracker()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DestroyObjectTracker_m708275329 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DestroyObjectTracker_m708275329_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral917133779, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DestroyInstantTracker()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DestroyInstantTracker_m619072639 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DestroyInstantTracker_m619072639_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2153451297, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StartTrackingMapRecording()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StartTrackingMapRecording_m1233337160 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StartTrackingMapRecording_m1233337160_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral255506742, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StopTrackingMapRecording(System.String)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StopTrackingMapRecording_m1582578656 (AndroidBridge_t3043076716 * __this, String_t* ___mapName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StopTrackingMapRecording_m1582578656_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_1 = ___mapName0;
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_1);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1761644110, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCaptureDevicePosition()
+extern "C"  int32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureDevicePosition_m2685655423 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCaptureDevicePosition_m2685655423_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = AndroidBridge_CallIntAndroid_m3163538433(__this, _stringLiteral1280856559, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureDevicePosition(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDevicePosition_m655664540 (AndroidBridge_t3043076716 * __this, int32_t ___newDevicePosition0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDevicePosition_m655664540_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___newDevicePosition0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3917594979, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCaptureFocusMode()
+extern "C"  int32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureFocusMode_m3356776761 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCaptureFocusMode_m3356776761_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = AndroidBridge_CallIntAndroid_m3163538433(__this, _stringLiteral139319741, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureFocusMode(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureFocusMode_m3318210128 (AndroidBridge_t3043076716 * __this, int32_t ___newFocusMode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCaptureFocusMode_m3318210128_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___newFocusMode0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3784554313, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetManualFocusDistance(System.Single)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetManualFocusDistance_m2093039648 (AndroidBridge_t3043076716 * __this, float ___manualFocusDistance0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetManualFocusDistance_m2093039648_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		float L_1 = ___manualFocusDistance0;
+		float L_2 = L_1;
+		Il2CppObject * L_3 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2327510303, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Wikitude.AndroidBridge::Wikitude.IPlatformBridge.IsManualFocusAvailable()
+extern "C"  bool AndroidBridge_Wikitude_IPlatformBridge_IsManualFocusAvailable_m241138643 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_IsManualFocusAvailable_m241138643_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = AndroidBridge_CallBoolAndroid_m3955521056(__this, _stringLiteral2171890757, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.EnableCamera2(System.Boolean)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_EnableCamera2_m2337252359 (AndroidBridge_t3043076716 * __this, bool ___enabled0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_EnableCamera2_m2337252359_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		bool L_1 = ___enabled0;
+		bool L_2 = L_1;
+		Il2CppObject * L_3 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2742024368, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCaptureAutoFocusRestriction()
+extern "C"  int32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureAutoFocusRestriction_m3206874381 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCaptureAutoFocusRestriction_m3206874381_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3350453091, /*hidden argument*/NULL);
+		return 0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureAutoFocusRestriction(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureAutoFocusRestriction_m3603490704 (AndroidBridge_t3043076716 * __this, int32_t ___newAutoFocusRestriction0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCaptureAutoFocusRestriction_m3603490704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral3350453091, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCaptureZoomLevel()
+extern "C"  float AndroidBridge_Wikitude_IPlatformBridge_GetCaptureZoomLevel_m2350604887 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCaptureZoomLevel_m2350604887_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = AndroidBridge_CallFloatAndroid_m2453542722(__this, _stringLiteral3911727735, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureZoomLevel(System.Single)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureZoomLevel_m2062758986 (AndroidBridge_t3043076716 * __this, float ___newZoomLevel0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCaptureZoomLevel_m2062758986_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		float L_1 = ___newZoomLevel0;
+		float L_2 = L_1;
+		Il2CppObject * L_3 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3309116651, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCaptureMaxZoomLevel()
+extern "C"  float AndroidBridge_Wikitude_IPlatformBridge_GetCaptureMaxZoomLevel_m3532998295 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCaptureMaxZoomLevel_m3532998295_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = AndroidBridge_CallFloatAndroid_m2453542722(__this, _stringLiteral535338763, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCaptureFlashMode()
+extern "C"  int32_t AndroidBridge_Wikitude_IPlatformBridge_GetCaptureFlashMode_m2351598601 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCaptureFlashMode_m2351598601_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = AndroidBridge_CallIntAndroid_m3163538433(__this, _stringLiteral2375609117, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureFlashMode(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureFlashMode_m2865573886 (AndroidBridge_t3043076716 * __this, int32_t ___newFlashMode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCaptureFlashMode_m2865573886_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___newFlashMode0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1725841545, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.CameraInfo Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCameraInfo(System.Int32,System.Int32,System.Int32)
+extern "C"  CameraInfo_t3735365223  AndroidBridge_Wikitude_IPlatformBridge_GetCameraInfo_m1834877706 (AndroidBridge_t3043076716 * __this, int32_t ___devicePosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCameraInfo_m1834877706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		int32_t L_1 = ___devicePosition0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_0;
+		int32_t L_5 = ___resolutionMode1;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
+		String_t* L_8 = AndroidBridge_CallStringAndroid_m1848719730(__this, _stringLiteral2284425873, L_4, /*hidden argument*/NULL);
+		V_0 = L_8;
+		String_t* L_9 = V_0;
+		StringU5BU5D_t1642385972* L_10 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_10);
+		ArrayElementTypeCheck (L_10, _stringLiteral3513337718);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral3513337718);
+		NullCheck(L_9);
+		StringU5BU5D_t1642385972* L_11 = String_Split_m3927740091(L_9, L_10, 0, /*hidden argument*/NULL);
+		V_1 = L_11;
+		StringU5BU5D_t1642385972* L_12 = V_1;
+		NullCheck(L_12);
+		int32_t L_13 = 0;
+		String_t* L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		Int32_TryParse_m656840904(NULL /*static, unused*/, L_14, (&V_2), /*hidden argument*/NULL);
+		StringU5BU5D_t1642385972* L_15 = V_1;
+		NullCheck(L_15);
+		int32_t L_16 = 1;
+		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		Int32_TryParse_m656840904(NULL /*static, unused*/, L_17, (&V_3), /*hidden argument*/NULL);
+		int32_t L_18 = V_2;
+		int32_t L_19 = V_3;
+		CameraInfo_t3735365223  L_20;
+		memset(&L_20, 0, sizeof(L_20));
+		CameraInfo__ctor_m3269950821(&L_20, L_18, L_19, ((int32_t)30), /*hidden argument*/NULL);
+		return L_20;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureDeviceResolution(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDeviceResolution_m2853204651 (AndroidBridge_t3043076716 * __this, int32_t ___resolutionMode0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDeviceResolution_m2853204651_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___resolutionMode0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral274969148, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCaptureDeviceFramerate(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCaptureDeviceFramerate_m1184785594 (AndroidBridge_t3043076716 * __this, int32_t ___framerateMode0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.String Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetTrackingData()
+extern "C"  String_t* AndroidBridge_Wikitude_IPlatformBridge_GetTrackingData_m2667227480 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetTrackingData_m2667227480_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = AndroidBridge_CallStringAndroid_m1848719730(__this, _stringLiteral57815625, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Single[] Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetProjectionMatrix()
+extern "C"  SingleU5BU5D_t577127397* AndroidBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m816635962 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m816635962_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callFloatArrayMethod_5();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, _stringLiteral239480438);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral239480438);
+		ObjectU5BU5D_t3614634134* L_3 = L_2;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)));
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)));
+		NullCheck(L_0);
+		Il2CppObject * L_4 = MethodBase_Invoke_m1075809207(L_0, L_1, L_3, /*hidden argument*/NULL);
+		return ((SingleU5BU5D_t577127397*)IsInst(L_4, SingleU5BU5D_t577127397_il2cpp_TypeInfo_var));
+	}
+}
+// System.Single[] Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetTrackingMatrix()
+extern "C"  SingleU5BU5D_t577127397* AndroidBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m1978684934 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m1978684934_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		MethodInfo_t * L_0 = __this->get__callFloatArrayMethod_5();
+		Il2CppObject * L_1 = __this->get_androidActivity_2();
+		ObjectU5BU5D_t3614634134* L_2 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		NullCheck(L_2);
+		ArrayElementTypeCheck (L_2, _stringLiteral3503951298);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)_stringLiteral3503951298);
+		ObjectU5BU5D_t3614634134* L_3 = L_2;
+		NullCheck(L_3);
+		ArrayElementTypeCheck (L_3, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)));
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)));
+		NullCheck(L_0);
+		Il2CppObject * L_4 = MethodBase_Invoke_m1075809207(L_0, L_1, L_3, /*hidden argument*/NULL);
+		return ((SingleU5BU5D_t577127397*)IsInst(L_4, SingleU5BU5D_t577127397_il2cpp_TypeInfo_var));
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.Recognize(System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_Recognize_m620494552 (AndroidBridge_t3043076716 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_Recognize_m620494552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int64_t L_1 = ___id0;
+		int64_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1803045606, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StartContinuousRecognition(System.Double,System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StartContinuousRecognition_m2795884516 (AndroidBridge_t3043076716 * __this, double ___interval0, int64_t ___id1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StartContinuousRecognition_m2795884516_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		double L_1 = ___interval0;
+		double L_2 = L_1;
+		Il2CppObject * L_3 = Box(Double_t4078015681_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_0;
+		int64_t L_5 = ___id1;
+		int64_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1055288560, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.StopContinuousRecognition(System.Int64)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_StopContinuousRecognition_m97024706 (AndroidBridge_t3043076716 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_StopContinuousRecognition_m97024706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int64_t L_1 = ___id0;
+		int64_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3632061432, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetState(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetState_m4155239302 (AndroidBridge_t3043076716 * __this, int32_t ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetState_m4155239302_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___state0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1195217557, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetDeviceHeightAboveGround(System.Single)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetDeviceHeightAboveGround_m3349030108 (AndroidBridge_t3043076716 * __this, float ___height0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetDeviceHeightAboveGround_m3349030108_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		float L_1 = ___height0;
+		float L_2 = L_1;
+		Il2CppObject * L_3 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2436666655, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.RegisterPlugin(System.String)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_RegisterPlugin_m4022969054 (AndroidBridge_t3043076716 * __this, String_t* ___pluginManagerName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_RegisterPlugin_m4022969054_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Frame_t1875945745  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_1 = ___pluginManagerName0;
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_1);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_1);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3198112764, L_0, /*hidden argument*/NULL);
+		Initobj (Frame_t1875945745_il2cpp_TypeInfo_var, (&V_0));
+		Frame_t1875945745  L_2 = V_0;
+		Frame_t1875945745  L_3 = L_2;
+		Il2CppObject * L_4 = Box(Frame_t1875945745_il2cpp_TypeInfo_var, &L_3);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_5 = Marshal_SizeOf_m2032740146(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IntPtr_t L_6 = Marshal_AllocCoTaskMem_m3256967199(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		__this->set__nativeFramePtr_10(L_6);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DeregisterPlugin()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m4175961855 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m4175961855_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2792373529, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		IntPtr_t L_0 = __this->get__nativeFramePtr_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_FreeCoTaskMem_m2672578456(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetCameraFrame(Wikitude.Frame&)
+extern "C"  bool AndroidBridge_Wikitude_IPlatformBridge_GetCameraFrame_m730296289 (AndroidBridge_t3043076716 * __this, Frame_t1875945745 * ___newFrame0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetCameraFrame_m730296289_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		IntPtr_t* L_1 = __this->get_address_of__nativeFramePtr_10();
+		int64_t L_2 = IntPtr_ToInt64_m39971741(L_1, /*hidden argument*/NULL);
+		int64_t L_3 = L_2;
+		Il2CppObject * L_4 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_3);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_4);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_4);
+		bool L_5 = AndroidBridge_CallBoolAndroid_m3955521056(__this, _stringLiteral418683842, L_0, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		Frame_t1875945745 * L_6 = ___newFrame0;
+		IntPtr_t L_7 = __this->get__nativeFramePtr_10();
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_8 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Frame_t1875945745_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_9 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		(*(Frame_t1875945745 *)L_6) = ((*(Frame_t1875945745 *)((Frame_t1875945745 *)UnBox(L_9, Frame_t1875945745_il2cpp_TypeInfo_var))));
+		return (bool)1;
+	}
+
+IL_004b:
+	{
+		Frame_t1875945745 * L_10 = ___newFrame0;
+		Initobj (Frame_t1875945745_il2cpp_TypeInfo_var, L_10);
+		return (bool)0;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.RegisterInputPlugin()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_RegisterInputPlugin_m1982806884 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_RegisterInputPlugin_m1982806884_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1781305734, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.DeregisterInputPlugin()
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_DeregisterInputPlugin_m1056445109 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_DeregisterInputPlugin_m1056445109_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2921809051, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.NewCameraFrame(System.Int32,System.Int32,System.IntPtr)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_NewCameraFrame_m4490820 (AndroidBridge_t3043076716 * __this, int32_t ___index0, int32_t ___frameDataSize1, IntPtr_t ___frameData2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_NewCameraFrame_m4490820_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)3));
+		int32_t L_1 = ___index0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_0;
+		int32_t L_5 = ___frameDataSize1;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
+		ObjectU5BU5D_t3614634134* L_8 = L_4;
+		int64_t L_9 = IntPtr_ToInt64_m39971741((&___frameData2), /*hidden argument*/NULL);
+		int64_t L_10 = L_9;
+		Il2CppObject * L_11 = Box(Int64_t909078037_il2cpp_TypeInfo_var, &L_10);
+		NullCheck(L_8);
+		ArrayElementTypeCheck (L_8, L_11);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(2), (Il2CppObject *)L_11);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral751618972, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.EnableMirroring(System.Boolean)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_EnableMirroring_m909721877 (AndroidBridge_t3043076716 * __this, bool ___mirroring0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_EnableMirroring_m909721877_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		bool L_1 = ___mirroring0;
+		bool L_2 = L_1;
+		Il2CppObject * L_3 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2891382762, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetInvertedFrame(System.Boolean)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetInvertedFrame_m3290855841 (AndroidBridge_t3043076716 * __this, bool ___invertedFrame0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetInvertedFrame_m3290855841_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		bool L_1 = ___invertedFrame0;
+		bool L_2 = L_1;
+		Il2CppObject * L_3 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral1823149944, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetMirroredFrame(System.Boolean)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetMirroredFrame_m1076981864 (AndroidBridge_t3043076716 * __this, bool ___mirroredFrame0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetMirroredFrame_m1076981864_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		bool L_1 = ___mirroredFrame0;
+		bool L_2 = L_1;
+		Il2CppObject * L_3 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3165034499, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetFrameColorSpace(Wikitude.FrameColorSpace)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetFrameColorSpace_m3270750912 (AndroidBridge_t3043076716 * __this, int32_t ___colorSpace0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetFrameColorSpace_m3270750912_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___colorSpace0;
+		int32_t L_2 = ((int32_t)L_1);
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2764360444, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetFrameSize(System.Int32,System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetFrameSize_m3267867590 (AndroidBridge_t3043076716 * __this, int32_t ___frameWidth0, int32_t ___frameHeight1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetFrameSize_m3267867590_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)2));
+		int32_t L_1 = ___frameWidth0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		ObjectU5BU5D_t3614634134* L_4 = L_0;
+		int32_t L_5 = ___frameHeight1;
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_6);
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, L_7);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (Il2CppObject *)L_7);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral2603824634, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetHorizontalAngle(System.Single)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetHorizontalAngle_m1665123062 (AndroidBridge_t3043076716 * __this, float ___angle0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetHorizontalAngle_m1665123062_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		float L_1 = ___angle0;
+		float L_2 = L_1;
+		Il2CppObject * L_3 = Box(Single_t2076509932_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral396265005, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetInputFrameRendering(System.Boolean)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetInputFrameRendering_m940586524 (AndroidBridge_t3043076716 * __this, bool ___requestRendering0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetInputFrameRendering_m940586524_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		bool L_1 = ___requestRendering0;
+		bool L_2 = L_1;
+		Il2CppObject * L_3 = Box(Boolean_t3825574718_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral3144534559, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.AndroidBridge::Wikitude.IPlatformBridge.SetCloudRecognitionServerRegion(System.Int32)
+extern "C"  void AndroidBridge_Wikitude_IPlatformBridge_SetCloudRecognitionServerRegion_m2174130746 (AndroidBridge_t3043076716 * __this, int32_t ___region0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_SetCloudRecognitionServerRegion_m2174130746_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		ObjectU5BU5D_t3614634134* L_0 = ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)1));
+		int32_t L_1 = ___region0;
+		int32_t L_2 = L_1;
+		Il2CppObject * L_3 = Box(Int32_t2071877448_il2cpp_TypeInfo_var, &L_2);
+		NullCheck(L_0);
+		ArrayElementTypeCheck (L_0, L_3);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppObject *)L_3);
+		AndroidBridge_CallAndroid_m3392184170(__this, _stringLiteral404892813, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int64 Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetPresentableInputFrameIndex()
+extern "C"  int64_t AndroidBridge_Wikitude_IPlatformBridge_GetPresentableInputFrameIndex_m3212292309 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetPresentableInputFrameIndex_m3212292309_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int64_t L_0 = AndroidBridge_CallLongAndroid_m3117353359(__this, _stringLiteral3450636200, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.String Wikitude.AndroidBridge::Wikitude.IPlatformBridge.GetSDKBuildInformation()
+extern "C"  String_t* AndroidBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m233858103 (AndroidBridge_t3043076716 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m233858103_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = AndroidBridge_CallStringAndroid_m1848719730(__this, _stringLiteral1718811532, ((ObjectU5BU5D_t3614634134*)SZArrayNew(ObjectU5BU5D_t3614634134_il2cpp_TypeInfo_var, (uint32_t)0)), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.CameraInfo::.ctor(System.Int32,System.Int32,System.Int32)
+extern "C"  void CameraInfo__ctor_m3269950821 (CameraInfo_t3735365223 * __this, int32_t ___width0, int32_t ___height1, int32_t ___framerate2, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___width0;
+		__this->set_Width_0(L_0);
+		int32_t L_1 = ___height1;
+		__this->set_Height_1(L_1);
+		int32_t L_2 = ___framerate2;
+		__this->set_Framerate_2(L_2);
+		return;
+	}
+}
+extern "C"  void CameraInfo__ctor_m3269950821_AdjustorThunk (Il2CppObject * __this, int32_t ___width0, int32_t ___height1, int32_t ___framerate2, const MethodInfo* method)
+{
+	CameraInfo_t3735365223 * _thisAdjusted = reinterpret_cast<CameraInfo_t3735365223 *>(__this + 1);
+	CameraInfo__ctor_m3269950821(_thisAdjusted, ___width0, ___height1, ___framerate2, method);
+}
+// System.Void Wikitude.ClientTracker::.ctor()
+extern "C"  void ClientTracker__ctor_m3375867348 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker__ctor_m3375867348_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnTrackerFinishedLoadingEvent_t3128440919 * L_0 = (OnTrackerFinishedLoadingEvent_t3128440919 *)il2cpp_codegen_object_new(OnTrackerFinishedLoadingEvent_t3128440919_il2cpp_TypeInfo_var);
+		OnTrackerFinishedLoadingEvent__ctor_m3326355774(L_0, /*hidden argument*/NULL);
+		__this->set_OnTrackerFinishedLoading_15(L_0);
+		OnTrackerLoadingErrorEvent_t1753622137 * L_1 = (OnTrackerLoadingErrorEvent_t1753622137 *)il2cpp_codegen_object_new(OnTrackerLoadingErrorEvent_t1753622137_il2cpp_TypeInfo_var);
+		OnTrackerLoadingErrorEvent__ctor_m3165227144(L_1, /*hidden argument*/NULL);
+		__this->set_OnTrackerLoadingError_16(L_1);
+		OnExtendedTrackingQualityChangedEvent_t838064302 * L_2 = (OnExtendedTrackingQualityChangedEvent_t838064302 *)il2cpp_codegen_object_new(OnExtendedTrackingQualityChangedEvent_t838064302_il2cpp_TypeInfo_var);
+		OnExtendedTrackingQualityChangedEvent__ctor_m2626213551(L_2, /*hidden argument*/NULL);
+		__this->set_OnExtendedTrackingQualityChanged_17(L_2);
+		TrackerBehaviour__ctor_m2201672446(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.ClientTracker::get_TargetPath()
+extern "C"  String_t* ClientTracker_get_TargetPath_m3567333828 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__targetPath_12();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ClientTracker::set_TargetPath(System.String)
+extern "C"  void ClientTracker_set_TargetPath_m2642775261 (ClientTracker_t40625541 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__targetPath_12(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.ClientTracker::get_UseCustomUrl()
+extern "C"  bool ClientTracker_get_UseCustomUrl_m1834684376 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__useCustomUrl_13();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ClientTracker::set_UseCustomUrl(System.Boolean)
+extern "C"  void ClientTracker_set_UseCustomUrl_m3850971667 (ClientTracker_t40625541 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set__useCustomUrl_13(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.ClientTracker::get_Use3DTracking()
+extern "C"  bool ClientTracker_get_Use3DTracking_m603527776 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__use3DTracking_14();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ClientTracker::set_Use3DTracking(System.Boolean)
+extern "C"  void ClientTracker_set_Use3DTracking_m2637236255 (ClientTracker_t40625541 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set__use3DTracking_14(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.ClientTracker::get_IsRegistered()
+extern "C"  bool ClientTracker_get_IsRegistered_m3605799637 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsRegisteredU3Ek__BackingField_19();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ClientTracker::set_IsRegistered(System.Boolean)
+extern "C"  void ClientTracker_set_IsRegistered_m1557735082 (ClientTracker_t40625541 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsRegisteredU3Ek__BackingField_19(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnInitialize()
+extern "C"  void ClientTracker_OnInitialize_m240305351 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker_OnInitialize_m240305351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnInitialize_m26638623(__this, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_0 = (TargetCollectionResource_t3980041541 *)il2cpp_codegen_object_new(TargetCollectionResource_t3980041541_il2cpp_TypeInfo_var);
+		TargetCollectionResource__ctor_m2384751328(L_0, /*hidden argument*/NULL);
+		__this->set__targetCollectionResource_18(L_0);
+		TargetCollectionResource_t3980041541 * L_1 = __this->get__targetCollectionResource_18();
+		String_t* L_2 = __this->get__targetPath_12();
+		NullCheck(L_1);
+		TargetCollectionResource_set_TargetPath_m1911079585(L_1, L_2, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_3 = __this->get__targetCollectionResource_18();
+		bool L_4 = __this->get__useCustomUrl_13();
+		NullCheck(L_3);
+		TargetCollectionResource_set_UseCustomURL_m3251278923(L_3, L_4, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_5 = __this->get__targetCollectionResource_18();
+		NullCheck(L_5);
+		OnErrorLoadingEvent_t706169873 * L_6 = L_5->get_OnErrorLoading_5();
+		IntPtr_t L_7;
+		L_7.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 5));
+		UnityAction_2_t2540441727 * L_8 = (UnityAction_2_t2540441727 *)il2cpp_codegen_object_new(UnityAction_2_t2540441727_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m2776373289(L_8, __this, L_7, /*hidden argument*/UnityAction_2__ctor_m2776373289_MethodInfo_var);
+		NullCheck(L_6);
+		UnityEvent_2_AddListener_m4113397192(L_6, L_8, /*hidden argument*/UnityEvent_2_AddListener_m4113397192_MethodInfo_var);
+		TargetCollectionResource_t3980041541 * L_9 = __this->get__targetCollectionResource_18();
+		NullCheck(L_9);
+		OnFinishLoadingEvent_t1372070578 * L_10 = L_9->get_OnFinishLoading_4();
+		IntPtr_t L_11;
+		L_11.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 4));
+		UnityAction_t4025899511 * L_12 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_12, __this, L_11, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		UnityEvent_AddListener_m1596810379(L_10, L_12, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_13 = __this->get__targetCollectionResource_18();
+		TrackerManager_t130000407 * L_14 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		VirtActionInvoker1< TrackerManager_t130000407 * >::Invoke(4 /* System.Void Wikitude.TargetSource::Register(Wikitude.TrackerManager) */, L_13, L_14);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnEnable()
+extern "C"  void ClientTracker_OnEnable_m987464704 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker_OnEnable_m987464704_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnEnable_m2484164626(__this, /*hidden argument*/NULL);
+		bool L_0 = TrackerBehaviour_get_Initialized_m3775083335(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		TargetCollectionResource_t3980041541 * L_1 = __this->get__targetCollectionResource_18();
+		NullCheck(L_1);
+		TargetSource_OnEnable_m400085671(L_1, /*hidden argument*/NULL);
+		bool L_2 = __this->get__use3DTracking_14();
+		if (!L_2)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_4 = __this->get__targetCollectionResource_18();
+		NullCheck(L_4);
+		int64_t L_5 = TargetSource_get_Identifier_m2617797188(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker1< int64_t >::Invoke(11 /* System.Void Wikitude.IPlatformBridge::InstantiateObjectTrackerWithTargetCollectionResource(System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3, L_5);
+		goto IL_005c;
+	}
+
+IL_0041:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_6 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_7 = TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642(__this, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_8 = __this->get__targetCollectionResource_18();
+		NullCheck(L_8);
+		int64_t L_9 = TargetSource_get_Identifier_m2617797188(L_8, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		InterfaceActionInvoker2< String_t*, int64_t >::Invoke(9 /* System.Void Wikitude.IPlatformBridge::InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_6, L_7, L_9);
+	}
+
+IL_005c:
+	{
+		ClientTracker_set_IsRegistered_m1557735082(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnDisable()
+extern "C"  void ClientTracker_OnDisable_m3903735883 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker_OnDisable_m3903735883_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnDisable_m292473883(__this, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_0 = __this->get__targetCollectionResource_18();
+		NullCheck(L_0);
+		TargetSource_OnDisable_m954771448(L_0, /*hidden argument*/NULL);
+		bool L_1 = __this->get__use3DTracking_14();
+		if (!L_1)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_2 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker0::Invoke(17 /* System.Void Wikitude.IPlatformBridge::DestroyObjectTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2);
+		goto IL_0035;
+	}
+
+IL_002b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker0::Invoke(16 /* System.Void Wikitude.IPlatformBridge::DestroyImageTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3);
+	}
+
+IL_0035:
+	{
+		ClientTracker_set_IsRegistered_m1557735082(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnDestroy()
+extern "C"  void ClientTracker_OnDestroy_m2283874993 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	{
+		TargetCollectionResource_t3980041541 * L_0 = __this->get__targetCollectionResource_18();
+		NullCheck(L_0);
+		TargetSource_OnDestroy_m4100557054(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnTargetsLoadedInternal()
+extern "C"  void ClientTracker_OnTargetsLoadedInternal_m660210357 (ClientTracker_t40625541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker_OnTargetsLoadedInternal_m660210357_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnTrackerFinishedLoadingEvent_t3128440919 * L_0 = __this->get_OnTrackerFinishedLoading_15();
+		String_t* L_1 = __this->get__targetPath_12();
+		NullCheck(L_0);
+		UnityEvent_1_Invoke_m2698909(L_0, L_1, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnErrorLoadingTargetsInternal(System.Int32,System.String)
+extern "C"  void ClientTracker_OnErrorLoadingTargetsInternal_m2964925431 (ClientTracker_t40625541 * __this, int32_t ___errorCode0, String_t* ___errorMessage1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker_OnErrorLoadingTargetsInternal_m2964925431_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnTrackerLoadingErrorEvent_t1753622137 * L_0 = __this->get_OnTrackerLoadingError_16();
+		String_t* L_1 = ___errorMessage1;
+		NullCheck(L_0);
+		UnityEvent_1_Invoke_m2698909(L_0, L_1, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker::OnExtendedTrackingQualityChangedInternal(System.String,Wikitude.ExtendedTrackingQuality)
+extern "C"  void ClientTracker_OnExtendedTrackingQualityChangedInternal_m3450342372 (ClientTracker_t40625541 * __this, String_t* ___targetName0, int32_t ___trackingQuality1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ClientTracker_OnExtendedTrackingQualityChangedInternal_m3450342372_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnExtendedTrackingQualityChangedEvent_t838064302 * L_0 = __this->get_OnExtendedTrackingQualityChanged_17();
+		String_t* L_1 = ___targetName0;
+		int32_t L_2 = ___trackingQuality1;
+		NullCheck(L_0);
+		UnityEvent_2_Invoke_m2005053380(L_0, L_1, L_2, /*hidden argument*/UnityEvent_2_Invoke_m2005053380_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker/OnExtendedTrackingQualityChangedEvent::.ctor()
+extern "C"  void OnExtendedTrackingQualityChangedEvent__ctor_m2626213551 (OnExtendedTrackingQualityChangedEvent_t838064302 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnExtendedTrackingQualityChangedEvent__ctor_m2626213551_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2413126385(__this, /*hidden argument*/UnityEvent_2__ctor_m2413126385_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker/OnTrackerFinishedLoadingEvent::.ctor()
+extern "C"  void OnTrackerFinishedLoadingEvent__ctor_m3326355774 (OnTrackerFinishedLoadingEvent_t3128440919 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnTrackerFinishedLoadingEvent__ctor_m3326355774_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ClientTracker/OnTrackerLoadingErrorEvent::.ctor()
+extern "C"  void OnTrackerLoadingErrorEvent__ctor_m3165227144 (OnTrackerLoadingErrorEvent_t1753622137 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnTrackerLoadingErrorEvent__ctor_m3165227144_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::.ctor()
+extern "C"  void CloudRecognitionService__ctor_m2791349106 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService__ctor_m2791349106_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnInitializedEvent_t830202925 * L_0 = (OnInitializedEvent_t830202925 *)il2cpp_codegen_object_new(OnInitializedEvent_t830202925_il2cpp_TypeInfo_var);
+		OnInitializedEvent__ctor_m2558310522(L_0, /*hidden argument*/NULL);
+		__this->set_OnInitialized_5(L_0);
+		OnInitializationErrorEvent_t2097344561 * L_1 = (OnInitializationErrorEvent_t2097344561 *)il2cpp_codegen_object_new(OnInitializationErrorEvent_t2097344561_il2cpp_TypeInfo_var);
+		OnInitializationErrorEvent__ctor_m564127662(L_1, /*hidden argument*/NULL);
+		__this->set_OnInitializationError_6(L_1);
+		OnRecognitionResponseEvent_t330592769 * L_2 = (OnRecognitionResponseEvent_t330592769 *)il2cpp_codegen_object_new(OnRecognitionResponseEvent_t330592769_il2cpp_TypeInfo_var);
+		OnRecognitionResponseEvent__ctor_m4103594816(L_2, /*hidden argument*/NULL);
+		__this->set_OnRecognitionResponse_7(L_2);
+		OnRecognitionErrorEvent_t96168148 * L_3 = (OnRecognitionErrorEvent_t96168148 *)il2cpp_codegen_object_new(OnRecognitionErrorEvent_t96168148_il2cpp_TypeInfo_var);
+		OnRecognitionErrorEvent__ctor_m3048400801(L_3, /*hidden argument*/NULL);
+		__this->set_OnRecognitionError_8(L_3);
+		OnInterruptionEvent_t1387741428 * L_4 = (OnInterruptionEvent_t1387741428 *)il2cpp_codegen_object_new(OnInterruptionEvent_t1387741428_il2cpp_TypeInfo_var);
+		OnInterruptionEvent__ctor_m3013665001(L_4, /*hidden argument*/NULL);
+		__this->set_OnInterruption_9(L_4);
+		TargetSource__ctor_m642474803(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.CloudRecognitionService::get_ClientToken()
+extern "C"  String_t* CloudRecognitionService_get_ClientToken_m3222672778 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__clientToken_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::set_ClientToken(System.String)
+extern "C"  void CloudRecognitionService_set_ClientToken_m1619508869 (CloudRecognitionService_t1970555431 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__clientToken_2(L_0);
+		return;
+	}
+}
+// System.String Wikitude.CloudRecognitionService::get_TargetCollectionId()
+extern "C"  String_t* CloudRecognitionService_get_TargetCollectionId_m1962469608 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__targetCollectionId_3();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::set_TargetCollectionId(System.String)
+extern "C"  void CloudRecognitionService_set_TargetCollectionId_m296642481 (CloudRecognitionService_t1970555431 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__targetCollectionId_3(L_0);
+		return;
+	}
+}
+// Wikitude.TrackerManager/CloudRecognitionServerRegion Wikitude.CloudRecognitionService::get_ServerRegion()
+extern "C"  int32_t CloudRecognitionService_get_ServerRegion_m3544210694 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__serverRegion_4();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::set_ServerRegion(Wikitude.TrackerManager/CloudRecognitionServerRegion)
+extern "C"  void CloudRecognitionService_set_ServerRegion_m2525608085 (CloudRecognitionService_t1970555431 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set__serverRegion_4(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.CloudRecognitionService::get_IsContinuousRecognitionRunning()
+extern "C"  bool CloudRecognitionService_get_IsContinuousRecognitionRunning_m284005422 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsContinuousRecognitionRunningU3Ek__BackingField_10();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::set_IsContinuousRecognitionRunning(System.Boolean)
+extern "C"  void CloudRecognitionService_set_IsContinuousRecognitionRunning_m3451688493 (CloudRecognitionService_t1970555431 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsContinuousRecognitionRunningU3Ek__BackingField_10(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::Register(Wikitude.TrackerManager)
+extern "C"  void CloudRecognitionService_Register_m2644640666 (CloudRecognitionService_t1970555431 * __this, TrackerManager_t130000407 * ___manager0, const MethodInfo* method)
+{
+	{
+		TrackerManager_t130000407 * L_0 = ___manager0;
+		NullCheck(L_0);
+		TrackerManager_RegisterCloudRecognitionService_m4066900711(L_0, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::OnInitializeInternal()
+extern "C"  void CloudRecognitionService_OnInitializeInternal_m204062854 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService_OnInitializeInternal_m204062854_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = CloudRecognitionService_get_ServerRegion_m3544210694(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(22 /* System.Void Wikitude.IPlatformBridge::SetCloudRecognitionServerRegion(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::OnEnableInternal()
+extern "C"  void CloudRecognitionService_OnEnableInternal_m3580042231 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService_OnEnableInternal_m3580042231_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = CloudRecognitionService_get_ClientToken_m3222672778(__this, /*hidden argument*/NULL);
+		String_t* L_2 = CloudRecognitionService_get_TargetCollectionId_m1962469608(__this, /*hidden argument*/NULL);
+		int64_t L_3 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker3< String_t*, String_t*, int64_t >::Invoke(8 /* System.Void Wikitude.IPlatformBridge::InstantiateCloudRecognitionService(System.String,System.String,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::OnDisableInternal()
+extern "C"  void CloudRecognitionService_OnDisableInternal_m3044314792 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	{
+		CloudRecognitionService_StopContinuousRecognition_m1151006936(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::OnDestroyInternal()
+extern "C"  void CloudRecognitionService_OnDestroyInternal_m2447288542 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService_OnDestroyInternal_m2447288542_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CloudRecognitionService_StopContinuousRecognition_m1151006936(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_1 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int64_t >::Invoke(15 /* System.Void Wikitude.IPlatformBridge::DestroyCloudRecognitionService(System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::StartContinuousRecognition(System.Double)
+extern "C"  void CloudRecognitionService_StartContinuousRecognition_m1998770732 (CloudRecognitionService_t1970555431 * __this, double ___interval0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService_StartContinuousRecognition_m1998770732_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = CloudRecognitionService_get_IsContinuousRecognitionRunning_m284005422(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		CloudRecognitionService_set_IsContinuousRecognitionRunning_m3451688493(__this, (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		double L_2 = ___interval0;
+		int64_t L_3 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker2< double, int64_t >::Invoke(20 /* System.Void Wikitude.IPlatformBridge::StartContinuousRecognition(System.Double,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2, L_3);
+	}
+
+IL_0023:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::StopContinuousRecognition()
+extern "C"  void CloudRecognitionService_StopContinuousRecognition_m1151006936 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService_StopContinuousRecognition_m1151006936_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = CloudRecognitionService_get_IsContinuousRecognitionRunning_m284005422(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		CloudRecognitionService_set_IsContinuousRecognitionRunning_m3451688493(__this, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_2 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int64_t >::Invoke(21 /* System.Void Wikitude.IPlatformBridge::StopContinuousRecognition(System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService::Recognize()
+extern "C"  void CloudRecognitionService_Recognize_m1425334814 (CloudRecognitionService_t1970555431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudRecognitionService_Recognize_m1425334814_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_1 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int64_t >::Invoke(19 /* System.Void Wikitude.IPlatformBridge::Recognize(System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService/OnInitializationErrorEvent::.ctor()
+extern "C"  void OnInitializationErrorEvent__ctor_m564127662 (OnInitializationErrorEvent_t2097344561 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnInitializationErrorEvent__ctor_m564127662_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService/OnInitializedEvent::.ctor()
+extern "C"  void OnInitializedEvent__ctor_m2558310522 (OnInitializedEvent_t830202925 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService/OnInterruptionEvent::.ctor()
+extern "C"  void OnInterruptionEvent__ctor_m3013665001 (OnInterruptionEvent_t1387741428 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnInterruptionEvent__ctor_m3013665001_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m4179878785(__this, /*hidden argument*/UnityEvent_1__ctor_m4179878785_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService/OnRecognitionErrorEvent::.ctor()
+extern "C"  void OnRecognitionErrorEvent__ctor_m3048400801 (OnRecognitionErrorEvent_t96168148 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecognitionErrorEvent__ctor_m3048400801_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionService/OnRecognitionResponseEvent::.ctor()
+extern "C"  void OnRecognitionResponseEvent__ctor_m4103594816 (OnRecognitionResponseEvent_t330592769 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecognitionResponseEvent__ctor_m4103594816_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2351411737(__this, /*hidden argument*/UnityEvent_1__ctor_m2351411737_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudRecognitionServiceResponse::.ctor()
+extern "C"  void CloudRecognitionServiceResponse__ctor_m3723954059 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Wikitude.CloudRecognitionServiceResponse::get_Recognized()
+extern "C"  bool CloudRecognitionServiceResponse_get_Recognized_m1235224272 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CRecognizedU3Ek__BackingField_0();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionServiceResponse::set_Recognized(System.Boolean)
+extern "C"  void CloudRecognitionServiceResponse_set_Recognized_m1571720721 (CloudRecognitionServiceResponse_t1921450246 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CRecognizedU3Ek__BackingField_0(L_0);
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.CloudRecognitionServiceResponse::get_Info()
+extern "C"  Il2CppObject* CloudRecognitionServiceResponse_get_Info_m2864325029 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = __this->get_U3CInfoU3Ek__BackingField_1();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionServiceResponse::set_Info(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudRecognitionServiceResponse_set_Info_m3522348696 (CloudRecognitionServiceResponse_t1921450246 * __this, Il2CppObject* ___value0, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = ___value0;
+		__this->set_U3CInfoU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.CloudRecognitionServiceResponse::get_Metadata()
+extern "C"  Il2CppObject* CloudRecognitionServiceResponse_get_Metadata_m2006681210 (CloudRecognitionServiceResponse_t1921450246 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = __this->get_U3CMetadataU3Ek__BackingField_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudRecognitionServiceResponse::set_Metadata(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudRecognitionServiceResponse_set_Metadata_m2578804857 (CloudRecognitionServiceResponse_t1921450246 * __this, Il2CppObject* ___value0, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = ___value0;
+		__this->set_U3CMetadataU3Ek__BackingField_2(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTargetInfo::.ctor()
+extern "C"  void CloudTargetInfo__ctor_m2145320817 (CloudTargetInfo_t1651937310 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.CloudTargetInfo::get_Info()
+extern "C"  Il2CppObject* CloudTargetInfo_get_Info_m3897589551 (CloudTargetInfo_t1651937310 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = __this->get_U3CInfoU3Ek__BackingField_0();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudTargetInfo::set_Info(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudTargetInfo_set_Info_m1595045480 (CloudTargetInfo_t1651937310 * __this, Il2CppObject* ___value0, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = ___value0;
+		__this->set_U3CInfoU3Ek__BackingField_0(L_0);
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.CloudTargetInfo::get_Metadata()
+extern "C"  Il2CppObject* CloudTargetInfo_get_Metadata_m850504806 (CloudTargetInfo_t1651937310 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = __this->get_U3CMetadataU3Ek__BackingField_1();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudTargetInfo::set_Metadata(System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern "C"  void CloudTargetInfo_set_Metadata_m3446268923 (CloudTargetInfo_t1651937310 * __this, Il2CppObject* ___value0, const MethodInfo* method)
+{
+	{
+		Il2CppObject* L_0 = ___value0;
+		__this->set_U3CMetadataU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::.ctor()
+extern "C"  void CloudTracker__ctor_m3265388822 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker__ctor_m3265388822_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnTrackerFinishedLoadingEvent_t2073899635 * L_0 = (OnTrackerFinishedLoadingEvent_t2073899635 *)il2cpp_codegen_object_new(OnTrackerFinishedLoadingEvent_t2073899635_il2cpp_TypeInfo_var);
+		OnTrackerFinishedLoadingEvent__ctor_m261005300(L_0, /*hidden argument*/NULL);
+		__this->set_OnTrackerFinishedLoading_15(L_0);
+		OnTrackerLoadingErrorEvent_t4048345185 * L_1 = (OnTrackerLoadingErrorEvent_t4048345185 *)il2cpp_codegen_object_new(OnTrackerLoadingErrorEvent_t4048345185_il2cpp_TypeInfo_var);
+		OnTrackerLoadingErrorEvent__ctor_m2418683378(L_1, /*hidden argument*/NULL);
+		__this->set_OnTrackerLoadingError_16(L_1);
+		OnExtendedTrackingQualityChangedEvent_t185594368 * L_2 = (OnExtendedTrackingQualityChangedEvent_t185594368 *)il2cpp_codegen_object_new(OnExtendedTrackingQualityChangedEvent_t185594368_il2cpp_TypeInfo_var);
+		OnExtendedTrackingQualityChangedEvent__ctor_m1501135999(L_2, /*hidden argument*/NULL);
+		__this->set_OnExtendedTrackingQualityChanged_17(L_2);
+		OnRecognitionSuccessfulEvent_t597905196 * L_3 = (OnRecognitionSuccessfulEvent_t597905196 *)il2cpp_codegen_object_new(OnRecognitionSuccessfulEvent_t597905196_il2cpp_TypeInfo_var);
+		OnRecognitionSuccessfulEvent__ctor_m2396553567(L_3, /*hidden argument*/NULL);
+		__this->set_OnRecognitionSuccessful_18(L_3);
+		OnRecognitionFailedEvent_t2475925451 * L_4 = (OnRecognitionFailedEvent_t2475925451 *)il2cpp_codegen_object_new(OnRecognitionFailedEvent_t2475925451_il2cpp_TypeInfo_var);
+		OnRecognitionFailedEvent__ctor_m1618038666(L_4, /*hidden argument*/NULL);
+		__this->set_OnRecognitionFailed_19(L_4);
+		OnRecognitionInterruptionEvent_t4169328967 * L_5 = (OnRecognitionInterruptionEvent_t4169328967 *)il2cpp_codegen_object_new(OnRecognitionInterruptionEvent_t4169328967_il2cpp_TypeInfo_var);
+		OnRecognitionInterruptionEvent__ctor_m2973607588(L_5, /*hidden argument*/NULL);
+		__this->set_OnRecognitionInterruption_20(L_5);
+		TrackerBehaviour__ctor_m2201672446(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.CloudTracker::get_AuthenticationToken()
+extern "C"  String_t* CloudTracker_get_AuthenticationToken_m2036894825 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__authenticationToken_12();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudTracker::set_AuthenticationToken(System.String)
+extern "C"  void CloudTracker_set_AuthenticationToken_m2899249738 (CloudTracker_t4240178021 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__authenticationToken_12(L_0);
+		return;
+	}
+}
+// System.String Wikitude.CloudTracker::get_TargetCollectionId()
+extern "C"  String_t* CloudTracker_get_TargetCollectionId_m2002287170 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__targetCollectionId_13();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudTracker::set_TargetCollectionId(System.String)
+extern "C"  void CloudTracker_set_TargetCollectionId_m3113075151 (CloudTracker_t4240178021 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__targetCollectionId_13(L_0);
+		return;
+	}
+}
+// Wikitude.TrackerManager/CloudRecognitionServerRegion Wikitude.CloudTracker::get_ServerRegion()
+extern "C"  int32_t CloudTracker_get_ServerRegion_m694105102 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__serverRegion_14();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudTracker::set_ServerRegion(Wikitude.TrackerManager/CloudRecognitionServerRegion)
+extern "C"  void CloudTracker_set_ServerRegion_m4190338479 (CloudTracker_t4240178021 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set__serverRegion_14(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.CloudTracker::get_IsRegistered()
+extern "C"  bool CloudTracker_get_IsRegistered_m1394906097 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsRegisteredU3Ek__BackingField_22();
+		return L_0;
+	}
+}
+// System.Void Wikitude.CloudTracker::set_IsRegistered(System.Boolean)
+extern "C"  void CloudTracker_set_IsRegistered_m310514496 (CloudTracker_t4240178021 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsRegisteredU3Ek__BackingField_22(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::StartContinuousRecognition(System.Double)
+extern "C"  void CloudTracker_StartContinuousRecognition_m389245436 (CloudTracker_t4240178021 * __this, double ___interval0, const MethodInfo* method)
+{
+	{
+		CloudRecognitionService_t1970555431 * L_0 = __this->get__cloudRecognitionService_21();
+		double L_1 = ___interval0;
+		NullCheck(L_0);
+		CloudRecognitionService_StartContinuousRecognition_m1998770732(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::StopContinuousRecognition()
+extern "C"  void CloudTracker_StopContinuousRecognition_m3539776236 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		CloudRecognitionService_t1970555431 * L_0 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_0);
+		CloudRecognitionService_StopContinuousRecognition_m1151006936(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::Recognize()
+extern "C"  void CloudTracker_Recognize_m594510894 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		CloudRecognitionService_t1970555431 * L_0 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_0);
+		CloudRecognitionService_Recognize_m1425334814(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnInitialize()
+extern "C"  void CloudTracker_OnInitialize_m3176311623 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnInitialize_m3176311623_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnInitialize_m26638623(__this, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_0 = (CloudRecognitionService_t1970555431 *)il2cpp_codegen_object_new(CloudRecognitionService_t1970555431_il2cpp_TypeInfo_var);
+		CloudRecognitionService__ctor_m2791349106(L_0, /*hidden argument*/NULL);
+		__this->set__cloudRecognitionService_21(L_0);
+		CloudRecognitionService_t1970555431 * L_1 = __this->get__cloudRecognitionService_21();
+		String_t* L_2 = __this->get__authenticationToken_12();
+		NullCheck(L_1);
+		CloudRecognitionService_set_ClientToken_m1619508869(L_1, L_2, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_3 = __this->get__cloudRecognitionService_21();
+		String_t* L_4 = __this->get__targetCollectionId_13();
+		NullCheck(L_3);
+		CloudRecognitionService_set_TargetCollectionId_m296642481(L_3, L_4, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_5 = __this->get__cloudRecognitionService_21();
+		int32_t L_6 = __this->get__serverRegion_14();
+		NullCheck(L_5);
+		CloudRecognitionService_set_ServerRegion_m2525608085(L_5, L_6, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_7 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_7);
+		OnInitializedEvent_t830202925 * L_8 = L_7->get_OnInitialized_5();
+		IntPtr_t L_9;
+		L_9.set_m_value_0((void*)(void*)CloudTracker_OnCloudRecognitionServiceInitialized_m2508425714_MethodInfo_var);
+		UnityAction_t4025899511 * L_10 = (UnityAction_t4025899511 *)il2cpp_codegen_object_new(UnityAction_t4025899511_il2cpp_TypeInfo_var);
+		UnityAction__ctor_m2649891629(L_10, __this, L_9, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		UnityEvent_AddListener_m1596810379(L_8, L_10, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_11 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_11);
+		OnInitializationErrorEvent_t2097344561 * L_12 = L_11->get_OnInitializationError_6();
+		IntPtr_t L_13;
+		L_13.set_m_value_0((void*)(void*)GetVirtualMethodInfo(__this, 5));
+		UnityAction_2_t2540441727 * L_14 = (UnityAction_2_t2540441727 *)il2cpp_codegen_object_new(UnityAction_2_t2540441727_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m2776373289(L_14, __this, L_13, /*hidden argument*/UnityAction_2__ctor_m2776373289_MethodInfo_var);
+		NullCheck(L_12);
+		UnityEvent_2_AddListener_m4113397192(L_12, L_14, /*hidden argument*/UnityEvent_2_AddListener_m4113397192_MethodInfo_var);
+		CloudRecognitionService_t1970555431 * L_15 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_15);
+		OnRecognitionErrorEvent_t96168148 * L_16 = L_15->get_OnRecognitionError_8();
+		IntPtr_t L_17;
+		L_17.set_m_value_0((void*)(void*)CloudTracker_OnRecognitionErrorInternal_m1210096614_MethodInfo_var);
+		UnityAction_2_t2540441727 * L_18 = (UnityAction_2_t2540441727 *)il2cpp_codegen_object_new(UnityAction_2_t2540441727_il2cpp_TypeInfo_var);
+		UnityAction_2__ctor_m2776373289(L_18, __this, L_17, /*hidden argument*/UnityAction_2__ctor_m2776373289_MethodInfo_var);
+		NullCheck(L_16);
+		UnityEvent_2_AddListener_m4113397192(L_16, L_18, /*hidden argument*/UnityEvent_2_AddListener_m4113397192_MethodInfo_var);
+		CloudRecognitionService_t1970555431 * L_19 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_19);
+		OnRecognitionResponseEvent_t330592769 * L_20 = L_19->get_OnRecognitionResponse_7();
+		IntPtr_t L_21;
+		L_21.set_m_value_0((void*)(void*)CloudTracker_OnRecognitionSuccessfulInternal_m802918977_MethodInfo_var);
+		UnityAction_1_t3288035997 * L_22 = (UnityAction_1_t3288035997 *)il2cpp_codegen_object_new(UnityAction_1_t3288035997_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m2130783191(L_22, __this, L_21, /*hidden argument*/UnityAction_1__ctor_m2130783191_MethodInfo_var);
+		NullCheck(L_20);
+		UnityEvent_1_AddListener_m2898327403(L_20, L_22, /*hidden argument*/UnityEvent_1_AddListener_m2898327403_MethodInfo_var);
+		CloudRecognitionService_t1970555431 * L_23 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_23);
+		OnInterruptionEvent_t1387741428 * L_24 = L_23->get_OnInterruption_9();
+		IntPtr_t L_25;
+		L_25.set_m_value_0((void*)(void*)CloudTracker_OnInterruptionInternal_m1530148797_MethodInfo_var);
+		UnityAction_1_t1149634136 * L_26 = (UnityAction_1_t1149634136 *)il2cpp_codegen_object_new(UnityAction_1_t1149634136_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m3451684435(L_26, __this, L_25, /*hidden argument*/UnityAction_1__ctor_m3451684435_MethodInfo_var);
+		NullCheck(L_24);
+		UnityEvent_1_AddListener_m3679898207(L_24, L_26, /*hidden argument*/UnityEvent_1_AddListener_m3679898207_MethodInfo_var);
+		CloudRecognitionService_t1970555431 * L_27 = __this->get__cloudRecognitionService_21();
+		TrackerManager_t130000407 * L_28 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		VirtActionInvoker1< TrackerManager_t130000407 * >::Invoke(4 /* System.Void Wikitude.TargetSource::Register(Wikitude.TrackerManager) */, L_27, L_28);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnEnable()
+extern "C"  void CloudTracker_OnEnable_m374409274 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnEnable_m374409274_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnEnable_m2484164626(__this, /*hidden argument*/NULL);
+		bool L_0 = TrackerBehaviour_get_Initialized_m3775083335(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		CloudRecognitionService_t1970555431 * L_1 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_1);
+		TargetSource_OnEnable_m400085671(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_2 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_3 = TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642(__this, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_4 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_4);
+		int64_t L_5 = TargetSource_get_Identifier_m2617797188(L_4, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker2< String_t*, int64_t >::Invoke(10 /* System.Void Wikitude.IPlatformBridge::InstantiateImageTrackerWithCloudRecognitionService(System.String,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2, L_3, L_5);
+		CloudTracker_set_IsRegistered_m310514496(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnDisable()
+extern "C"  void CloudTracker_OnDisable_m2844186291 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnDisable_m2844186291_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		CloudTracker_StopContinuousRecognition_m3539776236(__this, /*hidden argument*/NULL);
+		TrackerBehaviour_OnDisable_m292473883(__this, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_0 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_0);
+		TargetSource_OnDisable_m954771448(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(16 /* System.Void Wikitude.IPlatformBridge::DestroyImageTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnDestroy()
+extern "C"  void CloudTracker_OnDestroy_m827700693 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		CloudTracker_StopContinuousRecognition_m3539776236(__this, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_0 = __this->get__cloudRecognitionService_21();
+		NullCheck(L_0);
+		TargetSource_OnDestroy_m4100557054(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnCloudRecognitionServiceInitialized()
+extern "C"  void CloudTracker_OnCloudRecognitionServiceInitialized_m2508425714 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		OnTrackerFinishedLoadingEvent_t2073899635 * L_0 = __this->get_OnTrackerFinishedLoading_15();
+		NullCheck(L_0);
+		UnityEvent_Invoke_m4163344491(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnTargetsLoadedInternal()
+extern "C"  void CloudTracker_OnTargetsLoadedInternal_m3409426625 (CloudTracker_t4240178021 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnErrorLoadingTargetsInternal(System.Int32,System.String)
+extern "C"  void CloudTracker_OnErrorLoadingTargetsInternal_m57145831 (CloudTracker_t4240178021 * __this, int32_t ___errorCode0, String_t* ___errorMessage1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnErrorLoadingTargetsInternal_m57145831_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnTrackerLoadingErrorEvent_t4048345185 * L_0 = __this->get_OnTrackerLoadingError_16();
+		String_t* L_1 = ___errorMessage1;
+		NullCheck(L_0);
+		UnityEvent_1_Invoke_m2698909(L_0, L_1, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnExtendedTrackingQualityChangedInternal(System.String,Wikitude.ExtendedTrackingQuality)
+extern "C"  void CloudTracker_OnExtendedTrackingQualityChangedInternal_m947142006 (CloudTracker_t4240178021 * __this, String_t* ___targetName0, int32_t ___trackingQuality1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnExtendedTrackingQualityChangedInternal_m947142006_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnExtendedTrackingQualityChangedEvent_t185594368 * L_0 = __this->get_OnExtendedTrackingQualityChanged_17();
+		String_t* L_1 = ___targetName0;
+		int32_t L_2 = ___trackingQuality1;
+		NullCheck(L_0);
+		UnityEvent_2_Invoke_m2005053380(L_0, L_1, L_2, /*hidden argument*/UnityEvent_2_Invoke_m2005053380_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnRecognitionSuccessfulInternal(Wikitude.CloudRecognitionServiceResponse)
+extern "C"  void CloudTracker_OnRecognitionSuccessfulInternal_m802918977 (CloudTracker_t4240178021 * __this, CloudRecognitionServiceResponse_t1921450246 * ___response0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnRecognitionSuccessfulInternal_m802918977_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	CloudTargetInfo_t1651937310 * V_0 = NULL;
+	{
+		CloudTargetInfo_t1651937310 * L_0 = (CloudTargetInfo_t1651937310 *)il2cpp_codegen_object_new(CloudTargetInfo_t1651937310_il2cpp_TypeInfo_var);
+		CloudTargetInfo__ctor_m2145320817(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		CloudTargetInfo_t1651937310 * L_1 = V_0;
+		CloudRecognitionServiceResponse_t1921450246 * L_2 = ___response0;
+		NullCheck(L_2);
+		Il2CppObject* L_3 = CloudRecognitionServiceResponse_get_Info_m2864325029(L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		CloudTargetInfo_set_Info_m1595045480(L_1, L_3, /*hidden argument*/NULL);
+		CloudTargetInfo_t1651937310 * L_4 = V_0;
+		CloudRecognitionServiceResponse_t1921450246 * L_5 = ___response0;
+		NullCheck(L_5);
+		Il2CppObject* L_6 = CloudRecognitionServiceResponse_get_Metadata_m2006681210(L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		CloudTargetInfo_set_Metadata_m3446268923(L_4, L_6, /*hidden argument*/NULL);
+		OnRecognitionSuccessfulEvent_t597905196 * L_7 = __this->get_OnRecognitionSuccessful_18();
+		CloudRecognitionServiceResponse_t1921450246 * L_8 = ___response0;
+		NullCheck(L_8);
+		bool L_9 = CloudRecognitionServiceResponse_get_Recognized_m1235224272(L_8, /*hidden argument*/NULL);
+		CloudTargetInfo_t1651937310 * L_10 = V_0;
+		NullCheck(L_7);
+		UnityEvent_2_Invoke_m2162392966(L_7, L_9, L_10, /*hidden argument*/UnityEvent_2_Invoke_m2162392966_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnRecognitionErrorInternal(System.Int32,System.String)
+extern "C"  void CloudTracker_OnRecognitionErrorInternal_m1210096614 (CloudTracker_t4240178021 * __this, int32_t ___errorCode0, String_t* ___errorMessage1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnRecognitionErrorInternal_m1210096614_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnRecognitionFailedEvent_t2475925451 * L_0 = __this->get_OnRecognitionFailed_19();
+		int32_t L_1 = ___errorCode0;
+		String_t* L_2 = ___errorMessage1;
+		NullCheck(L_0);
+		UnityEvent_2_Invoke_m3710222440(L_0, L_1, L_2, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker::OnInterruptionInternal(System.Double)
+extern "C"  void CloudTracker_OnInterruptionInternal_m1530148797 (CloudTracker_t4240178021 * __this, double ___interval0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (CloudTracker_OnInterruptionInternal_m1530148797_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnRecognitionInterruptionEvent_t4169328967 * L_0 = __this->get_OnRecognitionInterruption_20();
+		double L_1 = ___interval0;
+		NullCheck(L_0);
+		UnityEvent_1_Invoke_m1530575732(L_0, L_1, /*hidden argument*/UnityEvent_1_Invoke_m1530575732_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker/OnExtendedTrackingQualityChangedEvent::.ctor()
+extern "C"  void OnExtendedTrackingQualityChangedEvent__ctor_m1501135999 (OnExtendedTrackingQualityChangedEvent_t185594368 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnExtendedTrackingQualityChangedEvent__ctor_m1501135999_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2413126385(__this, /*hidden argument*/UnityEvent_2__ctor_m2413126385_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker/OnRecognitionFailedEvent::.ctor()
+extern "C"  void OnRecognitionFailedEvent__ctor_m1618038666 (OnRecognitionFailedEvent_t2475925451 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecognitionFailedEvent__ctor_m1618038666_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker/OnRecognitionInterruptionEvent::.ctor()
+extern "C"  void OnRecognitionInterruptionEvent__ctor_m2973607588 (OnRecognitionInterruptionEvent_t4169328967 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecognitionInterruptionEvent__ctor_m2973607588_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m4179878785(__this, /*hidden argument*/UnityEvent_1__ctor_m4179878785_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker/OnRecognitionSuccessfulEvent::.ctor()
+extern "C"  void OnRecognitionSuccessfulEvent__ctor_m2396553567 (OnRecognitionSuccessfulEvent_t597905196 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecognitionSuccessfulEvent__ctor_m2396553567_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2773463103(__this, /*hidden argument*/UnityEvent_2__ctor_m2773463103_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker/OnTrackerFinishedLoadingEvent::.ctor()
+extern "C"  void OnTrackerFinishedLoadingEvent__ctor_m261005300 (OnTrackerFinishedLoadingEvent_t2073899635 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.CloudTracker/OnTrackerLoadingErrorEvent::.ctor()
+extern "C"  void OnTrackerLoadingErrorEvent__ctor_m2418683378 (OnTrackerLoadingErrorEvent_t4048345185 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnTrackerLoadingErrorEvent__ctor_m2418683378_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// Conversion methods for marshalling of: Wikitude.Frame
+extern "C" void Frame_t1875945745_marshal_pinvoke(const Frame_t1875945745& unmarshaled, Frame_t1875945745_marshaled_pinvoke& marshaled)
+{
+	marshaled.___Data_0 = reinterpret_cast<intptr_t>((unmarshaled.get_Data_0()).get_m_value_0());
+	marshaled.___DataSize_1 = unmarshaled.get_DataSize_1();
+	marshaled.___Width_2 = unmarshaled.get_Width_2();
+	marshaled.___Height_3 = unmarshaled.get_Height_3();
+	marshaled.___ColorSpace_4 = unmarshaled.get_ColorSpace_4();
+	marshaled.___HasStrides_5 = static_cast<int32_t>(unmarshaled.get_HasStrides_5());
+	marshaled.___Strides_6 = unmarshaled.get_Strides_6();
+}
+extern "C" void Frame_t1875945745_marshal_pinvoke_back(const Frame_t1875945745_marshaled_pinvoke& marshaled, Frame_t1875945745& unmarshaled)
+{
+	IntPtr_t unmarshaled_Data_temp_0;
+	memset(&unmarshaled_Data_temp_0, 0, sizeof(unmarshaled_Data_temp_0));
+	IntPtr_t unmarshaled_Data_temp_0_temp;
+	unmarshaled_Data_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Data_0)));
+	unmarshaled_Data_temp_0 = unmarshaled_Data_temp_0_temp;
+	unmarshaled.set_Data_0(unmarshaled_Data_temp_0);
+	int32_t unmarshaled_DataSize_temp_1 = 0;
+	unmarshaled_DataSize_temp_1 = marshaled.___DataSize_1;
+	unmarshaled.set_DataSize_1(unmarshaled_DataSize_temp_1);
+	int32_t unmarshaled_Width_temp_2 = 0;
+	unmarshaled_Width_temp_2 = marshaled.___Width_2;
+	unmarshaled.set_Width_2(unmarshaled_Width_temp_2);
+	int32_t unmarshaled_Height_temp_3 = 0;
+	unmarshaled_Height_temp_3 = marshaled.___Height_3;
+	unmarshaled.set_Height_3(unmarshaled_Height_temp_3);
+	int32_t unmarshaled_ColorSpace_temp_4 = 0;
+	unmarshaled_ColorSpace_temp_4 = marshaled.___ColorSpace_4;
+	unmarshaled.set_ColorSpace_4(unmarshaled_ColorSpace_temp_4);
+	bool unmarshaled_HasStrides_temp_5 = false;
+	unmarshaled_HasStrides_temp_5 = static_cast<bool>(marshaled.___HasStrides_5);
+	unmarshaled.set_HasStrides_5(unmarshaled_HasStrides_temp_5);
+	FrameStrides_t204969663  unmarshaled_Strides_temp_6;
+	memset(&unmarshaled_Strides_temp_6, 0, sizeof(unmarshaled_Strides_temp_6));
+	unmarshaled_Strides_temp_6 = marshaled.___Strides_6;
+	unmarshaled.set_Strides_6(unmarshaled_Strides_temp_6);
+}
+// Conversion method for clean up from marshalling of: Wikitude.Frame
+extern "C" void Frame_t1875945745_marshal_pinvoke_cleanup(Frame_t1875945745_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: Wikitude.Frame
+extern "C" void Frame_t1875945745_marshal_com(const Frame_t1875945745& unmarshaled, Frame_t1875945745_marshaled_com& marshaled)
+{
+	marshaled.___Data_0 = reinterpret_cast<intptr_t>((unmarshaled.get_Data_0()).get_m_value_0());
+	marshaled.___DataSize_1 = unmarshaled.get_DataSize_1();
+	marshaled.___Width_2 = unmarshaled.get_Width_2();
+	marshaled.___Height_3 = unmarshaled.get_Height_3();
+	marshaled.___ColorSpace_4 = unmarshaled.get_ColorSpace_4();
+	marshaled.___HasStrides_5 = static_cast<int32_t>(unmarshaled.get_HasStrides_5());
+	marshaled.___Strides_6 = unmarshaled.get_Strides_6();
+}
+extern "C" void Frame_t1875945745_marshal_com_back(const Frame_t1875945745_marshaled_com& marshaled, Frame_t1875945745& unmarshaled)
+{
+	IntPtr_t unmarshaled_Data_temp_0;
+	memset(&unmarshaled_Data_temp_0, 0, sizeof(unmarshaled_Data_temp_0));
+	IntPtr_t unmarshaled_Data_temp_0_temp;
+	unmarshaled_Data_temp_0_temp.set_m_value_0(reinterpret_cast<void*>((intptr_t)(marshaled.___Data_0)));
+	unmarshaled_Data_temp_0 = unmarshaled_Data_temp_0_temp;
+	unmarshaled.set_Data_0(unmarshaled_Data_temp_0);
+	int32_t unmarshaled_DataSize_temp_1 = 0;
+	unmarshaled_DataSize_temp_1 = marshaled.___DataSize_1;
+	unmarshaled.set_DataSize_1(unmarshaled_DataSize_temp_1);
+	int32_t unmarshaled_Width_temp_2 = 0;
+	unmarshaled_Width_temp_2 = marshaled.___Width_2;
+	unmarshaled.set_Width_2(unmarshaled_Width_temp_2);
+	int32_t unmarshaled_Height_temp_3 = 0;
+	unmarshaled_Height_temp_3 = marshaled.___Height_3;
+	unmarshaled.set_Height_3(unmarshaled_Height_temp_3);
+	int32_t unmarshaled_ColorSpace_temp_4 = 0;
+	unmarshaled_ColorSpace_temp_4 = marshaled.___ColorSpace_4;
+	unmarshaled.set_ColorSpace_4(unmarshaled_ColorSpace_temp_4);
+	bool unmarshaled_HasStrides_temp_5 = false;
+	unmarshaled_HasStrides_temp_5 = static_cast<bool>(marshaled.___HasStrides_5);
+	unmarshaled.set_HasStrides_5(unmarshaled_HasStrides_temp_5);
+	FrameStrides_t204969663  unmarshaled_Strides_temp_6;
+	memset(&unmarshaled_Strides_temp_6, 0, sizeof(unmarshaled_Strides_temp_6));
+	unmarshaled_Strides_temp_6 = marshaled.___Strides_6;
+	unmarshaled.set_Strides_6(unmarshaled_Strides_temp_6);
+}
+// Conversion method for clean up from marshalling of: Wikitude.Frame
+extern "C" void Frame_t1875945745_marshal_com_cleanup(Frame_t1875945745_marshaled_com& marshaled)
+{
+}
+// System.Void Wikitude.Frame::.ctor(System.IntPtr,System.Int32,System.Int32,System.Int32,Wikitude.FrameColorSpace,System.Boolean,Wikitude.FrameStrides)
+extern "C"  void Frame__ctor_m741861989 (Frame_t1875945745 * __this, IntPtr_t ___data0, int32_t ___dataSize1, int32_t ___width2, int32_t ___height3, int32_t ___colorSpace4, bool ___hasStrides5, FrameStrides_t204969663  ___strides6, const MethodInfo* method)
+{
+	{
+		IntPtr_t L_0 = ___data0;
+		__this->set_Data_0(L_0);
+		int32_t L_1 = ___dataSize1;
+		__this->set_DataSize_1(L_1);
+		int32_t L_2 = ___width2;
+		__this->set_Width_2(L_2);
+		int32_t L_3 = ___height3;
+		__this->set_Height_3(L_3);
+		int32_t L_4 = ___colorSpace4;
+		__this->set_ColorSpace_4(L_4);
+		bool L_5 = ___hasStrides5;
+		__this->set_HasStrides_5(L_5);
+		FrameStrides_t204969663  L_6 = ___strides6;
+		__this->set_Strides_6(L_6);
+		return;
+	}
+}
+extern "C"  void Frame__ctor_m741861989_AdjustorThunk (Il2CppObject * __this, IntPtr_t ___data0, int32_t ___dataSize1, int32_t ___width2, int32_t ___height3, int32_t ___colorSpace4, bool ___hasStrides5, FrameStrides_t204969663  ___strides6, const MethodInfo* method)
+{
+	Frame_t1875945745 * _thisAdjusted = reinterpret_cast<Frame_t1875945745 *>(__this + 1);
+	Frame__ctor_m741861989(_thisAdjusted, ___data0, ___dataSize1, ___width2, ___height3, ___colorSpace4, ___hasStrides5, ___strides6, method);
+}
+// System.Void Wikitude.ImageTracker::.ctor()
+extern "C"  void ImageTracker__ctor_m43111834 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ImageTracker__ctor_m43111834_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnExtendedTrackingQualityChangedEvent_t1461804644 * L_0 = (OnExtendedTrackingQualityChangedEvent_t1461804644 *)il2cpp_codegen_object_new(OnExtendedTrackingQualityChangedEvent_t1461804644_il2cpp_TypeInfo_var);
+		OnExtendedTrackingQualityChangedEvent__ctor_m2261393213(L_0, /*hidden argument*/NULL);
+		__this->set_OnExtendedTrackingQualityChanged_12(L_0);
+		TrackerBehaviour__ctor_m2201672446(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.TargetSourceType Wikitude.ImageTracker::get_TargetSourceType()
+extern "C"  int32_t ImageTracker_get_TargetSourceType_m2277370188 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__targetSourceType_13();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ImageTracker::set_TargetSourceType(Wikitude.TargetSourceType)
+extern "C"  void ImageTracker_set_TargetSourceType_m1151841179 (ImageTracker_t1984565635 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set__targetSourceType_13(L_0);
+		return;
+	}
+}
+// Wikitude.TargetCollectionResource Wikitude.ImageTracker::get_TargetCollectionResource()
+extern "C"  TargetCollectionResource_t3980041541 * ImageTracker_get_TargetCollectionResource_m2548518796 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		TargetCollectionResource_t3980041541 * L_0 = __this->get__targetCollectionResource_14();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ImageTracker::set_TargetCollectionResource(Wikitude.TargetCollectionResource)
+extern "C"  void ImageTracker_set_TargetCollectionResource_m4175745019 (ImageTracker_t1984565635 * __this, TargetCollectionResource_t3980041541 * ___value0, const MethodInfo* method)
+{
+	{
+		TargetCollectionResource_t3980041541 * L_0 = ___value0;
+		__this->set__targetCollectionResource_14(L_0);
+		return;
+	}
+}
+// Wikitude.CloudRecognitionService Wikitude.ImageTracker::get_CloudRecognitionService()
+extern "C"  CloudRecognitionService_t1970555431 * ImageTracker_get_CloudRecognitionService_m2673884942 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		CloudRecognitionService_t1970555431 * L_0 = __this->get__cloudRecognitionService_15();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ImageTracker::set_CloudRecognitionService(Wikitude.CloudRecognitionService)
+extern "C"  void ImageTracker_set_CloudRecognitionService_m1833487647 (ImageTracker_t1984565635 * __this, CloudRecognitionService_t1970555431 * ___value0, const MethodInfo* method)
+{
+	{
+		CloudRecognitionService_t1970555431 * L_0 = ___value0;
+		__this->set__cloudRecognitionService_15(L_0);
+		return;
+	}
+}
+// Wikitude.TargetSource Wikitude.ImageTracker::get_TargetSource()
+extern "C"  TargetSource_t1091527250 * ImageTracker_get_TargetSource_m1015604748 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ImageTracker_get_TargetSourceType_m2277370188(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		TargetCollectionResource_t3980041541 * L_1 = ImageTracker_get_TargetCollectionResource_m2548518796(__this, /*hidden argument*/NULL);
+		return L_1;
+	}
+
+IL_0012:
+	{
+		CloudRecognitionService_t1970555431 * L_2 = ImageTracker_get_CloudRecognitionService_m2673884942(__this, /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// System.Boolean Wikitude.ImageTracker::get_IsRegistered()
+extern "C"  bool ImageTracker_get_IsRegistered_m10710583 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsRegisteredU3Ek__BackingField_16();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ImageTracker::set_IsRegistered(System.Boolean)
+extern "C"  void ImageTracker_set_IsRegistered_m965589244 (ImageTracker_t1984565635 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsRegisteredU3Ek__BackingField_16(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::StopExtendedTracking()
+extern "C"  void ImageTracker_StopExtendedTracking_m4215550636 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ImageTracker_StopExtendedTracking_m4215550636_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = Behaviour_get_enabled_m4079055610(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1122610468, /*hidden argument*/NULL);
+		goto IL_0024;
+	}
+
+IL_001a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(13 /* System.Void Wikitude.IPlatformBridge::StopExtendedTracking() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnInitialize()
+extern "C"  void ImageTracker_OnInitialize_m277066369 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_OnInitialize_m26638623(__this, /*hidden argument*/NULL);
+		TrackerManager_t130000407 * L_0 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TrackerManager_RegisterTracker_m2020059202(L_0, __this, /*hidden argument*/NULL);
+		TargetSource_t1091527250 * L_1 = ImageTracker_get_TargetSource_m1015604748(__this, /*hidden argument*/NULL);
+		TrackerManager_t130000407 * L_2 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker1< TrackerManager_t130000407 * >::Invoke(4 /* System.Void Wikitude.TargetSource::Register(Wikitude.TrackerManager) */, L_1, L_2);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnEnable()
+extern "C"  void ImageTracker_OnEnable_m1566401538 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ImageTracker_OnEnable_m1566401538_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnEnable_m2484164626(__this, /*hidden argument*/NULL);
+		bool L_0 = TrackerBehaviour_get_Initialized_m3775083335(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		TargetSource_t1091527250 * L_1 = ImageTracker_get_TargetSource_m1015604748(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		TargetSource_OnEnable_m400085671(L_1, /*hidden argument*/NULL);
+		int32_t L_2 = ImageTracker_get_TargetSourceType_m2277370188(__this, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_3 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642(__this, /*hidden argument*/NULL);
+		TargetSource_t1091527250 * L_5 = ImageTracker_get_TargetSource_m1015604748(__this, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		int64_t L_6 = TargetSource_get_Identifier_m2617797188(L_5, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker2< String_t*, int64_t >::Invoke(9 /* System.Void Wikitude.IPlatformBridge::InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3, L_4, L_6);
+		goto IL_0062;
+	}
+
+IL_0047:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_7 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_8 = TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642(__this, /*hidden argument*/NULL);
+		TargetSource_t1091527250 * L_9 = ImageTracker_get_TargetSource_m1015604748(__this, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		int64_t L_10 = TargetSource_get_Identifier_m2617797188(L_9, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		InterfaceActionInvoker2< String_t*, int64_t >::Invoke(10 /* System.Void Wikitude.IPlatformBridge::InstantiateImageTrackerWithCloudRecognitionService(System.String,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_7, L_8, L_10);
+	}
+
+IL_0062:
+	{
+		ImageTracker_set_IsRegistered_m965589244(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0069:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnDisable()
+extern "C"  void ImageTracker_OnDisable_m2400567953 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ImageTracker_OnDisable_m2400567953_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnDisable_m292473883(__this, /*hidden argument*/NULL);
+		TargetSource_t1091527250 * L_0 = ImageTracker_get_TargetSource_m1015604748(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TargetSource_OnDisable_m954771448(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(16 /* System.Void Wikitude.IPlatformBridge::DestroyImageTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		ImageTracker_set_IsRegistered_m965589244(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnDestroy()
+extern "C"  void ImageTracker_OnDestroy_m3549717167 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		TargetSource_t1091527250 * L_0 = ImageTracker_get_TargetSource_m1015604748(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TargetSource_OnDestroy_m4100557054(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnTargetsLoadedInternal()
+extern "C"  void ImageTracker_OnTargetsLoadedInternal_m3391568791 (ImageTracker_t1984565635 * __this, const MethodInfo* method)
+{
+	{
+		OnTargetsLoadedEvent_t3080540202 * L_0 = ((TrackerBehaviour_t3845512381 *)__this)->get_OnTargetsLoaded_10();
+		NullCheck(L_0);
+		UnityEvent_Invoke_m4163344491(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnErrorLoadingTargetsInternal(System.Int32,System.String)
+extern "C"  void ImageTracker_OnErrorLoadingTargetsInternal_m3374303293 (ImageTracker_t1984565635 * __this, int32_t ___errorCode0, String_t* ___errorMessage1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ImageTracker_OnErrorLoadingTargetsInternal_m3374303293_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnErrorLoadingTargetsEvent_t3800749431 * L_0 = ((TrackerBehaviour_t3845512381 *)__this)->get_OnErrorLoadingTargets_11();
+		int32_t L_1 = ___errorCode0;
+		String_t* L_2 = ___errorMessage1;
+		NullCheck(L_0);
+		UnityEvent_2_Invoke_m3710222440(L_0, L_1, L_2, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker::OnExtendedTrackingQualityChangedInternal(System.String,Wikitude.ExtendedTrackingQuality)
+extern "C"  void ImageTracker_OnExtendedTrackingQualityChangedInternal_m2574770426 (ImageTracker_t1984565635 * __this, String_t* ___targetName0, int32_t ___trackingQuality1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ImageTracker_OnExtendedTrackingQualityChangedInternal_m2574770426_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnExtendedTrackingQualityChangedEvent_t1461804644 * L_0 = __this->get_OnExtendedTrackingQualityChanged_12();
+		String_t* L_1 = ___targetName0;
+		int32_t L_2 = ___trackingQuality1;
+		NullCheck(L_0);
+		UnityEvent_2_Invoke_m2005053380(L_0, L_1, L_2, /*hidden argument*/UnityEvent_2_Invoke_m2005053380_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ImageTracker/OnExtendedTrackingQualityChangedEvent::.ctor()
+extern "C"  void OnExtendedTrackingQualityChangedEvent__ctor_m2261393213 (OnExtendedTrackingQualityChangedEvent_t1461804644 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnExtendedTrackingQualityChangedEvent__ctor_m2261393213_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2413126385(__this, /*hidden argument*/UnityEvent_2__ctor_m2413126385_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::.ctor()
+extern "C"  void InstantTracker__ctor_m1289707002 (InstantTracker_t2685404523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InstantTracker__ctor_m1289707002_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnStateChangedEvent_t3227093256 * L_0 = (OnStateChangedEvent_t3227093256 *)il2cpp_codegen_object_new(OnStateChangedEvent_t3227093256_il2cpp_TypeInfo_var);
+		OnStateChangedEvent__ctor_m2487375927(L_0, /*hidden argument*/NULL);
+		__this->set_OnStateChanged_12(L_0);
+		TrackerBehaviour__ctor_m2201672446(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::set_DeviceHeightAboveGround(System.Single)
+extern "C"  void InstantTracker_set_DeviceHeightAboveGround_m3197192489 (InstantTracker_t2685404523 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InstantTracker_set_DeviceHeightAboveGround_m3197192489_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_1 = ___value0;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< float >::Invoke(24 /* System.Void Wikitude.IPlatformBridge::SetDeviceHeightAboveGround(System.Single) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::SetState(Wikitude.InstantTrackingState)
+extern "C"  void InstantTracker_SetState_m132213744 (InstantTracker_t2685404523 * __this, int32_t ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InstantTracker_SetState_m132213744_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = ___state0;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(23 /* System.Void Wikitude.IPlatformBridge::SetState(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::OnInitialize()
+extern "C"  void InstantTracker_OnInitialize_m755860857 (InstantTracker_t2685404523 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_OnInitialize_m26638623(__this, /*hidden argument*/NULL);
+		TrackerManager_t130000407 * L_0 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TrackerManager_RegisterTracker_m2020059202(L_0, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::OnEnable()
+extern "C"  void InstantTracker_OnEnable_m1531411722 (InstantTracker_t2685404523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InstantTracker_OnEnable_m1531411722_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnEnable_m2484164626(__this, /*hidden argument*/NULL);
+		bool L_0 = TrackerBehaviour_get_Initialized_m3775083335(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(12 /* System.Void Wikitude.IPlatformBridge::InstantiateInstantTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::OnDisable()
+extern "C"  void InstantTracker_OnDisable_m122764161 (InstantTracker_t2685404523 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (InstantTracker_OnDisable_m122764161_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnDisable_m292473883(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(18 /* System.Void Wikitude.IPlatformBridge::DestroyInstantTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0);
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::OnTargetsLoadedInternal()
+extern "C"  void InstantTracker_OnTargetsLoadedInternal_m3997465235 (InstantTracker_t2685404523 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::OnErrorLoadingTargetsInternal(System.Int32,System.String)
+extern "C"  void InstantTracker_OnErrorLoadingTargetsInternal_m340240413 (InstantTracker_t2685404523 * __this, int32_t ___errorCode0, String_t* ___errorMessage1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker::OnExtendedTrackingQualityChangedInternal(System.String,Wikitude.ExtendedTrackingQuality)
+extern "C"  void InstantTracker_OnExtendedTrackingQualityChangedInternal_m1187581578 (InstantTracker_t2685404523 * __this, String_t* ___targetName0, int32_t ___trackingQuality1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.InstantTracker/OnStateChangedEvent::.ctor()
+extern "C"  void OnStateChangedEvent__ctor_m2487375927 (OnStateChangedEvent_t3227093256 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnStateChangedEvent__ctor_m2487375927_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2647432136(__this, /*hidden argument*/UnityEvent_1__ctor_m2647432136_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::.ctor()
+extern "C"  void iOSBridge__ctor_m2353575257 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateWikitudeNativeSDK(char*, char*);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateWikitudeNativeSDK(System.String,System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateWikitudeNativeSDK_m2397249553 (Il2CppObject * __this /* static, unused */, String_t* ___licenseKey0, String_t* ___trackerManagerName1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*);
+
+	// Marshaling of parameter '___licenseKey0' to native representation
+	char* ____licenseKey0_marshaled = NULL;
+	____licenseKey0_marshaled = il2cpp_codegen_marshal_string(___licenseKey0);
+
+	// Marshaling of parameter '___trackerManagerName1' to native representation
+	char* ____trackerManagerName1_marshaled = NULL;
+	____trackerManagerName1_marshaled = il2cpp_codegen_marshal_string(___trackerManagerName1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateWikitudeNativeSDK)(____licenseKey0_marshaled, ____trackerManagerName1_marshaled);
+
+	// Marshaling cleanup of parameter '___licenseKey0' native representation
+	il2cpp_codegen_marshal_free(____licenseKey0_marshaled);
+	____licenseKey0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___trackerManagerName1' native representation
+	il2cpp_codegen_marshal_free(____trackerManagerName1_marshaled);
+	____trackerManagerName1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DestroyWikitudeNativeSDK();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyWikitudeNativeSDK()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyWikitudeNativeSDK_m1653914265 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DestroyWikitudeNativeSDK)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetRenderTargetTextureId(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetRenderTargetTextureId(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetRenderTargetTextureId_m2661468978 (Il2CppObject * __this /* static, unused */, int32_t ___offscreenRenderingTextureId0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetRenderTargetTextureId)(___offscreenRenderingTextureId0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StartWikitudeNativeSDK();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StartWikitudeNativeSDK()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StartWikitudeNativeSDK_m536805819 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StartWikitudeNativeSDK)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StopWikitudeNativeSDK();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopWikitudeNativeSDK()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopWikitudeNativeSDK_m254589771 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StopWikitudeNativeSDK)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_Update();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_Update()
+extern "C"  void iOSBridge_UnityWikitudeBridge_Update_m1419574291 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_Update)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetOrientation();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetOrientation()
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetOrientation_m171203588 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetOrientation)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateTargetCollectionResource(char*, int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateTargetCollectionResource(System.String,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateTargetCollectionResource_m896238017 (Il2CppObject * __this /* static, unused */, String_t* ___path0, int64_t ___identifier1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int64_t);
+
+	// Marshaling of parameter '___path0' to native representation
+	char* ____path0_marshaled = NULL;
+	____path0_marshaled = il2cpp_codegen_marshal_string(___path0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateTargetCollectionResource)(____path0_marshaled, ___identifier1);
+
+	// Marshaling cleanup of parameter '___path0' native representation
+	il2cpp_codegen_marshal_free(____path0_marshaled);
+	____path0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateCloudRecognitionService(char*, char*, int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateCloudRecognitionService(System.String,System.String,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateCloudRecognitionService_m3150622509 (Il2CppObject * __this /* static, unused */, String_t* ___clientToken0, String_t* ___targetCollectionId1, int64_t ___identifier2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, char*, int64_t);
+
+	// Marshaling of parameter '___clientToken0' to native representation
+	char* ____clientToken0_marshaled = NULL;
+	____clientToken0_marshaled = il2cpp_codegen_marshal_string(___clientToken0);
+
+	// Marshaling of parameter '___targetCollectionId1' to native representation
+	char* ____targetCollectionId1_marshaled = NULL;
+	____targetCollectionId1_marshaled = il2cpp_codegen_marshal_string(___targetCollectionId1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateCloudRecognitionService)(____clientToken0_marshaled, ____targetCollectionId1_marshaled, ___identifier2);
+
+	// Marshaling cleanup of parameter '___clientToken0' native representation
+	il2cpp_codegen_marshal_free(____clientToken0_marshaled);
+	____clientToken0_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___targetCollectionId1' native representation
+	il2cpp_codegen_marshal_free(____targetCollectionId1_marshaled);
+	____targetCollectionId1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource(char*, int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource_m1569779506 (Il2CppObject * __this /* static, unused */, String_t* ___extendedTargets0, int64_t ___targetCollectionResourceIdentifier1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int64_t);
+
+	// Marshaling of parameter '___extendedTargets0' to native representation
+	char* ____extendedTargets0_marshaled = NULL;
+	____extendedTargets0_marshaled = il2cpp_codegen_marshal_string(___extendedTargets0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource)(____extendedTargets0_marshaled, ___targetCollectionResourceIdentifier1);
+
+	// Marshaling cleanup of parameter '___extendedTargets0' native representation
+	il2cpp_codegen_marshal_free(____extendedTargets0_marshaled);
+	____extendedTargets0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService(int64_t, char*);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService(System.Int64,System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService_m2997067396 (Il2CppObject * __this /* static, unused */, int64_t ___cloudRecognitionServiceIdentifier0, String_t* ___extendedTargets1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t, char*);
+
+	// Marshaling of parameter '___extendedTargets1' to native representation
+	char* ____extendedTargets1_marshaled = NULL;
+	____extendedTargets1_marshaled = il2cpp_codegen_marshal_string(___extendedTargets1);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService)(___cloudRecognitionServiceIdentifier0, ____extendedTargets1_marshaled);
+
+	// Marshaling cleanup of parameter '___extendedTargets1' native representation
+	il2cpp_codegen_marshal_free(____extendedTargets1_marshaled);
+	____extendedTargets1_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource(int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource_m1856250154 (Il2CppObject * __this /* static, unused */, int64_t ___targetCollectionResourceIdentifier0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource)(___targetCollectionResourceIdentifier0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_InstantiateInstantTracker();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_InstantiateInstantTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_InstantiateInstantTracker_m766649783 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_InstantiateInstantTracker)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StopExtendedTracking();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopExtendedTracking()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopExtendedTracking_m3921159882 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StopExtendedTracking)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DestroyTargetCollectionResource(int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyTargetCollectionResource(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyTargetCollectionResource_m1211578467 (Il2CppObject * __this /* static, unused */, int64_t ___identifier0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DestroyTargetCollectionResource)(___identifier0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DestroyCloudRecognitionService(int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyCloudRecognitionService(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyCloudRecognitionService_m3360624429 (Il2CppObject * __this /* static, unused */, int64_t ___identifier0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DestroyCloudRecognitionService)(___identifier0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DestroyImageTracker();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyImageTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyImageTracker_m2078517847 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DestroyImageTracker)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DestroyObjectTracker();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyObjectTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyObjectTracker_m2170236049 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DestroyObjectTracker)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DestroyInstantTracker();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DestroyInstantTracker()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DestroyInstantTracker_m1039377987 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DestroyInstantTracker)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StartContinuousRecognition(double, int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StartContinuousRecognition(System.Double,System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_StartContinuousRecognition_m1407849936 (Il2CppObject * __this /* static, unused */, double ___interval0, int64_t ___id1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (double, int64_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StartContinuousRecognition)(___interval0, ___id1);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StopContinuousRecognition(int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopContinuousRecognition(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopContinuousRecognition_m33518378 (Il2CppObject * __this /* static, unused */, int64_t ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StopContinuousRecognition)(___id0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_Recognize(int64_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_Recognize(System.Int64)
+extern "C"  void iOSBridge_UnityWikitudeBridge_Recognize_m70916884 (Il2CppObject * __this /* static, unused */, int64_t ___id0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int64_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_Recognize)(___id0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCloudRecognitionServerRegion(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCloudRecognitionServerRegion(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCloudRecognitionServerRegion_m3641536258 (Il2CppObject * __this /* static, unused */, int32_t ___region0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCloudRecognitionServerRegion)(___region0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetState(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetState(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetState_m113129038 (Il2CppObject * __this /* static, unused */, int32_t ___state0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetState)(___state0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetDeviceHeightAboveGround(float);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetDeviceHeightAboveGround(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetDeviceHeightAboveGround_m2223752448 (Il2CppObject * __this /* static, unused */, float ___height0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetDeviceHeightAboveGround)(___height0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StartTrackingMapRecording();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StartTrackingMapRecording()
+extern "C"  void iOSBridge_UnityWikitudeBridge_StartTrackingMapRecording_m821848692 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StartTrackingMapRecording)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_StopTrackingMapRecording(char*);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_StopTrackingMapRecording(System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_StopTrackingMapRecording_m1976239816 (Il2CppObject * __this /* static, unused */, String_t* ___trackingMapName0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___trackingMapName0' to native representation
+	char* ____trackingMapName0_marshaled = NULL;
+	____trackingMapName0_marshaled = il2cpp_codegen_marshal_string(___trackingMapName0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_StopTrackingMapRecording)(____trackingMapName0_marshaled);
+
+	// Marshaling cleanup of parameter '___trackingMapName0' native representation
+	il2cpp_codegen_marshal_free(____trackingMapName0_marshaled);
+	____trackingMapName0_marshaled = NULL;
+
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetCaptureDevicePosition();
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureDevicePosition()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureDevicePosition_m1456125235 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCaptureDevicePosition)();
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureDevicePosition(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureDevicePosition(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureDevicePosition_m25059136 (Il2CppObject * __this /* static, unused */, int32_t ___newDevicePosition0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureDevicePosition)(___newDevicePosition0);
+
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetCaptureFocusMode();
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureFocusMode()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureFocusMode_m957742221 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCaptureFocusMode)();
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureFocusMode(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureFocusMode(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureFocusMode_m787961096 (Il2CppObject * __this /* static, unused */, int32_t ___newFocusMode0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureFocusMode)(___newFocusMode0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetManualFocusDistance(float);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetManualFocusDistance(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetManualFocusDistance_m1483009596 (Il2CppObject * __this /* static, unused */, float ___newFocusDistance0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetManualFocusDistance)(___newFocusDistance0);
+
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetCaptureAutoFocusRestriction();
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureAutoFocusRestriction()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureAutoFocusRestriction_m3957483673 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCaptureAutoFocusRestriction)();
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureAutoFocusRestriction(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureAutoFocusRestriction(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureAutoFocusRestriction_m880063592 (Il2CppObject * __this /* static, unused */, int32_t ___newAutoFocusRestriction0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureAutoFocusRestriction)(___newAutoFocusRestriction0);
+
+}
+extern "C" float DEFAULT_CALL UnityWikitudeBridge_GetCaptureZoomLevel();
+// System.Single Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureZoomLevel()
+extern "C"  float iOSBridge_UnityWikitudeBridge_GetCaptureZoomLevel_m425130043 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	float returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCaptureZoomLevel)();
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureZoomLevel(float);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureZoomLevel(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureZoomLevel_m2312366718 (Il2CppObject * __this /* static, unused */, float ___newZoomLevel0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureZoomLevel)(___newZoomLevel0);
+
+}
+extern "C" float DEFAULT_CALL UnityWikitudeBridge_GetCaptureMaxZoomLevel();
+// System.Single Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureMaxZoomLevel()
+extern "C"  float iOSBridge_UnityWikitudeBridge_GetCaptureMaxZoomLevel_m2694167851 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef float (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	float returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCaptureMaxZoomLevel)();
+
+	return returnValue;
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetCaptureFlashMode();
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetCaptureFlashMode()
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetCaptureFlashMode_m1818447533 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCaptureFlashMode)();
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureFlashMode(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureFlashMode(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureFlashMode_m3137902870 (Il2CppObject * __this /* static, unused */, int32_t ___newFlashMode0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureFlashMode)(___newFlashMode0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureDeviceResolution(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureDeviceResolution(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureDeviceResolution_m239589031 (Il2CppObject * __this /* static, unused */, int32_t ___resolutionMode0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureDeviceResolution)(___resolutionMode0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetCaptureDeviceFramerate(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetCaptureDeviceFramerate(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetCaptureDeviceFramerate_m13371330 (Il2CppObject * __this /* static, unused */, int32_t ___framerateMode0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetCaptureDeviceFramerate)(___framerateMode0);
+
+}
+extern "C" char* DEFAULT_CALL UnityWikitudeBridge_GetCameraInfo(int32_t, int32_t, int32_t);
+// System.String Wikitude.iOSBridge::UnityWikitudeBridge_GetCameraInfo(System.Int32,System.Int32,System.Int32)
+extern "C"  String_t* iOSBridge_UnityWikitudeBridge_GetCameraInfo_m1635814863 (Il2CppObject * __this /* static, unused */, int32_t ___devicePosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method)
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, int32_t);
+
+	// Native function invocation
+	char* returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCameraInfo)(___devicePosition0, ___resolutionMode1, ___framerateMode2);
+
+	// Marshaling of return value back from native representation
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	// Marshaling cleanup of return value native representation
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+extern "C" char* DEFAULT_CALL UnityWikitudeBridge_GetTrackingData();
+// System.String Wikitude.iOSBridge::UnityWikitudeBridge_GetTrackingData()
+extern "C"  String_t* iOSBridge_UnityWikitudeBridge_GetTrackingData_m2591530794 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	char* returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetTrackingData)();
+
+	// Marshaling of return value back from native representation
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	// Marshaling cleanup of return value native representation
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetProjectionMatrix(intptr_t, int32_t, int32_t*);
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetProjectionMatrix(System.IntPtr,System.Int32,System.Int32&)
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetProjectionMatrix_m2516495030 (Il2CppObject * __this /* static, unused */, IntPtr_t ___buffer0, int32_t ___length1, int32_t* ___written2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, int32_t*);
+
+	// Marshaling of parameter '___written2' to native representation
+	int32_t ____written2_empty = 0;
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetProjectionMatrix)(reinterpret_cast<intptr_t>((___buffer0).get_m_value_0()), ___length1, &____written2_empty);
+
+	// Marshaling of parameter '___written2' back from native representation
+	*___written2 = ____written2_empty;
+
+	return returnValue;
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetTrackingMatrix(intptr_t, int32_t, int32_t*);
+// System.Int32 Wikitude.iOSBridge::UnityWikitudeBridge_GetTrackingMatrix(System.IntPtr,System.Int32,System.Int32&)
+extern "C"  int32_t iOSBridge_UnityWikitudeBridge_GetTrackingMatrix_m1005168534 (Il2CppObject * __this /* static, unused */, IntPtr_t ___buffer0, int32_t ___length1, int32_t* ___written2, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t, int32_t, int32_t*);
+
+	// Marshaling of parameter '___written2' to native representation
+	int32_t ____written2_empty = 0;
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetTrackingMatrix)(reinterpret_cast<intptr_t>((___buffer0).get_m_value_0()), ___length1, &____written2_empty);
+
+	// Marshaling of parameter '___written2' back from native representation
+	*___written2 = ____written2_empty;
+
+	return returnValue;
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_RegisterPlugin(char*);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_RegisterPlugin(System.String)
+extern "C"  void iOSBridge_UnityWikitudeBridge_RegisterPlugin_m548082010 (Il2CppObject * __this /* static, unused */, String_t* ___pluginManagerName0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+
+	// Marshaling of parameter '___pluginManagerName0' to native representation
+	char* ____pluginManagerName0_marshaled = NULL;
+	____pluginManagerName0_marshaled = il2cpp_codegen_marshal_string(___pluginManagerName0);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_RegisterPlugin)(____pluginManagerName0_marshaled);
+
+	// Marshaling cleanup of parameter '___pluginManagerName0' native representation
+	il2cpp_codegen_marshal_free(____pluginManagerName0_marshaled);
+	____pluginManagerName0_marshaled = NULL;
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DeregisterPlugin();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DeregisterPlugin()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DeregisterPlugin_m3451764947 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DeregisterPlugin)();
+
+}
+extern "C" int32_t DEFAULT_CALL UnityWikitudeBridge_GetCameraFrame(intptr_t);
+// System.Boolean Wikitude.iOSBridge::UnityWikitudeBridge_GetCameraFrame(System.IntPtr)
+extern "C"  bool iOSBridge_UnityWikitudeBridge_GetCameraFrame_m3390664070 (Il2CppObject * __this /* static, unused */, IntPtr_t ___frame0, const MethodInfo* method)
+{
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+
+	// Native function invocation
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetCameraFrame)(reinterpret_cast<intptr_t>((___frame0).get_m_value_0()));
+
+	return static_cast<bool>(returnValue);
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_RegisterInputPlugin();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_RegisterInputPlugin()
+extern "C"  void iOSBridge_UnityWikitudeBridge_RegisterInputPlugin_m2500086488 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_RegisterInputPlugin)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_DeregisterInputPlugin();
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_DeregisterInputPlugin()
+extern "C"  void iOSBridge_UnityWikitudeBridge_DeregisterInputPlugin_m1813219309 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_DeregisterInputPlugin)();
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_NewCameraFrame(int32_t, int32_t, intptr_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_NewCameraFrame(System.Int32,System.Int32,System.IntPtr)
+extern "C"  void iOSBridge_UnityWikitudeBridge_NewCameraFrame_m1951282856 (Il2CppObject * __this /* static, unused */, int32_t ___frameIndex0, int32_t ___frameDataSize1, IntPtr_t ___frameData2, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t, intptr_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_NewCameraFrame)(___frameIndex0, ___frameDataSize1, reinterpret_cast<intptr_t>((___frameData2).get_m_value_0()));
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_EnableMirroring(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_EnableMirroring(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_EnableMirroring_m1118752557 (Il2CppObject * __this /* static, unused */, bool ___mirroring0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_EnableMirroring)(static_cast<int32_t>(___mirroring0));
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetInvertedFrame(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetInvertedFrame(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetInvertedFrame_m1604625433 (Il2CppObject * __this /* static, unused */, bool ___invertedFrame0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetInvertedFrame)(static_cast<int32_t>(___invertedFrame0));
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetMirroredFrame(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetMirroredFrame(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetMirroredFrame_m1617266128 (Il2CppObject * __this /* static, unused */, bool ___mirroredFrame0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetMirroredFrame)(static_cast<int32_t>(___mirroredFrame0));
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetFrameColorSpace(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetFrameColorSpace(System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetFrameColorSpace_m2655946837 (Il2CppObject * __this /* static, unused */, int32_t ___colorSpace0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetFrameColorSpace)(___colorSpace0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetFrameSize(int32_t, int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetFrameSize(System.Int32,System.Int32)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetFrameSize_m4016496082 (Il2CppObject * __this /* static, unused */, int32_t ___frameWidth0, int32_t ___frameHeight1, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetFrameSize)(___frameWidth0, ___frameHeight1);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetHorizontalAngle(float);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetHorizontalAngle(System.Single)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetHorizontalAngle_m1848099742 (Il2CppObject * __this /* static, unused */, float ___horizontalAngle0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (float);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetHorizontalAngle)(___horizontalAngle0);
+
+}
+extern "C" void DEFAULT_CALL UnityWikitudeBridge_SetInputFrameRendering(int32_t);
+// System.Void Wikitude.iOSBridge::UnityWikitudeBridge_SetInputFrameRendering(System.Boolean)
+extern "C"  void iOSBridge_UnityWikitudeBridge_SetInputFrameRendering_m909331956 (Il2CppObject * __this /* static, unused */, bool ___frameRendering0, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+
+	// Native function invocation
+	reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_SetInputFrameRendering)(static_cast<int32_t>(___frameRendering0));
+
+}
+extern "C" int64_t DEFAULT_CALL UnityWikitudeBridge_GetPresentableInputFrameIndex();
+// System.Int64 Wikitude.iOSBridge::UnityWikitudeBridge_GetPresentableInputFrameIndex()
+extern "C"  int64_t iOSBridge_UnityWikitudeBridge_GetPresentableInputFrameIndex_m1385079921 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef int64_t (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	int64_t returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetPresentableInputFrameIndex)();
+
+	return returnValue;
+}
+extern "C" char* DEFAULT_CALL UnityWikitudeBridge_GetSDKBuildInformation();
+// System.String Wikitude.iOSBridge::UnityWikitudeBridge_GetSDKBuildInformation()
+extern "C"  String_t* iOSBridge_UnityWikitudeBridge_GetSDKBuildInformation_m231168495 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
+
+	// Native function invocation
+	char* returnValue = reinterpret_cast<PInvokeFunc>(UnityWikitudeBridge_GetSDKBuildInformation)();
+
+	// Marshaling of return value back from native representation
+	String_t* _returnValue_unmarshaled = NULL;
+	_returnValue_unmarshaled = il2cpp_codegen_marshal_string_result(returnValue);
+
+	// Marshaling cleanup of return value native representation
+	il2cpp_codegen_marshal_free(returnValue);
+	returnValue = NULL;
+
+	return _returnValue_unmarshaled;
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateWikitudeNativeSDK(System.String,System.String)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateWikitudeNativeSDK_m2737054127 (iOSBridge_t3713850486 * __this, String_t* ___licenseKey0, String_t* ___trackerManagerName1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___licenseKey0;
+		String_t* L_1 = ___trackerManagerName1;
+		iOSBridge_UnityWikitudeBridge_InstantiateWikitudeNativeSDK_m2397249553(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DestroyWikitudeNativeSDK()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DestroyWikitudeNativeSDK_m1165727435 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_DestroyWikitudeNativeSDK_m1653914265(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetRenderTargetTextureId(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetRenderTargetTextureId_m1350962852 (iOSBridge_t3713850486 * __this, int32_t ___offscreenRenderingTextureId0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___offscreenRenderingTextureId0;
+		iOSBridge_UnityWikitudeBridge_SetRenderTargetTextureId_m2661468978(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StartWikitudeNativeSDK()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StartWikitudeNativeSDK_m4209722369 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_StartWikitudeNativeSDK_m536805819(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.UpdateWikitudeNativeSDK()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_UpdateWikitudeNativeSDK_m955987864 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_Update_m1419574291(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StopWikitudeNativeSDK()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StopWikitudeNativeSDK_m391813061 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_StopWikitudeNativeSDK_m254589771(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.UpdateScreenRotation(System.Boolean)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_UpdateScreenRotation_m3117608938 (iOSBridge_t3713850486 * __this, bool ___forceResize0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__screenOrientation_0();
+		int32_t L_1 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_2 = ___forceResize0;
+		if (!L_2)
+		{
+			goto IL_0026;
+		}
+	}
+
+IL_0016:
+	{
+		int32_t L_3 = Screen_get_orientation_m879255848(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->set__screenOrientation_0(L_3);
+		iOSBridge_UnityWikitudeBridge_SetOrientation_m171203588(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateTargetCollectionResource(System.String,System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m3743715027 (iOSBridge_t3713850486 * __this, String_t* ___path0, int64_t ___id1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___path0;
+		int64_t L_1 = ___id1;
+		iOSBridge_UnityWikitudeBridge_InstantiateTargetCollectionResource_m896238017(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateCloudRecognitionService(System.String,System.String,System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m3709666979 (iOSBridge_t3713850486 * __this, String_t* ___clientToken0, String_t* ___targetCollectionId1, int64_t ___id2, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___clientToken0;
+		String_t* L_1 = ___targetCollectionId1;
+		int64_t L_2 = ___id2;
+		iOSBridge_UnityWikitudeBridge_InstantiateCloudRecognitionService_m3150622509(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m53596476 (iOSBridge_t3713850486 * __this, String_t* ___targetsForExtendedTracking0, int64_t ___targetCollectionResourceId1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___targetsForExtendedTracking0;
+		int64_t L_1 = ___targetCollectionResourceId1;
+		iOSBridge_UnityWikitudeBridge_InstantiateImageTrackerWithTargetCollectionResource_m1569779506(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateImageTrackerWithCloudRecognitionService(System.String,System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m595730590 (iOSBridge_t3713850486 * __this, String_t* ___targetsForExtendedTracking0, int64_t ___cloudRecognitionServiceId1, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___cloudRecognitionServiceId1;
+		String_t* L_1 = ___targetsForExtendedTracking0;
+		iOSBridge_UnityWikitudeBridge_InstantiateImageTrackerWithCloudRecognitionService_m2997067396(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateObjectTrackerWithTargetCollectionResource(System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m1500135308 (iOSBridge_t3713850486 * __this, int64_t ___targetCollectionResourceId0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___targetCollectionResourceId0;
+		iOSBridge_UnityWikitudeBridge_InstantiateObjectTrackerWithTargetCollectionResource_m1856250154(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.InstantiateInstantTracker()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_InstantiateInstantTracker_m711631245 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_InstantiateInstantTracker_m766649783(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StopExtendedTracking()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StopExtendedTracking_m1826185164 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_StopExtendedTracking_m3921159882(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DestroyTargetCollectionResource(System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DestroyTargetCollectionResource_m3724664593 (iOSBridge_t3713850486 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___id0;
+		iOSBridge_UnityWikitudeBridge_DestroyTargetCollectionResource_m1211578467(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DestroyCloudRecognitionService(System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DestroyCloudRecognitionService_m98531959 (iOSBridge_t3713850486 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___id0;
+		iOSBridge_UnityWikitudeBridge_DestroyCloudRecognitionService_m3360624429(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DestroyImageTracker()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DestroyImageTracker_m3640737461 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_DestroyImageTracker_m2078517847(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DestroyObjectTracker()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DestroyObjectTracker_m3601212807 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_DestroyObjectTracker_m2170236049(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DestroyInstantTracker()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DestroyInstantTracker_m1514382637 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_DestroyInstantTracker_m1039377987(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.Recognize(System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_Recognize_m3443416250 (iOSBridge_t3713850486 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___id0;
+		iOSBridge_UnityWikitudeBridge_Recognize_m70916884(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StartContinuousRecognition(System.Double,System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StartContinuousRecognition_m2449890102 (iOSBridge_t3713850486 * __this, double ___interval0, int64_t ___id1, const MethodInfo* method)
+{
+	{
+		double L_0 = ___interval0;
+		int64_t L_1 = ___id1;
+		iOSBridge_UnityWikitudeBridge_StartContinuousRecognition_m1407849936(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StopContinuousRecognition(System.Int64)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StopContinuousRecognition_m2454369300 (iOSBridge_t3713850486 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___id0;
+		iOSBridge_UnityWikitudeBridge_StopContinuousRecognition_m33518378(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCloudRecognitionServerRegion(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCloudRecognitionServerRegion_m585793628 (iOSBridge_t3713850486 * __this, int32_t ___region0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___region0;
+		iOSBridge_UnityWikitudeBridge_SetCloudRecognitionServerRegion_m3641536258(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetState(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetState_m3422507148 (iOSBridge_t3713850486 * __this, int32_t ___state0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___state0;
+		iOSBridge_UnityWikitudeBridge_SetState_m113129038(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetDeviceHeightAboveGround(System.Single)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetDeviceHeightAboveGround_m3458913522 (iOSBridge_t3713850486 * __this, float ___height0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___height0;
+		iOSBridge_UnityWikitudeBridge_SetDeviceHeightAboveGround_m2223752448(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StartTrackingMapRecording()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StartTrackingMapRecording_m693601954 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_StartTrackingMapRecording_m821848692(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.StopTrackingMapRecording(System.String)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_StopTrackingMapRecording_m1239854010 (iOSBridge_t3713850486 * __this, String_t* ___mapName0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___mapName0;
+		iOSBridge_UnityWikitudeBridge_StopTrackingMapRecording_m1976239816(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCaptureDevicePosition()
+extern "C"  int32_t iOSBridge_Wikitude_IPlatformBridge_GetCaptureDevicePosition_m3851834841 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = iOSBridge_UnityWikitudeBridge_GetCaptureDevicePosition_m1456125235(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureDevicePosition(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureDevicePosition_m877771578 (iOSBridge_t3713850486 * __this, int32_t ___newDevicePosition0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newDevicePosition0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureDevicePosition_m25059136(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCaptureFocusMode()
+extern "C"  int32_t iOSBridge_Wikitude_IPlatformBridge_GetCaptureFocusMode_m967941983 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = iOSBridge_UnityWikitudeBridge_GetCaptureFocusMode_m957742221(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureFocusMode(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureFocusMode_m865884738 (iOSBridge_t3713850486 * __this, int32_t ___newFocusMode0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newFocusMode0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureFocusMode_m787961096(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetManualFocusDistance(System.Single)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetManualFocusDistance_m2205462322 (iOSBridge_t3713850486 * __this, float ___manualFocusDistance0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___manualFocusDistance0;
+		iOSBridge_UnityWikitudeBridge_SetManualFocusDistance_m1483009596(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Wikitude.iOSBridge::Wikitude.IPlatformBridge.IsManualFocusAvailable()
+extern "C"  bool iOSBridge_Wikitude_IPlatformBridge_IsManualFocusAvailable_m355186373 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.EnableCamera2(System.Boolean)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_EnableCamera2_m2735006273 (iOSBridge_t3713850486 * __this, bool ___enabled0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCaptureAutoFocusRestriction()
+extern "C"  int32_t iOSBridge_Wikitude_IPlatformBridge_GetCaptureAutoFocusRestriction_m2114381259 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = iOSBridge_UnityWikitudeBridge_GetCaptureAutoFocusRestriction_m3957483673(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureAutoFocusRestriction(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureAutoFocusRestriction_m3449983034 (iOSBridge_t3713850486 * __this, int32_t ___newAutoFocusRestriction0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newAutoFocusRestriction0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureAutoFocusRestriction_m880063592(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCaptureZoomLevel()
+extern "C"  float iOSBridge_Wikitude_IPlatformBridge_GetCaptureZoomLevel_m696928509 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = iOSBridge_UnityWikitudeBridge_GetCaptureZoomLevel_m425130043(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureZoomLevel(System.Single)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureZoomLevel_m3392739136 (iOSBridge_t3713850486 * __this, float ___newZoomLevel0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___newZoomLevel0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureZoomLevel_m2312366718(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Single Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCaptureMaxZoomLevel()
+extern "C"  float iOSBridge_Wikitude_IPlatformBridge_GetCaptureMaxZoomLevel_m42934405 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = iOSBridge_UnityWikitudeBridge_GetCaptureMaxZoomLevel_m2694167851(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Int32 Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCaptureFlashMode()
+extern "C"  int32_t iOSBridge_Wikitude_IPlatformBridge_GetCaptureFlashMode_m3528579151 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = iOSBridge_UnityWikitudeBridge_GetCaptureFlashMode_m1818447533(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureFlashMode(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureFlashMode_m586545872 (iOSBridge_t3713850486 * __this, int32_t ___newFlashMode0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___newFlashMode0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureFlashMode_m3137902870(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.CameraInfo Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCameraInfo(System.Int32,System.Int32,System.Int32)
+extern "C"  CameraInfo_t3735365223  iOSBridge_Wikitude_IPlatformBridge_GetCameraInfo_m3569433628 (iOSBridge_t3713850486 * __this, int32_t ___devicePosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSBridge_Wikitude_IPlatformBridge_GetCameraInfo_m3569433628_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	{
+		int32_t L_0 = ___devicePosition0;
+		int32_t L_1 = ___resolutionMode1;
+		int32_t L_2 = ___framerateMode2;
+		String_t* L_3 = iOSBridge_UnityWikitudeBridge_GetCameraInfo_m1635814863(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		String_t* L_4 = V_0;
+		StringU5BU5D_t1642385972* L_5 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_5);
+		ArrayElementTypeCheck (L_5, _stringLiteral3513337718);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral3513337718);
+		NullCheck(L_4);
+		StringU5BU5D_t1642385972* L_6 = String_Split_m3927740091(L_4, L_5, 0, /*hidden argument*/NULL);
+		V_1 = L_6;
+		StringU5BU5D_t1642385972* L_7 = V_1;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		Int32_TryParse_m656840904(NULL /*static, unused*/, L_9, (&V_2), /*hidden argument*/NULL);
+		StringU5BU5D_t1642385972* L_10 = V_1;
+		NullCheck(L_10);
+		int32_t L_11 = 1;
+		String_t* L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		Int32_TryParse_m656840904(NULL /*static, unused*/, L_12, (&V_3), /*hidden argument*/NULL);
+		StringU5BU5D_t1642385972* L_13 = V_1;
+		NullCheck(L_13);
+		int32_t L_14 = 2;
+		String_t* L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		Int32_TryParse_m656840904(NULL /*static, unused*/, L_15, (&V_4), /*hidden argument*/NULL);
+		int32_t L_16 = V_2;
+		int32_t L_17 = V_3;
+		int32_t L_18 = V_4;
+		CameraInfo_t3735365223  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		CameraInfo__ctor_m3269950821(&L_19, L_16, L_17, L_18, /*hidden argument*/NULL);
+		return L_19;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureDeviceResolution(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureDeviceResolution_m1551176689 (iOSBridge_t3713850486 * __this, int32_t ___resolutionMode0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___resolutionMode0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureDeviceResolution_m239589031(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetCaptureDeviceFramerate(System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetCaptureDeviceFramerate_m863658096 (iOSBridge_t3713850486 * __this, int32_t ___framerateMode0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___framerateMode0;
+		iOSBridge_UnityWikitudeBridge_SetCaptureDeviceFramerate_m13371330(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetTrackingData()
+extern "C"  String_t* iOSBridge_Wikitude_IPlatformBridge_GetTrackingData_m1846520646 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = iOSBridge_UnityWikitudeBridge_GetTrackingData_m2591530794(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Single[] Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetProjectionMatrix()
+extern "C"  SingleU5BU5D_t577127397* iOSBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m1399479408 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m1399479408_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	SingleU5BU5D_t577127397* V_2 = NULL;
+	IntPtr_t V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	{
+		V_0 = 0;
+		IntPtr_t L_0 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		iOSBridge_UnityWikitudeBridge_GetProjectionMatrix_m2516495030(NULL /*static, unused*/, L_0, 0, (&V_0), /*hidden argument*/NULL);
+		int32_t L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return (SingleU5BU5D_t577127397*)NULL;
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)((int32_t)L_2/(int32_t)4));
+		int32_t L_3 = V_1;
+		V_2 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)L_3));
+		int32_t L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		IntPtr_t L_5 = Marshal_AllocHGlobal_m4258042074(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_3 = L_5;
+		V_4 = 0;
+		IntPtr_t L_6 = V_3;
+		int32_t L_7 = V_0;
+		int32_t L_8 = iOSBridge_UnityWikitudeBridge_GetProjectionMatrix_m2516495030(NULL /*static, unused*/, L_6, L_7, (&V_4), /*hidden argument*/NULL);
+		if ((((int32_t)L_8) == ((int32_t)(-1))))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		int32_t L_9 = V_4;
+		V_1 = ((int32_t)((int32_t)L_9/(int32_t)4));
+		IntPtr_t L_10 = V_3;
+		SingleU5BU5D_t577127397* L_11 = V_2;
+		int32_t L_12 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_Copy_m2353359830(NULL /*static, unused*/, L_10, L_11, 0, L_12, /*hidden argument*/NULL);
+	}
+
+IL_004a:
+	{
+		IntPtr_t L_13 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_FreeHGlobal_m2238467479(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_14 = V_2;
+		return L_14;
+	}
+}
+// System.Single[] Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetTrackingMatrix()
+extern "C"  SingleU5BU5D_t577127397* iOSBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m3570464092 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m3570464092_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	SingleU5BU5D_t577127397* V_2 = NULL;
+	IntPtr_t V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	int32_t V_4 = 0;
+	{
+		V_0 = 0;
+		IntPtr_t L_0 = ((IntPtr_t_StaticFields*)IntPtr_t_il2cpp_TypeInfo_var->static_fields)->get_Zero_1();
+		iOSBridge_UnityWikitudeBridge_GetTrackingMatrix_m1005168534(NULL /*static, unused*/, L_0, 0, (&V_0), /*hidden argument*/NULL);
+		int32_t L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return (SingleU5BU5D_t577127397*)NULL;
+	}
+
+IL_0018:
+	{
+		int32_t L_2 = V_0;
+		V_1 = ((int32_t)((int32_t)L_2/(int32_t)4));
+		int32_t L_3 = V_1;
+		V_2 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)L_3));
+		int32_t L_4 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		IntPtr_t L_5 = Marshal_AllocHGlobal_m4258042074(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		V_3 = L_5;
+		V_4 = 0;
+		IntPtr_t L_6 = V_3;
+		int32_t L_7 = V_0;
+		int32_t L_8 = iOSBridge_UnityWikitudeBridge_GetTrackingMatrix_m1005168534(NULL /*static, unused*/, L_6, L_7, (&V_4), /*hidden argument*/NULL);
+		if ((((int32_t)L_8) == ((int32_t)(-1))))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		int32_t L_9 = V_4;
+		V_1 = ((int32_t)((int32_t)L_9/(int32_t)4));
+		IntPtr_t L_10 = V_3;
+		SingleU5BU5D_t577127397* L_11 = V_2;
+		int32_t L_12 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_Copy_m2353359830(NULL /*static, unused*/, L_10, L_11, 0, L_12, /*hidden argument*/NULL);
+	}
+
+IL_004a:
+	{
+		IntPtr_t L_13 = V_3;
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_FreeHGlobal_m2238467479(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_14 = V_2;
+		return L_14;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.RegisterPlugin(System.String)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_RegisterPlugin_m2350823872 (iOSBridge_t3713850486 * __this, String_t* ___pluginManagerName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSBridge_Wikitude_IPlatformBridge_RegisterPlugin_m2350823872_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Frame_t1875945745  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		String_t* L_0 = ___pluginManagerName0;
+		iOSBridge_UnityWikitudeBridge_RegisterPlugin_m548082010(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		Initobj (Frame_t1875945745_il2cpp_TypeInfo_var, (&V_0));
+		Frame_t1875945745  L_1 = V_0;
+		Frame_t1875945745  L_2 = L_1;
+		Il2CppObject * L_3 = Box(Frame_t1875945745_il2cpp_TypeInfo_var, &L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		int32_t L_4 = Marshal_SizeOf_m2032740146(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		IntPtr_t L_5 = Marshal_AllocCoTaskMem_m3256967199(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		__this->set__nativeFramePtr_1(L_5);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DeregisterPlugin()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m3832371473 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m3832371473_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		iOSBridge_UnityWikitudeBridge_DeregisterPlugin_m3451764947(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_0 = __this->get__nativeFramePtr_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Marshal_FreeCoTaskMem_m2672578456(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetCameraFrame(Wikitude.Frame&)
+extern "C"  bool iOSBridge_Wikitude_IPlatformBridge_GetCameraFrame_m1574154207 (iOSBridge_t3713850486 * __this, Frame_t1875945745 * ___newFrame0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (iOSBridge_Wikitude_IPlatformBridge_GetCameraFrame_m1574154207_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IntPtr_t L_0 = __this->get__nativeFramePtr_1();
+		bool L_1 = iOSBridge_UnityWikitudeBridge_GetCameraFrame_m3390664070(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		Frame_t1875945745 * L_2 = ___newFrame0;
+		IntPtr_t L_3 = __this->get__nativeFramePtr_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
+		Type_t * L_4 = Type_GetTypeFromHandle_m432505302(NULL /*static, unused*/, LoadTypeToken(Frame_t1875945745_0_0_0_var), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Marshal_t785896760_il2cpp_TypeInfo_var);
+		Il2CppObject * L_5 = Marshal_PtrToStructure_m673412918(NULL /*static, unused*/, L_3, L_4, /*hidden argument*/NULL);
+		(*(Frame_t1875945745 *)L_2) = ((*(Frame_t1875945745 *)((Frame_t1875945745 *)UnBox(L_5, Frame_t1875945745_il2cpp_TypeInfo_var))));
+		return (bool)1;
+	}
+
+IL_0032:
+	{
+		Frame_t1875945745 * L_6 = ___newFrame0;
+		Initobj (Frame_t1875945745_il2cpp_TypeInfo_var, L_6);
+		return (bool)0;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.RegisterInputPlugin()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_RegisterInputPlugin_m1232910362 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_RegisterInputPlugin_m2500086488(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.DeregisterInputPlugin()
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_DeregisterInputPlugin_m3674578643 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		iOSBridge_UnityWikitudeBridge_DeregisterInputPlugin_m1813219309(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.NewCameraFrame(System.Int32,System.Int32,System.IntPtr)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_NewCameraFrame_m2707793810 (iOSBridge_t3713850486 * __this, int32_t ___index0, int32_t ___frameDataSize1, IntPtr_t ___frameData2, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___index0;
+		int32_t L_1 = ___frameDataSize1;
+		IntPtr_t L_2 = ___frameData2;
+		iOSBridge_UnityWikitudeBridge_NewCameraFrame_m1951282856(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.EnableMirroring(System.Boolean)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_EnableMirroring_m4036830835 (iOSBridge_t3713850486 * __this, bool ___mirroring0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___mirroring0;
+		iOSBridge_UnityWikitudeBridge_EnableMirroring_m1118752557(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetInvertedFrame(System.Boolean)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetInvertedFrame_m1393866059 (iOSBridge_t3713850486 * __this, bool ___invertedFrame0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___invertedFrame0;
+		iOSBridge_UnityWikitudeBridge_SetInvertedFrame_m1604625433(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetMirroredFrame(System.Boolean)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetMirroredFrame_m3405043642 (iOSBridge_t3713850486 * __this, bool ___mirroredFrame0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___mirroredFrame0;
+		iOSBridge_UnityWikitudeBridge_SetMirroredFrame_m1617266128(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetFrameColorSpace(Wikitude.FrameColorSpace)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetFrameColorSpace_m3424822114 (iOSBridge_t3713850486 * __this, int32_t ___colorSpace0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___colorSpace0;
+		iOSBridge_UnityWikitudeBridge_SetFrameColorSpace_m2655946837(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetFrameSize(System.Int32,System.Int32)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetFrameSize_m2207566760 (iOSBridge_t3713850486 * __this, int32_t ___frameWidth0, int32_t ___frameHeight1, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___frameWidth0;
+		int32_t L_1 = ___frameHeight1;
+		iOSBridge_UnityWikitudeBridge_SetFrameSize_m4016496082(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetHorizontalAngle(System.Single)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetHorizontalAngle_m203880548 (iOSBridge_t3713850486 * __this, float ___angle0, const MethodInfo* method)
+{
+	{
+		float L_0 = ___angle0;
+		iOSBridge_UnityWikitudeBridge_SetHorizontalAngle_m1848099742(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.iOSBridge::Wikitude.IPlatformBridge.SetInputFrameRendering(System.Boolean)
+extern "C"  void iOSBridge_Wikitude_IPlatformBridge_SetInputFrameRendering_m943711706 (iOSBridge_t3713850486 * __this, bool ___requestRendering0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___requestRendering0;
+		iOSBridge_UnityWikitudeBridge_SetInputFrameRendering_m909331956(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int64 Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetPresentableInputFrameIndex()
+extern "C"  int64_t iOSBridge_Wikitude_IPlatformBridge_GetPresentableInputFrameIndex_m2267277319 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = iOSBridge_UnityWikitudeBridge_GetPresentableInputFrameIndex_m1385079921(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.String Wikitude.iOSBridge::Wikitude.IPlatformBridge.GetSDKBuildInformation()
+extern "C"  String_t* iOSBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m2030863441 (iOSBridge_t3713850486 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = iOSBridge_UnityWikitudeBridge_GetSDKBuildInformation_m231168495(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.Log::v(System.String)
+extern "C"  void Log_v_m427379831 (Il2CppObject * __this /* static, unused */, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Log_v_m427379831_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Log_t570465252_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Log_t570465252_StaticFields*)Log_t570465252_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+		String_t* L_1 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m612901809(NULL /*static, unused*/, L_0, _stringLiteral811305496, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.Log::e(System.String)
+extern "C"  void Log_e_m354218312 (Il2CppObject * __this /* static, unused */, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Log_e_m354218312_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Log_t570465252_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((Log_t570465252_StaticFields*)Log_t570465252_il2cpp_TypeInfo_var->static_fields)->get_TAG_0();
+		String_t* L_1 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m612901809(NULL /*static, unused*/, L_0, _stringLiteral811305496, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.Log::.cctor()
+extern "C"  void Log__cctor_m4244038552 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Log__cctor_m4244038552_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		((Log_t570465252_StaticFields*)Log_t570465252_il2cpp_TypeInfo_var->static_fields)->set_TAG_0(_stringLiteral1085172494);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::.ctor()
+extern "C"  void ObjectTracker__ctor_m1478529976 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour__ctor_m2201672446(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.TargetCollectionResource Wikitude.ObjectTracker::get_TargetCollectionResource()
+extern "C"  TargetCollectionResource_t3980041541 * ObjectTracker_get_TargetCollectionResource_m2256738650 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	{
+		TargetCollectionResource_t3980041541 * L_0 = __this->get__targetCollectionResource_12();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ObjectTracker::set_TargetCollectionResource(Wikitude.TargetCollectionResource)
+extern "C"  void ObjectTracker_set_TargetCollectionResource_m3259962853 (ObjectTracker_t2437699105 * __this, TargetCollectionResource_t3980041541 * ___value0, const MethodInfo* method)
+{
+	{
+		TargetCollectionResource_t3980041541 * L_0 = ___value0;
+		__this->set__targetCollectionResource_12(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.ObjectTracker::get_IsRegistered()
+extern "C"  bool ObjectTracker_get_IsRegistered_m1490849349 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsRegisteredU3Ek__BackingField_13();
+		return L_0;
+	}
+}
+// System.Void Wikitude.ObjectTracker::set_IsRegistered(System.Boolean)
+extern "C"  void ObjectTracker_set_IsRegistered_m3748167190 (ObjectTracker_t2437699105 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsRegisteredU3Ek__BackingField_13(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnInitialize()
+extern "C"  void ObjectTracker_OnInitialize_m2152820955 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_OnInitialize_m26638623(__this, /*hidden argument*/NULL);
+		TrackerManager_t130000407 * L_0 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TrackerManager_RegisterTracker_m2020059202(L_0, __this, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_1 = ObjectTracker_get_TargetCollectionResource_m2256738650(__this, /*hidden argument*/NULL);
+		TrackerManager_t130000407 * L_2 = TrackerBehaviour_get_Manager_m1738699492(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		VirtActionInvoker1< TrackerManager_t130000407 * >::Invoke(4 /* System.Void Wikitude.TargetSource::Register(Wikitude.TrackerManager) */, L_1, L_2);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnEnable()
+extern "C"  void ObjectTracker_OnEnable_m2754160796 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectTracker_OnEnable_m2754160796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnEnable_m2484164626(__this, /*hidden argument*/NULL);
+		bool L_0 = TrackerBehaviour_get_Initialized_m3775083335(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		TargetCollectionResource_t3980041541 * L_1 = ObjectTracker_get_TargetCollectionResource_m2256738650(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		TargetSource_OnEnable_m400085671(L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_2 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_3 = ObjectTracker_get_TargetCollectionResource_m2256738650(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		int64_t L_4 = TargetSource_get_Identifier_m2617797188(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker1< int64_t >::Invoke(11 /* System.Void Wikitude.IPlatformBridge::InstantiateObjectTrackerWithTargetCollectionResource(System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2, L_4);
+		ObjectTracker_set_IsRegistered_m3748167190(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnDisable()
+extern "C"  void ObjectTracker_OnDisable_m3553760439 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectTracker_OnDisable_m3553760439_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_OnDisable_m292473883(__this, /*hidden argument*/NULL);
+		TargetCollectionResource_t3980041541 * L_0 = ObjectTracker_get_TargetCollectionResource_m2256738650(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TargetSource_OnDisable_m954771448(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(16 /* System.Void Wikitude.IPlatformBridge::DestroyImageTracker() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		ObjectTracker_set_IsRegistered_m3748167190(__this, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnDestroy()
+extern "C"  void ObjectTracker_OnDestroy_m996106881 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	{
+		TargetCollectionResource_t3980041541 * L_0 = ObjectTracker_get_TargetCollectionResource_m2256738650(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		TargetSource_OnDestroy_m4100557054(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnTargetsLoadedInternal()
+extern "C"  void ObjectTracker_OnTargetsLoadedInternal_m686992493 (ObjectTracker_t2437699105 * __this, const MethodInfo* method)
+{
+	{
+		OnTargetsLoadedEvent_t3080540202 * L_0 = ((TrackerBehaviour_t3845512381 *)__this)->get_OnTargetsLoaded_10();
+		NullCheck(L_0);
+		UnityEvent_Invoke_m4163344491(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnErrorLoadingTargetsInternal(System.Int32,System.String)
+extern "C"  void ObjectTracker_OnErrorLoadingTargetsInternal_m3474853275 (ObjectTracker_t2437699105 * __this, int32_t ___errorCode0, String_t* ___errorMessage1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (ObjectTracker_OnErrorLoadingTargetsInternal_m3474853275_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnErrorLoadingTargetsEvent_t3800749431 * L_0 = ((TrackerBehaviour_t3845512381 *)__this)->get_OnErrorLoadingTargets_11();
+		int32_t L_1 = ___errorCode0;
+		String_t* L_2 = ___errorMessage1;
+		NullCheck(L_0);
+		UnityEvent_2_Invoke_m3710222440(L_0, L_1, L_2, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.ObjectTracker::OnExtendedTrackingQualityChangedInternal(System.String,Wikitude.ExtendedTrackingQuality)
+extern "C"  void ObjectTracker_OnExtendedTrackingQualityChangedInternal_m1144871672 (ObjectTracker_t2437699105 * __this, String_t* ___targetName0, int32_t ___trackingQuality1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.PluginManager::.ctor()
+extern "C"  void PluginManager__ctor_m1876601441 (PluginManager_t3083232152 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PluginManager__ctor_m1876601441_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnCameraFrameAvailableEvent_t2791441841 * L_0 = (OnCameraFrameAvailableEvent_t2791441841 *)il2cpp_codegen_object_new(OnCameraFrameAvailableEvent_t2791441841_il2cpp_TypeInfo_var);
+		OnCameraFrameAvailableEvent__ctor_m3324503546(L_0, /*hidden argument*/NULL);
+		__this->set_OnCameraFrameAvailable_2(L_0);
+		OnPluginFailureEvent_t2397520937 * L_1 = (OnPluginFailureEvent_t2397520937 *)il2cpp_codegen_object_new(OnPluginFailureEvent_t2397520937_il2cpp_TypeInfo_var);
+		OnPluginFailureEvent__ctor_m346361142(L_1, /*hidden argument*/NULL);
+		__this->set_OnPluginFailure_3(L_1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.PluginManager::Start()
+extern "C"  void PluginManager_Start_m3240259761 (PluginManager_t3083232152 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PluginManager_Start_m3240259761_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		TrackerManager_t130000407 * L_0 = Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926_MethodInfo_var);
+		NullCheck(L_0);
+		Il2CppObject * L_1 = TrackerManager_get_Bridge_m2366636098(L_0, /*hidden argument*/NULL);
+		__this->set__bridge_4(L_1);
+		Il2CppObject * L_2 = __this->get__bridge_4();
+		String_t* L_3 = Object_get_name_m2079638459(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker1< String_t* >::Invoke(47 /* System.Void Wikitude.IPlatformBridge::RegisterPlugin(System.String) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2, L_3);
+		return;
+	}
+}
+// System.Void Wikitude.PluginManager::OnDestroy()
+extern "C"  void PluginManager_OnDestroy_m2121812240 (PluginManager_t3083232152 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PluginManager_OnDestroy_m2121812240_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__bridge_4();
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(48 /* System.Void Wikitude.IPlatformBridge::DeregisterPlugin() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0);
+		return;
+	}
+}
+// System.Void Wikitude.PluginManager::Update()
+extern "C"  void PluginManager_Update_m2881677520 (PluginManager_t3083232152 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (PluginManager_Update_m2881677520_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Frame_t1875945745  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Il2CppObject * L_0 = __this->get__bridge_4();
+		NullCheck(L_0);
+		bool L_1 = InterfaceFuncInvoker1< bool, Frame_t1875945745 * >::Invoke(49 /* System.Boolean Wikitude.IPlatformBridge::GetCameraFrame(Wikitude.Frame&) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, (&V_0));
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		OnCameraFrameAvailableEvent_t2791441841 * L_2 = __this->get_OnCameraFrameAvailable_2();
+		Frame_t1875945745  L_3 = V_0;
+		NullCheck(L_2);
+		UnityEvent_1_Invoke_m3773679785(L_2, L_3, /*hidden argument*/UnityEvent_1_Invoke_m3773679785_MethodInfo_var);
+	}
+
+IL_001e:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.PluginManager/OnCameraFrameAvailableEvent::.ctor()
+extern "C"  void OnCameraFrameAvailableEvent__ctor_m3324503546 (OnCameraFrameAvailableEvent_t2791441841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnCameraFrameAvailableEvent__ctor_m3324503546_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2485796384(__this, /*hidden argument*/UnityEvent_1__ctor_m2485796384_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.PluginManager/OnPluginFailureEvent::.ctor()
+extern "C"  void OnPluginFailureEvent__ctor_m346361142 (OnPluginFailureEvent_t2397520937 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnPluginFailureEvent__ctor_m346361142_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.SDKBuildInformation::.ctor(System.String,System.String,System.String,System.String)
+extern "C"  void SDKBuildInformation__ctor_m1229722333 (SDKBuildInformation_t1997552748 * __this, String_t* ___buildConfiguration0, String_t* ___buildDate1, String_t* ___buildNumber2, String_t* ___sdkVersion3, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___buildConfiguration0;
+		__this->set_BuildConfiguration_0(L_0);
+		String_t* L_1 = ___buildDate1;
+		__this->set_BuildDate_1(L_1);
+		String_t* L_2 = ___buildNumber2;
+		__this->set_BuildNumber_2(L_2);
+		String_t* L_3 = ___sdkVersion3;
+		__this->set_SDKVersion_3(L_3);
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::.ctor()
+extern "C"  void TargetCollectionResource__ctor_m2384751328 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TargetCollectionResource__ctor_m2384751328_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnFinishLoadingEvent_t1372070578 * L_0 = (OnFinishLoadingEvent_t1372070578 *)il2cpp_codegen_object_new(OnFinishLoadingEvent_t1372070578_il2cpp_TypeInfo_var);
+		OnFinishLoadingEvent__ctor_m3149851737(L_0, /*hidden argument*/NULL);
+		__this->set_OnFinishLoading_4(L_0);
+		OnErrorLoadingEvent_t706169873 * L_1 = (OnErrorLoadingEvent_t706169873 *)il2cpp_codegen_object_new(OnErrorLoadingEvent_t706169873_il2cpp_TypeInfo_var);
+		OnErrorLoadingEvent__ctor_m386438742(L_1, /*hidden argument*/NULL);
+		__this->set_OnErrorLoading_5(L_1);
+		TargetSource__ctor_m642474803(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.TargetCollectionResource::get_TargetPath()
+extern "C"  String_t* TargetCollectionResource_get_TargetPath_m1881874034 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__targetPath_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::set_TargetPath(System.String)
+extern "C"  void TargetCollectionResource_set_TargetPath_m1911079585 (TargetCollectionResource_t3980041541 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__targetPath_2(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TargetCollectionResource::get_UseCustomURL()
+extern "C"  bool TargetCollectionResource_get_UseCustomURL_m2921373144 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__useCustomURL_3();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::set_UseCustomURL(System.Boolean)
+extern "C"  void TargetCollectionResource_set_UseCustomURL_m3251278923 (TargetCollectionResource_t3980041541 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set__useCustomURL_3(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::Register(Wikitude.TrackerManager)
+extern "C"  void TargetCollectionResource_Register_m3845911108 (TargetCollectionResource_t3980041541 * __this, TrackerManager_t130000407 * ___manager0, const MethodInfo* method)
+{
+	{
+		TrackerManager_t130000407 * L_0 = ___manager0;
+		NullCheck(L_0);
+		TrackerManager_RegisterTargetCollectionResource_m2791948291(L_0, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::OnInitializeInternal()
+extern "C"  void TargetCollectionResource_OnInitializeInternal_m2858725824 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = TargetCollectionResource_get_UseCustomURL_m2921373144(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		String_t* L_1 = TargetCollectionResource_get_TargetPath_m1881874034(__this, /*hidden argument*/NULL);
+		String_t* L_2 = TargetCollectionResource_GetFullPathFromStreamingAssetsPath_m1606554941(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		TargetCollectionResource_set_TargetPath_m1911079585(__this, L_2, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::OnEnableInternal()
+extern "C"  void TargetCollectionResource_OnEnableInternal_m622668481 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TargetCollectionResource_OnEnableInternal_m622668481_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = TargetCollectionResource_get_TargetPath_m1881874034(__this, /*hidden argument*/NULL);
+		int64_t L_2 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker2< String_t*, int64_t >::Invoke(7 /* System.Void Wikitude.IPlatformBridge::InstantiateTargetCollectionResource(System.String,System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::OnDisableInternal()
+extern "C"  void TargetCollectionResource_OnDisableInternal_m1449865906 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource::OnDestroyInternal()
+extern "C"  void TargetCollectionResource_OnDestroyInternal_m603135928 (TargetCollectionResource_t3980041541 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TargetCollectionResource_OnDestroyInternal_m603135928_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int64_t L_1 = TargetSource_get_Identifier_m2617797188(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int64_t >::Invoke(14 /* System.Void Wikitude.IPlatformBridge::DestroyTargetCollectionResource(System.Int64) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.String Wikitude.TargetCollectionResource::GetFullPathFromStreamingAssetsPath(System.String)
+extern "C"  String_t* TargetCollectionResource_GetFullPathFromStreamingAssetsPath_m1606554941 (Il2CppObject * __this /* static, unused */, String_t* ___filePath0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TargetCollectionResource_GetFullPathFromStreamingAssetsPath_m1606554941_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (((int32_t)((int32_t)L_1-(int32_t)7)))
+		{
+			case 0:
+			{
+				goto IL_0059;
+			}
+			case 1:
+			{
+				goto IL_002d;
+			}
+			case 2:
+			{
+				goto IL_0022;
+			}
+			case 3:
+			{
+				goto IL_0022;
+			}
+			case 4:
+			{
+				goto IL_0043;
+			}
+		}
+	}
+
+IL_0022:
+	{
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		goto IL_006a;
+	}
+
+IL_002d:
+	{
+		String_t* L_3 = Application_get_dataPath_m371940330(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = ___filePath0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m1561703559(NULL /*static, unused*/, _stringLiteral2494949592, L_3, _stringLiteral4163116868, L_4, /*hidden argument*/NULL);
+		return L_5;
+	}
+
+IL_0043:
+	{
+		String_t* L_6 = Application_get_dataPath_m371940330(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_7 = ___filePath0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m1561703559(NULL /*static, unused*/, _stringLiteral2090119891, L_6, _stringLiteral1794938840, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+
+IL_0059:
+	{
+		String_t* L_9 = Application_get_dataPath_m371940330(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_10 = ___filePath0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m612901809(NULL /*static, unused*/, L_9, _stringLiteral4293091031, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_006a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, _stringLiteral1421372889, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_12;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource/OnErrorLoadingEvent::.ctor()
+extern "C"  void OnErrorLoadingEvent__ctor_m386438742 (OnErrorLoadingEvent_t706169873 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnErrorLoadingEvent__ctor_m386438742_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.TargetCollectionResource/OnFinishLoadingEvent::.ctor()
+extern "C"  void OnFinishLoadingEvent__ctor_m3149851737 (OnFinishLoadingEvent_t1372070578 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TargetSource::.ctor()
+extern "C"  void TargetSource__ctor_m642474803 (TargetSource_t1091527250 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int64 Wikitude.TargetSource::get_Identifier()
+extern "C"  int64_t TargetSource_get_Identifier_m2617797188 (TargetSource_t1091527250 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = __this->get__identifier_0();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TargetSource::set_Identifier(System.Int64)
+extern "C"  void TargetSource_set_Identifier_m1008862427 (TargetSource_t1091527250 * __this, int64_t ___value0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___value0;
+		__this->set__identifier_0(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TargetSource::get_IsRegistered()
+extern "C"  bool TargetSource_get_IsRegistered_m3126008996 (TargetSource_t1091527250 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsRegisteredU3Ek__BackingField_1();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TargetSource::set_IsRegistered(System.Boolean)
+extern "C"  void TargetSource_set_IsRegistered_m3950123339 (TargetSource_t1091527250 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsRegisteredU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TargetSource::OnInitialize(System.Int64)
+extern "C"  void TargetSource_OnInitialize_m1296212476 (TargetSource_t1091527250 * __this, int64_t ___identifier0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___identifier0;
+		TargetSource_set_Identifier_m1008862427(__this, L_0, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(5 /* System.Void Wikitude.TargetSource::OnInitializeInternal() */, __this);
+		return;
+	}
+}
+// System.Void Wikitude.TargetSource::OnEnable()
+extern "C"  void TargetSource_OnEnable_m400085671 (TargetSource_t1091527250 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = TargetSource_get_IsRegistered_m3126008996(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(6 /* System.Void Wikitude.TargetSource::OnEnableInternal() */, __this);
+		TargetSource_set_IsRegistered_m3950123339(__this, (bool)1, /*hidden argument*/NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TargetSource::OnDisable()
+extern "C"  void TargetSource_OnDisable_m954771448 (TargetSource_t1091527250 * __this, const MethodInfo* method)
+{
+	{
+		VirtActionInvoker0::Invoke(7 /* System.Void Wikitude.TargetSource::OnDisableInternal() */, __this);
+		return;
+	}
+}
+// System.Void Wikitude.TargetSource::OnDestroy()
+extern "C"  void TargetSource_OnDestroy_m4100557054 (TargetSource_t1091527250 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = TargetSource_get_IsRegistered_m3126008996(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		VirtActionInvoker0::Invoke(8 /* System.Void Wikitude.TargetSource::OnDestroyInternal() */, __this);
+		TargetSource_set_IsRegistered_m3950123339(__this, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::.ctor()
+extern "C"  void TrackableBehaviour__ctor_m2635975511 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour__ctor_m2635975511_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set__autoToggleVisibility_7((bool)1);
+		OnEnterFieldOfVisionEvent_t3362888889 * L_0 = (OnEnterFieldOfVisionEvent_t3362888889 *)il2cpp_codegen_object_new(OnEnterFieldOfVisionEvent_t3362888889_il2cpp_TypeInfo_var);
+		OnEnterFieldOfVisionEvent__ctor_m2360711846(L_0, /*hidden argument*/NULL);
+		__this->set_OnEnterFieldOfVision_8(L_0);
+		OnExitFieldOfVisionEvent_t2513344377 * L_1 = (OnExitFieldOfVisionEvent_t2513344377 *)il2cpp_codegen_object_new(OnExitFieldOfVisionEvent_t2513344377_il2cpp_TypeInfo_var);
+		OnExitFieldOfVisionEvent__ctor_m1744751172(L_1, /*hidden argument*/NULL);
+		__this->set_OnExitFieldOfVision_9(L_1);
+		__this->set__eventsFoldout_10((bool)1);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.TrackableBehaviour::get_TargetPattern()
+extern "C"  String_t* TrackableBehaviour_get_TargetPattern_m1033674094 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__targetPattern_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::set_TargetPattern(System.String)
+extern "C"  void TrackableBehaviour_set_TargetPattern_m2200969173 (TrackableBehaviour_t3643631172 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__targetPattern_2(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackableBehaviour::get_IsKnown()
+extern "C"  bool TrackableBehaviour_get_IsKnown_m2115746579 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__isKnown_4();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::set_IsKnown(System.Boolean)
+extern "C"  void TrackableBehaviour_set_IsKnown_m1885135104 (TrackableBehaviour_t3643631172 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__isKnown_4();
+		bool L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		bool L_2 = ___value0;
+		__this->set__isKnown_4(L_2);
+		bool L_3 = __this->get__autoToggleVisibility_7();
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_4 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		bool L_5 = __this->get__isKnown_4();
+		NullCheck(L_4);
+		GameObject_SetActive_m2887581199(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackableBehaviour::get_ExtendedTracking()
+extern "C"  bool TrackableBehaviour_get_ExtendedTracking_m2116566286 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__extendedTracking_5();
+		return L_0;
+	}
+}
+// System.String[] Wikitude.TrackableBehaviour::get_TargetsForExtendedTracking()
+extern "C"  StringU5BU5D_t1642385972* TrackableBehaviour_get_TargetsForExtendedTracking_m4004032682 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	{
+		StringU5BU5D_t1642385972* L_0 = __this->get__targetsForExtendedTracking_6();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::set_TargetsForExtendedTracking(System.String[])
+extern "C"  void TrackableBehaviour_set_TargetsForExtendedTracking_m2365679799 (TrackableBehaviour_t3643631172 * __this, StringU5BU5D_t1642385972* ___value0, const MethodInfo* method)
+{
+	{
+		StringU5BU5D_t1642385972* L_0 = ___value0;
+		__this->set__targetsForExtendedTracking_6(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackableBehaviour::get_AutoToggleVisibility()
+extern "C"  bool TrackableBehaviour_get_AutoToggleVisibility_m2460556301 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__autoToggleVisibility_7();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::set_AutoToggleVisibility(System.Boolean)
+extern "C"  void TrackableBehaviour_set_AutoToggleVisibility_m2599497534 (TrackableBehaviour_t3643631172 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set__autoToggleVisibility_7(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackableBehaviour::IncludesTargetName(System.String)
+extern "C"  bool TrackableBehaviour_IncludesTargetName_m1559597026 (TrackableBehaviour_t3643631172 * __this, String_t* ___targetName0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___targetName0;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Regex_t1803876613 * L_1 = __this->get__targetPatternRegex_3();
+		String_t* L_2 = ___targetName0;
+		NullCheck(L_1);
+		Match_t3164245899 * L_3 = Regex_Match_m3287354872(L_1, L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		bool L_4 = Group_get_Success_m2001463544(L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+
+IL_0018:
+	{
+		return (bool)0;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::Awake()
+extern "C"  void TrackableBehaviour_Awake_m46521102 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_Awake_m46521102_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Regex_t1803876613 * L_0 = __this->get__targetPatternRegex_3();
+		if (L_0)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		String_t* L_1 = __this->get__targetPattern_2();
+		Regex_t1803876613 * L_2 = TrackableBehaviour_GetRegexFromTargetPattern_m2346248314(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		__this->set__targetPatternRegex_3(L_2);
+	}
+
+IL_001c:
+	{
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_localScale_m3074381503(L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		float L_5 = (&V_0)->get_x_1();
+		float L_6 = (&V_0)->get_y_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		bool L_7 = Mathf_Approximately_m1064446634(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		float L_8 = (&V_0)->get_x_1();
+		float L_9 = (&V_0)->get_z_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		bool L_10 = Mathf_Approximately_m1064446634(NULL /*static, unused*/, L_8, L_9, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		float L_11 = (&V_0)->get_y_2();
+		float L_12 = (&V_0)->get_z_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		bool L_13 = Mathf_Approximately_m1064446634(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_007a;
+		}
+	}
+
+IL_0070:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral149330462, /*hidden argument*/NULL);
+	}
+
+IL_007a:
+	{
+		TrackableBehaviour_RegisterToTracker_m996911205(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::Start()
+extern "C"  void TrackableBehaviour_Start_m448720995 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_Start_m448720995_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = TrackableBehaviour_RegisterToTracker_m996911205(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral356367017, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		bool L_1 = __this->get__autoToggleVisibility_7();
+		if (!L_1)
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = Component_get_gameObject_m3105766835(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		GameObject_SetActive_m2887581199(L_2, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackableBehaviour::RegisterToTracker()
+extern "C"  bool TrackableBehaviour_RegisterToTracker_m996911205 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_RegisterToTracker_m996911205_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TrackerBehaviour_t3845512381 * V_0 = NULL;
+	{
+		bool L_0 = __this->get__registeredToTracker_11();
+		if (L_0)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_1 = Component_GetComponentInParent_TisTrackerBehaviour_t3845512381_m1037918205(__this, /*hidden argument*/Component_GetComponentInParent_TisTrackerBehaviour_t3845512381_m1037918205_MethodInfo_var);
+		V_0 = L_1;
+		TrackerBehaviour_t3845512381 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_4 = V_0;
+		NullCheck(L_4);
+		TrackerBehaviour_NewTrackableAvailable_m2356705656(L_4, __this, /*hidden argument*/NULL);
+		__this->set__registeredToTracker_11((bool)1);
+		return (bool)1;
+	}
+
+IL_002e:
+	{
+		return (bool)0;
+	}
+
+IL_0030:
+	{
+		return (bool)1;
+	}
+}
+// System.Text.RegularExpressions.Regex Wikitude.TrackableBehaviour::GetRegexFromTargetPattern(System.String)
+extern "C"  Regex_t1803876613 * TrackableBehaviour_GetRegexFromTargetPattern_m2346248314 (Il2CppObject * __this /* static, unused */, String_t* ___pattern0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_GetRegexFromTargetPattern_m2346248314_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		String_t* L_0 = ___pattern0;
+		NullCheck(L_0);
+		String_t* L_1 = String_Replace_m1941156251(L_0, _stringLiteral372029320, _stringLiteral2065319825, /*hidden argument*/NULL);
+		V_0 = L_1;
+		String_t* L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3 = String_Replace_m1941156251(L_2, _stringLiteral372029331, _stringLiteral2065319836, /*hidden argument*/NULL);
+		V_1 = L_3;
+		String_t* L_4 = V_1;
+		___pattern0 = L_4;
+		String_t* L_5 = ___pattern0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Concat_m612901809(NULL /*static, unused*/, _stringLiteral372029428, L_5, _stringLiteral2896918186, /*hidden argument*/NULL);
+		___pattern0 = L_6;
+		String_t* L_7 = ___pattern0;
+		Regex_t1803876613 * L_8 = (Regex_t1803876613 *)il2cpp_codegen_object_new(Regex_t1803876613_il2cpp_TypeInfo_var);
+		Regex__ctor_m2794328522(L_8, L_7, /*hidden argument*/NULL);
+		return L_8;
+	}
+}
+// UnityEngine.Texture2D Wikitude.TrackableBehaviour::get_Preview()
+extern "C"  Texture2D_t3542995729 * TrackableBehaviour_get_Preview_m344993481 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__preview_12();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::set_Preview(UnityEngine.Texture2D)
+extern "C"  void TrackableBehaviour_set_Preview_m3227047188 (TrackableBehaviour_t3643631172 * __this, Texture2D_t3542995729 * ___value0, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = ___value0;
+		__this->set__preview_12(L_0);
+		return;
+	}
+}
+// UnityEngine.Material Wikitude.TrackableBehaviour::get_PreviewMaterial()
+extern "C"  Material_t193706927 * TrackableBehaviour_get_PreviewMaterial_m3813596926 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_get_PreviewMaterial_m3813596926_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Material_t193706927 * L_0 = __this->get__previewMaterial_13();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Shader_t2430389951 * L_2 = Shader_Find_m4179408078(NULL /*static, unused*/, _stringLiteral2628594138, /*hidden argument*/NULL);
+		Material_t193706927 * L_3 = (Material_t193706927 *)il2cpp_codegen_object_new(Material_t193706927_il2cpp_TypeInfo_var);
+		Material__ctor_m1897560860(L_3, L_2, /*hidden argument*/NULL);
+		__this->set__previewMaterial_13(L_3);
+	}
+
+IL_0026:
+	{
+		Material_t193706927 * L_4 = __this->get__previewMaterial_13();
+		Texture2D_t3542995729 * L_5 = __this->get__preview_12();
+		NullCheck(L_4);
+		Material_set_mainTexture_m3584203343(L_4, L_5, /*hidden argument*/NULL);
+		Material_t193706927 * L_6 = __this->get__previewMaterial_13();
+		return L_6;
+	}
+}
+// UnityEngine.Mesh Wikitude.TrackableBehaviour::get_PreviewMesh()
+extern "C"  Mesh_t1356156583 * TrackableBehaviour_get_PreviewMesh_m3153081854 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_get_PreviewMesh_m3153081854_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t1756533147 * V_0 = NULL;
+	{
+		Mesh_t1356156583 * L_0 = __this->get__previewMesh_14();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GameObject_t1756533147 * L_2 = GameObject_CreatePrimitive_m973880764(NULL /*static, unused*/, 4, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t1756533147 * L_3 = V_0;
+		NullCheck(L_3);
+		MeshFilter_t3026937449 * L_4 = GameObject_GetComponent_TisMeshFilter_t3026937449_m73955417(L_3, /*hidden argument*/GameObject_GetComponent_TisMeshFilter_t3026937449_m73955417_MethodInfo_var);
+		NullCheck(L_4);
+		Mesh_t1356156583 * L_5 = MeshFilter_get_sharedMesh_m1310789932(L_4, /*hidden argument*/NULL);
+		__this->set__previewMesh_14(L_5);
+		GameObject_t1756533147 * L_6 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m95027445(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		Mesh_t1356156583 * L_7 = __this->get__previewMesh_14();
+		return L_7;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour::OnDrawGizmos()
+extern "C"  void TrackableBehaviour_OnDrawGizmos_m1073679667 (TrackableBehaviour_t3643631172 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackableBehaviour_OnDrawGizmos_m1073679667_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__preview_12();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		Material_t193706927 * L_2 = TrackableBehaviour_get_PreviewMaterial_m3813596926(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Material_SetPass_m2448940266(L_2, 0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Vector3_t2243707580  L_4 = Transform_get_lossyScale_m1638545862(L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		Texture2D_t3542995729 * L_5 = __this->get__preview_12();
+		NullCheck(L_5);
+		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Int32 UnityEngine.Texture::get_width() */, L_5);
+		V_1 = (((float)((float)L_6)));
+		Texture2D_t3542995729 * L_7 = __this->get__preview_12();
+		NullCheck(L_7);
+		int32_t L_8 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Int32 UnityEngine.Texture::get_height() */, L_7);
+		V_2 = (((float)((float)L_8)));
+		float L_9 = V_1;
+		float L_10 = V_2;
+		if ((!(((float)L_9) > ((float)L_10))))
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		float L_11 = V_2;
+		float L_12 = V_1;
+		float L_13 = (&V_0)->get_z_3();
+		(&V_0)->set_z_3(((float)((float)((float)((float)L_11/(float)L_12))*(float)L_13)));
+		goto IL_0074;
+	}
+
+IL_0062:
+	{
+		float L_14 = V_1;
+		float L_15 = V_2;
+		float L_16 = (&V_0)->get_x_1();
+		(&V_0)->set_x_1(((float)((float)((float)((float)L_14/(float)L_15))*(float)L_16)));
+	}
+
+IL_0074:
+	{
+		Mesh_t1356156583 * L_17 = TrackableBehaviour_get_PreviewMesh_m3153081854(__this, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_18 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		Vector3_t2243707580  L_19 = Transform_get_position_m1104419803(L_18, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_20 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		Quaternion_t4030073918  L_21 = Transform_get_rotation_m1033555130(L_20, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_22 = V_0;
+		Matrix4x4_t2933234003  L_23 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_19, L_21, L_22, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t2412809155_il2cpp_TypeInfo_var);
+		Graphics_DrawMeshNow_m150453421(NULL /*static, unused*/, L_17, L_23, /*hidden argument*/NULL);
+	}
+
+IL_009b:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour/OnEnterFieldOfVisionEvent::.ctor()
+extern "C"  void OnEnterFieldOfVisionEvent__ctor_m2360711846 (OnEnterFieldOfVisionEvent_t3362888889 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnEnterFieldOfVisionEvent__ctor_m2360711846_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.TrackableBehaviour/OnExitFieldOfVisionEvent::.ctor()
+extern "C"  void OnExitFieldOfVisionEvent__ctor_m1744751172 (OnExitFieldOfVisionEvent_t2513344377 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnExitFieldOfVisionEvent__ctor_m1744751172_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::.ctor()
+extern "C"  void TrackerBehaviour__ctor_m2201672446 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour__ctor_m2201672446_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HashSet_1_t1977092026 * L_0 = (HashSet_1_t1977092026 *)il2cpp_codegen_object_new(HashSet_1_t1977092026_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m3001600831(L_0, /*hidden argument*/HashSet_1__ctor_m3001600831_MethodInfo_var);
+		__this->set__registeredTrackables_3(L_0);
+		OnTargetsLoadedEvent_t3080540202 * L_1 = (OnTargetsLoadedEvent_t3080540202 *)il2cpp_codegen_object_new(OnTargetsLoadedEvent_t3080540202_il2cpp_TypeInfo_var);
+		OnTargetsLoadedEvent__ctor_m4153023689(L_1, /*hidden argument*/NULL);
+		__this->set_OnTargetsLoaded_10(L_1);
+		OnErrorLoadingTargetsEvent_t3800749431 * L_2 = (OnErrorLoadingTargetsEvent_t3800749431 *)il2cpp_codegen_object_new(OnErrorLoadingTargetsEvent_t3800749431_il2cpp_TypeInfo_var);
+		OnErrorLoadingTargetsEvent__ctor_m2029488116(L_2, /*hidden argument*/NULL);
+		__this->set_OnErrorLoadingTargets_11(L_2);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.TrackerManager Wikitude.TrackerBehaviour::get_Manager()
+extern "C"  TrackerManager_t130000407 * TrackerBehaviour_get_Manager_m1738699492 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	{
+		TrackerManager_t130000407 * L_0 = __this->get__manager_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::set_Manager(Wikitude.TrackerManager)
+extern "C"  void TrackerBehaviour_set_Manager_m3948747121 (TrackerBehaviour_t3845512381 * __this, TrackerManager_t130000407 * ___value0, const MethodInfo* method)
+{
+	{
+		TrackerManager_t130000407 * L_0 = ___value0;
+		__this->set__manager_2(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackerBehaviour::get_Initialized()
+extern "C"  bool TrackerBehaviour_get_Initialized_m3775083335 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CInitializedU3Ek__BackingField_4();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::set_Initialized(System.Boolean)
+extern "C"  void TrackerBehaviour_set_Initialized_m2844942718 (TrackerBehaviour_t3845512381 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CInitializedU3Ek__BackingField_4(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::Awake()
+extern "C"  void TrackerBehaviour_Awake_m3824588119 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::NewTrackableAvailable(Wikitude.TrackableBehaviour)
+extern "C"  void TrackerBehaviour_NewTrackableAvailable_m2356705656 (TrackerBehaviour_t3845512381 * __this, TrackableBehaviour_t3643631172 * ___trackable0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_NewTrackableAvailable_m2356705656_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackableBehaviour_t3643631172 * L_0 = ___trackable0;
+		NullCheck(L_0);
+		Transform_t3275118058 * L_1 = Component_get_transform_m2697483695(L_0, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_2 = Component_get_transform_m2697483695(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_3 = Transform_IsChildOf_m10844547(L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		HashSet_1_t1977092026 * L_4 = __this->get__registeredTrackables_3();
+		TrackableBehaviour_t3643631172 * L_5 = ___trackable0;
+		NullCheck(L_4);
+		HashSet_1_Add_m1418204619(L_4, L_5, /*hidden argument*/HashSet_1_Add_m1418204619_MethodInfo_var);
+		TrackableBehaviour_t3643631172 * L_6 = ___trackable0;
+		NullCheck(L_6);
+		TrackableBehaviour_set_IsKnown_m1885135104(L_6, (bool)0, /*hidden argument*/NULL);
+		goto IL_0039;
+	}
+
+IL_002f:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral975102581, /*hidden argument*/NULL);
+	}
+
+IL_0039:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::Start()
+extern "C"  void TrackerBehaviour_Start_m4158945682 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_Start_m4158945682_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		WikitudeCamera_t2517845841 * L_0 = Object_FindObjectOfType_TisWikitudeCamera_t2517845841_m4292550126(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisWikitudeCamera_t2517845841_m4292550126_MethodInfo_var);
+		__this->set__wikitudeCamera_8(L_0);
+		WikitudeCamera_t2517845841 * L_1 = __this->get__wikitudeCamera_8();
+		bool L_2 = Object_op_Implicit_m2856731593(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		WikitudeCamera_t2517845841 * L_3 = __this->get__wikitudeCamera_8();
+		NullCheck(L_3);
+		Camera_t189460977 * L_4 = Component_GetComponent_TisCamera_t189460977_m3276577584(L_3, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		__this->set__sceneCamera_5(L_4);
+		Camera_t189460977 * L_5 = __this->get__sceneCamera_5();
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		__this->set__initialSceneCameraPosition_6(L_7);
+		Camera_t189460977 * L_8 = __this->get__sceneCamera_5();
+		NullCheck(L_8);
+		Transform_t3275118058 * L_9 = Component_get_transform_m2697483695(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Quaternion_t4030073918  L_10 = Transform_get_rotation_m1033555130(L_9, /*hidden argument*/NULL);
+		__this->set__initialSceneCameraRotation_7(L_10);
+		goto IL_0068;
+	}
+
+IL_005d:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2589785236, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0068:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		TrackerManager_t130000407 * L_11 = Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926_MethodInfo_var);
+		__this->set__manager_2(L_11);
+		TrackerManager_t130000407 * L_12 = __this->get__manager_2();
+		bool L_13 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_12, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_008e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral478335208, /*hidden argument*/NULL);
+	}
+
+IL_008e:
+	{
+		VirtActionInvoker0::Invoke(9 /* System.Void Wikitude.TrackerBehaviour::OnInitialize() */, __this);
+		TrackerBehaviour_set_Initialized_m2844942718(__this, (bool)1, /*hidden argument*/NULL);
+		VirtActionInvoker0::Invoke(8 /* System.Void Wikitude.TrackerBehaviour::OnEnable() */, __this);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::OnEnable()
+extern "C"  void TrackerBehaviour_OnEnable_m2484164626 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = TrackerBehaviour_get_Initialized_m3775083335(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		TrackerManager_t130000407 * L_1 = __this->get__manager_2();
+		NullCheck(L_1);
+		TrackerManager_ActivateTracker_m3608901866(L_1, __this, /*hidden argument*/NULL);
+	}
+
+IL_0017:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::OnInitialize()
+extern "C"  void TrackerBehaviour_OnInitialize_m26638623 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::OnDisable()
+extern "C"  void TrackerBehaviour_OnDisable_m292473883 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_OnDisable_m292473883_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TrackableBehaviour_t3643631172 * V_0 = NULL;
+	Enumerator_t465407868  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		TrackerManager_t130000407 * L_0 = __this->get__manager_2();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		TrackerManager_t130000407 * L_2 = __this->get__manager_2();
+		NullCheck(L_2);
+		TrackerManager_DeactivateTracker_m2599315795(L_2, __this, /*hidden argument*/NULL);
+		HashSet_1_t1977092026 * L_3 = __this->get__registeredTrackables_3();
+		NullCheck(L_3);
+		Enumerator_t465407868  L_4 = HashSet_1_GetEnumerator_m3576409150(L_3, /*hidden argument*/HashSet_1_GetEnumerator_m3576409150_MethodInfo_var);
+		V_1 = L_4;
+	}
+
+IL_0029:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0060;
+		}
+
+IL_002e:
+		{
+			TrackableBehaviour_t3643631172 * L_5 = Enumerator_get_Current_m3502568190((&V_1), /*hidden argument*/Enumerator_get_Current_m3502568190_MethodInfo_var);
+			V_0 = L_5;
+			TrackableBehaviour_t3643631172 * L_6 = V_0;
+			NullCheck(L_6);
+			bool L_7 = TrackableBehaviour_get_IsKnown_m2115746579(L_6, /*hidden argument*/NULL);
+			if (!L_7)
+			{
+				goto IL_0060;
+			}
+		}
+
+IL_0041:
+		{
+			TrackableBehaviour_t3643631172 * L_8 = V_0;
+			NullCheck(L_8);
+			TrackableBehaviour_set_IsKnown_m1885135104(L_8, (bool)0, /*hidden argument*/NULL);
+			TrackableBehaviour_t3643631172 * L_9 = V_0;
+			NullCheck(L_9);
+			OnExitFieldOfVisionEvent_t2513344377 * L_10 = L_9->get_OnExitFieldOfVision_9();
+			String_t* L_11 = __this->get__trackedTargetName_9();
+			NullCheck(L_10);
+			UnityEvent_1_Invoke_m2698909(L_10, L_11, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+			__this->set__trackedTargetName_9((String_t*)NULL);
+		}
+
+IL_0060:
+		{
+			bool L_12 = Enumerator_MoveNext_m2889518444((&V_1), /*hidden argument*/Enumerator_MoveNext_m2889518444_MethodInfo_var);
+			if (L_12)
+			{
+				goto IL_002e;
+			}
+		}
+
+IL_006c:
+		{
+			IL2CPP_LEAVE(0x7F, FINALLY_0071);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0071;
+	}
+
+FINALLY_0071:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m124679713((&V_1), /*hidden argument*/Enumerator_Dispose_m124679713_MethodInfo_var);
+		IL2CPP_END_FINALLY(113)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(113)
+	{
+		IL2CPP_JUMP_TBL(0x7F, IL_007f)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_007f:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::PrintMatrix(System.String,System.Single[])
+extern "C"  void TrackerBehaviour_PrintMatrix_m1600953553 (TrackerBehaviour_t3845512381 * __this, String_t* ___matrixLabel0, SingleU5BU5D_t577127397* ___matrix1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_PrintMatrix_m1600953553_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringBuilder_t1221177846 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		StringBuilder_t1221177846 * L_0 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		StringBuilder_t1221177846 * L_1 = V_0;
+		String_t* L_2 = ___matrixLabel0;
+		NullCheck(L_1);
+		StringBuilder_Append_m3636508479(L_1, L_2, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_3 = V_0;
+		NullCheck(L_3);
+		StringBuilder_Append_m3636508479(L_3, _stringLiteral2428198909, /*hidden argument*/NULL);
+		V_1 = 0;
+		goto IL_004a;
+	}
+
+IL_0021:
+	{
+		StringBuilder_t1221177846 * L_4 = V_0;
+		SingleU5BU5D_t577127397* L_5 = ___matrix1;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		String_t* L_7 = Single_ToString_m1813392066(((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_6))), /*hidden argument*/NULL);
+		NullCheck(L_4);
+		StringBuilder_Append_m3636508479(L_4, L_7, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_8 = V_0;
+		NullCheck(L_8);
+		StringBuilder_Append_m3636508479(L_8, _stringLiteral372029310, /*hidden argument*/NULL);
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)((int32_t)L_9+(int32_t)1));
+	}
+
+IL_004a:
+	{
+		int32_t L_10 = V_1;
+		SingleU5BU5D_t577127397* L_11 = ___matrix1;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_11)->max_length)))))))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		StringBuilder_t1221177846 * L_12 = V_0;
+		NullCheck(L_12);
+		StringBuilder_Append_m3636508479(L_12, _stringLiteral1947253693, /*hidden argument*/NULL);
+		StringBuilder_t1221177846 * L_13 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::TrackablesChanged(System.String,System.Single[],System.Single[])
+extern "C"  void TrackerBehaviour_TrackablesChanged_m2170920796 (TrackerBehaviour_t3845512381 * __this, String_t* ___targetName0, SingleU5BU5D_t577127397* ___targetModelViewMatrix1, SingleU5BU5D_t577127397* ___projectionMatrix2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_TrackablesChanged_m2170920796_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	TrackableBehaviour_t3643631172 * V_0 = NULL;
+	Enumerator_t465407868  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		HashSet_1_t1977092026 * L_0 = __this->get__registeredTrackables_3();
+		NullCheck(L_0);
+		Enumerator_t465407868  L_1 = HashSet_1_GetEnumerator_m3576409150(L_0, /*hidden argument*/HashSet_1_GetEnumerator_m3576409150_MethodInfo_var);
+		V_1 = L_1;
+	}
+
+IL_000c:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0082;
+		}
+
+IL_0011:
+		{
+			TrackableBehaviour_t3643631172 * L_2 = Enumerator_get_Current_m3502568190((&V_1), /*hidden argument*/Enumerator_get_Current_m3502568190_MethodInfo_var);
+			V_0 = L_2;
+			TrackableBehaviour_t3643631172 * L_3 = V_0;
+			String_t* L_4 = ___targetName0;
+			NullCheck(L_3);
+			bool L_5 = TrackableBehaviour_IncludesTargetName_m1559597026(L_3, L_4, /*hidden argument*/NULL);
+			if (!L_5)
+			{
+				goto IL_0058;
+			}
+		}
+
+IL_0025:
+		{
+			TrackableBehaviour_t3643631172 * L_6 = V_0;
+			NullCheck(L_6);
+			bool L_7 = TrackableBehaviour_get_IsKnown_m2115746579(L_6, /*hidden argument*/NULL);
+			if (L_7)
+			{
+				goto IL_004a;
+			}
+		}
+
+IL_0030:
+		{
+			TrackableBehaviour_t3643631172 * L_8 = V_0;
+			NullCheck(L_8);
+			TrackableBehaviour_set_IsKnown_m1885135104(L_8, (bool)1, /*hidden argument*/NULL);
+			TrackableBehaviour_t3643631172 * L_9 = V_0;
+			NullCheck(L_9);
+			OnEnterFieldOfVisionEvent_t3362888889 * L_10 = L_9->get_OnEnterFieldOfVision_8();
+			String_t* L_11 = ___targetName0;
+			NullCheck(L_10);
+			UnityEvent_1_Invoke_m2698909(L_10, L_11, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+			String_t* L_12 = ___targetName0;
+			__this->set__trackedTargetName_9(L_12);
+		}
+
+IL_004a:
+		{
+			TrackableBehaviour_t3643631172 * L_13 = V_0;
+			SingleU5BU5D_t577127397* L_14 = ___targetModelViewMatrix1;
+			SingleU5BU5D_t577127397* L_15 = ___projectionMatrix2;
+			TrackerBehaviour_UpdateTrackingForTrackable_m2387308168(__this, L_13, L_14, L_15, /*hidden argument*/NULL);
+			goto IL_0082;
+		}
+
+IL_0058:
+		{
+			TrackableBehaviour_t3643631172 * L_16 = V_0;
+			NullCheck(L_16);
+			bool L_17 = TrackableBehaviour_get_IsKnown_m2115746579(L_16, /*hidden argument*/NULL);
+			if (!L_17)
+			{
+				goto IL_0082;
+			}
+		}
+
+IL_0063:
+		{
+			TrackableBehaviour_t3643631172 * L_18 = V_0;
+			NullCheck(L_18);
+			TrackableBehaviour_set_IsKnown_m1885135104(L_18, (bool)0, /*hidden argument*/NULL);
+			TrackableBehaviour_t3643631172 * L_19 = V_0;
+			NullCheck(L_19);
+			OnExitFieldOfVisionEvent_t2513344377 * L_20 = L_19->get_OnExitFieldOfVision_9();
+			String_t* L_21 = __this->get__trackedTargetName_9();
+			NullCheck(L_20);
+			UnityEvent_1_Invoke_m2698909(L_20, L_21, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+			__this->set__trackedTargetName_9((String_t*)NULL);
+		}
+
+IL_0082:
+		{
+			bool L_22 = Enumerator_MoveNext_m2889518444((&V_1), /*hidden argument*/Enumerator_MoveNext_m2889518444_MethodInfo_var);
+			if (L_22)
+			{
+				goto IL_0011;
+			}
+		}
+
+IL_008e:
+		{
+			IL2CPP_LEAVE(0xA1, FINALLY_0093);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_0093;
+	}
+
+FINALLY_0093:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m124679713((&V_1), /*hidden argument*/Enumerator_Dispose_m124679713_MethodInfo_var);
+		IL2CPP_END_FINALLY(147)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(147)
+	{
+		IL2CPP_JUMP_TBL(0xA1, IL_00a1)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00a1:
+	{
+		return;
+	}
+}
+// System.String Wikitude.TrackerBehaviour::GetTargetsForExtendedTracking()
+extern "C"  String_t* TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642 (TrackerBehaviour_t3845512381 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_GetTargetsForExtendedTracking_m2374343642_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	HashSet_1_t362681087 * V_0 = NULL;
+	TrackableBehaviour_t3643631172 * V_1 = NULL;
+	Enumerator_t465407868  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	String_t* V_3 = NULL;
+	StringU5BU5D_t1642385972* V_4 = NULL;
+	int32_t V_5 = 0;
+	StringBuilder_t1221177846 * V_6 = NULL;
+	bool V_7 = false;
+	String_t* V_8 = NULL;
+	Enumerator_t3145964225  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Exception_t1927440687 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1927440687 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		HashSet_1_t362681087 * L_0 = (HashSet_1_t362681087 *)il2cpp_codegen_object_new(HashSet_1_t362681087_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m3939180071(L_0, /*hidden argument*/HashSet_1__ctor_m3939180071_MethodInfo_var);
+		V_0 = L_0;
+		HashSet_1_t1977092026 * L_1 = __this->get__registeredTrackables_3();
+		NullCheck(L_1);
+		Enumerator_t465407868  L_2 = HashSet_1_GetEnumerator_m3576409150(L_1, /*hidden argument*/HashSet_1_GetEnumerator_m3576409150_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0012:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0059;
+		}
+
+IL_0017:
+		{
+			TrackableBehaviour_t3643631172 * L_3 = Enumerator_get_Current_m3502568190((&V_2), /*hidden argument*/Enumerator_get_Current_m3502568190_MethodInfo_var);
+			V_1 = L_3;
+			TrackableBehaviour_t3643631172 * L_4 = V_1;
+			NullCheck(L_4);
+			bool L_5 = TrackableBehaviour_get_ExtendedTracking_m2116566286(L_4, /*hidden argument*/NULL);
+			if (!L_5)
+			{
+				goto IL_0059;
+			}
+		}
+
+IL_002a:
+		{
+			TrackableBehaviour_t3643631172 * L_6 = V_1;
+			NullCheck(L_6);
+			StringU5BU5D_t1642385972* L_7 = TrackableBehaviour_get_TargetsForExtendedTracking_m4004032682(L_6, /*hidden argument*/NULL);
+			V_4 = L_7;
+			V_5 = 0;
+			goto IL_004e;
+		}
+
+IL_003a:
+		{
+			StringU5BU5D_t1642385972* L_8 = V_4;
+			int32_t L_9 = V_5;
+			NullCheck(L_8);
+			int32_t L_10 = L_9;
+			String_t* L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+			V_3 = L_11;
+			HashSet_1_t362681087 * L_12 = V_0;
+			String_t* L_13 = V_3;
+			NullCheck(L_12);
+			HashSet_1_Add_m35300443(L_12, L_13, /*hidden argument*/HashSet_1_Add_m35300443_MethodInfo_var);
+			int32_t L_14 = V_5;
+			V_5 = ((int32_t)((int32_t)L_14+(int32_t)1));
+		}
+
+IL_004e:
+		{
+			int32_t L_15 = V_5;
+			StringU5BU5D_t1642385972* L_16 = V_4;
+			NullCheck(L_16);
+			if ((((int32_t)L_15) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))))))
+			{
+				goto IL_003a;
+			}
+		}
+
+IL_0059:
+		{
+			bool L_17 = Enumerator_MoveNext_m2889518444((&V_2), /*hidden argument*/Enumerator_MoveNext_m2889518444_MethodInfo_var);
+			if (L_17)
+			{
+				goto IL_0017;
+			}
+		}
+
+IL_0065:
+		{
+			IL2CPP_LEAVE(0x78, FINALLY_006a);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_006a;
+	}
+
+FINALLY_006a:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m124679713((&V_2), /*hidden argument*/Enumerator_Dispose_m124679713_MethodInfo_var);
+		IL2CPP_END_FINALLY(106)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(106)
+	{
+		IL2CPP_JUMP_TBL(0x78, IL_0078)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_0078:
+	{
+		StringBuilder_t1221177846 * L_18 = (StringBuilder_t1221177846 *)il2cpp_codegen_object_new(StringBuilder_t1221177846_il2cpp_TypeInfo_var);
+		StringBuilder__ctor_m3946851802(L_18, /*hidden argument*/NULL);
+		V_6 = L_18;
+		V_7 = (bool)1;
+		HashSet_1_t362681087 * L_19 = V_0;
+		NullCheck(L_19);
+		Enumerator_t3145964225  L_20 = HashSet_1_GetEnumerator_m3458377458(L_19, /*hidden argument*/HashSet_1_GetEnumerator_m3458377458_MethodInfo_var);
+		V_9 = L_20;
+	}
+
+IL_008a:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_00c8;
+		}
+
+IL_008f:
+		{
+			String_t* L_21 = Enumerator_get_Current_m1312363686((&V_9), /*hidden argument*/Enumerator_get_Current_m1312363686_MethodInfo_var);
+			V_8 = L_21;
+			bool L_22 = V_7;
+			if (!L_22)
+			{
+				goto IL_00b1;
+			}
+		}
+
+IL_009f:
+		{
+			StringBuilder_t1221177846 * L_23 = V_6;
+			String_t* L_24 = V_8;
+			NullCheck(L_23);
+			StringBuilder_Append_m3636508479(L_23, L_24, /*hidden argument*/NULL);
+			V_7 = (bool)0;
+			goto IL_00c8;
+		}
+
+IL_00b1:
+		{
+			StringBuilder_t1221177846 * L_25 = V_6;
+			NullCheck(L_25);
+			StringBuilder_Append_m3636508479(L_25, _stringLiteral372029394, /*hidden argument*/NULL);
+			StringBuilder_t1221177846 * L_26 = V_6;
+			String_t* L_27 = V_8;
+			NullCheck(L_26);
+			StringBuilder_Append_m3636508479(L_26, L_27, /*hidden argument*/NULL);
+		}
+
+IL_00c8:
+		{
+			bool L_28 = Enumerator_MoveNext_m2906651588((&V_9), /*hidden argument*/Enumerator_MoveNext_m2906651588_MethodInfo_var);
+			if (L_28)
+			{
+				goto IL_008f;
+			}
+		}
+
+IL_00d4:
+		{
+			IL2CPP_LEAVE(0xE7, FINALLY_00d9);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1927440687 *)e.ex;
+		goto FINALLY_00d9;
+	}
+
+FINALLY_00d9:
+	{ // begin finally (depth: 1)
+		Enumerator_Dispose_m3599713869((&V_9), /*hidden argument*/Enumerator_Dispose_m3599713869_MethodInfo_var);
+		IL2CPP_END_FINALLY(217)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(217)
+	{
+		IL2CPP_JUMP_TBL(0xE7, IL_00e7)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1927440687 *)
+	}
+
+IL_00e7:
+	{
+		StringBuilder_t1221177846 * L_29 = V_6;
+		NullCheck(L_29);
+		String_t* L_30 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_29);
+		return L_30;
+	}
+}
+// System.Boolean Wikitude.TrackerBehaviour::CheckMatrix(System.Single[])
+extern "C"  bool TrackerBehaviour_CheckMatrix_m3778587046 (TrackerBehaviour_t3845512381 * __this, SingleU5BU5D_t577127397* ___m0, const MethodInfo* method)
+{
+	bool V_0 = false;
+	int32_t V_1 = 0;
+	{
+		V_0 = (bool)1;
+		V_1 = 0;
+		goto IL_0038;
+	}
+
+IL_0009:
+	{
+		SingleU5BU5D_t577127397* L_0 = ___m0;
+		int32_t L_1 = V_1;
+		NullCheck(L_0);
+		int32_t L_2 = L_1;
+		float L_3 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_2));
+		bool L_4 = Single_IsNaN_m2349591895(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		SingleU5BU5D_t577127397* L_5 = ___m0;
+		int32_t L_6 = V_1;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		float L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		bool L_9 = Single_IsInfinity_m3331110346(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0025;
+		}
+	}
+
+IL_0023:
+	{
+		return (bool)0;
+	}
+
+IL_0025:
+	{
+		SingleU5BU5D_t577127397* L_10 = ___m0;
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		float L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		if ((((float)L_13) == ((float)(0.0f))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		V_0 = (bool)0;
+	}
+
+IL_0034:
+	{
+		int32_t L_14 = V_1;
+		V_1 = ((int32_t)((int32_t)L_14+(int32_t)1));
+	}
+
+IL_0038:
+	{
+		int32_t L_15 = V_1;
+		SingleU5BU5D_t577127397* L_16 = ___m0;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_16)->max_length)))))))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		bool L_17 = V_0;
+		if (!L_17)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0049:
+	{
+		return (bool)1;
+	}
+}
+// System.Boolean Wikitude.TrackerBehaviour::CheckVector(UnityEngine.Vector3)
+extern "C"  bool TrackerBehaviour_CheckVector_m129001964 (TrackerBehaviour_t3845512381 * __this, Vector3_t2243707580  ___v0, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		goto IL_0031;
+	}
+
+IL_0007:
+	{
+		int32_t L_0 = V_0;
+		float L_1 = Vector3_get_Item_m3616014016((&___v0), L_0, /*hidden argument*/NULL);
+		bool L_2 = Single_IsNaN_m2349591895(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		float L_4 = Vector3_get_Item_m3616014016((&___v0), L_3, /*hidden argument*/NULL);
+		bool L_5 = Single_IsInfinity_m3331110346(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+
+IL_002b:
+	{
+		return (bool)0;
+	}
+
+IL_002d:
+	{
+		int32_t L_6 = V_0;
+		V_0 = ((int32_t)((int32_t)L_6+(int32_t)1));
+	}
+
+IL_0031:
+	{
+		int32_t L_7 = V_0;
+		if ((((int32_t)L_7) < ((int32_t)3)))
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return (bool)1;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::UpdateTrackingForTrackable(Wikitude.TrackableBehaviour,System.Single[],System.Single[])
+extern "C"  void TrackerBehaviour_UpdateTrackingForTrackable_m2387308168 (TrackerBehaviour_t3845512381 * __this, TrackableBehaviour_t3643631172 * ___trackable0, SingleU5BU5D_t577127397* ___targetModelViewMatrix1, SingleU5BU5D_t577127397* ___projectionMatrix2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_UpdateTrackingForTrackable_m2387308168_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Matrix4x4_t2933234003  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector3_t2243707580  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector3_t2243707580  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	Vector3_t2243707580  V_4;
+	memset(&V_4, 0, sizeof(V_4));
+	Vector3_t2243707580  V_5;
+	memset(&V_5, 0, sizeof(V_5));
+	Vector3_t2243707580  V_6;
+	memset(&V_6, 0, sizeof(V_6));
+	Vector3_t2243707580  V_7;
+	memset(&V_7, 0, sizeof(V_7));
+	Vector3_t2243707580  V_8;
+	memset(&V_8, 0, sizeof(V_8));
+	Vector3_t2243707580  V_9;
+	memset(&V_9, 0, sizeof(V_9));
+	Plane_t3727654732  V_10;
+	memset(&V_10, 0, sizeof(V_10));
+	Vector3_t2243707580  V_11;
+	memset(&V_11, 0, sizeof(V_11));
+	Vector3_t2243707580  V_12;
+	memset(&V_12, 0, sizeof(V_12));
+	Vector3_t2243707580  V_13;
+	memset(&V_13, 0, sizeof(V_13));
+	Vector3_t2243707580  V_14;
+	memset(&V_14, 0, sizeof(V_14));
+	Vector3_t2243707580  V_15;
+	memset(&V_15, 0, sizeof(V_15));
+	Ray_t2469606224  V_16;
+	memset(&V_16, 0, sizeof(V_16));
+	float V_17 = 0.0f;
+	Vector3_t2243707580  V_18;
+	memset(&V_18, 0, sizeof(V_18));
+	Vector3_t2243707580  V_19;
+	memset(&V_19, 0, sizeof(V_19));
+	Vector3_t2243707580  V_20;
+	memset(&V_20, 0, sizeof(V_20));
+	float V_21 = 0.0f;
+	Matrix4x4_t2933234003  V_22;
+	memset(&V_22, 0, sizeof(V_22));
+	Vector3_t2243707580  V_23;
+	memset(&V_23, 0, sizeof(V_23));
+	Quaternion_t4030073918  V_24;
+	memset(&V_24, 0, sizeof(V_24));
+	Vector3_t2243707580  V_25;
+	memset(&V_25, 0, sizeof(V_25));
+	Matrix4x4_t2933234003  V_26;
+	memset(&V_26, 0, sizeof(V_26));
+	Vector3_t2243707580  V_27;
+	memset(&V_27, 0, sizeof(V_27));
+	Quaternion_t4030073918  V_28;
+	memset(&V_28, 0, sizeof(V_28));
+	Vector3_t2243707580  V_29;
+	memset(&V_29, 0, sizeof(V_29));
+	Matrix4x4_t2933234003  V_30;
+	memset(&V_30, 0, sizeof(V_30));
+	Matrix4x4_t2933234003  V_31;
+	memset(&V_31, 0, sizeof(V_31));
+	Matrix4x4_t2933234003  V_32;
+	memset(&V_32, 0, sizeof(V_32));
+	Matrix4x4_t2933234003  V_33;
+	memset(&V_33, 0, sizeof(V_33));
+	Vector3_t2243707580  V_34;
+	memset(&V_34, 0, sizeof(V_34));
+	Quaternion_t4030073918  V_35;
+	memset(&V_35, 0, sizeof(V_35));
+	Vector3_t2243707580  V_36;
+	memset(&V_36, 0, sizeof(V_36));
+	Vector3_t2243707580  V_37;
+	memset(&V_37, 0, sizeof(V_37));
+	float V_38 = 0.0f;
+	float V_39 = 0.0f;
+	Vector3_t2243707580  V_40;
+	memset(&V_40, 0, sizeof(V_40));
+	Vector3_t2243707580  V_41;
+	memset(&V_41, 0, sizeof(V_41));
+	float V_42 = 0.0f;
+	Quaternion_t4030073918  V_43;
+	memset(&V_43, 0, sizeof(V_43));
+	{
+		Camera_t189460977 * L_0 = __this->get__sceneCamera_5();
+		NullCheck(L_0);
+		Camera_ResetProjectionMatrix_m1590089547(L_0, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_1 = ___targetModelViewMatrix1;
+		bool L_2 = TrackerBehaviour_CheckMatrix_m3778587046(__this, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		SingleU5BU5D_t577127397* L_3 = ___projectionMatrix2;
+		bool L_4 = TrackerBehaviour_CheckMatrix_m3778587046(__this, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_0024;
+		}
+	}
+
+IL_0023:
+	{
+		return;
+	}
+
+IL_0024:
+	{
+		Camera_t189460977 * L_5 = __this->get__sceneCamera_5();
+		NullCheck(L_5);
+		Transform_t3275118058 * L_6 = Component_get_transform_m2697483695(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Vector3_t2243707580  L_7 = Transform_get_position_m1104419803(L_6, /*hidden argument*/NULL);
+		bool L_8 = TrackerBehaviour_CheckVector_m129001964(__this, L_7, /*hidden argument*/NULL);
+		if (L_8)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		Camera_t189460977 * L_9 = __this->get__sceneCamera_5();
+		NullCheck(L_9);
+		Transform_t3275118058 * L_10 = Component_get_transform_m2697483695(L_9, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_11 = __this->get__initialSceneCameraPosition_6();
+		NullCheck(L_10);
+		Transform_set_position_m2469242620(L_10, L_11, /*hidden argument*/NULL);
+		Camera_t189460977 * L_12 = __this->get__sceneCamera_5();
+		NullCheck(L_12);
+		Transform_t3275118058 * L_13 = Component_get_transform_m2697483695(L_12, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_14 = __this->get__initialSceneCameraRotation_7();
+		NullCheck(L_13);
+		Transform_set_rotation_m3411284563(L_13, L_14, /*hidden argument*/NULL);
+	}
+
+IL_006b:
+	{
+		SingleU5BU5D_t577127397* L_15 = ___projectionMatrix2;
+		Matrix4x4_t2933234003  L_16 = TrackerBehaviour_CreateTransposeMatrix_m1567886776(NULL /*static, unused*/, L_15, /*hidden argument*/NULL);
+		V_0 = L_16;
+		Matrix4x4_t2933234003  L_17 = V_0;
+		Matrix4x4_t2933234003  L_18 = Matrix4x4_Inverse_m146029241(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
+		V_1 = L_18;
+		Vector3_t2243707580  L_19;
+		memset(&L_19, 0, sizeof(L_19));
+		Vector3__ctor_m2638739322(&L_19, (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_20 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_19, /*hidden argument*/NULL);
+		V_2 = L_20;
+		Vector3_t2243707580  L_21;
+		memset(&L_21, 0, sizeof(L_21));
+		Vector3__ctor_m2638739322(&L_21, (0.0f), (0.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_22 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_21, /*hidden argument*/NULL);
+		V_3 = L_22;
+		Vector3_t2243707580  L_23;
+		memset(&L_23, 0, sizeof(L_23));
+		Vector3__ctor_m2638739322(&L_23, (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_24 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_23, /*hidden argument*/NULL);
+		V_4 = L_24;
+		Vector3_t2243707580  L_25 = V_2;
+		Vector3_t2243707580  L_26 = V_4;
+		Vector3_t2243707580  L_27 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_25, L_26, /*hidden argument*/NULL);
+		V_6 = L_27;
+		Vector3_t2243707580  L_28 = Vector3_get_normalized_m936072361((&V_6), /*hidden argument*/NULL);
+		V_5 = L_28;
+		Vector3_t2243707580  L_29 = V_4;
+		Vector3_t2243707580  L_30 = V_3;
+		Vector3_t2243707580  L_31 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_29, L_30, /*hidden argument*/NULL);
+		V_8 = L_31;
+		Vector3_t2243707580  L_32 = Vector3_get_normalized_m936072361((&V_8), /*hidden argument*/NULL);
+		V_7 = L_32;
+		Vector3_t2243707580  L_33;
+		memset(&L_33, 0, sizeof(L_33));
+		Vector3__ctor_m2638739322(&L_33, (1.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_34 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_33, /*hidden argument*/NULL);
+		V_9 = L_34;
+		Vector3_t2243707580  L_35 = V_9;
+		Vector3_t2243707580  L_36 = V_4;
+		Vector3_t2243707580  L_37 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_35, L_36, /*hidden argument*/NULL);
+		V_11 = L_37;
+		Vector3_t2243707580  L_38 = Vector3_get_normalized_m936072361((&V_11), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_39 = V_4;
+		Plane__ctor_m3187718367((&V_10), L_38, L_39, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_40;
+		memset(&L_40, 0, sizeof(L_40));
+		Vector3__ctor_m2638739322(&L_40, (-1.0f), (-1.0f), (-1.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_41 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_40, /*hidden argument*/NULL);
+		V_12 = L_41;
+		Vector3_t2243707580  L_42;
+		memset(&L_42, 0, sizeof(L_42));
+		Vector3__ctor_m2638739322(&L_42, (-1.0f), (-1.0f), (1.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_43 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_42, /*hidden argument*/NULL);
+		V_13 = L_43;
+		Vector3_t2243707580  L_44 = V_12;
+		Vector3_t2243707580  L_45 = V_13;
+		Vector3_t2243707580  L_46 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_44, L_45, /*hidden argument*/NULL);
+		V_15 = L_46;
+		Vector3_t2243707580  L_47 = Vector3_get_normalized_m936072361((&V_15), /*hidden argument*/NULL);
+		V_14 = L_47;
+		Vector3_t2243707580  L_48 = V_12;
+		Vector3_t2243707580  L_49 = V_14;
+		Ray__ctor_m3379034047((&V_16), L_48, L_49, /*hidden argument*/NULL);
+		V_17 = (0.0f);
+		Ray_t2469606224  L_50 = V_16;
+		Plane_Raycast_m2870142810((&V_10), L_50, (&V_17), /*hidden argument*/NULL);
+		float L_51 = V_17;
+		Vector3_t2243707580  L_52 = Ray_GetPoint_m1353702366((&V_16), L_51, /*hidden argument*/NULL);
+		V_18 = L_52;
+		Vector3_t2243707580  L_53;
+		memset(&L_53, 0, sizeof(L_53));
+		Vector3__ctor_m2638739322(&L_53, (0.0f), (-1.0f), (-1.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_54 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_53, /*hidden argument*/NULL);
+		V_19 = L_54;
+		Vector3_t2243707580  L_55;
+		memset(&L_55, 0, sizeof(L_55));
+		Vector3__ctor_m2638739322(&L_55, (0.0f), (1.0f), (-1.0f), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_56 = Matrix4x4_MultiplyPoint_m2903385193((&V_1), L_55, /*hidden argument*/NULL);
+		V_20 = L_56;
+		Vector3_t2243707580  L_57 = V_20;
+		Vector3_t2243707580  L_58 = V_18;
+		Vector3_t2243707580  L_59 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_57, L_58, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_60 = V_19;
+		Vector3_t2243707580  L_61 = V_18;
+		Vector3_t2243707580  L_62 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_60, L_61, /*hidden argument*/NULL);
+		float L_63 = Vector3_Angle_m2552334978(NULL /*static, unused*/, L_59, L_62, /*hidden argument*/NULL);
+		V_21 = L_63;
+		Camera_t189460977 * L_64 = __this->get__sceneCamera_5();
+		float L_65 = V_21;
+		NullCheck(L_64);
+		Camera_set_fieldOfView_m3974156396(L_64, L_65, /*hidden argument*/NULL);
+		Camera_t189460977 * L_66 = __this->get__sceneCamera_5();
+		NullCheck(L_66);
+		Transform_t3275118058 * L_67 = Component_get_transform_m2697483695(L_66, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_68 = V_7;
+		Vector3_t2243707580  L_69 = V_5;
+		Quaternion_t4030073918  L_70 = Quaternion_LookRotation_m700700634(NULL /*static, unused*/, L_68, L_69, /*hidden argument*/NULL);
+		NullCheck(L_67);
+		Transform_set_rotation_m3411284563(L_67, L_70, /*hidden argument*/NULL);
+		SingleU5BU5D_t577127397* L_71 = ___targetModelViewMatrix1;
+		Matrix4x4_t2933234003  L_72 = TrackerBehaviour_CreateTransposeMatrix_m1567886776(NULL /*static, unused*/, L_71, /*hidden argument*/NULL);
+		V_22 = L_72;
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_23));
+		Initobj (Quaternion_t4030073918_il2cpp_TypeInfo_var, (&V_24));
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_25));
+		TrackerBehaviour_DecomposeMatrix_m2787587183(NULL /*static, unused*/, (&V_22), (&V_23), (&V_24), (&V_25), /*hidden argument*/NULL);
+		Camera_t189460977 * L_73 = __this->get__sceneCamera_5();
+		NullCheck(L_73);
+		Transform_t3275118058 * L_74 = Component_get_transform_m2697483695(L_73, /*hidden argument*/NULL);
+		NullCheck(L_74);
+		Matrix4x4_t2933234003  L_75 = Transform_get_localToWorldMatrix_m2868579006(L_74, /*hidden argument*/NULL);
+		V_26 = L_75;
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_27));
+		Initobj (Quaternion_t4030073918_il2cpp_TypeInfo_var, (&V_28));
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_29));
+		TrackerBehaviour_DecomposeMatrix_m2787587183(NULL /*static, unused*/, (&V_26), (&V_27), (&V_28), (&V_29), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_76 = V_27;
+		Quaternion_t4030073918  L_77 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_78 = V_29;
+		Matrix4x4_t2933234003  L_79 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_76, L_77, L_78, /*hidden argument*/NULL);
+		V_26 = L_79;
+		Vector3_t2243707580  L_80 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_81 = Quaternion_get_identity_m1561886418(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_82;
+		memset(&L_82, 0, sizeof(L_82));
+		Vector3__ctor_m2638739322(&L_82, (1.0f), (1.0f), (-1.0f), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_83 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_80, L_81, L_82, /*hidden argument*/NULL);
+		V_30 = L_83;
+		Vector3_t2243707580  L_84 = Vector3_get_zero_m1527993324(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_85;
+		memset(&L_85, 0, sizeof(L_85));
+		Vector3__ctor_m2638739322(&L_85, (90.0f), (180.0f), (0.0f), /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_86 = Quaternion_Euler_m3586339259(NULL /*static, unused*/, L_85, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_87 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_88 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_84, L_86, L_87, /*hidden argument*/NULL);
+		V_31 = L_88;
+		Vector3_t2243707580  L_89 = V_23;
+		Quaternion_t4030073918  L_90 = V_24;
+		Vector3_t2243707580  L_91 = Vector3_get_one_m627547232(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_92 = Matrix4x4_TRS_m1913765359(NULL /*static, unused*/, L_89, L_90, L_91, /*hidden argument*/NULL);
+		V_32 = L_92;
+		Matrix4x4_t2933234003  L_93 = V_26;
+		Matrix4x4_t2933234003  L_94 = V_30;
+		Matrix4x4_t2933234003  L_95 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_93, L_94, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_96 = V_32;
+		Matrix4x4_t2933234003  L_97 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_95, L_96, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_98 = V_30;
+		Matrix4x4_t2933234003  L_99 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_97, L_98, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_100 = V_31;
+		Matrix4x4_t2933234003  L_101 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_99, L_100, /*hidden argument*/NULL);
+		V_33 = L_101;
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_34));
+		Initobj (Quaternion_t4030073918_il2cpp_TypeInfo_var, (&V_35));
+		Initobj (Vector3_t2243707580_il2cpp_TypeInfo_var, (&V_36));
+		TrackerBehaviour_DecomposeMatrix_m2787587183(NULL /*static, unused*/, (&V_33), (&V_34), (&V_35), (&V_36), /*hidden argument*/NULL);
+		Vector3_t2243707580  L_102 = V_34;
+		Camera_t189460977 * L_103 = __this->get__sceneCamera_5();
+		NullCheck(L_103);
+		Transform_t3275118058 * L_104 = Component_get_transform_m2697483695(L_103, /*hidden argument*/NULL);
+		NullCheck(L_104);
+		Vector3_t2243707580  L_105 = Transform_get_position_m1104419803(L_104, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_106 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_102, L_105, /*hidden argument*/NULL);
+		V_37 = L_106;
+		V_38 = (0.1f);
+		float L_107 = V_38;
+		float L_108 = Vector3_get_magnitude_m860342598((&V_37), /*hidden argument*/NULL);
+		V_38 = ((float)((float)L_107/(float)L_108));
+		TrackableBehaviour_t3643631172 * L_109 = ___trackable0;
+		NullCheck(L_109);
+		Transform_t3275118058 * L_110 = Component_get_transform_m2697483695(L_109, /*hidden argument*/NULL);
+		NullCheck(L_110);
+		Vector3_t2243707580  L_111 = Transform_get_localScale_m3074381503(L_110, /*hidden argument*/NULL);
+		V_40 = L_111;
+		float L_112 = (&V_40)->get_x_1();
+		float L_113 = V_38;
+		V_39 = ((float)((float)L_112/(float)L_113));
+		Camera_t189460977 * L_114 = __this->get__sceneCamera_5();
+		NullCheck(L_114);
+		Transform_t3275118058 * L_115 = Component_get_transform_m2697483695(L_114, /*hidden argument*/NULL);
+		TrackableBehaviour_t3643631172 * L_116 = ___trackable0;
+		NullCheck(L_116);
+		Transform_t3275118058 * L_117 = Component_get_transform_m2697483695(L_116, /*hidden argument*/NULL);
+		NullCheck(L_117);
+		Vector3_t2243707580  L_118 = Transform_get_position_m1104419803(L_117, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_119 = Vector3_get_normalized_m936072361((&V_37), /*hidden argument*/NULL);
+		float L_120 = V_39;
+		Vector3_t2243707580  L_121 = Vector3_op_Multiply_m1351554733(NULL /*static, unused*/, L_119, L_120, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_122 = Vector3_op_Subtraction_m2407545601(NULL /*static, unused*/, L_118, L_121, /*hidden argument*/NULL);
+		NullCheck(L_115);
+		Transform_set_position_m2469242620(L_115, L_122, /*hidden argument*/NULL);
+		TrackableBehaviour_t3643631172 * L_123 = ___trackable0;
+		NullCheck(L_123);
+		Transform_t3275118058 * L_124 = Component_get_transform_m2697483695(L_123, /*hidden argument*/NULL);
+		NullCheck(L_124);
+		Quaternion_t4030073918  L_125 = Transform_get_rotation_m1033555130(L_124, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_126 = V_35;
+		Quaternion_t4030073918  L_127 = Quaternion_Inverse_m3931399088(NULL /*static, unused*/, L_126, /*hidden argument*/NULL);
+		Quaternion_t4030073918  L_128 = Quaternion_op_Multiply_m2426727589(NULL /*static, unused*/, L_125, L_127, /*hidden argument*/NULL);
+		V_43 = L_128;
+		Quaternion_ToAngleAxis_m2980929840((&V_43), (&V_42), (&V_41), /*hidden argument*/NULL);
+		Camera_t189460977 * L_129 = __this->get__sceneCamera_5();
+		NullCheck(L_129);
+		Transform_t3275118058 * L_130 = Component_get_transform_m2697483695(L_129, /*hidden argument*/NULL);
+		TrackableBehaviour_t3643631172 * L_131 = ___trackable0;
+		NullCheck(L_131);
+		Transform_t3275118058 * L_132 = Component_get_transform_m2697483695(L_131, /*hidden argument*/NULL);
+		NullCheck(L_132);
+		Vector3_t2243707580  L_133 = Transform_get_position_m1104419803(L_132, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_134 = V_41;
+		float L_135 = V_42;
+		NullCheck(L_130);
+		Transform_RotateAround_m3410686872(L_130, L_133, L_134, L_135, /*hidden argument*/NULL);
+		WikitudeCamera_t2517845841 * L_136 = __this->get__wikitudeCamera_8();
+		NullCheck(L_136);
+		int32_t L_137 = WikitudeCamera_get_CachedDevicePosition_m3884201334(L_136, /*hidden argument*/NULL);
+		if ((((int32_t)L_137) == ((int32_t)1)))
+		{
+			goto IL_041b;
+		}
+	}
+	{
+		WikitudeCamera_t2517845841 * L_138 = __this->get__wikitudeCamera_8();
+		NullCheck(L_138);
+		bool L_139 = WikitudeCamera_get_EnableInputPlugin_m406055397(L_138, /*hidden argument*/NULL);
+		if (!L_139)
+		{
+			goto IL_045a;
+		}
+	}
+	{
+		WikitudeCamera_t2517845841 * L_140 = __this->get__wikitudeCamera_8();
+		NullCheck(L_140);
+		bool L_141 = WikitudeCamera_get_EnableMirroring_m1667990379(L_140, /*hidden argument*/NULL);
+		if (!L_141)
+		{
+			goto IL_045a;
+		}
+	}
+
+IL_041b:
+	{
+		Camera_t189460977 * L_142 = __this->get__sceneCamera_5();
+		NullCheck(L_142);
+		Camera_ResetProjectionMatrix_m1590089547(L_142, /*hidden argument*/NULL);
+		Camera_t189460977 * L_143 = __this->get__sceneCamera_5();
+		Camera_t189460977 * L_144 = __this->get__sceneCamera_5();
+		NullCheck(L_144);
+		Matrix4x4_t2933234003  L_145 = Camera_get_projectionMatrix_m2365994324(L_144, /*hidden argument*/NULL);
+		Vector3_t2243707580  L_146;
+		memset(&L_146, 0, sizeof(L_146));
+		Vector3__ctor_m2638739322(&L_146, (-1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_147 = Matrix4x4_Scale_m3010328774(NULL /*static, unused*/, L_146, /*hidden argument*/NULL);
+		Matrix4x4_t2933234003  L_148 = Matrix4x4_op_Multiply_m2352863493(NULL /*static, unused*/, L_145, L_147, /*hidden argument*/NULL);
+		NullCheck(L_143);
+		Camera_set_projectionMatrix_m2059836755(L_143, L_148, /*hidden argument*/NULL);
+	}
+
+IL_045a:
+	{
+		return;
+	}
+}
+// UnityEngine.Matrix4x4 Wikitude.TrackerBehaviour::CreateTransposeMatrix(System.Single[])
+extern "C"  Matrix4x4_t2933234003  TrackerBehaviour_CreateTransposeMatrix_m1567886776 (Il2CppObject * __this /* static, unused */, SingleU5BU5D_t577127397* ___matrixElements0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_CreateTransposeMatrix_m1567886776_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Matrix4x4_t2933234003  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Initobj (Matrix4x4_t2933234003_il2cpp_TypeInfo_var, (&V_0));
+		SingleU5BU5D_t577127397* L_0 = ___matrixElements0;
+		NullCheck(L_0);
+		int32_t L_1 = 0;
+		float L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		(&V_0)->set_m00_0(L_2);
+		SingleU5BU5D_t577127397* L_3 = ___matrixElements0;
+		NullCheck(L_3);
+		int32_t L_4 = 4;
+		float L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		(&V_0)->set_m01_4(L_5);
+		SingleU5BU5D_t577127397* L_6 = ___matrixElements0;
+		NullCheck(L_6);
+		int32_t L_7 = 8;
+		float L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		(&V_0)->set_m02_8(L_8);
+		SingleU5BU5D_t577127397* L_9 = ___matrixElements0;
+		NullCheck(L_9);
+		int32_t L_10 = ((int32_t)12);
+		float L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		(&V_0)->set_m03_12(L_11);
+		SingleU5BU5D_t577127397* L_12 = ___matrixElements0;
+		NullCheck(L_12);
+		int32_t L_13 = 1;
+		float L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		(&V_0)->set_m10_1(L_14);
+		SingleU5BU5D_t577127397* L_15 = ___matrixElements0;
+		NullCheck(L_15);
+		int32_t L_16 = 5;
+		float L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		(&V_0)->set_m11_5(L_17);
+		SingleU5BU5D_t577127397* L_18 = ___matrixElements0;
+		NullCheck(L_18);
+		int32_t L_19 = ((int32_t)9);
+		float L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		(&V_0)->set_m12_9(L_20);
+		SingleU5BU5D_t577127397* L_21 = ___matrixElements0;
+		NullCheck(L_21);
+		int32_t L_22 = ((int32_t)13);
+		float L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		(&V_0)->set_m13_13(L_23);
+		SingleU5BU5D_t577127397* L_24 = ___matrixElements0;
+		NullCheck(L_24);
+		int32_t L_25 = 2;
+		float L_26 = (L_24)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		(&V_0)->set_m20_2(L_26);
+		SingleU5BU5D_t577127397* L_27 = ___matrixElements0;
+		NullCheck(L_27);
+		int32_t L_28 = 6;
+		float L_29 = (L_27)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		(&V_0)->set_m21_6(L_29);
+		SingleU5BU5D_t577127397* L_30 = ___matrixElements0;
+		NullCheck(L_30);
+		int32_t L_31 = ((int32_t)10);
+		float L_32 = (L_30)->GetAt(static_cast<il2cpp_array_size_t>(L_31));
+		(&V_0)->set_m22_10(L_32);
+		SingleU5BU5D_t577127397* L_33 = ___matrixElements0;
+		NullCheck(L_33);
+		int32_t L_34 = ((int32_t)14);
+		float L_35 = (L_33)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
+		(&V_0)->set_m23_14(L_35);
+		SingleU5BU5D_t577127397* L_36 = ___matrixElements0;
+		NullCheck(L_36);
+		int32_t L_37 = 3;
+		float L_38 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		(&V_0)->set_m30_3(L_38);
+		SingleU5BU5D_t577127397* L_39 = ___matrixElements0;
+		NullCheck(L_39);
+		int32_t L_40 = 7;
+		float L_41 = (L_39)->GetAt(static_cast<il2cpp_array_size_t>(L_40));
+		(&V_0)->set_m31_7(L_41);
+		SingleU5BU5D_t577127397* L_42 = ___matrixElements0;
+		NullCheck(L_42);
+		int32_t L_43 = ((int32_t)11);
+		float L_44 = (L_42)->GetAt(static_cast<il2cpp_array_size_t>(L_43));
+		(&V_0)->set_m32_11(L_44);
+		SingleU5BU5D_t577127397* L_45 = ___matrixElements0;
+		NullCheck(L_45);
+		int32_t L_46 = ((int32_t)15);
+		float L_47 = (L_45)->GetAt(static_cast<il2cpp_array_size_t>(L_46));
+		(&V_0)->set_m33_15(L_47);
+		Matrix4x4_t2933234003  L_48 = V_0;
+		return L_48;
+	}
+}
+// UnityEngine.Quaternion Wikitude.TrackerBehaviour::QuaternionFromMatrix(UnityEngine.Matrix4x4)
+extern "C"  Quaternion_t4030073918  TrackerBehaviour_QuaternionFromMatrix_m947607251 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003  ___m0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerBehaviour_QuaternionFromMatrix_m947607251_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_t4030073918  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Initobj (Quaternion_t4030073918_il2cpp_TypeInfo_var, (&V_0));
+		float L_0 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		float L_1 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		float L_2 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t2336485820_il2cpp_TypeInfo_var);
+		float L_3 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)+(float)L_0))+(float)L_1))+(float)L_2)), /*hidden argument*/NULL);
+		float L_4 = sqrtf(L_3);
+		(&V_0)->set_w_3(((float)((float)L_4/(float)(2.0f))));
+		float L_5 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		float L_6 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		float L_7 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		float L_8 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)+(float)L_5))-(float)L_6))-(float)L_7)), /*hidden argument*/NULL);
+		float L_9 = sqrtf(L_8);
+		(&V_0)->set_x_0(((float)((float)L_9/(float)(2.0f))));
+		float L_10 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		float L_11 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		float L_12 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		float L_13 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)-(float)L_10))+(float)L_11))-(float)L_12)), /*hidden argument*/NULL);
+		float L_14 = sqrtf(L_13);
+		(&V_0)->set_y_1(((float)((float)L_14/(float)(2.0f))));
+		float L_15 = Matrix4x4_get_Item_m312280350((&___m0), 0, 0, /*hidden argument*/NULL);
+		float L_16 = Matrix4x4_get_Item_m312280350((&___m0), 1, 1, /*hidden argument*/NULL);
+		float L_17 = Matrix4x4_get_Item_m312280350((&___m0), 2, 2, /*hidden argument*/NULL);
+		float L_18 = Mathf_Max_m2564622569(NULL /*static, unused*/, (0.0f), ((float)((float)((float)((float)((float)((float)(1.0f)-(float)L_15))-(float)L_16))+(float)L_17)), /*hidden argument*/NULL);
+		float L_19 = sqrtf(L_18);
+		(&V_0)->set_z_2(((float)((float)L_19/(float)(2.0f))));
+		Quaternion_t4030073918 * L_20 = (&V_0);
+		float L_21 = L_20->get_x_0();
+		float L_22 = (&V_0)->get_x_0();
+		float L_23 = Matrix4x4_get_Item_m312280350((&___m0), 2, 1, /*hidden argument*/NULL);
+		float L_24 = Matrix4x4_get_Item_m312280350((&___m0), 1, 2, /*hidden argument*/NULL);
+		float L_25 = Mathf_Sign_m2039143327(NULL /*static, unused*/, ((float)((float)L_22*(float)((float)((float)L_23-(float)L_24)))), /*hidden argument*/NULL);
+		L_20->set_x_0(((float)((float)L_21*(float)L_25)));
+		Quaternion_t4030073918 * L_26 = (&V_0);
+		float L_27 = L_26->get_y_1();
+		float L_28 = (&V_0)->get_y_1();
+		float L_29 = Matrix4x4_get_Item_m312280350((&___m0), 0, 2, /*hidden argument*/NULL);
+		float L_30 = Matrix4x4_get_Item_m312280350((&___m0), 2, 0, /*hidden argument*/NULL);
+		float L_31 = Mathf_Sign_m2039143327(NULL /*static, unused*/, ((float)((float)L_28*(float)((float)((float)L_29-(float)L_30)))), /*hidden argument*/NULL);
+		L_26->set_y_1(((float)((float)L_27*(float)L_31)));
+		Quaternion_t4030073918 * L_32 = (&V_0);
+		float L_33 = L_32->get_z_2();
+		float L_34 = (&V_0)->get_z_2();
+		float L_35 = Matrix4x4_get_Item_m312280350((&___m0), 1, 0, /*hidden argument*/NULL);
+		float L_36 = Matrix4x4_get_Item_m312280350((&___m0), 0, 1, /*hidden argument*/NULL);
+		float L_37 = Mathf_Sign_m2039143327(NULL /*static, unused*/, ((float)((float)L_34*(float)((float)((float)L_35-(float)L_36)))), /*hidden argument*/NULL);
+		L_32->set_z_2(((float)((float)L_33*(float)L_37)));
+		Quaternion_t4030073918  L_38 = V_0;
+		return L_38;
+	}
+}
+// UnityEngine.Vector3 Wikitude.TrackerBehaviour::ExtractTranslationFromMatrix(UnityEngine.Matrix4x4&)
+extern "C"  Vector3_t2243707580  TrackerBehaviour_ExtractTranslationFromMatrix_m33075913 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Matrix4x4_t2933234003 * L_0 = ___matrix0;
+		float L_1 = L_0->get_m03_12();
+		(&V_0)->set_x_1(L_1);
+		Matrix4x4_t2933234003 * L_2 = ___matrix0;
+		float L_3 = L_2->get_m13_13();
+		(&V_0)->set_y_2(L_3);
+		Matrix4x4_t2933234003 * L_4 = ___matrix0;
+		float L_5 = L_4->get_m23_14();
+		(&V_0)->set_z_3(L_5);
+		Vector3_t2243707580  L_6 = V_0;
+		return L_6;
+	}
+}
+// UnityEngine.Quaternion Wikitude.TrackerBehaviour::ExtractRotationFromMatrix(UnityEngine.Matrix4x4&)
+extern "C"  Quaternion_t4030073918  TrackerBehaviour_ExtractRotationFromMatrix_m2108707198 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector3_t2243707580  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	{
+		Matrix4x4_t2933234003 * L_0 = ___matrix0;
+		float L_1 = L_0->get_m02_8();
+		(&V_0)->set_x_1(L_1);
+		Matrix4x4_t2933234003 * L_2 = ___matrix0;
+		float L_3 = L_2->get_m12_9();
+		(&V_0)->set_y_2(L_3);
+		Matrix4x4_t2933234003 * L_4 = ___matrix0;
+		float L_5 = L_4->get_m22_10();
+		(&V_0)->set_z_3(L_5);
+		Matrix4x4_t2933234003 * L_6 = ___matrix0;
+		float L_7 = L_6->get_m01_4();
+		(&V_1)->set_x_1(L_7);
+		Matrix4x4_t2933234003 * L_8 = ___matrix0;
+		float L_9 = L_8->get_m11_5();
+		(&V_1)->set_y_2(L_9);
+		Matrix4x4_t2933234003 * L_10 = ___matrix0;
+		float L_11 = L_10->get_m21_6();
+		(&V_1)->set_z_3(L_11);
+		Vector3_t2243707580  L_12 = V_0;
+		Vector3_t2243707580  L_13 = V_1;
+		Quaternion_t4030073918  L_14 = Quaternion_LookRotation_m700700634(NULL /*static, unused*/, L_12, L_13, /*hidden argument*/NULL);
+		return L_14;
+	}
+}
+// UnityEngine.Vector3 Wikitude.TrackerBehaviour::ExtractScaleFromMatrix(UnityEngine.Matrix4x4&)
+extern "C"  Vector3_t2243707580  TrackerBehaviour_ExtractScaleFromMatrix_m3339411538 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, const MethodInfo* method)
+{
+	Vector3_t2243707580  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	Vector4_t2243707581  V_1;
+	memset(&V_1, 0, sizeof(V_1));
+	Vector4_t2243707581  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	Vector4_t2243707581  V_3;
+	memset(&V_3, 0, sizeof(V_3));
+	{
+		Matrix4x4_t2933234003 * L_0 = ___matrix0;
+		float L_1 = L_0->get_m00_0();
+		Matrix4x4_t2933234003 * L_2 = ___matrix0;
+		float L_3 = L_2->get_m10_1();
+		Matrix4x4_t2933234003 * L_4 = ___matrix0;
+		float L_5 = L_4->get_m20_2();
+		Matrix4x4_t2933234003 * L_6 = ___matrix0;
+		float L_7 = L_6->get_m30_3();
+		Vector4__ctor_m1222289168((&V_1), L_1, L_3, L_5, L_7, /*hidden argument*/NULL);
+		float L_8 = Vector4_get_magnitude_m4049434951((&V_1), /*hidden argument*/NULL);
+		(&V_0)->set_x_1(L_8);
+		Matrix4x4_t2933234003 * L_9 = ___matrix0;
+		float L_10 = L_9->get_m01_4();
+		Matrix4x4_t2933234003 * L_11 = ___matrix0;
+		float L_12 = L_11->get_m11_5();
+		Matrix4x4_t2933234003 * L_13 = ___matrix0;
+		float L_14 = L_13->get_m21_6();
+		Matrix4x4_t2933234003 * L_15 = ___matrix0;
+		float L_16 = L_15->get_m31_7();
+		Vector4__ctor_m1222289168((&V_2), L_10, L_12, L_14, L_16, /*hidden argument*/NULL);
+		float L_17 = Vector4_get_magnitude_m4049434951((&V_2), /*hidden argument*/NULL);
+		(&V_0)->set_y_2(L_17);
+		Matrix4x4_t2933234003 * L_18 = ___matrix0;
+		float L_19 = L_18->get_m02_8();
+		Matrix4x4_t2933234003 * L_20 = ___matrix0;
+		float L_21 = L_20->get_m12_9();
+		Matrix4x4_t2933234003 * L_22 = ___matrix0;
+		float L_23 = L_22->get_m22_10();
+		Matrix4x4_t2933234003 * L_24 = ___matrix0;
+		float L_25 = L_24->get_m32_11();
+		Vector4__ctor_m1222289168((&V_3), L_19, L_21, L_23, L_25, /*hidden argument*/NULL);
+		float L_26 = Vector4_get_magnitude_m4049434951((&V_3), /*hidden argument*/NULL);
+		(&V_0)->set_z_3(L_26);
+		Vector3_t2243707580  L_27 = V_0;
+		return L_27;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::DecomposeMatrix(UnityEngine.Matrix4x4&,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
+extern "C"  void TrackerBehaviour_DecomposeMatrix_m2787587183 (Il2CppObject * __this /* static, unused */, Matrix4x4_t2933234003 * ___matrix0, Vector3_t2243707580 * ___localPosition1, Quaternion_t4030073918 * ___localRotation2, Vector3_t2243707580 * ___localScale3, const MethodInfo* method)
+{
+	{
+		Vector3_t2243707580 * L_0 = ___localPosition1;
+		Matrix4x4_t2933234003 * L_1 = ___matrix0;
+		Vector3_t2243707580  L_2 = TrackerBehaviour_ExtractTranslationFromMatrix_m33075913(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_0) = L_2;
+		Quaternion_t4030073918 * L_3 = ___localRotation2;
+		Matrix4x4_t2933234003 * L_4 = ___matrix0;
+		Quaternion_t4030073918  L_5 = TrackerBehaviour_ExtractRotationFromMatrix_m2108707198(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		(*(Quaternion_t4030073918 *)L_3) = L_5;
+		Vector3_t2243707580 * L_6 = ___localScale3;
+		Matrix4x4_t2933234003 * L_7 = ___matrix0;
+		Vector3_t2243707580  L_8 = TrackerBehaviour_ExtractScaleFromMatrix_m3339411538(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		(*(Vector3_t2243707580 *)L_6) = L_8;
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour::SetTransformFromMatrix(UnityEngine.Transform,UnityEngine.Matrix4x4&)
+extern "C"  void TrackerBehaviour_SetTransformFromMatrix_m2873340340 (Il2CppObject * __this /* static, unused */, Transform_t3275118058 * ___transform0, Matrix4x4_t2933234003 * ___matrix1, const MethodInfo* method)
+{
+	{
+		Transform_t3275118058 * L_0 = ___transform0;
+		Matrix4x4_t2933234003 * L_1 = ___matrix1;
+		Vector3_t2243707580  L_2 = TrackerBehaviour_ExtractTranslationFromMatrix_m33075913(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_set_localPosition_m1026930133(L_0, L_2, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_3 = ___transform0;
+		Matrix4x4_t2933234003 * L_4 = ___matrix1;
+		Quaternion_t4030073918  L_5 = TrackerBehaviour_ExtractRotationFromMatrix_m2108707198(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_set_localRotation_m2055111962(L_3, L_5, /*hidden argument*/NULL);
+		Transform_t3275118058 * L_6 = ___transform0;
+		Matrix4x4_t2933234003 * L_7 = ___matrix1;
+		Vector3_t2243707580  L_8 = TrackerBehaviour_ExtractScaleFromMatrix_m3339411538(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Transform_set_localScale_m2325460848(L_6, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour/OnErrorLoadingTargetsEvent::.ctor()
+extern "C"  void OnErrorLoadingTargetsEvent__ctor_m2029488116 (OnErrorLoadingTargetsEvent_t3800749431 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnErrorLoadingTargetsEvent__ctor_m2029488116_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerBehaviour/OnTargetsLoadedEvent::.ctor()
+extern "C"  void OnTargetsLoadedEvent__ctor_m4153023689 (OnTargetsLoadedEvent_t3080540202 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::.ctor()
+extern "C"  void TrackerManager__ctor_m45784718 (TrackerManager_t130000407 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager__ctor_m45784718_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Dictionary_2_t674592647 * L_0 = (Dictionary_2_t674592647 *)il2cpp_codegen_object_new(Dictionary_2_t674592647_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m814659607(L_0, /*hidden argument*/Dictionary_2__ctor_m814659607_MethodInfo_var);
+		__this->set__registeredResources_4(L_0);
+		Dictionary_2_t2960073833 * L_1 = (Dictionary_2_t2960073833 *)il2cpp_codegen_object_new(Dictionary_2_t2960073833_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m4244851005(L_1, /*hidden argument*/Dictionary_2__ctor_m4244851005_MethodInfo_var);
+		__this->set__registeredCloudRecognitionServices_5(L_1);
+		HashSet_1_t2178973235 * L_2 = (HashSet_1_t2178973235 *)il2cpp_codegen_object_new(HashSet_1_t2178973235_il2cpp_TypeInfo_var);
+		HashSet_1__ctor_m4023455954(L_2, /*hidden argument*/HashSet_1__ctor_m4023455954_MethodInfo_var);
+		__this->set__registeredTrackers_7(L_2);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.IPlatformBridge Wikitude.TrackerManager::get_Bridge()
+extern "C"  Il2CppObject * TrackerManager_get_Bridge_m2366636098 (TrackerManager_t130000407 * __this, const MethodInfo* method)
+{
+	{
+		Il2CppObject * L_0 = __this->get__bridge_6();
+		return L_0;
+	}
+}
+// Wikitude.TrackerBehaviour Wikitude.TrackerManager::get_ActiveTracker()
+extern "C"  TrackerBehaviour_t3845512381 * TrackerManager_get_ActiveTracker_m1187374465 (TrackerManager_t130000407 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_t3845512381 * L_0 = __this->get__activeTracker_8();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackerManager::set_ActiveTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_set_ActiveTracker_m672017744 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___value0, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_t3845512381 * L_0 = ___value0;
+		__this->set__activeTracker_8(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::Init(Wikitude.IPlatformBridge)
+extern "C"  void TrackerManager_Init_m2330225541 (TrackerManager_t130000407 * __this, Il2CppObject * ___bridge0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_Init_m2330225541_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___bridge0;
+		__this->set__bridge_6(L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		WikitudeCamera_t2517845841 * L_1 = Object_FindObjectOfType_TisWikitudeCamera_t2517845841_m4292550126(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisWikitudeCamera_t2517845841_m4292550126_MethodInfo_var);
+		__this->set__wikitudeCamera_10(L_1);
+		Object_set_name_m4157836998(__this, _stringLiteral760186735, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackerManager::RegisterTrackerBehaviour(Wikitude.TrackerBehaviour)
+extern "C"  bool TrackerManager_RegisterTrackerBehaviour_m1277354475 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_RegisterTrackerBehaviour_m1277354475_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HashSet_1_t2178973235 * L_0 = __this->get__registeredTrackers_7();
+		TrackerBehaviour_t3845512381 * L_1 = ___tracker0;
+		NullCheck(L_0);
+		bool L_2 = HashSet_1_Contains_m2536947452(L_0, L_1, /*hidden argument*/HashSet_1_Contains_m2536947452_MethodInfo_var);
+		if (L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		HashSet_1_t2178973235 * L_3 = __this->get__registeredTrackers_7();
+		TrackerBehaviour_t3845512381 * L_4 = ___tracker0;
+		NullCheck(L_3);
+		HashSet_1_Add_m974438612(L_3, L_4, /*hidden argument*/HashSet_1_Add_m974438612_MethodInfo_var);
+		return (bool)1;
+	}
+
+IL_0020:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Wikitude.TrackerManager::RemoveTrackerBehaviour(Wikitude.TrackerBehaviour)
+extern "C"  bool TrackerManager_RemoveTrackerBehaviour_m2015865182 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_RemoveTrackerBehaviour_m2015865182_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		HashSet_1_t2178973235 * L_0 = __this->get__registeredTrackers_7();
+		TrackerBehaviour_t3845512381 * L_1 = ___tracker0;
+		NullCheck(L_0);
+		bool L_2 = HashSet_1_Contains_m2536947452(L_0, L_1, /*hidden argument*/HashSet_1_Contains_m2536947452_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		HashSet_1_t2178973235 * L_3 = __this->get__registeredTrackers_7();
+		TrackerBehaviour_t3845512381 * L_4 = ___tracker0;
+		NullCheck(L_3);
+		HashSet_1_Remove_m1591137205(L_3, L_4, /*hidden argument*/HashSet_1_Remove_m1591137205_MethodInfo_var);
+		return (bool)1;
+	}
+
+IL_0020:
+	{
+		return (bool)0;
+	}
+}
+// System.Void Wikitude.TrackerManager::RegisterTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_RegisterTracker_m2020059202 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::RegisterTargetCollectionResource(Wikitude.TargetCollectionResource)
+extern "C"  void TrackerManager_RegisterTargetCollectionResource_m2791948291 (TrackerManager_t130000407 * __this, TargetCollectionResource_t3980041541 * ___targetCollectionResource0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_RegisterTargetCollectionResource_m2791948291_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	{
+		Dictionary_2_t674592647 * L_0 = __this->get__registeredResources_4();
+		int64_t L_1 = __this->get__targetCollectionResourceId_2();
+		TargetCollectionResource_t3980041541 * L_2 = ___targetCollectionResource0;
+		NullCheck(L_0);
+		Dictionary_2_Add_m956410223(L_0, L_1, L_2, /*hidden argument*/Dictionary_2_Add_m956410223_MethodInfo_var);
+		TargetCollectionResource_t3980041541 * L_3 = ___targetCollectionResource0;
+		int64_t L_4 = __this->get__targetCollectionResourceId_2();
+		int64_t L_5 = L_4;
+		V_0 = L_5;
+		__this->set__targetCollectionResourceId_2(((int64_t)((int64_t)L_5+(int64_t)(((int64_t)((int64_t)1))))));
+		int64_t L_6 = V_0;
+		NullCheck(L_3);
+		TargetSource_OnInitialize_m1296212476(L_3, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::RegisterCloudRecognitionService(Wikitude.CloudRecognitionService)
+extern "C"  void TrackerManager_RegisterCloudRecognitionService_m4066900711 (TrackerManager_t130000407 * __this, CloudRecognitionService_t1970555431 * ___cloudRecognitionService0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_RegisterCloudRecognitionService_m4066900711_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	{
+		Dictionary_2_t2960073833 * L_0 = __this->get__registeredCloudRecognitionServices_5();
+		int64_t L_1 = __this->get__cloudRecognitionServiceId_3();
+		CloudRecognitionService_t1970555431 * L_2 = ___cloudRecognitionService0;
+		NullCheck(L_0);
+		Dictionary_2_Add_m3048792485(L_0, L_1, L_2, /*hidden argument*/Dictionary_2_Add_m3048792485_MethodInfo_var);
+		CloudRecognitionService_t1970555431 * L_3 = ___cloudRecognitionService0;
+		int64_t L_4 = __this->get__cloudRecognitionServiceId_3();
+		int64_t L_5 = L_4;
+		V_0 = L_5;
+		__this->set__cloudRecognitionServiceId_3(((int64_t)((int64_t)L_5+(int64_t)(((int64_t)((int64_t)1))))));
+		int64_t L_6 = V_0;
+		NullCheck(L_3);
+		TargetSource_OnInitialize_m1296212476(L_3, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ActivateTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_ActivateTracker_m3608901866 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_ActivateTracker_m3608901866_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_0 = TrackerManager_get_ActiveTracker_m1187374465(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_2 = TrackerManager_get_ActiveTracker_m1187374465(__this, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Behaviour_set_enabled_m1796096907(L_2, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_001d:
+	{
+		TrackerBehaviour_t3845512381 * L_3 = ___tracker0;
+		TrackerManager_set_ActiveTracker_m672017744(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::DeactivateTracker(Wikitude.TrackerBehaviour)
+extern "C"  void TrackerManager_DeactivateTracker_m2599315795 (TrackerManager_t130000407 * __this, TrackerBehaviour_t3845512381 * ___tracker0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_DeactivateTracker_m2599315795_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_0 = TrackerManager_get_ActiveTracker_m1187374465(__this, /*hidden argument*/NULL);
+		TrackerBehaviour_t3845512381 * L_1 = ___tracker0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		TrackerManager_set_ActiveTracker_m672017744(__this, (TrackerBehaviour_t3845512381 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::SetCloudRecognitionServerRegion(Wikitude.TrackerManager/CloudRecognitionServerRegion)
+extern "C"  void TrackerManager_SetCloudRecognitionServerRegion_m1806494286 (TrackerManager_t130000407 * __this, int32_t ___region0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_SetCloudRecognitionServerRegion_m1806494286_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = __this->get__bridge_6();
+		int32_t L_1 = ___region0;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(22 /* System.Void Wikitude.IPlatformBridge::SetCloudRecognitionServerRegion(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::UpdateRegisteredTrackableBehaviours(System.String,System.Single[],System.Single[])
+extern "C"  void TrackerManager_UpdateRegisteredTrackableBehaviours_m2845489404 (TrackerManager_t130000407 * __this, String_t* ___recognizedTarget0, SingleU5BU5D_t577127397* ___recognizedTargetModelViewMatrix1, SingleU5BU5D_t577127397* ___projectionMatrix2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_UpdateRegisteredTrackableBehaviours_m2845489404_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_0 = TrackerManager_get_ActiveTracker_m1187374465(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_2 = __this->get__activeTracker_8();
+		String_t* L_3 = ___recognizedTarget0;
+		SingleU5BU5D_t577127397* L_4 = ___recognizedTargetModelViewMatrix1;
+		SingleU5BU5D_t577127397* L_5 = ___projectionMatrix2;
+		NullCheck(L_2);
+		TrackerBehaviour_TrackablesChanged_m2170920796(L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.String> Wikitude.TrackerManager::SplitRecognizedTargetString(System.String)
+extern "C"  Il2CppObject* TrackerManager_SplitRecognizedTargetString_m2979317081 (TrackerManager_t130000407 * __this, String_t* ___messagePart0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_SplitRecognizedTargetString_m2979317081_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	Il2CppObject* V_1 = NULL;
+	String_t* V_2 = NULL;
+	StringU5BU5D_t1642385972* V_3 = NULL;
+	int32_t V_4 = 0;
+	StringU5BU5D_t1642385972* V_5 = NULL;
+	{
+		String_t* L_0 = ___messagePart0;
+		StringU5BU5D_t1642385972* L_1 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, _stringLiteral3513337718);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral3513337718);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_2 = String_Split_m3927740091(L_0, L_1, 0, /*hidden argument*/NULL);
+		V_0 = L_2;
+		Dictionary_2_t3943999495 * L_3 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1473783684(L_3, /*hidden argument*/Dictionary_2__ctor_m1473783684_MethodInfo_var);
+		V_1 = (Il2CppObject*)L_3;
+		StringU5BU5D_t1642385972* L_4 = V_0;
+		V_3 = L_4;
+		V_4 = 0;
+		goto IL_0052;
+	}
+
+IL_0026:
+	{
+		StringU5BU5D_t1642385972* L_5 = V_3;
+		int32_t L_6 = V_4;
+		NullCheck(L_5);
+		int32_t L_7 = L_6;
+		String_t* L_8 = (L_5)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		V_2 = L_8;
+		String_t* L_9 = V_2;
+		CharU5BU5D_t1328083999* L_10 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)124));
+		NullCheck(L_9);
+		StringU5BU5D_t1642385972* L_11 = String_Split_m3326265864(L_9, L_10, /*hidden argument*/NULL);
+		V_5 = L_11;
+		Il2CppObject* L_12 = V_1;
+		StringU5BU5D_t1642385972* L_13 = V_5;
+		NullCheck(L_13);
+		int32_t L_14 = 0;
+		String_t* L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		StringU5BU5D_t1642385972* L_16 = V_5;
+		NullCheck(L_16);
+		int32_t L_17 = 1;
+		String_t* L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		NullCheck(L_12);
+		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(0 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.String>::Add(!0,!1) */, IDictionary_2_t1943082916_il2cpp_TypeInfo_var, L_12, L_15, L_18);
+		int32_t L_19 = V_4;
+		V_4 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0052:
+	{
+		int32_t L_20 = V_4;
+		StringU5BU5D_t1642385972* L_21 = V_3;
+		NullCheck(L_21);
+		if ((((int32_t)L_20) < ((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_21)->max_length)))))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Il2CppObject* L_22 = V_1;
+		return L_22;
+	}
+}
+// System.Void Wikitude.TrackerManager::StartTrackingMapRecording(Wikitude.TrackingMapRecorder)
+extern "C"  void TrackerManager_StartTrackingMapRecording_m3690073485 (TrackerManager_t130000407 * __this, TrackingMapRecorder_t746125273 * ___recorder0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_StartTrackingMapRecording_m3690073485_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_2 = ___recorder0;
+		__this->set__activeRecorder_9(L_2);
+		Il2CppObject * L_3 = __this->get__bridge_6();
+		NullCheck(L_3);
+		InterfaceActionInvoker0::Invoke(25 /* System.Void Wikitude.IPlatformBridge::StartTrackingMapRecording() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3);
+		goto IL_0032;
+	}
+
+IL_0028:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral738948561, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::StopTrackingMapRecording(System.String)
+extern "C"  void TrackerManager_StopTrackingMapRecording_m2588063534 (TrackerManager_t130000407 * __this, String_t* ___mapName0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_StopTrackingMapRecording_m2588063534_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		Il2CppObject * L_2 = __this->get__bridge_6();
+		String_t* L_3 = ___mapName0;
+		NullCheck(L_2);
+		InterfaceActionInvoker1< String_t* >::Invoke(26 /* System.Void Wikitude.IPlatformBridge::StopTrackingMapRecording(System.String) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2, L_3);
+		goto IL_002c;
+	}
+
+IL_0022:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1813137141, /*hidden argument*/NULL);
+	}
+
+IL_002c:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::OnCameraOpen(System.String)
+extern "C"  void TrackerManager_OnCameraOpen_m4024072936 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	{
+		WikitudeCamera_t2517845841 * L_0 = __this->get__wikitudeCamera_10();
+		NullCheck(L_0);
+		WikitudeCamera_OnCameraOpen_m2856637538(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::OnCameraReleased(System.String)
+extern "C"  void TrackerManager_OnCameraReleased_m2018715567 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	{
+		WikitudeCamera_t2517845841 * L_0 = __this->get__wikitudeCamera_10();
+		NullCheck(L_0);
+		WikitudeCamera_OnCameraReleased_m1340763611(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::OnCameraFailure(System.String)
+extern "C"  void TrackerManager_OnCameraFailure_m1790633692 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	{
+		WikitudeCamera_t2517845841 * L_0 = __this->get__wikitudeCamera_10();
+		NullCheck(L_0);
+		OnCameraFailureEvent_t1753808034 * L_1 = L_0->get_OnCameraFailure_23();
+		NullCheck(L_1);
+		UnityEvent_Invoke_m4163344491(L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::TargetCollectionResourceInitialized(System.String)
+extern "C"  void TrackerManager_TargetCollectionResourceInitialized_m3182494155 (TrackerManager_t130000407 * __this, String_t* ___resourceIdentifier0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_TargetCollectionResourceInitialized_m3182494155_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	TargetCollectionResource_t3980041541 * V_1 = NULL;
+	{
+		String_t* L_0 = ___resourceIdentifier0;
+		bool L_1 = Int64_TryParse_m948922810(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		Dictionary_2_t674592647 * L_2 = __this->get__registeredResources_4();
+		int64_t L_3 = V_0;
+		NullCheck(L_2);
+		bool L_4 = Dictionary_2_TryGetValue_m361276108(L_2, L_3, (&V_1), /*hidden argument*/Dictionary_2_TryGetValue_m361276108_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		TargetCollectionResource_t3980041541 * L_5 = V_1;
+		NullCheck(L_5);
+		OnFinishLoadingEvent_t1372070578 * L_6 = L_5->get_OnFinishLoading_4();
+		NullCheck(L_6);
+		UnityEvent_Invoke_m4163344491(L_6, /*hidden argument*/NULL);
+	}
+
+IL_002b:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::TargetCollectionResourceFailed(System.String)
+extern "C"  void TrackerManager_TargetCollectionResourceFailed_m307773594 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_TargetCollectionResourceFailed_m307773594_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	TargetCollectionResource_t3980041541 * V_1 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Dictionary_2_t674592647 * L_2 = __this->get__registeredResources_4();
+		BridgeError_t1312656103 * L_3 = V_0;
+		NullCheck(L_3);
+		int64_t L_4 = BridgeError_get_Identifier_m3931369371(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_5 = Dictionary_2_TryGetValue_m361276108(L_2, L_4, (&V_1), /*hidden argument*/Dictionary_2_TryGetValue_m361276108_MethodInfo_var);
+		if (!L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		TargetCollectionResource_t3980041541 * L_6 = V_1;
+		NullCheck(L_6);
+		OnErrorLoadingEvent_t706169873 * L_7 = L_6->get_OnErrorLoading_5();
+		BridgeError_t1312656103 * L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = BridgeError_get_Code_m746748016(L_8, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_10 = V_0;
+		NullCheck(L_10);
+		String_t* L_11 = BridgeError_get_Message_m2219730143(L_10, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		UnityEvent_2_Invoke_m3710222440(L_7, L_9, L_11, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		goto IL_0051;
+	}
+
+IL_0041:
+	{
+		String_t* L_12 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral1344086035, L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::CloudRecognitionServiceInitialized(System.String)
+extern "C"  void TrackerManager_CloudRecognitionServiceInitialized_m1804423365 (TrackerManager_t130000407 * __this, String_t* ___cloudRecognitionServiceIdentifier0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_CloudRecognitionServiceInitialized_m1804423365_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int64_t V_0 = 0;
+	CloudRecognitionService_t1970555431 * V_1 = NULL;
+	{
+		String_t* L_0 = ___cloudRecognitionServiceIdentifier0;
+		bool L_1 = Int64_TryParse_m948922810(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		Dictionary_2_t2960073833 * L_2 = __this->get__registeredCloudRecognitionServices_5();
+		int64_t L_3 = V_0;
+		NullCheck(L_2);
+		bool L_4 = Dictionary_2_TryGetValue_m315289040(L_2, L_3, (&V_1), /*hidden argument*/Dictionary_2_TryGetValue_m315289040_MethodInfo_var);
+		if (!L_4)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		CloudRecognitionService_t1970555431 * L_5 = V_1;
+		NullCheck(L_5);
+		OnInitializedEvent_t830202925 * L_6 = L_5->get_OnInitialized_5();
+		NullCheck(L_6);
+		UnityEvent_Invoke_m4163344491(L_6, /*hidden argument*/NULL);
+		goto IL_0040;
+	}
+
+IL_0030:
+	{
+		String_t* L_7 = ___cloudRecognitionServiceIdentifier0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral80457469, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::CloudRecognitionServiceFailed(System.String)
+extern "C"  void TrackerManager_CloudRecognitionServiceFailed_m2202830734 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_CloudRecognitionServiceFailed_m2202830734_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	CloudRecognitionService_t1970555431 * V_1 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Dictionary_2_t2960073833 * L_2 = __this->get__registeredCloudRecognitionServices_5();
+		BridgeError_t1312656103 * L_3 = V_0;
+		NullCheck(L_3);
+		int64_t L_4 = BridgeError_get_Identifier_m3931369371(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_5 = Dictionary_2_TryGetValue_m315289040(L_2, L_4, (&V_1), /*hidden argument*/Dictionary_2_TryGetValue_m315289040_MethodInfo_var);
+		if (!L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		CloudRecognitionService_t1970555431 * L_6 = V_1;
+		NullCheck(L_6);
+		OnInitializationErrorEvent_t2097344561 * L_7 = L_6->get_OnInitializationError_6();
+		BridgeError_t1312656103 * L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = BridgeError_get_Code_m746748016(L_8, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_10 = V_0;
+		NullCheck(L_10);
+		String_t* L_11 = BridgeError_get_Message_m2219730143(L_10, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		UnityEvent_2_Invoke_m3710222440(L_7, L_9, L_11, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		goto IL_0051;
+	}
+
+IL_0041:
+	{
+		String_t* L_12 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3056555829, L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::CloudRecognitionServiceResponseSuccessful(System.String)
+extern "C"  void TrackerManager_CloudRecognitionServiceResponseSuccessful_m432718722 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_CloudRecognitionServiceResponseSuccessful_m432718722_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	CloudRecognitionService_t1970555431 * V_0 = NULL;
+	bool V_1 = false;
+	int64_t V_2 = 0;
+	Il2CppObject* V_3 = NULL;
+	Il2CppObject* V_4 = NULL;
+	StringU5BU5D_t1642385972* V_5 = NULL;
+	CloudRecognitionServiceResponse_t1921450246 * V_6 = NULL;
+	{
+		V_3 = (Il2CppObject*)NULL;
+		V_4 = (Il2CppObject*)NULL;
+		String_t* L_0 = ___message0;
+		StringU5BU5D_t1642385972* L_1 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_1);
+		ArrayElementTypeCheck (L_1, _stringLiteral3519021602);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral3519021602);
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_2 = String_Split_m3927740091(L_0, L_1, 0, /*hidden argument*/NULL);
+		V_5 = L_2;
+		StringU5BU5D_t1642385972* L_3 = V_5;
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		String_t* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		bool L_6 = Int64_TryParse_m948922810(NULL /*static, unused*/, L_5, (&V_2), /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		Dictionary_2_t2960073833 * L_7 = __this->get__registeredCloudRecognitionServices_5();
+		int64_t L_8 = V_2;
+		NullCheck(L_7);
+		bool L_9 = Dictionary_2_TryGetValue_m315289040(L_7, L_8, (&V_0), /*hidden argument*/Dictionary_2_TryGetValue_m315289040_MethodInfo_var);
+		if (!L_9)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_10 = V_5;
+		NullCheck(L_10);
+		int32_t L_11 = 1;
+		String_t* L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		IL2CPP_RUNTIME_CLASS_INIT(Boolean_t3825574718_il2cpp_TypeInfo_var);
+		bool L_13 = Boolean_TryParse_m3918169608(NULL /*static, unused*/, L_12, (&V_1), /*hidden argument*/NULL);
+		if (!L_13)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		bool L_14 = V_1;
+		if (!L_14)
+		{
+			goto IL_0087;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_15 = V_5;
+		NullCheck(L_15);
+		int32_t L_16 = 2;
+		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		Il2CppObject* L_18 = TrackerManager_SplitRecognizedTargetString_m2979317081(__this, L_17, /*hidden argument*/NULL);
+		V_3 = L_18;
+		StringU5BU5D_t1642385972* L_19 = V_5;
+		NullCheck(L_19);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_19)->max_length))))) < ((int32_t)3)))
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_20 = V_5;
+		NullCheck(L_20);
+		int32_t L_21 = 3;
+		String_t* L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		Il2CppObject* L_23 = TrackerManager_SplitRecognizedTargetString_m2979317081(__this, L_22, /*hidden argument*/NULL);
+		V_4 = L_23;
+		goto IL_0082;
+	}
+
+IL_007b:
+	{
+		Dictionary_2_t3943999495 * L_24 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1473783684(L_24, /*hidden argument*/Dictionary_2__ctor_m1473783684_MethodInfo_var);
+		V_4 = (Il2CppObject*)L_24;
+	}
+
+IL_0082:
+	{
+		goto IL_0094;
+	}
+
+IL_0087:
+	{
+		Dictionary_2_t3943999495 * L_25 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1473783684(L_25, /*hidden argument*/Dictionary_2__ctor_m1473783684_MethodInfo_var);
+		V_3 = (Il2CppObject*)L_25;
+		Dictionary_2_t3943999495 * L_26 = (Dictionary_2_t3943999495 *)il2cpp_codegen_object_new(Dictionary_2_t3943999495_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m1473783684(L_26, /*hidden argument*/Dictionary_2__ctor_m1473783684_MethodInfo_var);
+		V_4 = (Il2CppObject*)L_26;
+	}
+
+IL_0094:
+	{
+		CloudRecognitionServiceResponse_t1921450246 * L_27 = (CloudRecognitionServiceResponse_t1921450246 *)il2cpp_codegen_object_new(CloudRecognitionServiceResponse_t1921450246_il2cpp_TypeInfo_var);
+		CloudRecognitionServiceResponse__ctor_m3723954059(L_27, /*hidden argument*/NULL);
+		V_6 = L_27;
+		CloudRecognitionServiceResponse_t1921450246 * L_28 = V_6;
+		bool L_29 = V_1;
+		NullCheck(L_28);
+		CloudRecognitionServiceResponse_set_Recognized_m1571720721(L_28, L_29, /*hidden argument*/NULL);
+		CloudRecognitionServiceResponse_t1921450246 * L_30 = V_6;
+		Il2CppObject* L_31 = V_3;
+		NullCheck(L_30);
+		CloudRecognitionServiceResponse_set_Info_m3522348696(L_30, L_31, /*hidden argument*/NULL);
+		CloudRecognitionServiceResponse_t1921450246 * L_32 = V_6;
+		Il2CppObject* L_33 = V_4;
+		NullCheck(L_32);
+		CloudRecognitionServiceResponse_set_Metadata_m2578804857(L_32, L_33, /*hidden argument*/NULL);
+		CloudRecognitionService_t1970555431 * L_34 = V_0;
+		NullCheck(L_34);
+		OnRecognitionResponseEvent_t330592769 * L_35 = L_34->get_OnRecognitionResponse_7();
+		CloudRecognitionServiceResponse_t1921450246 * L_36 = V_6;
+		NullCheck(L_35);
+		UnityEvent_1_Invoke_m3321447418(L_35, L_36, /*hidden argument*/UnityEvent_1_Invoke_m3321447418_MethodInfo_var);
+		goto IL_00d6;
+	}
+
+IL_00c6:
+	{
+		String_t* L_37 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_38 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral4219837118, L_37, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_38, /*hidden argument*/NULL);
+	}
+
+IL_00d6:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::CloudRecognitionServiceResponseFailed(System.String)
+extern "C"  void TrackerManager_CloudRecognitionServiceResponseFailed_m3711306153 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_CloudRecognitionServiceResponseFailed_m3711306153_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	CloudRecognitionService_t1970555431 * V_1 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		Dictionary_2_t2960073833 * L_2 = __this->get__registeredCloudRecognitionServices_5();
+		BridgeError_t1312656103 * L_3 = V_0;
+		NullCheck(L_3);
+		int64_t L_4 = BridgeError_get_Identifier_m3931369371(L_3, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_5 = Dictionary_2_TryGetValue_m315289040(L_2, L_4, (&V_1), /*hidden argument*/Dictionary_2_TryGetValue_m315289040_MethodInfo_var);
+		if (!L_5)
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		CloudRecognitionService_t1970555431 * L_6 = V_1;
+		NullCheck(L_6);
+		OnRecognitionErrorEvent_t96168148 * L_7 = L_6->get_OnRecognitionError_8();
+		BridgeError_t1312656103 * L_8 = V_0;
+		NullCheck(L_8);
+		int32_t L_9 = BridgeError_get_Code_m746748016(L_8, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_10 = V_0;
+		NullCheck(L_10);
+		String_t* L_11 = BridgeError_get_Message_m2219730143(L_10, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		UnityEvent_2_Invoke_m3710222440(L_7, L_9, L_11, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		goto IL_0051;
+	}
+
+IL_0041:
+	{
+		String_t* L_12 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_13 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral3056555829, L_12, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0051:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::CloudRecognitionServiceResponseInterruption(System.String)
+extern "C"  void TrackerManager_CloudRecognitionServiceResponseInterruption_m3829293781 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_CloudRecognitionServiceResponseInterruption_m3829293781_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	double V_1 = 0.0;
+	int64_t V_2 = 0;
+	CloudRecognitionService_t1970555431 * V_3 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)124));
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_2 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		StringU5BU5D_t1642385972* L_3 = V_0;
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		String_t* L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		bool L_6 = Double_TryParse_m3252018994(NULL /*static, unused*/, L_5, (&V_1), /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_7 = V_0;
+		NullCheck(L_7);
+		int32_t L_8 = 1;
+		String_t* L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		bool L_10 = Int64_TryParse_m948922810(NULL /*static, unused*/, L_9, (&V_2), /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		Dictionary_2_t2960073833 * L_11 = __this->get__registeredCloudRecognitionServices_5();
+		int64_t L_12 = V_2;
+		NullCheck(L_11);
+		bool L_13 = Dictionary_2_TryGetValue_m315289040(L_11, L_12, (&V_3), /*hidden argument*/Dictionary_2_TryGetValue_m315289040_MethodInfo_var);
+		if (!L_13)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		CloudRecognitionService_t1970555431 * L_14 = V_3;
+		NullCheck(L_14);
+		OnInterruptionEvent_t1387741428 * L_15 = L_14->get_OnInterruption_9();
+		double L_16 = V_1;
+		NullCheck(L_15);
+		UnityEvent_1_Invoke_m1530575732(L_15, L_16, /*hidden argument*/UnityEvent_1_Invoke_m1530575732_MethodInfo_var);
+	}
+
+IL_004f:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::StartRecordingSuccessful(System.String)
+extern "C"  void TrackerManager_StartRecordingSuccessful_m3604801675 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_StartRecordingSuccessful_m3604801675_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0011:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::StartRecordingFailed(System.String)
+extern "C"  void TrackerManager_StartRecordingFailed_m131745576 (TrackerManager_t130000407 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_StartRecordingFailed_m131745576_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_2 = __this->get__activeRecorder_9();
+		NullCheck(L_2);
+		OnRecordingErrorEvent_t89808920 * L_3 = L_2->get_OnRecordingError_6();
+		String_t* L_4 = ___errorMessage0;
+		NullCheck(L_3);
+		UnityEvent_1_Invoke_m2698909(L_3, L_4, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::RecordingQualityChanged(System.String)
+extern "C"  void TrackerManager_RecordingQualityChanged_m48580624 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_RecordingQualityChanged_m48580624_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		String_t* L_2 = ___message0;
+		bool L_3 = Int32_TryParse_m656840904(NULL /*static, unused*/, L_2, (&V_0), /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_4 = __this->get__activeRecorder_9();
+		NullCheck(L_4);
+		OnRecordingQualityChangedEvent_t3085246221 * L_5 = L_4->get_OnRecordingQualityChanged_7();
+		int32_t L_6 = V_0;
+		NullCheck(L_5);
+		UnityEvent_1_Invoke_m554854286(L_5, L_6, /*hidden argument*/UnityEvent_1_Invoke_m554854286_MethodInfo_var);
+		goto IL_0044;
+	}
+
+IL_0034:
+	{
+		String_t* L_7 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral223307227, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::StopRecordingSuccessful(System.String)
+extern "C"  void TrackerManager_StopRecordingSuccessful_m525681059 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_StopRecordingSuccessful_m525681059_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_2 = __this->get__activeRecorder_9();
+		NullCheck(L_2);
+		OnRecordingFinishedEvent_t3200701272 * L_3 = L_2->get_OnRecordingFinished_5();
+		String_t* L_4 = ___message0;
+		NullCheck(L_3);
+		UnityEvent_1_Invoke_m2698909(L_3, L_4, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+		__this->set__activeRecorder_9((TrackingMapRecorder_t746125273 *)NULL);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::StopRecordingFailed(System.String)
+extern "C"  void TrackerManager_StopRecordingFailed_m1816995314 (TrackerManager_t130000407 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_StopRecordingFailed_m1816995314_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_0 = __this->get__activeRecorder_9();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_1 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_0, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		TrackingMapRecorder_t746125273 * L_2 = __this->get__activeRecorder_9();
+		NullCheck(L_2);
+		OnRecordingErrorEvent_t89808920 * L_3 = L_2->get_OnRecordingError_6();
+		String_t* L_4 = ___errorMessage0;
+		NullCheck(L_3);
+		UnityEvent_1_Invoke_m2698909(L_3, L_4, /*hidden argument*/UnityEvent_1_Invoke_m2698909_MethodInfo_var);
+		__this->set__activeRecorder_9((TrackingMapRecorder_t746125273 *)NULL);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ImageTrackerFinishedLoading()
+extern "C"  void TrackerManager_ImageTrackerFinishedLoading_m1134969255 (TrackerManager_t130000407 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_t3845512381 * L_0 = __this->get__activeTracker_8();
+		NullCheck(L_0);
+		VirtActionInvoker0::Invoke(4 /* System.Void Wikitude.TrackerBehaviour::OnTargetsLoadedInternal() */, L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ErrorLoadingImageTracker(System.String)
+extern "C"  void TrackerManager_ErrorLoadingImageTracker_m615195003 (TrackerManager_t130000407 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_ErrorLoadingImageTracker_m615195003_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	{
+		String_t* L_0 = ___errorMessage0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_2 = __this->get__activeTracker_8();
+		BridgeError_t1312656103 * L_3 = V_0;
+		NullCheck(L_3);
+		int32_t L_4 = BridgeError_get_Code_m746748016(L_3, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6 = BridgeError_get_Message_m2219730143(L_5, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		VirtActionInvoker2< int32_t, String_t* >::Invoke(5 /* System.Void Wikitude.TrackerBehaviour::OnErrorLoadingTargetsInternal(System.Int32,System.String) */, L_2, L_4, L_6);
+		goto IL_0033;
+	}
+
+IL_0029:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1740594959, /*hidden argument*/NULL);
+	}
+
+IL_0033:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::UpdateExtendedTrackingQualityForTarget(System.String)
+extern "C"  void TrackerManager_UpdateExtendedTrackingQualityForTarget_m1455735842 (TrackerManager_t130000407 * __this, String_t* ___message0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_UpdateExtendedTrackingQualityForTarget_m1455735842_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	{
+		String_t* L_0 = ___message0;
+		CharU5BU5D_t1328083999* L_1 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)124));
+		NullCheck(L_0);
+		StringU5BU5D_t1642385972* L_2 = String_Split_m3326265864(L_0, L_1, /*hidden argument*/NULL);
+		V_1 = L_2;
+		StringU5BU5D_t1642385972* L_3 = V_1;
+		NullCheck(L_3);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_3)->max_length))))) == ((uint32_t)2))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_4 = V_1;
+		NullCheck(L_4);
+		int32_t L_5 = 1;
+		String_t* L_6 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		bool L_7 = Int32_TryParse_m656840904(NULL /*static, unused*/, L_6, (&V_0), /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_8 = __this->get__activeTracker_8();
+		StringU5BU5D_t1642385972* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = 0;
+		String_t* L_11 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		int32_t L_12 = V_0;
+		NullCheck(L_8);
+		VirtActionInvoker2< String_t*, int32_t >::Invoke(6 /* System.Void Wikitude.TrackerBehaviour::OnExtendedTrackingQualityChangedInternal(System.String,Wikitude.ExtendedTrackingQuality) */, L_8, L_11, L_12);
+		goto IL_004e;
+	}
+
+IL_003e:
+	{
+		String_t* L_13 = ___message0;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_14 = String_Concat_m2596409543(NULL /*static, unused*/, _stringLiteral839630409, L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+	}
+
+IL_004e:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ObjectTrackerFinishedLoading()
+extern "C"  void TrackerManager_ObjectTrackerFinishedLoading_m981248853 (TrackerManager_t130000407 * __this, const MethodInfo* method)
+{
+	{
+		TrackerBehaviour_t3845512381 * L_0 = __this->get__activeTracker_8();
+		NullCheck(L_0);
+		VirtActionInvoker0::Invoke(4 /* System.Void Wikitude.TrackerBehaviour::OnTargetsLoadedInternal() */, L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ErrorLoadingObjectTracker(System.String)
+extern "C"  void TrackerManager_ErrorLoadingObjectTracker_m723286057 (TrackerManager_t130000407 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_ErrorLoadingObjectTracker_m723286057_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	{
+		String_t* L_0 = ___errorMessage0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		TrackerBehaviour_t3845512381 * L_2 = __this->get__activeTracker_8();
+		BridgeError_t1312656103 * L_3 = V_0;
+		NullCheck(L_3);
+		int32_t L_4 = BridgeError_get_Code_m746748016(L_3, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6 = BridgeError_get_Message_m2219730143(L_5, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		VirtActionInvoker2< int32_t, String_t* >::Invoke(5 /* System.Void Wikitude.TrackerBehaviour::OnErrorLoadingTargetsInternal(System.Int32,System.String) */, L_2, L_4, L_6);
+		TrackerBehaviour_t3845512381 * L_7 = __this->get__activeTracker_8();
+		NullCheck(L_7);
+		OnErrorLoadingTargetsEvent_t3800749431 * L_8 = L_7->get_OnErrorLoadingTargets_11();
+		BridgeError_t1312656103 * L_9 = V_0;
+		NullCheck(L_9);
+		int32_t L_10 = BridgeError_get_Code_m746748016(L_9, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_11 = V_0;
+		NullCheck(L_11);
+		String_t* L_12 = BridgeError_get_Message_m2219730143(L_11, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		UnityEvent_2_Invoke_m3710222440(L_8, L_10, L_12, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::InstantTrackerChangedState(System.String)
+extern "C"  void TrackerManager_InstantTrackerChangedState_m1773756660 (TrackerManager_t130000407 * __this, String_t* ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_InstantTrackerChangedState_m1773756660_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	InstantTracker_t2685404523 * V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		TrackerBehaviour_t3845512381 * L_0 = __this->get__activeTracker_8();
+		V_0 = ((InstantTracker_t2685404523 *)IsInstSealed(L_0, InstantTracker_t2685404523_il2cpp_TypeInfo_var));
+		InstantTracker_t2685404523 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2860509083, /*hidden argument*/NULL);
+		goto IL_0040;
+	}
+
+IL_0027:
+	{
+		String_t* L_3 = ___state0;
+		bool L_4 = Int32_TryParse_m656840904(NULL /*static, unused*/, L_3, (&V_1), /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		InstantTracker_t2685404523 * L_5 = V_0;
+		NullCheck(L_5);
+		OnStateChangedEvent_t3227093256 * L_6 = L_5->get_OnStateChanged_12();
+		int32_t L_7 = V_1;
+		NullCheck(L_6);
+		UnityEvent_1_Invoke_m2518340491(L_6, L_7, /*hidden argument*/UnityEvent_1_Invoke_m2518340491_MethodInfo_var);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ErrorRegisteringPlugin(System.String)
+extern "C"  void TrackerManager_ErrorRegisteringPlugin_m1983810180 (TrackerManager_t130000407 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_ErrorRegisteringPlugin_m1983810180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	PluginManager_t3083232152 * V_1 = NULL;
+	{
+		String_t* L_0 = ___errorMessage0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		PluginManager_t3083232152 * L_2 = Object_FindObjectOfType_TisPluginManager_t3083232152_m711241675(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisPluginManager_t3083232152_m711241675_MethodInfo_var);
+		V_1 = L_2;
+		PluginManager_t3083232152 * L_3 = V_1;
+		bool L_4 = Object_op_Inequality_m2402264703(NULL /*static, unused*/, L_3, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		PluginManager_t3083232152 * L_5 = V_1;
+		NullCheck(L_5);
+		OnPluginFailureEvent_t2397520937 * L_6 = L_5->get_OnPluginFailure_3();
+		BridgeError_t1312656103 * L_7 = V_0;
+		NullCheck(L_7);
+		int32_t L_8 = BridgeError_get_Code_m746748016(L_7, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_9 = V_0;
+		NullCheck(L_9);
+		String_t* L_10 = BridgeError_get_Message_m2219730143(L_9, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		UnityEvent_2_Invoke_m3710222440(L_6, L_8, L_10, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+		goto IL_003b;
+	}
+
+IL_003b:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager::ErrorRegisteringInputPlugin(System.String)
+extern "C"  void TrackerManager_ErrorRegisteringInputPlugin_m2325235220 (TrackerManager_t130000407 * __this, String_t* ___errorMessage0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackerManager_ErrorRegisteringInputPlugin_m2325235220_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	BridgeError_t1312656103 * V_0 = NULL;
+	{
+		String_t* L_0 = ___errorMessage0;
+		bool L_1 = BridgeError_TryParse_m142924107(NULL /*static, unused*/, L_0, (&V_0), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		WikitudeCamera_t2517845841 * L_2 = __this->get__wikitudeCamera_10();
+		NullCheck(L_2);
+		OnInputPluginFailureEvent_t1715928524 * L_3 = L_2->get_OnInputPluginFailure_22();
+		BridgeError_t1312656103 * L_4 = V_0;
+		NullCheck(L_4);
+		int32_t L_5 = BridgeError_get_Code_m746748016(L_4, /*hidden argument*/NULL);
+		BridgeError_t1312656103 * L_6 = V_0;
+		NullCheck(L_6);
+		String_t* L_7 = BridgeError_get_Message_m2219730143(L_6, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		UnityEvent_2_Invoke_m3710222440(L_3, L_5, L_7, /*hidden argument*/UnityEvent_2_Invoke_m3710222440_MethodInfo_var);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.TrackerManager/BridgeError::.ctor()
+extern "C"  void BridgeError__ctor_m1743601856 (BridgeError_t1312656103 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Wikitude.TrackerManager/BridgeError::get_Code()
+extern "C"  int32_t BridgeError_get_Code_m746748016 (BridgeError_t1312656103 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get_U3CCodeU3Ek__BackingField_0();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackerManager/BridgeError::set_Code(System.Int32)
+extern "C"  void BridgeError_set_Code_m3705552305 (BridgeError_t1312656103 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value0;
+		__this->set_U3CCodeU3Ek__BackingField_0(L_0);
+		return;
+	}
+}
+// System.String Wikitude.TrackerManager/BridgeError::get_Message()
+extern "C"  String_t* BridgeError_get_Message_m2219730143 (BridgeError_t1312656103 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get_U3CMessageU3Ek__BackingField_1();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackerManager/BridgeError::set_Message(System.String)
+extern "C"  void BridgeError_set_Message_m2746795362 (BridgeError_t1312656103 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set_U3CMessageU3Ek__BackingField_1(L_0);
+		return;
+	}
+}
+// System.Int64 Wikitude.TrackerManager/BridgeError::get_Identifier()
+extern "C"  int64_t BridgeError_get_Identifier_m3931369371 (BridgeError_t1312656103 * __this, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = __this->get_U3CIdentifierU3Ek__BackingField_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackerManager/BridgeError::set_Identifier(System.Int64)
+extern "C"  void BridgeError_set_Identifier_m2790866432 (BridgeError_t1312656103 * __this, int64_t ___value0, const MethodInfo* method)
+{
+	{
+		int64_t L_0 = ___value0;
+		__this->set_U3CIdentifierU3Ek__BackingField_2(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackerManager/BridgeError::TryParse(System.String,Wikitude.TrackerManager/BridgeError&)
+extern "C"  bool BridgeError_TryParse_m142924107 (Il2CppObject * __this /* static, unused */, String_t* ___errorString0, BridgeError_t1312656103 ** ___error1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (BridgeError_TryParse_m142924107_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	StringU5BU5D_t1642385972* V_0 = NULL;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int64_t V_4 = 0;
+	{
+		BridgeError_t1312656103 ** L_0 = ___error1;
+		BridgeError_t1312656103 * L_1 = (BridgeError_t1312656103 *)il2cpp_codegen_object_new(BridgeError_t1312656103_il2cpp_TypeInfo_var);
+		BridgeError__ctor_m1743601856(L_1, /*hidden argument*/NULL);
+		*((Il2CppObject **)(L_0)) = (Il2CppObject *)L_1;
+		Il2CppCodeGenWriteBarrier((Il2CppObject **)(L_0), (Il2CppObject *)L_1);
+		String_t* L_2 = ___errorString0;
+		CharU5BU5D_t1328083999* L_3 = ((CharU5BU5D_t1328083999*)SZArrayNew(CharU5BU5D_t1328083999_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)124));
+		NullCheck(L_2);
+		StringU5BU5D_t1642385972* L_4 = String_Split_m3326265864(L_2, L_3, /*hidden argument*/NULL);
+		V_0 = L_4;
+		V_1 = (bool)0;
+		StringU5BU5D_t1642385972* L_5 = V_0;
+		NullCheck(L_5);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_5)->max_length))))) == ((uint32_t)2))))
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = 0;
+		String_t* L_8 = (L_6)->GetAt(static_cast<il2cpp_array_size_t>(L_7));
+		bool L_9 = Int32_TryParse_m656840904(NULL /*static, unused*/, L_8, (&V_2), /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		BridgeError_t1312656103 ** L_10 = ___error1;
+		int32_t L_11 = V_2;
+		NullCheck((*((BridgeError_t1312656103 **)L_10)));
+		BridgeError_set_Code_m3705552305((*((BridgeError_t1312656103 **)L_10)), L_11, /*hidden argument*/NULL);
+		BridgeError_t1312656103 ** L_12 = ___error1;
+		StringU5BU5D_t1642385972* L_13 = V_0;
+		NullCheck(L_13);
+		int32_t L_14 = 1;
+		String_t* L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		NullCheck((*((BridgeError_t1312656103 **)L_12)));
+		BridgeError_set_Message_m2746795362((*((BridgeError_t1312656103 **)L_12)), L_15, /*hidden argument*/NULL);
+		BridgeError_t1312656103 ** L_16 = ___error1;
+		NullCheck((*((BridgeError_t1312656103 **)L_16)));
+		BridgeError_set_Identifier_m2790866432((*((BridgeError_t1312656103 **)L_16)), (((int64_t)((int64_t)(-1)))), /*hidden argument*/NULL);
+		V_1 = (bool)1;
+	}
+
+IL_0050:
+	{
+		goto IL_0099;
+	}
+
+IL_0055:
+	{
+		StringU5BU5D_t1642385972* L_17 = V_0;
+		NullCheck(L_17);
+		if ((!(((uint32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_17)->max_length))))) == ((uint32_t)3))))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_18 = V_0;
+		NullCheck(L_18);
+		int32_t L_19 = 0;
+		String_t* L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		bool L_21 = Int32_TryParse_m656840904(NULL /*static, unused*/, L_20, (&V_3), /*hidden argument*/NULL);
+		if (!L_21)
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		StringU5BU5D_t1642385972* L_22 = V_0;
+		NullCheck(L_22);
+		int32_t L_23 = 2;
+		String_t* L_24 = (L_22)->GetAt(static_cast<il2cpp_array_size_t>(L_23));
+		bool L_25 = Int64_TryParse_m948922810(NULL /*static, unused*/, L_24, (&V_4), /*hidden argument*/NULL);
+		if (!L_25)
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		BridgeError_t1312656103 ** L_26 = ___error1;
+		int32_t L_27 = V_3;
+		NullCheck((*((BridgeError_t1312656103 **)L_26)));
+		BridgeError_set_Code_m3705552305((*((BridgeError_t1312656103 **)L_26)), L_27, /*hidden argument*/NULL);
+		BridgeError_t1312656103 ** L_28 = ___error1;
+		StringU5BU5D_t1642385972* L_29 = V_0;
+		NullCheck(L_29);
+		int32_t L_30 = 1;
+		String_t* L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		NullCheck((*((BridgeError_t1312656103 **)L_28)));
+		BridgeError_set_Message_m2746795362((*((BridgeError_t1312656103 **)L_28)), L_31, /*hidden argument*/NULL);
+		BridgeError_t1312656103 ** L_32 = ___error1;
+		int64_t L_33 = V_4;
+		NullCheck((*((BridgeError_t1312656103 **)L_32)));
+		BridgeError_set_Identifier_m2790866432((*((BridgeError_t1312656103 **)L_32)), L_33, /*hidden argument*/NULL);
+		V_1 = (bool)1;
+	}
+
+IL_0099:
+	{
+		bool L_34 = V_1;
+		if (L_34)
+		{
+			goto IL_009f;
+		}
+	}
+
+IL_009f:
+	{
+		bool L_35 = V_1;
+		return L_35;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder::.ctor()
+extern "C"  void TrackingMapRecorder__ctor_m2468606422 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackingMapRecorder__ctor_m2468606422_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		OnRecordingFinishedEvent_t3200701272 * L_0 = (OnRecordingFinishedEvent_t3200701272 *)il2cpp_codegen_object_new(OnRecordingFinishedEvent_t3200701272_il2cpp_TypeInfo_var);
+		OnRecordingFinishedEvent__ctor_m808671855(L_0, /*hidden argument*/NULL);
+		__this->set_OnRecordingFinished_5(L_0);
+		OnRecordingErrorEvent_t89808920 * L_1 = (OnRecordingErrorEvent_t89808920 *)il2cpp_codegen_object_new(OnRecordingErrorEvent_t89808920_il2cpp_TypeInfo_var);
+		OnRecordingErrorEvent__ctor_m940947205(L_1, /*hidden argument*/NULL);
+		__this->set_OnRecordingError_6(L_1);
+		OnRecordingQualityChangedEvent_t3085246221 * L_2 = (OnRecordingQualityChangedEvent_t3085246221 *)il2cpp_codegen_object_new(OnRecordingQualityChangedEvent_t3085246221_il2cpp_TypeInfo_var);
+		OnRecordingQualityChangedEvent__ctor_m3180518964(L_2, /*hidden argument*/NULL);
+		__this->set_OnRecordingQualityChanged_7(L_2);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.TrackingMapRecorder::get_TrackingMapName()
+extern "C"  String_t* TrackingMapRecorder_get_TrackingMapName_m2963376828 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__trackingMapName_3();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder::set_TrackingMapName(System.String)
+extern "C"  void TrackingMapRecorder_set_TrackingMapName_m401062333 (TrackingMapRecorder_t746125273 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__trackingMapName_3(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackingMapRecorder::get_IsRecording()
+extern "C"  bool TrackingMapRecorder_get_IsRecording_m2758333232 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get_U3CIsRecordingU3Ek__BackingField_4();
+		return L_0;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder::set_IsRecording(System.Boolean)
+extern "C"  void TrackingMapRecorder_set_IsRecording_m1396083731 (TrackingMapRecorder_t746125273 * __this, bool ___value0, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value0;
+		__this->set_U3CIsRecordingU3Ek__BackingField_4(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder::Start()
+extern "C"  void TrackingMapRecorder_Start_m1468400146 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackingMapRecorder_Start_m1468400146_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		TrackerManager_t130000407 * L_0 = Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926(NULL /*static, unused*/, /*hidden argument*/Object_FindObjectOfType_TisTrackerManager_t130000407_m2824709926_MethodInfo_var);
+		__this->set__trackerManager_8(L_0);
+		return;
+	}
+}
+// System.Boolean Wikitude.TrackingMapRecorder::StartRecording()
+extern "C"  bool TrackingMapRecorder_StartRecording_m3338417311 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackingMapRecorder_StartRecording_m3338417311_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = TrackingMapRecorder_get_IsRecording_m2758333232(__this, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2500751317, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		TrackerManager_t130000407 * L_1 = __this->get__trackerManager_8();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3632383787, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0034:
+	{
+		String_t* L_3 = TrackingMapRecorder_get_TrackingMapName_m2963376828(__this, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral670696646, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_004b:
+	{
+		TrackerManager_t130000407 * L_4 = __this->get__trackerManager_8();
+		NullCheck(L_4);
+		TrackerManager_StartTrackingMapRecording_m3690073485(L_4, __this, /*hidden argument*/NULL);
+		TrackingMapRecorder_set_IsRecording_m1396083731(__this, (bool)1, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+}
+// System.Boolean Wikitude.TrackingMapRecorder::StopRecording()
+extern "C"  bool TrackingMapRecorder_StopRecording_m3475558591 (TrackingMapRecorder_t746125273 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (TrackingMapRecorder_StopRecording_m3475558591_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = TrackingMapRecorder_get_IsRecording_m2758333232(__this, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2463111458, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		TrackerManager_t130000407 * L_1 = __this->get__trackerManager_8();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_2 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_1, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3632383787, /*hidden argument*/NULL);
+		return (bool)0;
+	}
+
+IL_0034:
+	{
+		TrackerManager_t130000407 * L_3 = __this->get__trackerManager_8();
+		String_t* L_4 = TrackingMapRecorder_get_TrackingMapName_m2963376828(__this, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		TrackerManager_StopTrackingMapRecording_m2588063534(L_3, L_4, /*hidden argument*/NULL);
+		TrackingMapRecorder_set_IsRecording_m1396083731(__this, (bool)0, /*hidden argument*/NULL);
+		return (bool)1;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder/OnRecordingErrorEvent::.ctor()
+extern "C"  void OnRecordingErrorEvent__ctor_m940947205 (OnRecordingErrorEvent_t89808920 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecordingErrorEvent__ctor_m940947205_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder/OnRecordingFinishedEvent::.ctor()
+extern "C"  void OnRecordingFinishedEvent__ctor_m808671855 (OnRecordingFinishedEvent_t3200701272 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecordingFinishedEvent__ctor_m808671855_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m2575388844(__this, /*hidden argument*/UnityEvent_1__ctor_m2575388844_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.TrackingMapRecorder/OnRecordingQualityChangedEvent::.ctor()
+extern "C"  void OnRecordingQualityChangedEvent__ctor_m3180518964 (OnRecordingQualityChangedEvent_t3085246221 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnRecordingQualityChangedEvent__ctor_m3180518964_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_1__ctor_m1516039913(__this, /*hidden argument*/UnityEvent_1__ctor_m1516039913_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::.ctor()
+extern "C"  void UnityBridge__ctor_m3290169035 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateWikitudeNativeSDK(System.String,System.String)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateWikitudeNativeSDK_m3375580949 (UnityBridge_t209696710 * __this, String_t* ___licenseKey0, String_t* ___trackerManagerName1, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___trackerManagerName1;
+		__this->set__trackerManagerName_0(L_0);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DestroyWikitudeNativeSDK()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DestroyWikitudeNativeSDK_m3508149125 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetRenderTargetTextureId(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetRenderTargetTextureId_m3375754352 (UnityBridge_t209696710 * __this, int32_t ___offscreenRenderingTextureId0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StartWikitudeNativeSDK()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StartWikitudeNativeSDK_m113734303 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.UpdateWikitudeNativeSDK()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_UpdateWikitudeNativeSDK_m1277848940 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StopWikitudeNativeSDK()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StopWikitudeNativeSDK_m2083312447 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.UpdateScreenRotation(System.Boolean)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_UpdateScreenRotation_m4229240378 (UnityBridge_t209696710 * __this, bool ___forceResize0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateTargetCollectionResource(System.String,System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m2093652893 (UnityBridge_t209696710 * __this, String_t* ___path0, int64_t ___id1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_InstantiateTargetCollectionResource_m2093652893_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__trackerManagerName_0();
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_1);
+		GameObject_SendMessage_m2115020133(L_1, _stringLiteral1521482973, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateCloudRecognitionService(System.String,System.String,System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m509790641 (UnityBridge_t209696710 * __this, String_t* ___clientToken0, String_t* ___targetCollectionId1, int64_t ___id2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_InstantiateCloudRecognitionService_m509790641_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__trackerManagerName_0();
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_1);
+		GameObject_SendMessage_m2115020133(L_1, _stringLiteral3548251443, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateImageTrackerWithTargetCollectionResource(System.String,System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m3233206856 (UnityBridge_t209696710 * __this, String_t* ___targetsForExtendedTracking0, int64_t ___targetCollectionResourceId1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithTargetCollectionResource_m3233206856_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__trackerManagerName_0();
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_1);
+		GameObject_SendMessage_m2115020133(L_1, _stringLiteral4146290931, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateImageTrackerWithCloudRecognitionService(System.String,System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m3032348354 (UnityBridge_t209696710 * __this, String_t* ___targetsForExtendedTracking0, int64_t ___cloudRecognitionServiceId1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_InstantiateImageTrackerWithCloudRecognitionService_m3032348354_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__trackerManagerName_0();
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_1);
+		GameObject_SendMessage_m2115020133(L_1, _stringLiteral4146290931, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateObjectTrackerWithTargetCollectionResource(System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m3950864728 (UnityBridge_t209696710 * __this, int64_t ___targetCollectionResourceId0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_InstantiateObjectTrackerWithTargetCollectionResource_m3950864728_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__trackerManagerName_0();
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		NullCheck(L_1);
+		GameObject_SendMessage_m2115020133(L_1, _stringLiteral3462175073, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.InstantiateInstantTracker()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_InstantiateInstantTracker_m4180374115 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StopExtendedTracking()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StopExtendedTracking_m18133380 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DestroyTargetCollectionResource(System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DestroyTargetCollectionResource_m1909761503 (UnityBridge_t209696710 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DestroyCloudRecognitionService(System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DestroyCloudRecognitionService_m1023294297 (UnityBridge_t209696710 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DestroyImageTracker()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DestroyImageTracker_m3966336955 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DestroyInstantTracker()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DestroyInstantTracker_m1764558023 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DestroyObjectTracker()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DestroyObjectTracker_m949466637 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.Recognize(System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_Recognize_m3452277238 (UnityBridge_t209696710 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCloudRecognitionServerRegion(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCloudRecognitionServerRegion_m2852707860 (UnityBridge_t209696710 * __this, int32_t ___region0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StartContinuousRecognition(System.Double,System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StartContinuousRecognition_m353644778 (UnityBridge_t209696710 * __this, double ___interval0, int64_t ___id1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StopContinuousRecognition(System.Int64)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StopContinuousRecognition_m2002236524 (UnityBridge_t209696710 * __this, int64_t ___id0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetState(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetState_m1437698184 (UnityBridge_t209696710 * __this, int32_t ___state0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_SetState_m1437698184_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		String_t* L_0 = __this->get__trackerManagerName_0();
+		GameObject_t1756533147 * L_1 = GameObject_Find_m836511350(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		String_t* L_2 = Int32_ToString_m2960866144((&___state0), /*hidden argument*/NULL);
+		NullCheck(L_1);
+		GameObject_SendMessage_m2115020133(L_1, _stringLiteral536911948, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetDeviceHeightAboveGround(System.Single)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetDeviceHeightAboveGround_m3938802130 (UnityBridge_t209696710 * __this, float ___height0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StartTrackingMapRecording()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StartTrackingMapRecording_m4199494366 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.StopTrackingMapRecording(System.String)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_StopTrackingMapRecording_m3515108742 (UnityBridge_t209696710 * __this, String_t* ___mapName0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCaptureDevicePosition()
+extern "C"  int32_t UnityBridge_Wikitude_IPlatformBridge_GetCaptureDevicePosition_m2146295071 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureDevicePosition(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureDevicePosition_m4198585386 (UnityBridge_t209696710 * __this, int32_t ___newDevicePosition0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCaptureFocusMode()
+extern "C"  int32_t UnityBridge_Wikitude_IPlatformBridge_GetCaptureFocusMode_m180759549 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureFocusMode(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureFocusMode_m2238484606 (UnityBridge_t209696710 * __this, int32_t ___newFocusMode0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetManualFocusDistance(System.Single)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetManualFocusDistance_m3472241422 (UnityBridge_t209696710 * __this, float ___manualFocusDistance0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.UnityBridge::Wikitude.IPlatformBridge.IsManualFocusAvailable()
+extern "C"  bool UnityBridge_Wikitude_IPlatformBridge_IsManualFocusAvailable_m2856142307 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return (bool)1;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.EnableCamera2(System.Boolean)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_EnableCamera2_m3847731967 (UnityBridge_t209696710 * __this, bool ___enabled0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int32 Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCaptureAutoFocusRestriction()
+extern "C"  int32_t UnityBridge_Wikitude_IPlatformBridge_GetCaptureAutoFocusRestriction_m1795321585 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureAutoFocusRestriction(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureAutoFocusRestriction_m702107158 (UnityBridge_t209696710 * __this, int32_t ___newAutoFocusRestriction0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Single Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCaptureZoomLevel()
+extern "C"  float UnityBridge_Wikitude_IPlatformBridge_GetCaptureZoomLevel_m743234295 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return (1.0f);
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureZoomLevel(System.Single)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureZoomLevel_m3795215012 (UnityBridge_t209696710 * __this, float ___newZoomLevel0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Single Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCaptureMaxZoomLevel()
+extern "C"  float UnityBridge_Wikitude_IPlatformBridge_GetCaptureMaxZoomLevel_m764123343 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return (2.0f);
+	}
+}
+// System.Int32 Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCaptureFlashMode()
+extern "C"  int32_t UnityBridge_Wikitude_IPlatformBridge_GetCaptureFlashMode_m1175866509 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return 0;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureFlashMode(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureFlashMode_m3900630384 (UnityBridge_t209696710 * __this, int32_t ___newFlashMode0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// Wikitude.CameraInfo Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCameraInfo(System.Int32,System.Int32,System.Int32)
+extern "C"  CameraInfo_t3735365223  UnityBridge_Wikitude_IPlatformBridge_GetCameraInfo_m3612819044 (UnityBridge_t209696710 * __this, int32_t ___devicePosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method)
+{
+	{
+		CameraInfo_t3735365223  L_0;
+		memset(&L_0, 0, sizeof(L_0));
+		CameraInfo__ctor_m3269950821(&L_0, ((int32_t)1920), ((int32_t)1080), ((int32_t)30), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureDeviceResolution(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureDeviceResolution_m1549573091 (UnityBridge_t209696710 * __this, int32_t ___resolutionMode0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetCaptureDeviceFramerate(System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetCaptureDeviceFramerate_m4073096148 (UnityBridge_t209696710 * __this, int32_t ___framerateMode0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.String Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetTrackingData()
+extern "C"  String_t* UnityBridge_Wikitude_IPlatformBridge_GetTrackingData_m3765581070 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_GetTrackingData_m3765581070_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		return L_0;
+	}
+}
+// System.Single[] Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetProjectionMatrix()
+extern "C"  SingleU5BU5D_t577127397* UnityBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m1785660180 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_GetProjectionMatrix_m1785660180_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SingleU5BU5D_t577127397* V_0 = NULL;
+	{
+		V_0 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16)));
+		SingleU5BU5D_t577127397* L_0 = V_0;
+		NullCheck(L_0);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-1.951357f));
+		SingleU5BU5D_t577127397* L_1 = V_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-1.705931E-07f));
+		SingleU5BU5D_t577127397* L_2 = V_0;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_3 = V_0;
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_4 = V_0;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(4), (float)(-2.274574E-07f));
+		SingleU5BU5D_t577127397* L_5 = V_0;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(5), (float)(2.60181f));
+		SingleU5BU5D_t577127397* L_6 = V_0;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(6), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_7 = V_0;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(7), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_8 = V_0;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(8), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_9 = V_0;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_10 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (float)(1.00002f));
+		SingleU5BU5D_t577127397* L_11 = V_0;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (float)(1.0f));
+		SingleU5BU5D_t577127397* L_12 = V_0;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_13 = V_0;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_14 = V_0;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (float)(-0.100001f));
+		SingleU5BU5D_t577127397* L_15 = V_0;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_16 = V_0;
+		return L_16;
+	}
+}
+// System.Single[] Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetTrackingMatrix()
+extern "C"  SingleU5BU5D_t577127397* UnityBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m374687784 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_GetTrackingMatrix_m374687784_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	SingleU5BU5D_t577127397* V_0 = NULL;
+	{
+		V_0 = ((SingleU5BU5D_t577127397*)SZArrayNew(SingleU5BU5D_t577127397_il2cpp_TypeInfo_var, (uint32_t)((int32_t)16)));
+		SingleU5BU5D_t577127397* L_0 = V_0;
+		NullCheck(L_0);
+		(L_0)->SetAt(static_cast<il2cpp_array_size_t>(0), (float)(-0.007633166f));
+		SingleU5BU5D_t577127397* L_1 = V_0;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(1), (float)(-0.6845858f));
+		SingleU5BU5D_t577127397* L_2 = V_0;
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(2), (float)(-0.7288923f));
+		SingleU5BU5D_t577127397* L_3 = V_0;
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(3), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_4 = V_0;
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(4), (float)(-0.9999681f));
+		SingleU5BU5D_t577127397* L_5 = V_0;
+		NullCheck(L_5);
+		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(5), (float)(0.003523618f));
+		SingleU5BU5D_t577127397* L_6 = V_0;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(6), (float)(0.007162517f));
+		SingleU5BU5D_t577127397* L_7 = V_0;
+		NullCheck(L_7);
+		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(7), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_8 = V_0;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(8), (float)(-0.002335019f));
+		SingleU5BU5D_t577127397* L_9 = V_0;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)9)), (float)(0.7289237f));
+		SingleU5BU5D_t577127397* L_10 = V_0;
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)10)), (float)(-0.6845909f));
+		SingleU5BU5D_t577127397* L_11 = V_0;
+		NullCheck(L_11);
+		(L_11)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)11)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_12 = V_0;
+		NullCheck(L_12);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)12)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_13 = V_0;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)13)), (float)(0.0f));
+		SingleU5BU5D_t577127397* L_14 = V_0;
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)14)), (float)(2.8f));
+		SingleU5BU5D_t577127397* L_15 = V_0;
+		NullCheck(L_15);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (float)(1.0f));
+		SingleU5BU5D_t577127397* L_16 = V_0;
+		return L_16;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.RegisterPlugin(System.String)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_RegisterPlugin_m2445639408 (UnityBridge_t209696710 * __this, String_t* ___pluginManagerName0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DeregisterPlugin()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DeregisterPlugin_m237986063 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetCameraFrame(Wikitude.Frame&)
+extern "C"  bool UnityBridge_Wikitude_IPlatformBridge_GetCameraFrame_m2721193277 (UnityBridge_t209696710 * __this, Frame_t1875945745 * ___newFrame0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_GetCameraFrame_m2721193277_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Frame_t1875945745 * L_0 = ___newFrame0;
+		Initobj (Frame_t1875945745_il2cpp_TypeInfo_var, L_0);
+		return (bool)0;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.RegisterInputPlugin()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_RegisterInputPlugin_m2719805354 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.DeregisterInputPlugin()
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_DeregisterInputPlugin_m4003559729 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.NewCameraFrame(System.Int32,System.Int32,System.IntPtr)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_NewCameraFrame_m3984527522 (UnityBridge_t209696710 * __this, int32_t ___index0, int32_t ___frameDataSize1, IntPtr_t ___frameData2, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.EnableMirroring(System.Boolean)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_EnableMirroring_m3987685777 (UnityBridge_t209696710 * __this, bool ___mirroring0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetInvertedFrame(System.Boolean)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetInvertedFrame_m674240261 (UnityBridge_t209696710 * __this, bool ___invertedFrame0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetMirroredFrame(System.Boolean)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetMirroredFrame_m2689990310 (UnityBridge_t209696710 * __this, bool ___mirroredFrame0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetFrameColorSpace(Wikitude.FrameColorSpace)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetFrameColorSpace_m1051615918 (UnityBridge_t209696710 * __this, int32_t ___colorSpace0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetFrameSize(System.Int32,System.Int32)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetFrameSize_m1808961608 (UnityBridge_t209696710 * __this, int32_t ___frameWidth0, int32_t ___frameHeight1, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetHorizontalAngle(System.Single)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetHorizontalAngle_m1964070928 (UnityBridge_t209696710 * __this, float ___angle0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Wikitude.UnityBridge::Wikitude.IPlatformBridge.SetInputFrameRendering(System.Boolean)
+extern "C"  void UnityBridge_Wikitude_IPlatformBridge_SetInputFrameRendering_m2118435530 (UnityBridge_t209696710 * __this, bool ___requestRendering0, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Int64 Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetPresentableInputFrameIndex()
+extern "C"  int64_t UnityBridge_Wikitude_IPlatformBridge_GetPresentableInputFrameIndex_m2430125217 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	{
+		return (((int64_t)((int64_t)(-1))));
+	}
+}
+// System.String Wikitude.UnityBridge::Wikitude.IPlatformBridge.GetSDKBuildInformation()
+extern "C"  String_t* UnityBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m2761004719 (UnityBridge_t209696710 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (UnityBridge_Wikitude_IPlatformBridge_GetSDKBuildInformation_m2761004719_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		return _stringLiteral3685028136;
+	}
+}
+// System.Void Wikitude.WikitudeBridge::.ctor()
+extern "C"  void WikitudeBridge__ctor_m188836880 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m2551263788(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.IPlatformBridge Wikitude.WikitudeBridge::get_Platform()
+extern "C"  Il2CppObject * WikitudeBridge_get_Platform_m385314570 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeBridge_get_Platform_m385314570_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeBridge::Setup()
+extern "C"  void WikitudeBridge_Setup_m1700158283 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeBridge_Setup_m1700158283_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = (GameObject_t1756533147 *)il2cpp_codegen_object_new(GameObject_t1756533147_il2cpp_TypeInfo_var);
+		GameObject__ctor_m962601984(L_0, _stringLiteral760186735, /*hidden argument*/NULL);
+		__this->set__trackerManagerGameObject_1(L_0);
+		GameObject_t1756533147 * L_1 = __this->get__trackerManagerGameObject_1();
+		NullCheck(L_1);
+		TrackerManager_t130000407 * L_2 = GameObject_AddComponent_TisTrackerManager_t130000407_m1784357911(L_1, /*hidden argument*/GameObject_AddComponent_TisTrackerManager_t130000407_m1784357911_MethodInfo_var);
+		__this->set__trackerManager_0(L_2);
+		TrackerManager_t130000407 * L_3 = __this->get__trackerManager_0();
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_4 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		TrackerManager_Init_m2330225541(L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeBridge::InternalUpdate()
+extern "C"  void WikitudeBridge_InternalUpdate_m3497281110 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeBridge_InternalUpdate_m3497281110_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		TrackerManager_t130000407 * L_0 = __this->get__trackerManager_0();
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = InterfaceFuncInvoker0< String_t* >::Invoke(44 /* System.String Wikitude.IPlatformBridge::GetTrackingData() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		Il2CppObject * L_3 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		SingleU5BU5D_t577127397* L_4 = InterfaceFuncInvoker0< SingleU5BU5D_t577127397* >::Invoke(46 /* System.Single[] Wikitude.IPlatformBridge::GetTrackingMatrix() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3);
+		Il2CppObject * L_5 = WikitudeSDK_get_Platform_m3685884713(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		SingleU5BU5D_t577127397* L_6 = InterfaceFuncInvoker0< SingleU5BU5D_t577127397* >::Invoke(45 /* System.Single[] Wikitude.IPlatformBridge::GetProjectionMatrix() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_5);
+		NullCheck(L_0);
+		TrackerManager_UpdateRegisteredTrackableBehaviours_m2845489404(L_0, L_2, L_4, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Wikitude.TrackerManager Wikitude.WikitudeBridge::getTrackerManager()
+extern "C"  TrackerManager_t130000407 * WikitudeBridge_getTrackerManager_m2427654375 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method)
+{
+	{
+		TrackerManager_t130000407 * L_0 = __this->get__trackerManager_0();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeBridge::OnDestroy()
+extern "C"  void WikitudeBridge_OnDestroy_m2854918775 (WikitudeBridge_t1522526835 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeBridge_OnDestroy_m2854918775_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GameObject_t1756533147 * L_0 = __this->get__trackerManagerGameObject_1();
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		Object_Destroy_m4145850038(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::.ctor()
+extern "C"  void WikitudeCamera__ctor_m836345706 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera__ctor_m836345706_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->set__cachedFocusMode_5(2);
+		__this->set__cachedZoomLevel_7((1.0f));
+		__this->set__invertedFrame_14((bool)1);
+		__this->set__inputFrameColorSpace_16(3);
+		__this->set__horizontalAngle_17((50.0f));
+		__this->set__inputFrameWidth_18(((int32_t)640));
+		__this->set__inputFrameHeight_19(((int32_t)480));
+		__this->set__requestInputFrameRendering_20((bool)1);
+		UnityEvent_t408735097 * L_0 = (UnityEvent_t408735097 *)il2cpp_codegen_object_new(UnityEvent_t408735097_il2cpp_TypeInfo_var);
+		UnityEvent__ctor_m588741179(L_0, /*hidden argument*/NULL);
+		__this->set_OnInputPluginRegistered_21(L_0);
+		OnInputPluginFailureEvent_t1715928524 * L_1 = (OnInputPluginFailureEvent_t1715928524 *)il2cpp_codegen_object_new(OnInputPluginFailureEvent_t1715928524_il2cpp_TypeInfo_var);
+		OnInputPluginFailureEvent__ctor_m534235899(L_1, /*hidden argument*/NULL);
+		__this->set_OnInputPluginFailure_22(L_1);
+		OnCameraFailureEvent_t1753808034 * L_2 = (OnCameraFailureEvent_t1753808034 *)il2cpp_codegen_object_new(OnCameraFailureEvent_t1753808034_il2cpp_TypeInfo_var);
+		OnCameraFailureEvent__ctor_m3420298793(L_2, /*hidden argument*/NULL);
+		__this->set_OnCameraFailure_23(L_2);
+		WikitudeBridge_t1522526835 * L_3 = (WikitudeBridge_t1522526835 *)il2cpp_codegen_object_new(WikitudeBridge_t1522526835_il2cpp_TypeInfo_var);
+		WikitudeBridge__ctor_m188836880(L_3, /*hidden argument*/NULL);
+		__this->set__bridge_26(L_3);
+		MonoBehaviour__ctor_m2464341955(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Wikitude.WikitudeCamera::get_WikitudeLicenseKey()
+extern "C"  String_t* WikitudeCamera_get_WikitudeLicenseKey_m1663831780 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = __this->get__WikitudeLicenseKey_2();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_WikitudeLicenseKey(System.String)
+extern "C"  void WikitudeCamera_set_WikitudeLicenseKey_m2314863797 (WikitudeCamera_t2517845841 * __this, String_t* ___value0, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value0;
+		__this->set__WikitudeLicenseKey_2(L_0);
+		return;
+	}
+}
+// UnityEngine.Texture2D Wikitude.WikitudeCamera::get_CameraTexture()
+extern "C"  Texture2D_t3542995729 * WikitudeCamera_get_CameraTexture_m3329046234 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__cameraTexture_3();
+		return L_0;
+	}
+}
+// System.Int32 Wikitude.WikitudeCamera::get_CameraTexturePointer()
+extern "C"  int32_t WikitudeCamera_get_CameraTexturePointer_m3968288832 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	IntPtr_t V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Texture2D_t3542995729 * L_0 = __this->get__cameraTexture_3();
+		NullCheck(L_0);
+		IntPtr_t L_1 = Texture_GetNativeTexturePtr_m292373493(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		int32_t L_2 = IntPtr_ToInt32_m4084182445((&V_0), /*hidden argument*/NULL);
+		return L_2;
+	}
+}
+// Wikitude.CaptureDevicePosition Wikitude.WikitudeCamera::get_DevicePosition()
+extern "C"  int32_t WikitudeCamera_get_DevicePosition_m930077284 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_DevicePosition_m930077284_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		bool L_0 = __this->get__cameraOpened_25();
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (int32_t)(0);
+	}
+
+IL_000d:
+	{
+		WikitudeBridge_t1522526835 * L_1 = __this->get__bridge_26();
+		NullCheck(L_1);
+		Il2CppObject * L_2 = WikitudeBridge_get_Platform_m385314570(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		int32_t L_3 = InterfaceFuncInvoker0< int32_t >::Invoke(27 /* System.Int32 Wikitude.IPlatformBridge::GetCaptureDevicePosition() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2);
+		V_0 = L_3;
+		int32_t L_4 = V_0;
+		if ((!(((uint32_t)L_4) == ((uint32_t)1))))
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		return (int32_t)(0);
+	}
+
+IL_0027:
+	{
+		int32_t L_5 = V_0;
+		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		return (int32_t)(1);
+	}
+
+IL_0030:
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_DevicePosition(Wikitude.CaptureDevicePosition)
+extern "C"  void WikitudeCamera_set_DevicePosition_m3373942233 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_DevicePosition_m3373942233_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Nullable_1_t3873599312  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		Nullable_1_t3873599312  L_0 = __this->get__cachedDevicePosition_4();
+		V_0 = L_0;
+		int32_t L_1 = Nullable_1_GetValueOrDefault_m1020844738((&V_0), /*hidden argument*/Nullable_1_GetValueOrDefault_m1020844738_MethodInfo_var);
+		int32_t L_2 = ___value0;
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		bool L_3 = Nullable_1_get_HasValue_m44130379((&V_0), /*hidden argument*/Nullable_1_get_HasValue_m44130379_MethodInfo_var);
+		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
+		goto IL_001e;
+	}
+
+IL_001d:
+	{
+		G_B3_0 = 1;
+	}
+
+IL_001e:
+	{
+		if (!G_B3_0)
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		V_1 = 1;
+		int32_t L_4 = ___value0;
+		if (L_4)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		V_1 = 1;
+		goto IL_003b;
+	}
+
+IL_0032:
+	{
+		int32_t L_5 = ___value0;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		V_1 = 2;
+	}
+
+IL_003b:
+	{
+		int32_t L_6 = V_1;
+		int32_t L_7 = __this->get__desiredDeviceResolution_9();
+		int32_t L_8 = __this->get__desiredDeviceFramerate_10();
+		WikitudeCamera_UpdateRenderTexture_m742998639(__this, L_6, L_7, L_8, /*hidden argument*/NULL);
+		WikitudeBridge_t1522526835 * L_9 = __this->get__bridge_26();
+		NullCheck(L_9);
+		Il2CppObject * L_10 = WikitudeBridge_get_Platform_m385314570(L_9, /*hidden argument*/NULL);
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		InterfaceActionInvoker1< int32_t >::Invoke(28 /* System.Void Wikitude.IPlatformBridge::SetCaptureDevicePosition(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_10, L_11);
+		int32_t L_12 = ___value0;
+		Nullable_1_t3873599312  L_13;
+		memset(&L_13, 0, sizeof(L_13));
+		Nullable_1__ctor_m1745192376(&L_13, L_12, /*hidden argument*/Nullable_1__ctor_m1745192376_MethodInfo_var);
+		__this->set__cachedDevicePosition_4(L_13);
+	}
+
+IL_006b:
+	{
+		return;
+	}
+}
+// Wikitude.CaptureDevicePosition Wikitude.WikitudeCamera::get_CachedDevicePosition()
+extern "C"  int32_t WikitudeCamera_get_CachedDevicePosition_m3884201334 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_CachedDevicePosition_m3884201334_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Nullable_1_t3873599312  V_0;
+	memset(&V_0, 0, sizeof(V_0));
+	{
+		Nullable_1_t3873599312  L_0 = __this->get__cachedDevicePosition_4();
+		V_0 = L_0;
+		bool L_1 = Nullable_1_get_HasValue_m44130379((&V_0), /*hidden argument*/Nullable_1_get_HasValue_m44130379_MethodInfo_var);
+		if (!((((int32_t)L_1) == ((int32_t)0))? 1 : 0))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		return (int32_t)(0);
+	}
+
+IL_0018:
+	{
+		Nullable_1_t3873599312 * L_2 = __this->get_address_of__cachedDevicePosition_4();
+		int32_t L_3 = Nullable_1_get_Value_m457291595(L_2, /*hidden argument*/Nullable_1_get_Value_m457291595_MethodInfo_var);
+		return L_3;
+	}
+}
+// Wikitude.CaptureFocusMode Wikitude.WikitudeCamera::get_FocusMode()
+extern "C"  int32_t WikitudeCamera_get_FocusMode_m2516740926 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__cachedFocusMode_5();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_FocusMode(Wikitude.CaptureFocusMode)
+extern "C"  void WikitudeCamera_set_FocusMode_m985629665 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_FocusMode_m985629665_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ___value0;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(30 /* System.Void Wikitude.IPlatformBridge::SetCaptureFocusMode(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		int32_t L_3 = ___value0;
+		__this->set__cachedFocusMode_5(L_3);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_ManualFocusDistance(System.Single)
+extern "C"  void WikitudeCamera_set_ManualFocusDistance_m10953543 (WikitudeCamera_t2517845841 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_ManualFocusDistance_m10953543_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->get__cachedFocusMode_5();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3276062292, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0016:
+	{
+		int32_t L_1 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableCamera2_11();
+		if (L_2)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral939939015, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0038:
+	{
+		float L_3 = ___value0;
+		if ((((float)L_3) < ((float)(0.0f))))
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		float L_4 = ___value0;
+		if ((!(((float)L_4) > ((float)(1.0f)))))
+		{
+			goto IL_0059;
+		}
+	}
+
+IL_004e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2673314446, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0059:
+	{
+		WikitudeBridge_t1522526835 * L_5 = __this->get__bridge_26();
+		NullCheck(L_5);
+		Il2CppObject * L_6 = WikitudeBridge_get_Platform_m385314570(L_5, /*hidden argument*/NULL);
+		float L_7 = ___value0;
+		NullCheck(L_6);
+		InterfaceActionInvoker1< float >::Invoke(31 /* System.Void Wikitude.IPlatformBridge::SetManualFocusDistance(System.Single) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_6, L_7);
+		return;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_IsManualFocusAvailable()
+extern "C"  bool WikitudeCamera_get_IsManualFocusAvailable_m3399272114 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_IsManualFocusAvailable_m3399272114_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__enableCamera2_11();
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_000d:
+	{
+		WikitudeBridge_t1522526835 * L_1 = __this->get__bridge_26();
+		NullCheck(L_1);
+		Il2CppObject * L_2 = WikitudeBridge_get_Platform_m385314570(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		bool L_3 = InterfaceFuncInvoker0< bool >::Invoke(32 /* System.Boolean Wikitude.IPlatformBridge::IsManualFocusAvailable() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2);
+		return L_3;
+	}
+}
+// Wikitude.CaptureAutoFocusRestriction Wikitude.WikitudeCamera::get_AutoFocusRestriction()
+extern "C"  int32_t WikitudeCamera_get_AutoFocusRestriction_m1469238724 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_AutoFocusRestriction_m1469238724_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(34 /* System.Int32 Wikitude.IPlatformBridge::GetCaptureAutoFocusRestriction() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		return (int32_t)(L_2);
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_AutoFocusRestriction(Wikitude.CaptureAutoFocusRestriction)
+extern "C"  void WikitudeCamera_set_AutoFocusRestriction_m2479214973 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_AutoFocusRestriction_m2479214973_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ___value0;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(35 /* System.Void Wikitude.IPlatformBridge::SetCaptureAutoFocusRestriction(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		int32_t L_3 = ___value0;
+		__this->set__cachedAutoFocusRestriction_6(L_3);
+		return;
+	}
+}
+// System.Single Wikitude.WikitudeCamera::get_ZoomLevel()
+extern "C"  float WikitudeCamera_get_ZoomLevel_m1564440440 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_ZoomLevel_m1564440440_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		float L_2 = InterfaceFuncInvoker0< float >::Invoke(36 /* System.Single Wikitude.IPlatformBridge::GetCaptureZoomLevel() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		return L_2;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_ZoomLevel(System.Single)
+extern "C"  void WikitudeCamera_set_ZoomLevel_m1352816351 (WikitudeCamera_t2517845841 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_ZoomLevel_m1352816351_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		float L_2 = ___value0;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< float >::Invoke(37 /* System.Void Wikitude.IPlatformBridge::SetCaptureZoomLevel(System.Single) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		float L_3 = ___value0;
+		__this->set__cachedZoomLevel_7(L_3);
+		return;
+	}
+}
+// System.Single Wikitude.WikitudeCamera::get_MaxZoomLevel()
+extern "C"  float WikitudeCamera_get_MaxZoomLevel_m284070810 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_MaxZoomLevel_m284070810_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		float L_2 = InterfaceFuncInvoker0< float >::Invoke(38 /* System.Single Wikitude.IPlatformBridge::GetCaptureMaxZoomLevel() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		return L_2;
+	}
+}
+// Wikitude.CaptureFlashMode Wikitude.WikitudeCamera::get_FlashMode()
+extern "C"  int32_t WikitudeCamera_get_FlashMode_m1836990366 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_get_FlashMode_m1836990366_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = InterfaceFuncInvoker0< int32_t >::Invoke(39 /* System.Int32 Wikitude.IPlatformBridge::GetCaptureFlashMode() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		return (int32_t)(L_2);
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_FlashMode(Wikitude.CaptureFlashMode)
+extern "C"  void WikitudeCamera_set_FlashMode_m1791354977 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_FlashMode_m1791354977_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ___value0;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(40 /* System.Void Wikitude.IPlatformBridge::SetCaptureFlashMode(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		int32_t L_3 = ___value0;
+		__this->set__cachedFlashMode_8(L_3);
+		return;
+	}
+}
+// Wikitude.CaptureDeviceResolution Wikitude.WikitudeCamera::get_DesiredCameraResolution()
+extern "C"  int32_t WikitudeCamera_get_DesiredCameraResolution_m4175977951 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__desiredDeviceResolution_9();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_DesiredCameraResolution(Wikitude.CaptureDeviceResolution)
+extern "C"  void WikitudeCamera_set_DesiredCameraResolution_m4196676054 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_DesiredCameraResolution_m4196676054_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get__desiredDeviceResolution_9();
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(42 /* System.Void Wikitude.IPlatformBridge::SetCaptureDeviceResolution(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		int32_t L_3 = ___value0;
+		__this->set__desiredDeviceResolution_9(L_3);
+		return;
+	}
+}
+// Wikitude.CaptureDeviceFramerate Wikitude.WikitudeCamera::get_DesiredCameraFramerate()
+extern "C"  int32_t WikitudeCamera_get_DesiredCameraFramerate_m2097967555 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__desiredDeviceFramerate_10();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_DesiredCameraFramerate(Wikitude.CaptureDeviceFramerate)
+extern "C"  void WikitudeCamera_set_DesiredCameraFramerate_m889056006 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_DesiredCameraFramerate_m889056006_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = ___value0;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(43 /* System.Void Wikitude.IPlatformBridge::SetCaptureDeviceFramerate(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		int32_t L_3 = ___value0;
+		__this->set__desiredDeviceFramerate_10(L_3);
+		return;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_EnableCamera2()
+extern "C"  bool WikitudeCamera_get_EnableCamera2_m706350085 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__enableCamera2_11();
+		return L_0;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_EnableInputPlugin()
+extern "C"  bool WikitudeCamera_get_EnableInputPlugin_m406055397 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__enableInputPlugin_12();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_EnableInputPlugin(System.Boolean)
+extern "C"  void WikitudeCamera_set_EnableInputPlugin_m1872447026 (WikitudeCamera_t2517845841 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_EnableInputPlugin_m1872447026_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = ___value0;
+		__this->set__enableInputPlugin_12(L_0);
+		bool L_1 = __this->get__inputPluginRegistered_24();
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral753168602, /*hidden argument*/NULL);
+	}
+
+IL_001c:
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_EnableMirroring()
+extern "C"  bool WikitudeCamera_get_EnableMirroring_m1667990379 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__enableMirroring_13();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_EnableMirroring(System.Boolean)
+extern "C"  void WikitudeCamera_set_EnableMirroring_m1257037032 (WikitudeCamera_t2517845841 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_EnableMirroring_m1257037032_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__enableMirroring_13();
+		bool L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		bool L_5 = ___value0;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< bool >::Invoke(53 /* System.Void Wikitude.IPlatformBridge::EnableMirroring(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5);
+		WikitudeBridge_t1522526835 * L_6 = __this->get__bridge_26();
+		NullCheck(L_6);
+		Il2CppObject * L_7 = WikitudeBridge_get_Platform_m385314570(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		InterfaceActionInvoker1< bool >::Invoke(6 /* System.Void Wikitude.IPlatformBridge::UpdateScreenRotation(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_7, (bool)1);
+		bool L_8 = ___value0;
+		__this->set__enableMirroring_13(L_8);
+	}
+
+IL_0040:
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_InvertedFrame()
+extern "C"  bool WikitudeCamera_get_InvertedFrame_m2379520657 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__invertedFrame_14();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_InvertedFrame(System.Boolean)
+extern "C"  void WikitudeCamera_set_InvertedFrame_m998062922 (WikitudeCamera_t2517845841 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_InvertedFrame_m998062922_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__invertedFrame_14();
+		bool L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		bool L_5 = ___value0;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< bool >::Invoke(54 /* System.Void Wikitude.IPlatformBridge::SetInvertedFrame(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5);
+		bool L_6 = ___value0;
+		__this->set__invertedFrame_14(L_6);
+		int32_t L_7 = __this->get__inputFrameColorSpace_16();
+		if ((((int32_t)L_7) == ((int32_t)3)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral302677859, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_MirroredFrame()
+extern "C"  bool WikitudeCamera_get_MirroredFrame_m3575005064 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__mirroredFrame_15();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_MirroredFrame(System.Boolean)
+extern "C"  void WikitudeCamera_set_MirroredFrame_m3747338049 (WikitudeCamera_t2517845841 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_MirroredFrame_m3747338049_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__mirroredFrame_15();
+		bool L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		bool L_5 = ___value0;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< bool >::Invoke(55 /* System.Void Wikitude.IPlatformBridge::SetMirroredFrame(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5);
+		bool L_6 = ___value0;
+		__this->set__mirroredFrame_15(L_6);
+		int32_t L_7 = __this->get__inputFrameColorSpace_16();
+		if ((((int32_t)L_7) == ((int32_t)3)))
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3339677132, /*hidden argument*/NULL);
+	}
+
+IL_0045:
+	{
+		return;
+	}
+}
+// Wikitude.FrameColorSpace Wikitude.WikitudeCamera::get_InputFrameColorSpace()
+extern "C"  int32_t WikitudeCamera_get_InputFrameColorSpace_m2297300326 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__inputFrameColorSpace_16();
+		return L_0;
+	}
+}
+// System.Single Wikitude.WikitudeCamera::get_HorizontalAngle()
+extern "C"  float WikitudeCamera_get_HorizontalAngle_m1525829980 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = __this->get__horizontalAngle_17();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_HorizontalAngle(System.Single)
+extern "C"  void WikitudeCamera_set_HorizontalAngle_m1451255845 (WikitudeCamera_t2517845841 * __this, float ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_HorizontalAngle_m1451255845_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		float L_0 = __this->get__horizontalAngle_17();
+		float L_1 = ___value0;
+		if ((((float)L_0) == ((float)L_1)))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		float L_5 = ___value0;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< float >::Invoke(58 /* System.Void Wikitude.IPlatformBridge::SetHorizontalAngle(System.Single) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5);
+		float L_6 = ___value0;
+		__this->set__horizontalAngle_17(L_6);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Int32 Wikitude.WikitudeCamera::get_InputFrameWidth()
+extern "C"  int32_t WikitudeCamera_get_InputFrameWidth_m3576072848 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__inputFrameWidth_18();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_InputFrameWidth(System.Int32)
+extern "C"  void WikitudeCamera_set_InputFrameWidth_m4044485959 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_InputFrameWidth_m4044485959_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->get__inputFrameWidth_18();
+		int32_t L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		int32_t L_5 = ___value0;
+		int32_t L_6 = __this->get__inputFrameHeight_19();
+		NullCheck(L_4);
+		InterfaceActionInvoker2< int32_t, int32_t >::Invoke(57 /* System.Void Wikitude.IPlatformBridge::SetFrameSize(System.Int32,System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5, L_6);
+		int32_t L_7 = ___value0;
+		__this->set__inputFrameWidth_18(L_7);
+	}
+
+IL_0035:
+	{
+		return;
+	}
+}
+// System.Int32 Wikitude.WikitudeCamera::get_InputFrameHeight()
+extern "C"  int32_t WikitudeCamera_get_InputFrameHeight_m2376322317 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = __this->get__inputFrameHeight_19();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_InputFrameHeight(System.Int32)
+extern "C"  void WikitudeCamera_set_InputFrameHeight_m3071440070 (WikitudeCamera_t2517845841 * __this, int32_t ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_InputFrameHeight_m3071440070_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = __this->get__inputFrameHeight_19();
+		int32_t L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get__inputFrameWidth_18();
+		int32_t L_6 = ___value0;
+		NullCheck(L_4);
+		InterfaceActionInvoker2< int32_t, int32_t >::Invoke(57 /* System.Void Wikitude.IPlatformBridge::SetFrameSize(System.Int32,System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5, L_6);
+		int32_t L_7 = ___value0;
+		__this->set__inputFrameHeight_19(L_7);
+	}
+
+IL_0035:
+	{
+		return;
+	}
+}
+// System.Boolean Wikitude.WikitudeCamera::get_RequestInputFrameRendering()
+extern "C"  bool WikitudeCamera_get_RequestInputFrameRendering_m1585934847 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__requestInputFrameRendering_20();
+		return L_0;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::set_RequestInputFrameRendering(System.Boolean)
+extern "C"  void WikitudeCamera_set_RequestInputFrameRendering_m2184383300 (WikitudeCamera_t2517845841 * __this, bool ___value0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_set_RequestInputFrameRendering_m2184383300_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__requestInputFrameRendering_20();
+		bool L_1 = ___value0;
+		if ((((int32_t)L_0) == ((int32_t)L_1)))
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		bool L_2 = __this->get__enableInputPlugin_12();
+		if (!L_2)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		bool L_5 = ___value0;
+		NullCheck(L_4);
+		InterfaceActionInvoker1< bool >::Invoke(59 /* System.Void Wikitude.IPlatformBridge::SetInputFrameRendering(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4, L_5);
+		bool L_6 = ___value0;
+		__this->set__requestInputFrameRendering_20(L_6);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::RegisterInputPlugin()
+extern "C"  void WikitudeCamera_RegisterInputPlugin_m2831757750 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_RegisterInputPlugin_m2831757750_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__invertedFrame_14();
+		if (!L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		int32_t L_1 = __this->get__inputFrameColorSpace_16();
+		if ((((int32_t)L_1) == ((int32_t)3)))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral2020507699, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		WikitudeBridge_t1522526835 * L_2 = __this->get__bridge_26();
+		NullCheck(L_2);
+		Il2CppObject * L_3 = WikitudeBridge_get_Platform_m385314570(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker0::Invoke(50 /* System.Void Wikitude.IPlatformBridge::RegisterInputPlugin() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3);
+		WikitudeBridge_t1522526835 * L_4 = __this->get__bridge_26();
+		NullCheck(L_4);
+		Il2CppObject * L_5 = WikitudeBridge_get_Platform_m385314570(L_4, /*hidden argument*/NULL);
+		bool L_6 = __this->get__enableMirroring_13();
+		NullCheck(L_5);
+		InterfaceActionInvoker1< bool >::Invoke(53 /* System.Void Wikitude.IPlatformBridge::EnableMirroring(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_5, L_6);
+		WikitudeBridge_t1522526835 * L_7 = __this->get__bridge_26();
+		NullCheck(L_7);
+		Il2CppObject * L_8 = WikitudeBridge_get_Platform_m385314570(L_7, /*hidden argument*/NULL);
+		bool L_9 = __this->get__invertedFrame_14();
+		NullCheck(L_8);
+		InterfaceActionInvoker1< bool >::Invoke(54 /* System.Void Wikitude.IPlatformBridge::SetInvertedFrame(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_8, L_9);
+		WikitudeBridge_t1522526835 * L_10 = __this->get__bridge_26();
+		NullCheck(L_10);
+		Il2CppObject * L_11 = WikitudeBridge_get_Platform_m385314570(L_10, /*hidden argument*/NULL);
+		int32_t L_12 = __this->get__inputFrameColorSpace_16();
+		NullCheck(L_11);
+		InterfaceActionInvoker1< int32_t >::Invoke(56 /* System.Void Wikitude.IPlatformBridge::SetFrameColorSpace(Wikitude.FrameColorSpace) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_11, L_12);
+		WikitudeBridge_t1522526835 * L_13 = __this->get__bridge_26();
+		NullCheck(L_13);
+		Il2CppObject * L_14 = WikitudeBridge_get_Platform_m385314570(L_13, /*hidden argument*/NULL);
+		int32_t L_15 = __this->get__inputFrameWidth_18();
+		int32_t L_16 = __this->get__inputFrameHeight_19();
+		NullCheck(L_14);
+		InterfaceActionInvoker2< int32_t, int32_t >::Invoke(57 /* System.Void Wikitude.IPlatformBridge::SetFrameSize(System.Int32,System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_14, L_15, L_16);
+		WikitudeBridge_t1522526835 * L_17 = __this->get__bridge_26();
+		NullCheck(L_17);
+		Il2CppObject * L_18 = WikitudeBridge_get_Platform_m385314570(L_17, /*hidden argument*/NULL);
+		float L_19 = __this->get__horizontalAngle_17();
+		NullCheck(L_18);
+		InterfaceActionInvoker1< float >::Invoke(58 /* System.Void Wikitude.IPlatformBridge::SetHorizontalAngle(System.Single) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_18, L_19);
+		WikitudeBridge_t1522526835 * L_20 = __this->get__bridge_26();
+		NullCheck(L_20);
+		Il2CppObject * L_21 = WikitudeBridge_get_Platform_m385314570(L_20, /*hidden argument*/NULL);
+		bool L_22 = __this->get__requestInputFrameRendering_20();
+		NullCheck(L_21);
+		InterfaceActionInvoker1< bool >::Invoke(59 /* System.Void Wikitude.IPlatformBridge::SetInputFrameRendering(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_21, L_22);
+		WikitudeBridge_t1522526835 * L_23 = __this->get__bridge_26();
+		NullCheck(L_23);
+		Il2CppObject * L_24 = WikitudeBridge_get_Platform_m385314570(L_23, /*hidden argument*/NULL);
+		int32_t L_25 = WikitudeCamera_get_CameraTexturePointer_m3968288832(__this, /*hidden argument*/NULL);
+		NullCheck(L_24);
+		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void Wikitude.IPlatformBridge::SetRenderTargetTextureId(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_24, L_25);
+		__this->set__inputPluginRegistered_24((bool)1);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::DeregisterInputPlugin()
+extern "C"  void WikitudeCamera_DeregisterInputPlugin_m2119062189 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_DeregisterInputPlugin_m2119062189_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker0::Invoke(51 /* System.Void Wikitude.IPlatformBridge::DeregisterInputPlugin() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		__this->set__inputPluginRegistered_24((bool)0);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::UpdateRenderTexture(System.Int32,System.Int32,System.Int32)
+extern "C"  void WikitudeCamera_UpdateRenderTexture_m742998639 (WikitudeCamera_t2517845841 * __this, int32_t ___cameraPosition0, int32_t ___resolutionMode1, int32_t ___framerateMode2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_UpdateRenderTexture_m742998639_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	CameraInfo_t3735365223  V_2;
+	memset(&V_2, 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	Color32U5BU5D_t30278651* V_4 = NULL;
+	int32_t V_5 = 0;
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		int32_t L_2 = __this->get__desiredDeviceResolution_9();
+		NullCheck(L_1);
+		InterfaceActionInvoker1< int32_t >::Invoke(42 /* System.Void Wikitude.IPlatformBridge::SetCaptureDeviceResolution(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, L_2);
+		bool L_3 = __this->get__enableInputPlugin_12();
+		if (!L_3)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_4 = __this->get__inputFrameWidth_18();
+		V_0 = L_4;
+		int32_t L_5 = __this->get__inputFrameHeight_19();
+		V_1 = L_5;
+		goto IL_0075;
+	}
+
+IL_0034:
+	{
+		WikitudeBridge_t1522526835 * L_6 = __this->get__bridge_26();
+		NullCheck(L_6);
+		Il2CppObject * L_7 = WikitudeBridge_get_Platform_m385314570(L_6, /*hidden argument*/NULL);
+		int32_t L_8 = ___cameraPosition0;
+		int32_t L_9 = ___resolutionMode1;
+		int32_t L_10 = ___framerateMode2;
+		NullCheck(L_7);
+		CameraInfo_t3735365223  L_11 = InterfaceFuncInvoker3< CameraInfo_t3735365223 , int32_t, int32_t, int32_t >::Invoke(41 /* Wikitude.CameraInfo Wikitude.IPlatformBridge::GetCameraInfo(System.Int32,System.Int32,System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_7, L_8, L_9, L_10);
+		V_2 = L_11;
+		int32_t L_12 = (&V_2)->get_Width_0();
+		V_0 = L_12;
+		int32_t L_13 = (&V_2)->get_Height_1();
+		V_1 = L_13;
+		int32_t L_14 = (&V_2)->get_Framerate_2();
+		int32_t L_15 = Application_get_targetFrameRate_m4238966828(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_14) <= ((int32_t)L_15)))
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		int32_t L_16 = (&V_2)->get_Framerate_2();
+		Application_set_targetFrameRate_m2941880625(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+	}
+
+IL_0075:
+	{
+		int32_t L_17 = V_0;
+		int32_t L_18 = V_1;
+		Texture2D_t3542995729 * L_19 = (Texture2D_t3542995729 *)il2cpp_codegen_object_new(Texture2D_t3542995729_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m1873923924(L_19, L_17, L_18, 4, (bool)0, /*hidden argument*/NULL);
+		__this->set__cameraTexture_3(L_19);
+		int32_t L_20 = V_0;
+		int32_t L_21 = V_1;
+		V_3 = ((int32_t)((int32_t)L_20*(int32_t)L_21));
+		int32_t L_22 = V_3;
+		V_4 = ((Color32U5BU5D_t30278651*)SZArrayNew(Color32U5BU5D_t30278651_il2cpp_TypeInfo_var, (uint32_t)L_22));
+		int32_t L_23 = V_3;
+		__this->set__blackPixels_27(((Color32U5BU5D_t30278651*)SZArrayNew(Color32U5BU5D_t30278651_il2cpp_TypeInfo_var, (uint32_t)L_23)));
+		V_5 = 0;
+		goto IL_00de;
+	}
+
+IL_00a4:
+	{
+		Color32U5BU5D_t30278651* L_24 = V_4;
+		int32_t L_25 = V_5;
+		NullCheck(L_24);
+		Color_t2020392075  L_26 = Color_get_white_m3987539815(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color32_t874517518  L_27 = Color32_op_Implicit_m624191464(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		(*(Color32_t874517518 *)((L_24)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_25)))) = L_27;
+		Color32U5BU5D_t30278651* L_28 = __this->get__blackPixels_27();
+		int32_t L_29 = V_5;
+		NullCheck(L_28);
+		Color_t2020392075  L_30 = Color_get_black_m2650940523(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Color32_t874517518  L_31 = Color32_op_Implicit_m624191464(NULL /*static, unused*/, L_30, /*hidden argument*/NULL);
+		(*(Color32_t874517518 *)((L_28)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_29)))) = L_31;
+		int32_t L_32 = V_5;
+		V_5 = ((int32_t)((int32_t)L_32+(int32_t)1));
+	}
+
+IL_00de:
+	{
+		int32_t L_33 = V_5;
+		int32_t L_34 = V_3;
+		if ((((int32_t)L_33) < ((int32_t)L_34)))
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_35 = __this->get__cameraTexture_3();
+		Color32U5BU5D_t30278651* L_36 = V_4;
+		NullCheck(L_35);
+		Texture2D_SetPixels32_m2480505405(L_35, L_36, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_37 = __this->get__cameraTexture_3();
+		NullCheck(L_37);
+		Texture2D_Apply_m3543341930(L_37, /*hidden argument*/NULL);
+		WikitudeBridge_t1522526835 * L_38 = __this->get__bridge_26();
+		NullCheck(L_38);
+		Il2CppObject * L_39 = WikitudeBridge_get_Platform_m385314570(L_38, /*hidden argument*/NULL);
+		int32_t L_40 = WikitudeCamera_get_CameraTexturePointer_m3968288832(__this, /*hidden argument*/NULL);
+		NullCheck(L_39);
+		InterfaceActionInvoker1< int32_t >::Invoke(2 /* System.Void Wikitude.IPlatformBridge::SetRenderTargetTextureId(System.Int32) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_39, L_40);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::Awake()
+extern "C"  void WikitudeCamera_Awake_m535637355 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_Awake_m535637355_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	Camera_t189460977 * V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		WikitudeBridge_Setup_m1700158283(L_0, /*hidden argument*/NULL);
+		Camera_t189460977 * L_1 = Component_GetComponent_TisCamera_t189460977_m3276577584(__this, /*hidden argument*/Component_GetComponent_TisCamera_t189460977_m3276577584_MethodInfo_var);
+		V_0 = L_1;
+		Camera_t189460977 * L_2 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t1021602117_il2cpp_TypeInfo_var);
+		bool L_3 = Object_op_Equality_m3764089466(NULL /*static, unused*/, L_2, (Object_t1021602117 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3710486317, /*hidden argument*/NULL);
+		Behaviour_set_enabled_m1796096907(__this, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		bool L_4 = __this->get__enableInputPlugin_12();
+		if (L_4)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		int32_t L_5 = __this->get__desiredDeviceResolution_9();
+		WikitudeCamera_set_DesiredCameraResolution_m4196676054(__this, L_5, /*hidden argument*/NULL);
+		int32_t L_6 = __this->get__desiredDeviceFramerate_10();
+		WikitudeCamera_set_DesiredCameraFramerate_m889056006(__this, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0052:
+	{
+		WikitudeBridge_t1522526835 * L_7 = __this->get__bridge_26();
+		NullCheck(L_7);
+		TrackerManager_t130000407 * L_8 = WikitudeBridge_getTrackerManager_m2427654375(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		String_t* L_9 = Object_get_name_m2079638459(L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		WikitudeBridge_t1522526835 * L_10 = __this->get__bridge_26();
+		NullCheck(L_10);
+		Il2CppObject * L_11 = WikitudeBridge_get_Platform_m385314570(L_10, /*hidden argument*/NULL);
+		String_t* L_12 = __this->get__WikitudeLicenseKey_2();
+		String_t* L_13 = V_1;
+		NullCheck(L_11);
+		InterfaceActionInvoker2< String_t*, String_t* >::Invoke(0 /* System.Void Wikitude.IPlatformBridge::InstantiateWikitudeNativeSDK(System.String,System.String) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_11, L_12, L_13);
+		WikitudeBridge_t1522526835 * L_14 = __this->get__bridge_26();
+		NullCheck(L_14);
+		Il2CppObject * L_15 = WikitudeBridge_get_Platform_m385314570(L_14, /*hidden argument*/NULL);
+		bool L_16 = __this->get__enableCamera2_11();
+		NullCheck(L_15);
+		InterfaceActionInvoker1< bool >::Invoke(33 /* System.Void Wikitude.IPlatformBridge::EnableCamera2(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_15, L_16);
+		WikitudeCamera_set_DevicePosition_m3373942233(__this, 0, /*hidden argument*/NULL);
+		bool L_17 = __this->get__enableInputPlugin_12();
+		if (!L_17)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		bool L_18 = __this->get__requestInputFrameRendering_20();
+		if (!L_18)
+		{
+			goto IL_00e6;
+		}
+	}
+
+IL_00ad:
+	{
+		Camera_t189460977 * L_19 = V_0;
+		NullCheck(L_19);
+		int32_t L_20 = Camera_get_clearFlags_m1743144302(L_19, /*hidden argument*/NULL);
+		if ((((int32_t)L_20) == ((int32_t)3)))
+		{
+			goto IL_00ca;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral2577203076, /*hidden argument*/NULL);
+		Camera_t189460977 * L_21 = V_0;
+		NullCheck(L_21);
+		Camera_set_clearFlags_m4142614199(L_21, 3, /*hidden argument*/NULL);
+	}
+
+IL_00ca:
+	{
+		Camera_t189460977 * L_22 = V_0;
+		NullCheck(L_22);
+		bool L_23 = Camera_get_orthographic_m4205491841(L_22, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogWarning_m2503577968(NULL /*static, unused*/, _stringLiteral1393014881, /*hidden argument*/NULL);
+		Camera_t189460977 * L_24 = V_0;
+		NullCheck(L_24);
+		Camera_set_orthographic_m2132888580(L_24, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_00e6:
+	{
+		bool L_25 = __this->get__enableInputPlugin_12();
+		if (!L_25)
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		bool L_26 = __this->get__inputPluginRegistered_24();
+		if (L_26)
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		int32_t L_27 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_27) == ((uint32_t)8))))
+		{
+			goto IL_010d;
+		}
+	}
+	{
+		WikitudeCamera_RegisterInputPlugin_m2831757750(__this, /*hidden argument*/NULL);
+	}
+
+IL_010d:
+	{
+		WikitudeBridge_t1522526835 * L_28 = __this->get__bridge_26();
+		NullCheck(L_28);
+		Il2CppObject * L_29 = WikitudeBridge_get_Platform_m385314570(L_28, /*hidden argument*/NULL);
+		NullCheck(L_29);
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Wikitude.IPlatformBridge::StartWikitudeNativeSDK() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_29);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::Start()
+extern "C"  void WikitudeCamera_Start_m3704862374 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_Start_m3704862374_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker1< bool >::Invoke(6 /* System.Void Wikitude.IPlatformBridge::UpdateScreenRotation(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1, (bool)0);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::OnDestroy()
+extern "C"  void WikitudeCamera_OnDestroy_m114330201 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_OnDestroy_m114330201_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		WikitudeBridge_OnDestroy_m2854918775(L_0, /*hidden argument*/NULL);
+		WikitudeBridge_t1522526835 * L_1 = __this->get__bridge_26();
+		NullCheck(L_1);
+		Il2CppObject * L_2 = WikitudeBridge_get_Platform_m385314570(L_1, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker0::Invoke(5 /* System.Void Wikitude.IPlatformBridge::StopWikitudeNativeSDK() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2);
+		WikitudeBridge_t1522526835 * L_3 = __this->get__bridge_26();
+		NullCheck(L_3);
+		Il2CppObject * L_4 = WikitudeBridge_get_Platform_m385314570(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		InterfaceActionInvoker0::Invoke(1 /* System.Void Wikitude.IPlatformBridge::DestroyWikitudeNativeSDK() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_4);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::OnPreRender()
+extern "C"  void WikitudeCamera_OnPreRender_m1115766376 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_OnPreRender_m1115766376_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__enableInputPlugin_12();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		bool L_1 = __this->get__requestInputFrameRendering_20();
+		if (!L_1)
+		{
+			goto IL_007d;
+		}
+	}
+
+IL_0016:
+	{
+		int32_t L_2 = Screen_get_width_m41137238(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_3 = Screen_get_height_m1051800773(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t3681755626  L_4;
+		memset(&L_4, 0, sizeof(L_4));
+		Rect__ctor_m1220545469(&L_4, (0.0f), (0.0f), (((float)((float)L_2))), (((float)((float)L_3))), /*hidden argument*/NULL);
+		GL_Viewport_m283713209(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		GL_PushMatrix_m1979053131(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GL_LoadPixelMatrix_m3215450731(NULL /*static, unused*/, (0.0f), (1.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Rect_t3681755626  L_5;
+		memset(&L_5, 0, sizeof(L_5));
+		Rect__ctor_m1220545469(&L_5, (0.0f), (0.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_6 = __this->get__cameraTexture_3();
+		IL2CPP_RUNTIME_CLASS_INIT(Graphics_t2412809155_il2cpp_TypeInfo_var);
+		Graphics_DrawTexture_m1454364894(NULL /*static, unused*/, L_5, L_6, /*hidden argument*/NULL);
+		GL_PopMatrix_m856033754(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_007d:
+	{
+		int32_t L_7 = WikitudeCamera_get_CachedDevicePosition_m3884201334(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_7) == ((int32_t)1)))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		bool L_8 = WikitudeCamera_get_EnableInputPlugin_m406055397(__this, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_00aa;
+		}
+	}
+	{
+		bool L_9 = WikitudeCamera_get_EnableMirroring_m1667990379(__this, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_00aa;
+		}
+	}
+
+IL_009f:
+	{
+		GL_set_invertCulling_m153705642(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		goto IL_00b0;
+	}
+
+IL_00aa:
+	{
+		GL_set_invertCulling_m153705642(NULL /*static, unused*/, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_00b0:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::Update()
+extern "C"  void WikitudeCamera_Update_m1544717759 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_Update_m1544717759_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__enableInputPlugin_12();
+		if (!L_0)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		bool L_1 = __this->get__inputPluginRegistered_24();
+		if (L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0017:
+	{
+		WikitudeBridge_t1522526835 * L_2 = __this->get__bridge_26();
+		NullCheck(L_2);
+		Il2CppObject * L_3 = WikitudeBridge_get_Platform_m385314570(L_2, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker1< bool >::Invoke(6 /* System.Void Wikitude.IPlatformBridge::UpdateScreenRotation(System.Boolean) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_3, (bool)0);
+		WikitudeBridge_t1522526835 * L_4 = __this->get__bridge_26();
+		NullCheck(L_4);
+		Il2CppObject * L_5 = WikitudeBridge_get_Platform_m385314570(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		InterfaceActionInvoker0::Invoke(4 /* System.Void Wikitude.IPlatformBridge::UpdateWikitudeNativeSDK() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_5);
+		WikitudeBridge_t1522526835 * L_6 = __this->get__bridge_26();
+		NullCheck(L_6);
+		WikitudeBridge_InternalUpdate_m3497281110(L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::OnApplicationPause(System.Boolean)
+extern "C"  void WikitudeCamera_OnApplicationPause_m980991572 (WikitudeCamera_t2517845841 * __this, bool ___paused0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_OnApplicationPause_m980991572_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)8))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		bool L_1 = ___paused0;
+		if (!L_1)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Texture2D_t3542995729 * L_2 = __this->get__cameraTexture_3();
+		Color32U5BU5D_t30278651* L_3 = __this->get__blackPixels_27();
+		NullCheck(L_2);
+		Texture2D_SetPixels32_m2480505405(L_2, L_3, /*hidden argument*/NULL);
+		Texture2D_t3542995729 * L_4 = __this->get__cameraTexture_3();
+		NullCheck(L_4);
+		Texture2D_Apply_m3543341930(L_4, /*hidden argument*/NULL);
+		WikitudeBridge_t1522526835 * L_5 = __this->get__bridge_26();
+		NullCheck(L_5);
+		Il2CppObject * L_6 = WikitudeBridge_get_Platform_m385314570(L_5, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		InterfaceActionInvoker0::Invoke(5 /* System.Void Wikitude.IPlatformBridge::StopWikitudeNativeSDK() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_6);
+		goto IL_0052;
+	}
+
+IL_0042:
+	{
+		WikitudeBridge_t1522526835 * L_7 = __this->get__bridge_26();
+		NullCheck(L_7);
+		Il2CppObject * L_8 = WikitudeBridge_get_Platform_m385314570(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Wikitude.IPlatformBridge::StartWikitudeNativeSDK() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_8);
+	}
+
+IL_0052:
+	{
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::OnCameraOpen()
+extern "C"  void WikitudeCamera_OnCameraOpen_m2856637538 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		bool L_1 = __this->get__enableInputPlugin_12();
+		if (!L_1)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		bool L_2 = __this->get__inputPluginRegistered_24();
+		if (L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		WikitudeCamera_RegisterInputPlugin_m2831757750(__this, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		__this->set__cameraOpened_25((bool)1);
+		int32_t L_3 = WikitudeCamera_get_CachedDevicePosition_m3884201334(__this, /*hidden argument*/NULL);
+		WikitudeCamera_set_DevicePosition_m3373942233(__this, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = __this->get__cachedFocusMode_5();
+		WikitudeCamera_set_FocusMode_m985629665(__this, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = __this->get__cachedAutoFocusRestriction_6();
+		WikitudeCamera_set_AutoFocusRestriction_m2479214973(__this, L_5, /*hidden argument*/NULL);
+		float L_6 = __this->get__cachedZoomLevel_7();
+		WikitudeCamera_set_ZoomLevel_m1352816351(__this, L_6, /*hidden argument*/NULL);
+		int32_t L_7 = __this->get__cachedFlashMode_8();
+		WikitudeCamera_set_FlashMode_m1791354977(__this, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::OnCameraReleased()
+extern "C"  void WikitudeCamera_OnCameraReleased_m1340763611 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = __this->get__enableInputPlugin_12();
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		UnityEvent_t408735097 * L_1 = __this->get_OnInputPluginRegistered_21();
+		NullCheck(L_1);
+		UnityEvent_Invoke_m4163344491(L_1, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		__this->set__cameraOpened_25((bool)0);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera::NewCameraFrame(System.Int32,System.Int32,System.IntPtr)
+extern "C"  void WikitudeCamera_NewCameraFrame_m123423550 (WikitudeCamera_t2517845841 * __this, int32_t ___frameIndex0, int32_t ___frameDataSize1, IntPtr_t ___frameData2, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_NewCameraFrame_m123423550_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		bool L_0 = __this->get__enableInputPlugin_12();
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		WikitudeBridge_t1522526835 * L_1 = __this->get__bridge_26();
+		NullCheck(L_1);
+		Il2CppObject * L_2 = WikitudeBridge_get_Platform_m385314570(L_1, /*hidden argument*/NULL);
+		int32_t L_3 = ___frameIndex0;
+		int32_t L_4 = ___frameDataSize1;
+		IntPtr_t L_5 = ___frameData2;
+		NullCheck(L_2);
+		InterfaceActionInvoker3< int32_t, int32_t, IntPtr_t >::Invoke(52 /* System.Void Wikitude.IPlatformBridge::NewCameraFrame(System.Int32,System.Int32,System.IntPtr) */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_2, L_3, L_4, L_5);
+		goto IL_002d;
+	}
+
+IL_0023:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3251169132, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Int64 Wikitude.WikitudeCamera::GetPresentableInputFrameIndex()
+extern "C"  int64_t WikitudeCamera_GetPresentableInputFrameIndex_m2009792981 (WikitudeCamera_t2517845841 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeCamera_GetPresentableInputFrameIndex_m2009792981_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		WikitudeBridge_t1522526835 * L_0 = __this->get__bridge_26();
+		NullCheck(L_0);
+		Il2CppObject * L_1 = WikitudeBridge_get_Platform_m385314570(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int64_t L_2 = InterfaceFuncInvoker0< int64_t >::Invoke(60 /* System.Int64 Wikitude.IPlatformBridge::GetPresentableInputFrameIndex() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		return L_2;
+	}
+}
+// System.Void Wikitude.WikitudeCamera/OnCameraFailureEvent::.ctor()
+extern "C"  void OnCameraFailureEvent__ctor_m3420298793 (OnCameraFailureEvent_t1753808034 * __this, const MethodInfo* method)
+{
+	{
+		UnityEvent__ctor_m588741179(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeCamera/OnInputPluginFailureEvent::.ctor()
+extern "C"  void OnInputPluginFailureEvent__ctor_m534235899 (OnInputPluginFailureEvent_t1715928524 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (OnInputPluginFailureEvent__ctor_m534235899_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		UnityEvent_2__ctor_m2270493475(__this, /*hidden argument*/UnityEvent_2__ctor_m2270493475_MethodInfo_var);
+		return;
+	}
+}
+// System.Void Wikitude.WikitudeSDK::.cctor()
+extern "C"  void WikitudeSDK__cctor_m563570278 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeSDK__cctor_m563570278_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_0) == ((uint32_t)8))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		iOSBridge_t3713850486 * L_1 = (iOSBridge_t3713850486 *)il2cpp_codegen_object_new(iOSBridge_t3713850486_il2cpp_TypeInfo_var);
+		iOSBridge__ctor_m2353575257(L_1, /*hidden argument*/NULL);
+		((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->set__bridge_0(L_1);
+		goto IL_005d;
+	}
+
+IL_001a:
+	{
+		int32_t L_2 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((!(((uint32_t)L_2) == ((uint32_t)((int32_t)11)))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		AndroidBridge_t3043076716 * L_3 = (AndroidBridge_t3043076716 *)il2cpp_codegen_object_new(AndroidBridge_t3043076716_il2cpp_TypeInfo_var);
+		AndroidBridge__ctor_m1953618875(L_3, /*hidden argument*/NULL);
+		((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->set__bridge_0(L_3);
+		goto IL_005d;
+	}
+
+IL_0035:
+	{
+		UnityBridge_t209696710 * L_4 = (UnityBridge_t209696710 *)il2cpp_codegen_object_new(UnityBridge_t209696710_il2cpp_TypeInfo_var);
+		UnityBridge__ctor_m3290169035(L_4, /*hidden argument*/NULL);
+		((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->set__bridge_0(L_4);
+		int32_t L_5 = Application_get_platform_m3989224144(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_6 = L_5;
+		Il2CppObject * L_7 = Box(RuntimePlatform_t1869584967_il2cpp_TypeInfo_var, &L_6);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_8 = String_Concat_m2000667605(NULL /*static, unused*/, _stringLiteral3317638083, L_7, _stringLiteral2684428050, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_Log_m920475918(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+	}
+
+IL_005d:
+	{
+		return;
+	}
+}
+// Wikitude.IPlatformBridge Wikitude.WikitudeSDK::get_Platform()
+extern "C"  Il2CppObject * WikitudeSDK_get_Platform_m3685884713 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeSDK_get_Platform_m3685884713_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_0 = ((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->get__bridge_0();
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral1472310751, /*hidden argument*/NULL);
+	}
+
+IL_0014:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = ((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->get__bridge_0();
+		return L_1;
+	}
+}
+// Wikitude.SDKBuildInformation Wikitude.WikitudeSDK::get_BuildInformation()
+extern "C"  SDKBuildInformation_t1997552748 * WikitudeSDK_get_BuildInformation_m172693527 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (WikitudeSDK_get_BuildInformation_m172693527_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	StringU5BU5D_t1642385972* V_1 = NULL;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		SDKBuildInformation_t1997552748 * L_0 = ((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->get__cachedBuildInformation_1();
+		if (L_0)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		Il2CppObject * L_1 = ((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->get__bridge_0();
+		NullCheck(L_1);
+		String_t* L_2 = InterfaceFuncInvoker0< String_t* >::Invoke(61 /* System.String Wikitude.IPlatformBridge::GetSDKBuildInformation() */, IPlatformBridge_t864295325_il2cpp_TypeInfo_var, L_1);
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		StringU5BU5D_t1642385972* L_4 = ((StringU5BU5D_t1642385972*)SZArrayNew(StringU5BU5D_t1642385972_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_4);
+		ArrayElementTypeCheck (L_4, _stringLiteral3513337718);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral3513337718);
+		NullCheck(L_3);
+		StringU5BU5D_t1642385972* L_5 = String_Split_m3927740091(L_3, L_4, 0, /*hidden argument*/NULL);
+		V_1 = L_5;
+		StringU5BU5D_t1642385972* L_6 = V_1;
+		NullCheck(L_6);
+		if ((((int32_t)(((int32_t)((int32_t)(((Il2CppArray *)L_6)->max_length))))) == ((int32_t)4)))
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1368543263_il2cpp_TypeInfo_var);
+		Debug_LogError_m3715728798(NULL /*static, unused*/, _stringLiteral3136918102, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_8 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		String_t* L_10 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->get_Empty_2();
+		SDKBuildInformation_t1997552748 * L_11 = (SDKBuildInformation_t1997552748 *)il2cpp_codegen_object_new(SDKBuildInformation_t1997552748_il2cpp_TypeInfo_var);
+		SDKBuildInformation__ctor_m1229722333(L_11, L_7, L_8, L_9, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_0058:
+	{
+		StringU5BU5D_t1642385972* L_12 = V_1;
+		NullCheck(L_12);
+		int32_t L_13 = 0;
+		String_t* L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		StringU5BU5D_t1642385972* L_15 = V_1;
+		NullCheck(L_15);
+		int32_t L_16 = 1;
+		String_t* L_17 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		StringU5BU5D_t1642385972* L_18 = V_1;
+		NullCheck(L_18);
+		int32_t L_19 = 2;
+		String_t* L_20 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		StringU5BU5D_t1642385972* L_21 = V_1;
+		NullCheck(L_21);
+		int32_t L_22 = 3;
+		String_t* L_23 = (L_21)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		SDKBuildInformation_t1997552748 * L_24 = (SDKBuildInformation_t1997552748 *)il2cpp_codegen_object_new(SDKBuildInformation_t1997552748_il2cpp_TypeInfo_var);
+		SDKBuildInformation__ctor_m1229722333(L_24, L_14, L_17, L_20, L_23, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->set__cachedBuildInformation_1(L_24);
+	}
+
+IL_006e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(WikitudeSDK_t4145097758_il2cpp_TypeInfo_var);
+		SDKBuildInformation_t1997552748 * L_25 = ((WikitudeSDK_t4145097758_StaticFields*)WikitudeSDK_t4145097758_il2cpp_TypeInfo_var->static_fields)->get__cachedBuildInformation_1();
+		return L_25;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
