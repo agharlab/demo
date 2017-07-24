@@ -270,7 +270,7 @@ namespace Kudan.AR
 				// Set the API key
 				if (!string.IsNullOrEmpty(_APIKey))
 				{
-					_trackerPlugin.SetApiKey (_APIKey, Application.bundleIdentifier);
+					_trackerPlugin.SetApiKey (_APIKey, Application.identifier);
 				}
 				else
 				{
